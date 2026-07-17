@@ -2,10 +2,10 @@
 title: Realizar análise de dados do Customer Journey Analytics com o colega de trabalho
 description: Saiba como executar a análise de dados do Customer Journey Analytics com o Colaborador.
 hold: true
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 5%
+source-wordcount: '1865'
+ht-degree: 4%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 5%
 >
 >A funcionalidade descrita neste artigo está na fase de Teste limitado da versão e pode ainda não estar disponível em seu ambiente. Essa nota será removida quando a funcionalidade estiver disponível no geral. Para obter informações sobre o processo de lançamento do Customer Journey Analytics, consulte [versões de recursos do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/releases/latest).
 
-O Adobe CX Enterprise Co-worker Chat pode executar análises avançadas de dados que anteriormente eram possíveis somente no Analysis Workspace. O bate-papo com colegas de trabalho acessa dados das visualizações de dados do Customer Journey Analytics, permitindo que você explore esses dados e obtenha respostas para prompts em idioma natural.
+O Adobe CX Enterprise Co-worker Chat pode executar análises avançadas de dados que anteriormente eram possíveis somente no Analysis Workspace. O Bate-papo com colegas de trabalho acessa os dados das visualizações de dados do Customer Journey Analytics, permitindo que você explore esses dados e obtenha respostas para prompts em linguagem natural.
 
-Antes de começar sua análise, acesse o bate-papo do Colaborador fazendo logon em sua conta do CX Enterprise e, em seguida, verifique se o servidor Customer Journey Analytics MCP está conectado.
+Antes de começar sua análise, acesse o Chat do Colaborador fazendo logon em sua conta do CX Enterprise e, em seguida, verifique se o servidor MCP do Customer Journey Analytics está conectado.
 
 ## Acessar o bate-papo do colega
 
@@ -25,29 +25,25 @@ Antes de começar sua análise, acesse o bate-papo do Colaborador fazendo logon 
 
 1. Faça logon no [Adobe CX Enterprise](https://experience.adobe.com) usando suas credenciais da Adobe ID.
 
-1. E daí?
+1. Selecione [!UICONTROL **Colaborador**] no seletor de produtos do CX Enterprise. <!--not sure what this step should say-->
 
-## Conectar o servidor MCP do Customer Journey Analytics
+1. Em Colaborador, verifique se o Colaborador está conectado ao Customer Journey Analytics:
 
-1. Em Colaborador, selecione o ícone MCP no painel esquerdo.
+   1. Selecione o ícone MCP no painel à esquerda e verifique se [!UICONTROL **cja-mcp**] está disponível na lista de servidores MCP conectados.
 
-   ![O ícone MCP realçado no painel esquerdo do Colaborador](images/data-validation-aa-cja/coworker-mcp.png)
+      ![O ícone MCP realçado no painel esquerdo do Colaborador](images/data-validation-aa-cja/coworker-mcp-cja.png)
 
-1. Verifique se [!UICONTROL **cja-mcp**] está disponível em sua lista de servidores MCP conectados.
-
-   ![O ícone MCP realçado no painel esquerdo do Colaborador](images/data-validation-aa-cja/coworker-mcp-cja.png)
-
-1. (Condicional) Se o [!UICONTROL **cja-mcp**] ainda não estiver conectado, selecione [!UICONTROL **Adicionar Servidor MCP**], especifique o cja no campo [!UICONTROL **Nome do Servidor**] e selecione-o quando ele aparecer e selecione [!UICONTROL **Adicionar Servidor**].
+   1. (Condicional) Se o [!UICONTROL **cja-mcp**] ainda não estiver conectado, selecione [!UICONTROL **Adicionar Servidor MCP**], especifique o cja no campo [!UICONTROL **Nome do Servidor**] e selecione-o quando ele aparecer e selecione [!UICONTROL **Adicionar Servidor**].
 
 ## Conectar à visualização de dados direita
-
-<!--I did this. Do users need to?-->
 
 Uma visualização de dados é um container no Customer Journey Analytics que determina como os dados são interpretados.
 
 Você pode ter acesso a várias visualizações de dados no Customer Journey Analytics, cada uma contendo diferentes dimensões e métricas que o Colaborador pode usar ao analisar dados.
 
-Informe ao Coworker os tipos de perguntas que você deseja responder e pergunte a qual visualização de dados você tem acesso que seria melhor fornecer essas informações.
+### Decida quais visualizações de dados você deseja usar
+
+Informe ao Coworker os tipos de perguntas que você deseja responder e pergunte a qual visualização de dados você tem acesso que seria melhor fornecer essas informações. Você também pode [definir sua visualização de dados como uma preferência na memória](#add-a-data-view-preference-in-memory).
 
 **Você:**
 
@@ -80,6 +76,16 @@ Você tem acesso a três visualizações de dados. A visualização de dados do 
 OK, usarei a visualização de dados `Customer lifecycle` para responder a perguntas futuras nesta sessão de chat.
 
 >[!ENDSHADEBOX]
+
+### Adicionar uma preferência de visualização de dados na memória
+
+O Chat do Colaborador contém um recurso de memória que permite fornecer a ele acesso a informações que se estendem por todos os chats. É uma boa prática adicionar suas visualizações de dados preferidas como preferências na memória do Colaborador.
+
+1. No Bate-papo com colega, na navegação à esquerda, selecione o ícone Memória.
+
+1. Na página Memória, na seção Preferências armazenadas, especifique uma ou mais visualizações de dados que você deseja que o Bate-papo de Colaborador use em seus chats.
+
+   ![Seção Memória no painel esquerdo](images/data-validation-aa-cja/coworker-memory.png)
 
 ## Caso de uso: descobrir onde os clientes chegam
 
