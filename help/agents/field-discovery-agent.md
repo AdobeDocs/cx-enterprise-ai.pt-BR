@@ -31,7 +31,7 @@ Para usar o Field Discovery Agent, verifique se você tem o seguinte:
 - A organização e a sandbox corretas
 - Acesso aos esquemas e conjuntos de dados que você pretende consultar
 
-A familiaridade básica com esquemas XDM e como os campos são usados na segmentação ou em workflows de dados pode ajudar você a interpretar resultados com mais eficiência. Para obter mais informações, consulte a [visão geral do XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) e a [documentação do Editor de esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui).
+A familiaridade básica com esquemas XDM e como os campos são usados na segmentação ou em workflows de dados pode ajudar você a interpretar resultados com mais eficiência. Para obter mais informações, consulte a [visão geral do XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) e a [documentação do Editor de esquemas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/create-schema-ui).
 
 Para obter instruções sobre como habilitar o acesso ao Assistente de IA e conceder as permissões necessárias, consulte o [guia de acesso do Agent Orchestrator](./agent-orchestrator.md#access).
 
@@ -213,7 +213,7 @@ Se você tiver acesso para edição de esquemas, poderá melhorar a qualidade do
 - Adicionar descrições de campo sempre que possível.
 - Associar campos a conjuntos de dados ativos em vez de deixá-los como definições somente de esquema.
 
-Para obter orientação sobre como editar nomes para exibição de campo e descrições no Editor de Esquemas, consulte [Criar e editar esquemas na interface](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas).
+Para obter orientação sobre como editar nomes para exibição de campo e descrições no Editor de Esquemas, consulte [Criar e editar esquemas na interface](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas).
 
 Se você não tiver acesso para edição de esquemas e os resultados forem consistentemente ruins, entre em contato com o administrador do Experience Platform ou com a equipe de engenharia de dados para revisar os metadados de campo dos esquemas com os quais você trabalha.
 
