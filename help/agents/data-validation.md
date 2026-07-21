@@ -1,7 +1,7 @@
 ---
 title: Validar seus dados no Assistente de IA
 description: Saiba como usar a validação de dados habilitada pela Agent Orchestrator no Assistente de IA para executar validações estatísticas e semânticas em seus conjuntos de dados.
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Use o **Assistente de IA** no Adobe CX Enterprise para validar seus dados. O AI 
 
 ### Iniciar validação
 
-![Página inicial do Assistente de IA com o campo de prompt mostrando uma solicitação de validação do conjunto de dados, o seletor de ambiente do Experience Platform e o controle de envio.](./images/validation/home.png)
+![Página inicial do Assistente de IA com o campo de prompt mostrando uma solicitação de validação do conjunto de dados, o seletor de ambiente do Experience Platform e o controle de envio.](./assets/validation/home.png)
 
 Na navegação à esquerda, selecione **[!UICONTROL Assistente de IA]**. Em seguida, use o seletor de ambiente e escolha a organização ou sandbox da Experience Platform em que seu conjunto de dados está (por exemplo, **[!UICONTROL Experience Platform - Prod]**). No campo de prompt, digite uma solicitação de validação (por exemplo, pedir para validar um conjunto de dados por nome). Selecione **[!UICONTROL Enviar]** para enviar o prompt.
 
@@ -48,7 +48,7 @@ Na navegação à esquerda, selecione **[!UICONTROL Assistente de IA]**. Em segu
 
 ### Leia a tabela de resumo e campo do conjunto de dados
 
-![Resposta do Assistente de IA com raciocínio concluído, um resumo de validação e uma tabela de resumos de campo listando caminhos de campo, tipos e valores válidos.](./images/validation/answer.png)
+![Resposta do Assistente de IA com raciocínio concluído, um resumo de validação e uma tabela de resumos de campo listando caminhos de campo, tipos e valores válidos.](./assets/validation/answer.png)
 
 Permita que o Agent Orchestrator conclua a execução em breve (**Raciocínio concluído**). Quando a execução for concluída, leia o resumo do nome do conjunto de dados, quantos campos foram validados e o tamanho da amostra (normalmente até cerca de 1.000 linhas).
 
@@ -58,7 +58,7 @@ Selecione **[!UICONTROL Mostrar todos os resultados]** quando precisar de coluna
 
 ### Trabalhar na exibição dividida
 
-![Divida a exibição com a narrativa de validação e as estatísticas à esquerda e uma visualização de gráfico expandida de valores válidos à direita.](./images/validation/split-screen.png)
+![Divida a exibição com a narrativa de validação e as estatísticas à esquerda e uma visualização de gráfico expandida de valores válidos à direita.](./assets/validation/split-screen.png)
 
 Na exibição expandida, use o layout dividido: estatísticas detalhadas e narrativa de um lado e o gráfico do outro.
 
@@ -69,19 +69,19 @@ Use **[!UICONTROL Sugestões relacionadas]** ou o campo de prompt na parte infer
 
 ### Usar uma sugestão relacionada para um acompanhamento
 
-![As sugestões relacionadas ficam acima do campo de prompt, com uma sugestão selecionada para validar um campo específico no conjunto de dados.](./images/validation/related-suggestion.png)
+![As sugestões relacionadas ficam acima do campo de prompt, com uma sugestão selecionada para validar um campo específico no conjunto de dados.](./assets/validation/related-suggestion.png)
 
 Após uma resposta, encontre **[!UICONTROL Sugestões relacionadas]** abaixo da conversa. Selecione uma sugestão (por exemplo, validar um campo específico no mesmo conjunto de dados) para carregá-lo no campo de prompt. Ajuste o texto, se necessário, confirme o ambiente e selecione **[!UICONTROL Enviar]** para executar o acompanhamento.
 
 ### Validar no nível do campo
 
-![Cartão de resultados da validação para um único campo na exibição de gráfico, mostrando um gráfico de rosca válido e a ação Mostrar na exibição expandida.](./images/validation/single-field.png)
+![Cartão de resultados da validação para um único campo na exibição de gráfico, mostrando um gráfico de rosca válido e a ação Mostrar na exibição expandida.](./assets/validation/single-field.png)
 
 Abra um cartão de **[!UICONTROL Resultados da validação]** em nível de campo (por exemplo, após validar um único campo). Use os controles de exibição para alternar para **Gráfico** (ou outro modo de exibição) quando quiser um resumo visual em vez de uma tabela. Durante esta etapa, você pode selecionar **[!UICONTROL Propriedades]** para ver mais sobre o campo.
 
 Selecione **[!UICONTROL Mostrar na exibição expandida]** para abrir uma exibição maior e mais detalhada da validação desse campo.
 
-![Exibição expandida mostrando estatísticas detalhadas de validação em nível de campo e visualização de gráfico.](./images/validation/expanded-view.png)
+![Exibição expandida mostrando estatísticas detalhadas de validação em nível de campo e visualização de gráfico.](./assets/validation/expanded-view.png)
 
 Por meio da exibição expandida, é possível exibir uma lista discriminada do campo inteiro, com base em uma amostra de até 1000 registros para o campo especificado. Você pode usar esse recurso para recuperar informações sobre valores válidos, distintos e nulos.
 
@@ -161,9 +161,9 @@ Os seguintes tipos de validação são executados para cada campo e conjunto de 
 - **Verificações de distribuição**: valores exclusivos principais e suas distribuições, detecção de alta cardinalidade.
 - **Verificações semânticas em relação ao esquema**: usa o nome, o tipo e a descrição do campo XDM para descobrir a aparência &quot;válida&quot; e sinaliza anomalias.
 - **Verificações com reconhecimento de tipo de dados** (quando aplicável):
-   - Email: formato e plausibilidade do domínio
-   - Telefone: preparação do formato (por exemplo, E.164)
-   - Datas/carimbos de data e hora: integridade do formato básico (por exemplo, ISO-8601)
+  - Email: formato e plausibilidade do domínio
+  - Telefone: preparação do formato (por exemplo, E.164)
+  - Datas/carimbos de data e hora: integridade do formato básico (por exemplo, ISO-8601)
 - **Verificações relacionadas à identidade** (futuras/estendidas): exclusividade dos campos de identidade candidatas ou chaves compostas.
 
 Essas verificações combinam estatísticas determinísticas com validação semântica assistida por LLM para detectar valores que &quot;parecem errados&quot;, mesmo quando tecnicamente correspondem ao esquema.

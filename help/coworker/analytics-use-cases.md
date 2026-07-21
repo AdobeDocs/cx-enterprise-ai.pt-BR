@@ -2,7 +2,7 @@
 title: Realizar análise de dados do Customer Journey Analytics com o colega de trabalho
 description: Saiba como executar a análise de dados do Customer Journey Analytics com o Colaborador.
 hold: true
-source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 4%
@@ -31,7 +31,7 @@ Antes de começar sua análise, acesse o Chat do Colaborador fazendo logon em su
 
    1. Selecione o ícone MCP no painel à esquerda e verifique se [!UICONTROL **cja-mcp**] está disponível na lista de servidores MCP conectados.
 
-      ![O ícone MCP realçado no painel esquerdo do Colaborador](images/data-validation-aa-cja/coworker-mcp-cja.png)
+      ![O ícone MCP realçado no painel esquerdo do Colaborador](assets/data-validation-aa-cja/coworker-mcp-cja.png)
 
    1. (Condicional) Se o [!UICONTROL **cja-mcp**] ainda não estiver conectado, selecione [!UICONTROL **Adicionar Servidor MCP**], especifique o cja no campo [!UICONTROL **Nome do Servidor**] e selecione-o quando ele aparecer e selecione [!UICONTROL **Adicionar Servidor**].
 
@@ -85,7 +85,7 @@ O Chat do Colaborador contém um recurso de memória que permite fornecer a ele 
 
 1. Na página Memória, na seção Preferências armazenadas, especifique uma ou mais visualizações de dados que você deseja que o Bate-papo de Colaborador use em seus chats.
 
-   ![Seção Memória no painel esquerdo](images/data-validation-aa-cja/coworker-memory.png)
+   ![Seção Memória no painel esquerdo](assets/data-validation-aa-cja/coworker-memory.png)
 
 ## Caso de uso: descobrir onde os clientes chegam
 
@@ -125,7 +125,7 @@ Observe que o Bate-papo com colegas de trabalho escolhe a visualização correta
 
 >[!BEGINSHADEBOX]
 
-![O ícone MCP realçado no painel esquerdo do Colaborador](images/data-validation-aa-cja/coworker-funnel-response.png)
+![O ícone MCP realçado no painel esquerdo do Colaborador](assets/data-validation-aa-cja/coworker-funnel-response.png)
 
 Esta é uma pergunta sobre o funnel — deixe-me executar o funnel de conversão para ver onde a entrega acontece no caminho da compra.
 
@@ -176,7 +176,7 @@ Ok, vamos detalhar por canal de marketing
 
 >[!BEGINSHADEBOX]
 
-![O ícone MCP realçado no painel esquerdo do Colaborador](images/data-validation-aa-cja/coworker-funnel-response2.png)
+![O ícone MCP realçado no painel esquerdo do Colaborador](assets/data-validation-aa-cja/coworker-funnel-response2.png)
 
 Há uma dimensão personalizada de **Canal de marketing**. Deixem-me analisar a funnel e calcular as taxas de conversão por canal e identificar onde cada canal vaza.
 
@@ -227,7 +227,7 @@ Interessante. Vamos tentar detalhar por tipo de dispositivo.
 
 >[!BEGINSHADEBOX]
 
-![O ícone MCP realçado no painel esquerdo do Colaborador](images/data-validation-aa-cja/coworker-funnel-response3.png)
+![O ícone MCP realçado no painel esquerdo do Colaborador](assets/data-validation-aa-cja/coworker-funnel-response3.png)
 
 **Encontrado: o check-out móvel foi desfeito**
 
