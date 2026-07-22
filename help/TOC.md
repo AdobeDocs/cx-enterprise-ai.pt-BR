@@ -1,21 +1,28 @@
 ---
 audience: user
-user-guide-title: Assistente de IA na Adobe Experience Cloud
+user-guide-title: Assistente de IA no Adobe CX Enterprise
 user-guide-description: Saiba como usar o Assistente de IA para acelerar o fluxo de trabalho com a Adobe Experience Platform e a Real-time Customer Data Platform.
-description: Saiba mais sobre o Assistente de IA na Experience Cloud. Aprimore seu conhecimento do produto e obtenha insights operacionais com a IA na Experience Cloud.
+description: Saiba mais sobre o AI Assistant no CX Enterprise. Melhore seu conhecimento sobre o produto e obtenha insights operacionais usando IA no CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+dummy: true
+source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 31%
+source-wordcount: '211'
+ht-degree: 17%
 
 ---
 
 
-# IA na Experience Cloud {#experience-cloud-ai}
+# IA na CX Enterprise {#experience-cloud-ai}
 
-- [IA em aplicativos da Experience Cloud](home.md)
+- [IA em aplicativos CX Enterprise](home.md)
+- Sobre IA no CX Enterprise {#overview}
+  - [IA generativa](./overview/generative-ai.md)
+  - [IA agêntica](./overview/agentic-ai.md)
+  - [Monitoramento de IA do agente](./overview/monitoring.md)
+  - [Trabalhos de agentes e consumo de crédito de IA](./overview/ai-credit-consumption.md)
+  - [Ferramentas de agilidade](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistente de IA {#ai-assistant}
   - [Guia da interface do assistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de Prompts](./ai-assistant/prompt-library.md)
@@ -52,4 +59,4 @@ ht-degree: 31%
 - Colaborador {#coworker}
   - {hide-from-toc}[Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validar dados de migração do AA para o CJA](./coworker/data-validation-aa-cja.md)
-  - {hide-from-toc}[Analisar entrega de conversão](./coworker/analytics-use-cases.md)
+  - [Analisar dados do CJA](./coworker/analytics-chat.md)

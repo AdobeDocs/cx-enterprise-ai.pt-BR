@@ -4,10 +4,10 @@ description: Localize, avalie e selecione campos XDM no Adobe Experience Platfor
 keywords: descoberta de campo, XDM, Assistente de IA, agentes do Experience Platform, vinculação de entidades, recomendações de campo, criação de público-alvo, segmentação
 solution: Experience Platform
 role: User, Admin, Developer
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: '3534'
-ht-degree: 0%
+source-wordcount: '3367'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ O Agente de Descoberta de Campo retorna resultados em um painel **[!UICONTROL Ca
 - **[!UICONTROL Relevância]** — O rótulo de relevância atribuído ao campo (**[!UICONTROL Altamente Relevante]**, **[!UICONTROL Moderadamente Relevante]** ou **[!UICONTROL Relevante]**)
 - **[!UICONTROL Contextos de Uso]** — Links que mostram onde o campo aparece em seu ecossistema de dados. Selecione **[!UICONTROL público-alvo]**, **[!UICONTROL conjunto de dados]**, **[!UICONTROL destino]** ou **[!UICONTROL esquema]** para abrir um painel lateral mostrando onde o campo é usado.
 
-![O painel Campos Identificados no Assistente de IA que mostra linhas de campo candidatas com rótulos de Relevância e links de Contextos de Uso.](./images/field-discovery/fields-identified-panel-in-chat.png)
+![O painel Campos Identificados no Assistente de IA que mostra linhas de campo candidatas com rótulos de Relevância e links de Contextos de Uso.](./assets/field-discovery/fields-identified-panel-in-chat.png)
 
 Uma seção **[!UICONTROL Resultados Explicados]** aparece abaixo da tabela **[!UICONTROL Campos Identificados]** e fornece contexto de campo adicional, incluindo explicações e detalhes de suporte para cada resultado. Para obter orientação sobre como navegar na interface do Assistente de IA, consulte o [Guia da interface do Assistente de IA](../ai-assistant/ai-assistant-ui.md).
 
@@ -118,7 +118,7 @@ Para usar o Field Discovery Agent:
 3. Revise os resultados classificados no painel **[!UICONTROL Campos Identificados]**. Cada linha inclui um rótulo de relevância e um caminho de campo XDM na coluna **[!UICONTROL Nome do Campo]**.
 4. Selecione **[!UICONTROL público-alvo]**, **[!UICONTROL conjunto de dados]**, **[!UICONTROL destino]** ou **[!UICONTROL esquema]** na coluna **[!UICONTROL Contextos de Uso]** para abrir um painel lateral mostrando onde o campo é usado. Para contexto adicional em nível de campo, consulte a seção **[!UICONTROL Resultados Explicados]** abaixo da tabela de resultados.
 
-   ![O painel lateral no Assistente de IA mostra os Contextos de Uso de um campo selecionado, incluindo as associações de público-alvo, conjunto de dados, destino e esquema.](./images/field-discovery/fields-identified-panel-expanded.png)
+   ![O painel lateral no Assistente de IA mostra os Contextos de Uso de um campo selecionado, incluindo as associações de público-alvo, conjunto de dados, destino e esquema.](./assets/field-discovery/fields-identified-panel-expanded.png)
 
 5. Use o caminho **[!UICONTROL Nome do campo]** em ferramentas de downstream, como o Construtor de segmentos, o Serviço de consulta ou os fluxos de trabalho de assimilação de dados, dependendo do seu caso de uso. O Field Discovery Agent fornece a referência de campo, mas não a insere em outras ferramentas.
 
@@ -138,7 +138,9 @@ As seções a seguir descrevem cada uma das três funções do Field Discovery A
 
 Quando você descreve um conceito ou atributo de dados específico, o Field Discovery Agent retorna uma lista classificada de campos que semanticamente correspondem à sua descrição.
 
-> &quot;Quais campos representam o estado ou província residencial de um cliente?&quot;&quot;Localizar campos relacionados à data da transação de compra.&quot;&quot;Quais campos contêm informações sobre consentimento de marketing por email?&quot;
+> &quot;Quais campos representam o estado ou província residencial de um cliente?&quot;
+> &quot;Localizar campos relacionados à data da transação de compra.&quot;
+> &quot;Quais campos contêm informações sobre consentimento de marketing por email?&quot;
 
 A resposta lista os campos candidatos com seu rótulo de relevância e caminho XDM no painel **[!UICONTROL Campos Identificados]**. Os campos rotulados como **[!UICONTROL Altamente Relevantes]** correspondem mais ao conceito declarado. Se os principais resultados estiverem rotulados como **[!UICONTROL Moderadamente Relevante]** ou **[!UICONTROL Relevante]** em vez de **[!UICONTROL Altamente Relevante]**, refine sua consulta usando a terminologia mais específica ou o contexto de nível de campo.
 
@@ -146,7 +148,9 @@ A resposta lista os campos candidatos com seu rótulo de relevância e caminho X
 
 Ao descrever uma meta de fluxo de trabalho ou caso de uso (como criar um segmento, integrar um conjunto de dados ou preparar um query), o Field Discovery Agent recomenda campos alinhados a esse objetivo, priorizados por relevância.
 
-> &quot;Quero construir um público-alvo de clientes de alto valor. Quais campos devo usar?&quot;&quot;Campos recomendados para modelar a propensão para compras.&quot;&quot;Quais campos devo incluir ao integrar um conjunto de dados de transações de varejo?&quot;
+> &quot;Quero construir um público-alvo de clientes de alto valor. Quais campos devo usar?&quot;
+> &quot;Campos recomendados para modelagem da propensão à compra.&quot;
+> &quot;Quais campos devo incluir ao integrar um conjunto de dados de transações de varejo?&quot;
 
 A resposta retorna uma lista priorizada de campos com contexto de relevância. Revise o contexto de uso de cada campo recomendado para confirmar se ele é usado ativamente em seu ambiente.
 
@@ -154,7 +158,9 @@ A resposta retorna uma lista priorizada de campos com contexto de relevância. R
 
 Quando você pergunta sobre um campo específico por nome ou caminho, o Agente de descoberta de campo retorna o contexto detalhado desse campo, incluindo valores de amostra, localização do esquema e uso em conjuntos de dados, públicos e destinos.
 
-> &quot;Conte-me mais sobre o campo `person.name.lastName`.&quot;&quot;Quais valores de exemplo existem para `homeAddress.stateProvince`?&quot;&quot;Onde o campo `commerce.purchases.value` é usado em meus conjuntos de dados e públicos?&quot;
+> &quot;Conte-me mais sobre o campo `person.name.lastName`.&quot;
+> &quot;Quais valores de exemplo existem para `homeAddress.stateProvince`?&quot;
+> &quot;Onde o campo `commerce.purchases.value` é usado em meus conjuntos de dados e públicos?&quot;
 
 A resposta retorna os valores de amostra do campo, o local do esquema, os conjuntos de dados associados e quaisquer públicos ou destinos em que o campo aparece. Revise este contexto para confirmar se o campo contém os dados esperados.
 
@@ -235,19 +241,31 @@ Use esta seção como uma biblioteca de prompts de referência rápida. Se você
 
 Use esses prompts quando você souber o conceito de dados necessário, mas não saber qual campo o contém.
 
-> &quot;Qual campo contém o estado ou a região de um cliente?&quot;&quot;Localizar campos relacionados ao status da assinatura de email.&quot;&quot;Qual campo contém a data da primeira compra de um cliente?&quot;&quot;Identifique campos que representam o valor vitalício do cliente.&quot;&quot;Quais campos no meu esquema de perfil estão relacionados à associação ao programa de fidelidade?&quot;
+> &quot;Qual campo contém o estado ou a região de um cliente?&quot;
+> &quot;Localizar campos relacionados ao status da assinatura de email.&quot;
+> &quot;Qual campo contém a data da primeira compra de um cliente?&quot;
+> &quot;Identificar campos que representam o valor vitalício do cliente.&quot;
+> &quot;Quais campos no meu esquema de perfil estão relacionados à associação ao programa de fidelidade?&quot;
 
 ### Prompts de recomendação
 
 Use esses prompts quando estiver iniciando um workflow e precisar de orientação sobre quais campos incluir para uma meta específica.
 
-> &quot;Quais campos devo usar para criar um público-alvo de reengajamento?&quot;&quot;Campos recomendados para um público-alvo direcionado a clientes que não compraram em 90 dias.&quot;&quot;Quais campos são mais úteis para modelar o risco de churn?&quot;&quot;Sugerir campos que devo incluir ao criar uma segmentação geográfica.&quot;&quot;Estou construindo um modelo de propensão à compra. Com quais campos devo começar?&quot;
+> &quot;Quais campos devo usar para criar um público-alvo de reengajamento?&quot;
+> &quot;Campos recomendados para um público-alvo direcionado a clientes que não compraram em 90 dias.&quot;
+> &quot;Quais campos são mais úteis para modelagem de risco de churn?&quot;
+> &quot;Sugerir campos que devem ser incluídos ao criar uma segmentação geográfica.&quot;
+> &quot;Estou criando um modelo de propensão para comprar. Com quais campos devo começar?&quot;
 
 ### Prompts de enriquecimento
 
 Use esses prompts quando tiver um campo candidato e quiser verificá-lo antes de usá-lo em um segmento, consulta ou mapeamento.
 
-> &quot;Conte-me mais sobre `homeAddress.stateProvince`.&quot;&quot;Mostrar valores de exemplo para `commerce.purchases.value`.&quot;&quot;Onde o `person.name.lastName` é usado em meus conjuntos de dados e públicos-alvo?&quot;&quot;Quais conjuntos de dados contêm o campo `web.webPageDetails.URL`?&quot;&quot;`segmentMembership` está mapeado para algum destino ativo?&quot;
+> &quot;Conte-me mais sobre `homeAddress.stateProvince`.&quot;
+>  &quot;Mostrar valores de exemplo para `commerce.purchases.value`.&quot;
+> &quot;Onde o `person.name.lastName` é usado em meus conjuntos de dados e públicos?&quot;
+> &quot;Quais conjuntos de dados contêm o campo `web.webPageDetails.URL`?&quot;
+> &quot;O `segmentMembership` está mapeado para algum destino ativo?&quot;
 
 ## Solução de problemas {#troubleshooting}
 

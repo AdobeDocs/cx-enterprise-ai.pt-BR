@@ -12,7 +12,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 555
 ht-degree: 4%
@@ -51,7 +51,7 @@ Como parte do recurso do Experimentation Accelerator, o Agente oferece:
 
 * **Oportunidades**: orientação sobre as próximas ações a serem realizadas
 
-![Amostra para o Experimentation Agent](./images/experiment/experiment-agent.png)
+![Amostra para o Experimentation Agent](./assets/experiment/experiment-agent.png)
 
 ## Casos de uso
 
