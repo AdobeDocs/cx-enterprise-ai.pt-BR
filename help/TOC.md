@@ -6,10 +6,10 @@ description: Saiba mais sobre o AI Assistant no CX Enterprise. Melhore seu conhe
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
+source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 17%
+source-wordcount: '235'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
   - [IA agêntica](./overview/agentic-ai.md)
   - [Monitoramento de IA do agente](./overview/monitoring.md)
   - [Trabalhos de agentes e consumo de crédito de IA](./overview/ai-credit-consumption.md)
-  - [Ferramentas de agilidade](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Ferramentas de agilidade](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistente de IA {#ai-assistant}
   - [Guia da interface do assistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de Prompts](./ai-assistant/prompt-library.md)
@@ -55,8 +55,10 @@ ht-degree: 17%
     - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Colaborador {#coworker}
+  - [Campanhas de colegas de trabalho](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)
+  - [Chat do colega de trabalho](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)
   - {hide-from-toc}[Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validar dados de migração do AA para o CJA](./coworker/data-validation-aa-cja.md)
   - [Analisar dados do CJA](./coworker/analytics-chat.md)

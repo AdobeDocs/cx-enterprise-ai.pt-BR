@@ -2,23 +2,13 @@
 title: IA em aplicativos corporativos do CX
 description: Saiba como os aplicativos do CX Enterprise usam as ferramentas Gerative AI (GenAI), AI Assistant, Agentic AI, CX Enterprise Co-worker e MCP.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d8daade8bb7d0259cd18fe7c8f957955dd97b2a0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
 workflow-type: tm+mt
-source-wordcount: 766
-ht-degree: 2%
+source-wordcount: 881
+ht-degree: 1%
 
 ---
 
@@ -60,14 +50,17 @@ Para obter a lista completa de agentes, os aplicativos compatíveis e os requisi
 
 ## CX Enterprise Co-worker
 
-O CX Enterprise Co-worker é uma evolução do assistente de IA realizada por um agente. Em vez de fazer uma pergunta de cada vez, você descreve uma meta em linguagem natural e o Co-worker planeja o trabalho, executa-o no Adobe e nos sistemas conectados, valida os resultados e retorna o trabalho concluído para sua aprovação. O colega de trabalho inclui:
+O CX Enterprise Co-worker é uma evolução do assistente de IA realizada pelo agente, que automatiza a experiência do cliente e os fluxos de trabalho de marketing, para que sua equipe possa se concentrar em metas de negócios em vez de na execução de rotina. Em vez de fazer uma pergunta de cada vez, você descreve uma meta em linguagem natural e o Co-worker planeja o trabalho, executa-o no Adobe e nos sistemas conectados, valida os resultados e retorna o trabalho concluído para sua aprovação. O colega de trabalho inclui:
 
-- **Chat do Colaborador**: uma interface conversacional para explorar seus dados, validar públicos e jornadas e concluir tarefas de várias etapas nos aplicativos do CX Enterprise.
-- **Campanhas com colegas de trabalho**: um aplicativo nativo de IA que consolida o resumo da campanha, a criação de público-alvo, a geração de conteúdo, o design da jornada e a comprovação em uma única experiência de conversação.
+- **[Chat do Colaborador](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)**: uma interface conversacional para explorar seus dados, validar públicos e jornadas e concluir tarefas de várias etapas nos aplicativos do CX Enterprise.
+- **[Campanhas com colegas de trabalho](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)**: um aplicativo nativo de IA que consolida instruções de campanha, a criação de públicos-alvo, a geração de conteúdo, o design de jornadas e a comprovação em uma única experiência de conversação, usando modelos internos, práticas recomendadas e orientações para que equipes pequenas e ágeis possam iniciar campanhas rapidamente.
+- **Projetos de Colaborador** (em breve): um espaço de trabalho unificado para automatizar fluxos de trabalho completos de orquestração da experiência do cliente, ajudando as equipes a coordenar tarefas, aprovações e execução para impulsionar resultados da estratégia até a entrega. A documentação dos Projetos será disponibilizada em breve.
 
 Os clientes qualificados estão sendo gradualmente migrados do Assistente de IA e Agentes do Experience Platform para o Chat de colaborador. Leia a [Avaliação do CX Enterprise Co-worker](./agents/trial.md) para saber mais sobre qualificação para a avaliação, uso de Crédito de IA e como obter acesso.
 
-Para ver o Chat do Colaborador em ação, analise o [Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md) ou leia casos de uso reais, como [Validar dados de migração do AA para o CJA](./coworker/data-validation-aa-cja.md) e [Analisar o menu suspenso de conversão](./coworker/analytics-chat.md).
+Para ver o Chat do Colaborador em ação, passe pelo [Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md) ou leia casos de uso reais, como [Validar o AA para dados de migração do CJA](./coworker/data-validation-aa-cja.md) e [Analisar dados do CJA](./coworker/analytics-chat.md).
+
+Para obter a documentação completa do produto sobre bate-papo, campanhas e projetos do parceiro de trabalho, consulte [Colaborador corporativo do Adobe CX](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home).
 
 ## MCP
 
