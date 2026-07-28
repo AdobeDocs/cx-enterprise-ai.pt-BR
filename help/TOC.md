@@ -5,9 +5,9 @@ user-guide-description: Saiba como usar o Assistente de IA para acelerar o fluxo
 description: Saiba mais sobre o AI Assistant no CX Enterprise. Melhore seu conhecimento sobre o produto e obtenha insights operacionais usando IA no CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 8648fc2b3c36c2e017ba122a46931cdc14b04160
+source-git-commit: 869d08a77b71bb7690cccdcd5b00c4ddfe0bd722
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '227'
 ht-degree: 16%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 16%
   - [IA agêntica](./overview/agentic-ai.md)
   - [Monitoramento de IA do agente](./overview/monitoring.md)
   - [Trabalhos de agentes e consumo de crédito de IA](./overview/ai-credit-consumption.md)
-  - [Ferramentas de agilidade](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Ferramentas de agilidade](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistente de IA {#ai-assistant}
   - [Guia da interface do assistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de Prompts](./ai-assistant/prompt-library.md)
@@ -54,9 +54,10 @@ ht-degree: 16%
     - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Ajuda do colega {#coworker}
   - [Ajuda do colega](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validar dados de migração do AA para o CJA](./coworker/data-validation-aa-cja.md)
-
+  - [Analisar dados do CJA](./coworker/analytics-chat.md)
+  - [Habilidades dos agentes de ferramentas de sandbox](./agents/sandbox-tooling.md)
