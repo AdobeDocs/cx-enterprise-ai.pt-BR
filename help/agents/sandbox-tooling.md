@@ -50,15 +50,15 @@ Para usar as habilidades de agentes de ferramentas de sandbox:
 
 ![Os resultados da solicitação com Continuar selecionado, destacando Enviar.](./assets/sandbox-tooling/results-proceed.png)
 
-4. Selecione um ou mais objetos que você deseja migrar e selecione **[!UICONTROL Enviar]**.
+&#x200B;4. Selecione um ou mais objetos que você deseja migrar e selecione **[!UICONTROL Enviar]**.
 
 ![Página de seleção de objeto destacando Enviar.](./assets/sandbox-tooling/object-selection.png)
 
-5. Revise os objetos e dependências que o agente identifica e confirme as ações da operação - *Criar Novo* ou *Usar Existente*. Quando estiver pronto para iniciar a migração, selecione **[!UICONTROL Continuar]** e **[!UICONTROL Enviar]** para confirmar. A migração pode levar vários minutos para ser concluída.
+&#x200B;5. Revise os objetos e dependências que o agente identifica e confirme as ações da operação - *Criar Novo* ou *Usar Existente*. Quando estiver pronto para iniciar a migração, selecione **[!UICONTROL Continuar]** e **[!UICONTROL Enviar]** para confirmar. A migração pode levar vários minutos para ser concluída.
 
 ![Confirmar o destaque da página do plano de ação.](./assets/sandbox-tooling/action-plan.png)
 
-6. Quando a migração for concluída, os objetos selecionados estarão disponíveis na sandbox de destino.
+&#x200B;6. Quando a migração for concluída, os objetos selecionados estarão disponíveis na sandbox de destino.
 
 ![Página de transferência concluída mostrando o status da solicitação.](./assets/sandbox-tooling/transfer-complete.png)
 
