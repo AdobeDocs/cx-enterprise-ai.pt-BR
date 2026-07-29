@@ -2,22 +2,12 @@
 title: IA em aplicativos corporativos do CX
 description: Saiba como os aplicativos do CX Enterprise usam as ferramentas Gerative AI (GenAI), AI Assistant, Agentic AI, CX Enterprise Co-worker e MCP.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: 872
 ht-degree: 1%
 
 ---
@@ -70,7 +60,7 @@ Os clientes qualificados estão sendo gradualmente migrados do Assistente de IA 
 
 Para ver o Chat do Colaborador em ação, passe pelo [Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md) ou leia casos de uso reais, como [Validar o AA para dados de migração do CJA](./coworker/data-validation-aa-cja.md) e [Analisar dados do CJA](./coworker/analytics-chat.md).
 
-Para obter a documentação completa do produto sobre bate-papo, campanhas e projetos do parceiro de trabalho, consulte [Colaborador corporativo do Adobe CX](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home).
+Para obter a documentação completa do produto sobre bate-papo, campanhas e projetos do parceiro de trabalho, consulte [Colaborador corporativo do Adobe CX](./coworker/overview.md).
 
 ## MCP
 
@@ -99,3 +89,4 @@ Para obter o máximo valor de sua experiência com o Assistente de IA ou Colabor
 ## Considerações legais
 
 O Assistente de IA atualmente suporta respostas somente em inglês e os modelos de idioma podem ocasionalmente cometer erros. Sempre verifique as informações fornecidas e use as etapas de raciocínio incluídas em cada resposta para entender como elas foram geradas. Para obter detalhes completos, leia o [aviso de isenção legal](./ai-assistant/legal-disclaimer.md).
+
