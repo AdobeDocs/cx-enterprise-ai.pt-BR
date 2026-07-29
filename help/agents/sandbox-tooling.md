@@ -1,7 +1,7 @@
 ---
 title: Habilidades dos agentes de ferramentas de sandbox
 description: Saiba como usar as habilidades de agente de ferramentas de sandbox para replicar metadados de objetos em ambientes de sandbox.
-source-git-commit: 1fec24983eff50e6d0215c576049d9a80105bfc0
+source-git-commit: 7790447877fa20321321ce5561d8ff61b28c572e
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -42,23 +42,23 @@ Interaja com as habilidades dos agentes de ferramentas de sandbox por meio do CX
 Para usar as habilidades de agentes de ferramentas de sandbox:
 
 1. Navegue até **[!UICONTROL CX Co-worker]**.
-2. Insira uma descrição clara do que você deseja realizar. Por exemplo:
+1. Insira uma descrição clara do que você deseja realizar. Por exemplo:
 
    *&quot;Mover Platina, Membro de Fidelidade do esquema, da sandbox atual para a sandbox de demonstração Acme.&quot;*
 
-3. Revise a tabela de resultados, que mostra as sandboxes de origem e de destino. Quando estiver pronto para continuar, selecione **[!UICONTROL Continuar]** e **[!UICONTROL Enviar]** para confirmar.
+1. Revise a tabela de resultados, que mostra as sandboxes de origem e de destino. Quando estiver pronto para continuar, selecione **[!UICONTROL Continuar]** e **[!UICONTROL Enviar]** para confirmar.
 
-![Os resultados da solicitação com Continuar selecionado, destacando Enviar.](./assets/sandbox-tooling/results-proceed.png)
+   ![Os resultados da solicitação com Continuar selecionado, destacando Enviar.](./assets/sandbox-tooling/results-proceed.png)
 
-&#x200B;4. Selecione um ou mais objetos que você deseja migrar e selecione **[!UICONTROL Enviar]**.
+1. Selecione um ou mais objetos que você deseja migrar e selecione **[!UICONTROL Enviar]**.
 
-![Página de seleção de objeto destacando Enviar.](./assets/sandbox-tooling/object-selection.png)
+   ![Página de seleção de objeto destacando Enviar.](./assets/sandbox-tooling/object-selection.png)
 
-&#x200B;5. Revise os objetos e dependências que o agente identifica e confirme as ações da operação - *Criar Novo* ou *Usar Existente*. Quando estiver pronto para iniciar a migração, selecione **[!UICONTROL Continuar]** e **[!UICONTROL Enviar]** para confirmar. A migração pode levar vários minutos para ser concluída.
+1. Revise os objetos e dependências que o agente identifica e confirme as ações da operação - *Criar Novo* ou *Usar Existente*. Quando estiver pronto para iniciar a migração, selecione **[!UICONTROL Continuar]** e **[!UICONTROL Enviar]** para confirmar. A migração pode levar vários minutos para ser concluída.
 
-![Confirmar o destaque da página do plano de ação.](./assets/sandbox-tooling/action-plan.png)
+   ![Confirmar o destaque da página do plano de ação.](./assets/sandbox-tooling/action-plan.png)
 
-&#x200B;6. Quando a migração for concluída, os objetos selecionados estarão disponíveis na sandbox de destino.
+1. Quando a migração for concluída, os objetos selecionados estarão disponíveis na sandbox de destino.
 
 ![Página de transferência concluída mostrando o status da solicitação.](./assets/sandbox-tooling/transfer-complete.png)
 
@@ -108,4 +108,4 @@ Use esses prompts quando você souber o nome do público-alvo.
 
 Depois de ler este guia, você deve entender como usar as habilidades de agente de ferramentas de sandbox para detectar, empacotar e migrar objetos compatíveis entre as sandboxes.
 
-Para obter mais informações sobre as ferramentas de sandbox, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/ui/sandbox-tooling).
+Para obter mais informações sobre as ferramentas de sandbox, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling).
