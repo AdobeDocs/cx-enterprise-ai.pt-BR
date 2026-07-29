@@ -108,4 +108,4 @@ Use esses prompts quando você souber o nome do público-alvo.
 
 Depois de ler este guia, você deve entender como usar as habilidades de agente de ferramentas de sandbox para detectar, empacotar e migrar objetos compatíveis entre as sandboxes.
 
-Para obter mais informações sobre as ferramentas de sandbox, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling).
+Para obter mais informações sobre as ferramentas de sandbox, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/ui/sandbox-tooling).
