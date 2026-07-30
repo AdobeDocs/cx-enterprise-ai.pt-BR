@@ -5,10 +5,10 @@ user-guide-description: Saiba como usar o Assistente de IA para acelerar o fluxo
 description: Saiba mais sobre o AI Assistant no CX Enterprise. Melhore seu conhecimento sobre o produto e obtenha insights operacionais usando IA no CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
+source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 20%
+ht-degree: 24%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 20%
   - [IA agêntica](./overview/agentic-ai.md)
   - [Monitoramento de IA do agente](./overview/monitoring.md)
   - [Trabalhos de agentes e consumo de crédito de IA](./overview/ai-credit-consumption.md)
-  - [Ferramentas de agilidade](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Ferramentas agênticas](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistente de IA {#ai-assistant}
   - [Guia da interface do assistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de Prompts](./ai-assistant/prompt-library.md)
@@ -54,7 +54,7 @@ ht-degree: 20%
     - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Colaborador {#coworker}
   - [Sobre o Colaborador](./coworker/overview.md)
   - Campanhas {#campaigns}
@@ -62,7 +62,7 @@ ht-degree: 20%
     - [Criar uma campanha de email](./coworker/campaigns/create-an-email-campaign.md)
     - [Casos de uso](./coworker/campaigns/use-cases.md)
     - [Solicitação de práticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
-    - [Conectores](./coworker/campaigns/connectors.md)
+    - {hide-from-toc}[Conectores](./coworker/campaigns/connectors.md)
     - [Notas de versão](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Visão geral](./coworker/chat/overview.md)
