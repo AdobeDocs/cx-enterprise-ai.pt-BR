@@ -78,7 +78,7 @@ Se o Cliente quiser recusar o acesso a esses recursos do Agente e desabilitar o 
 
 Leia os guias a seguir para obter mais informações sobre o Colaborador, o Agent Orchestrator e o Assistente de IA:
 
-- [CX Enterprise Co-worker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- [CX Enterprise Co-worker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
 - [Visão geral do Agent Orchestrator](agent-orchestrator.md)
 - [Guia da interface do assistente de IA](../ai-assistant/ai-assistant-ui.md)
 - [Biblioteca de prompts do assistente do AI](../ai-assistant/prompt-library.md)
