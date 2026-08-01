@@ -33,7 +33,7 @@ Antes de começar, verifique se você tem:
 - Acesso aos objetos que você deseja descobrir ou migrar.
 - O plug-in CXO do Adobe instalado no CX Co-worker.
 
-Para obter instruções sobre como instalar plug-ins, consulte o [Guia da Interface do Usuário do Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
+Para obter instruções sobre como instalar plug-ins, consulte o [Guia da Interface do Usuário do Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/chat/ui-guide).
 
 ## Usar habilidades de agentes de ferramentas de sandbox {#use-sandbox-tooling-agentic-skills}
 
@@ -62,7 +62,7 @@ Para usar as habilidades de agentes de ferramentas de sandbox:
 
 ![Página de transferência concluída mostrando o status da solicitação.](./assets/sandbox-tooling/transfer-complete.png)
 
-Para obter mais informações sobre como usar o CX Coworker, consulte o [Guia da Interface do Usuário do Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
+Para obter mais informações sobre como usar o CX Coworker, consulte o [Guia da Interface do Usuário do Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/chat/ui-guide).
 
 ## Casos de uso aceitos {#supported-use-cases}
 
