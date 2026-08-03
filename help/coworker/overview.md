@@ -1,7 +1,7 @@
 ---
 title: Colaborador corporativo Adobe CX
 description: Saiba como elevar seu marketing a um novo patamar com o Adobe CX Enterprise Co-worker.
-source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
+source-git-commit: 0a56fd8cc38258e764f4cf97ff67ae4dde2e4d56
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 3%
@@ -23,7 +23,7 @@ Campanhas de colegas de trabalho é um recurso modelado para que pequenas equipe
 
 ## Chat
 
-O Bate-papo com colegas de trabalho permite que as equipes automatizem tarefas de produtos Adobe por meio da linguagem natural, transformando rapidamente ideias em ações com planejamento flexível, habilidades personalizáveis e execução inteligente.
+O Bate-papo com colegas de trabalho permite que as equipes automatizem tarefas de produtos Adobe usando linguagem natural, transformando rapidamente ideias em ações com planejamento flexível, habilidades personalizáveis e execução inteligente.
 
 * [Visão geral](./chat/overview.md)
 * [Casos de uso](./chat/use-cases.md)
@@ -33,4 +33,3 @@ O Bate-papo com colegas de trabalho permite que as equipes automatizem tarefas d
 ## Projetos (documentos em breve)
 
 O Co-worker Projects é um espaço de trabalho unificado para automatizar fluxos de trabalho completos de orquestração da experiência do cliente, ajudando as equipes a coordenar tarefas, aprovações e execução para impulsionar resultados da estratégia até a entrega.
-
