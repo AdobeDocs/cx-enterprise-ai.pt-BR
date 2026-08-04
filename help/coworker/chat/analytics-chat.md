@@ -1,7 +1,7 @@
 ---
 title: Analisar dados do Customer Journey Analytics com o Chat do parceiro
 description: Saiba como usar o Adobe CX Enterprise Co-worker Chat para analisar dados do Customer Journey Analytics, criar funis e descobrir onde os clientes chegam na jornada.
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: 4c615d3c844049e47edde3b4c4dd7f77a788c268
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 4%
@@ -60,33 +60,33 @@ Informe ao Coworker os tipos de perguntas que você deseja responder e pergunte 
 **Você:**
 
 >[!BEGINSHADEBOX]
->
->Estou interessado em saber onde os clientes chegam na jornada do cliente. A quais visualizações de dados no Customer Journey Analytics tenho acesso que poderiam responder a essa pergunta para mim?
->
+
+Estou interessado em saber onde os clientes chegam na jornada do cliente. A quais visualizações de dados no Customer Journey Analytics tenho acesso que poderiam responder a essa pergunta para mim?
+
 >[!ENDSHADEBOX]
 
 **Resposta do Chat de Colaborador:**
 
 >[!BEGINSHADEBOX]
->
->Você tem acesso a três visualizações de dados. A visualização de dados do `Customer lifecycle` contém as seguintes dimensões e métricas, que seriam as melhores para responder à sua pergunta.
->
+
+Você tem acesso a três visualizações de dados. A visualização de dados do `Customer lifecycle` contém as seguintes dimensões e métricas, que seriam as melhores para responder à sua pergunta.
+
 >[!ENDSHADEBOX]
 
 **Você:**
 
 >[!BEGINSHADEBOX]
->
->Ótimo, vamos usar essa visualização de dados.
->
+
+Ótimo, vamos usar essa visualização de dados.
+
 >[!ENDSHADEBOX]
 
 **Resposta do Chat de Colaborador:**
 
 >[!BEGINSHADEBOX]
->
->OK, usarei a visualização de dados `Customer lifecycle` para responder a perguntas futuras nesta sessão de chat.
->
+
+OK, usarei a visualização de dados `Customer lifecycle` para responder a perguntas futuras nesta sessão de chat.
+
 >[!ENDSHADEBOX]
 
 ### Adicionar uma preferência de visualização de dados na memória
@@ -138,9 +138,9 @@ Você não precisa saber o que é uma &quot;visualização de fallout&quot; ou q
 **Você:**
 
 >[!BEGINSHADEBOX]
->
->Onde estamos perdendo pessoas a caminho de comprar?
->
+
+Onde estamos perdendo pessoas a caminho de comprar?
+
 >[!ENDSHADEBOX]
 
 **Resposta do Chat de Colaborador:**
@@ -189,9 +189,9 @@ Aqui é onde você está perdendo pessoas:
 **Você:**
 
 >[!BEGINSHADEBOX]
->
->Ok, vamos detalhar por canal de marketing
->
+
+Ok, vamos detalhar por canal de marketing
+
 >[!ENDSHADEBOX]
 
 **Resposta do Chat de Colaborador:**
@@ -240,9 +240,9 @@ Os canais de marketing estão fazendo seu trabalho — todos estão deixando as 
 **Você:**
 
 >[!BEGINSHADEBOX]
->
->Interessante. Vamos tentar detalhar por tipo de dispositivo.
->
+
+Interessante. Vamos tentar detalhar por tipo de dispositivo.
+
 >[!ENDSHADEBOX]
 
 **Resposta do Chat de Colaborador:**
@@ -299,20 +299,20 @@ O padrão de dados (engajamento igual, queda de check-out catastrófica) é um s
 **Você:**
 
 >[!BEGINSHADEBOX]
->
->Então, o que devo fazer?
->
+
+Então, o que devo fazer?
+
 >[!ENDSHADEBOX]
 
 **Resposta do Chat de Colaborador:**
 
 >[!BEGINSHADEBOX]
->
->Com base no que os dados mostram, é aqui que eu me concentrarei:
->
->* **Corrija o check-out móvel — não é um problema de canal.** Cada canal está convertendo pessoas no carrinho em uma taxa semelhante e saudável, então o gasto com anúncios está funcionando em todos os sentidos. A receita está sendo perdida especificamente no fluxo de check-out móvel, que é o lugar da correção.
->* **Comece com pagamento e fricção de formulário.** Essas são as razões mais comuns para os compradores de dispositivos móveis de alta intenção abandonarem um carrinho. Oferecer opções de carteira móvel e encurtar o formulário geralmente são os ganhos mais rápidos.
->* **Verificar novamente após a correção.** Depois que as alterações no checkout forem enviadas, observe se a taxa de carrinho-para-compra dos dispositivos móveis se move em direção à taxa de desktop de 23,2%.
+
+Com base no que os dados mostram, é aqui que eu me concentrarei:
+
+* **Corrija o check-out móvel — não é um problema de canal.** Cada canal está convertendo pessoas no carrinho em uma taxa semelhante e saudável, então o gasto com anúncios está funcionando em todos os sentidos. A receita está sendo perdida especificamente no fluxo de check-out móvel, que é o lugar da correção.
+* **Comece com pagamento e fricção de formulário.** Essas são as razões mais comuns para os compradores de dispositivos móveis de alta intenção abandonarem um carrinho. Oferecer opções de carteira móvel e encurtar o formulário geralmente são os ganhos mais rápidos.
+* **Verificar novamente após a correção.** Depois que as alterações no checkout forem enviadas, observe se a taxa de carrinho-para-compra dos dispositivos móveis se move em direção à taxa de desktop de 23,2%.
 
 Quer que eu salve como um projeto para que você possa rastreá-lo ou definir um alerta se o carrinho de compras de dispositivos móveis ficar abaixo de um limite?
 

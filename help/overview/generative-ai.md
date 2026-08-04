@@ -98,7 +98,7 @@ Este é um resumo de [!DNL CX Enterprise] aplicativos que usam recursos de IA ge
 | [Otimizador de LLM](https://experienceleague.adobe.com/pt-br/docs/llm-optimizer/using/home) | Um aplicativo generativo, AI-First, que usa agentes de IA para identificar automaticamente lacunas de visibilidade, sugerir melhorias automaticamente e, em casos selecionados, otimizar automaticamente a experiência do site. | Não |
 | [Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/landing) | Assistente de IA para conhecimento do produto e insights operacionais. | Não |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/ai-assistant) | Assistente de IA para conhecimento do produto e insights operacionais. | Não |
-| | A _AJO Prime_ e a _Ultimate_ oferecem a [geração de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) para trazer sugestões de variação de conteúdo pró-ativo para texto e imagens. | Sim |
+| | A _AJO Prime_ e a _Ultimate_ oferecem a [geração de conteúdo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) para trazer sugestões de variação de conteúdo pró-ativo para texto e imagens. | Sim |
 | [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | Assistente de IA para conhecimento do produto. | Não |
 | [[!DNL Campaign] Serviços gerenciados na nuvem](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/content/ai-assistant/generative-gs) | Assistente de IA para Acelerador de conteúdo para gerar automaticamente conteúdo personalizado, envolvente e eficaz com base nos objetivos de marketing em canais como email, SMS e push. | Sim |
 | **[!DNL Customer Journey Analytics]** | O GenAI é usado com:<ul><li> [Legendas inteligentes](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): para obter insights sobre as visualizações do Workspace usadas com mais frequência.</li><li>[Content Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): para atribuir metadados de ativos automaticamente.</li></ul> Assistente de IA para:<ul><li>[Conhecimento sobre o produto](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[Agente de Suporte ao Produto](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | Não |
@@ -251,11 +251,11 @@ Este é um exemplo de entrada para insights operacionais:
 
 #### Assistente de IA para geração de conteúdo (AJO Prime e Ultimate)
 
-No AJO _Prime_ e no _Ultimate_, você pode usar a [geração de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) para gerar conteúdo e fornecer sugestões de variação de conteúdo pró-ativo para texto e imagens.
+No AJO _Prime_ e no _Ultimate_, você pode usar a [geração de conteúdo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) para gerar conteúdo e fornecer sugestões de variação de conteúdo pró-ativo para texto e imagens.
 
 Esse recurso está disponível para email, notificações por push, página da Web, conteúdo e canais SMS. Ele fornece geração de texto e imagem com base em prompt. A saída da geração de conteúdo no AJO Prime e no Ultimate é indenizada.
 
-[!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="Saiba mais sobre o Assistente de IA no AJO"}
+[!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="Saiba mais sobre o Assistente de IA no AJO"}
 
 +++
 
@@ -378,7 +378,7 @@ O Marketo integra-se ao GenStudio for Performance Marketing
 
 +++Detalhes
 
-O [!UICONTROL Assistente de IA] do [!DNL Workfront] ajuda você a realizar seu trabalho oferecendo informações e sugestões no aplicativo. É possível:
+O [!UICONTROL Assistente de IA] do [!DNL Workfront] ajuda você a realizar seu trabalho oferecendo informações e sugestões no aplicativo. Você pode:
 
 * Obtenha resumos de alguns objetos, fornecendo uma exibição de alto nível da intenção ou dos detalhes do objeto.
 * Faça perguntas e deixe o [!UICONTROL Assistente de IA] encontrar respostas no Experience League.
