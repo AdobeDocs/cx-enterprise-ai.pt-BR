@@ -1,25 +1,18 @@
 ---
-title: CX Enterprise Co-worker Trial
-description: Saiba mais sobre a avaliação complementar do CX Enterprise Co-worker.
+title: Avaliação do Adobe Co-worker
+description: Saiba mais sobre a avaliação complementar do Adobe Co-worker.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1430
 ht-degree: 0%
 
 ---
 
-# CX Enterprise Co-worker Trial
+# Avaliação do Adobe Co-worker
 
 >[!AVAILABILITY]
 >
@@ -42,7 +35,7 @@ Os clientes qualificados recebem um direito único inicial de até 10.000 crédi
 - Chat do colega de trabalho: entradas inseridas no Chat do colega de trabalho. Por um período introdutório limitado, osinputsconsomem créditos de IA a uma taxa de 25 créditos de IA por entrada. Essa taxa está disponível por um período limitado e está sujeita a alterações.
 - Experience Platform Agents: qualquer combinação de trabalhos executados usando Experience Platform Agents (dependendo de suas licenças existentes para aplicativos do CX Enterprise) listados na [Tabela de Consumo de Crédito de IA](../overview/ai-credit-consumption.md).
 
-Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dashboards/guides/license-usage).
+Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 O painel Monitoramento de IA agente oferece visibilidade clara de como a IA agente está sendo adotada e usada em toda a organização. Os usuários autorizados podem rastrear facilmente o engajamento, coletar feedback, monitorar o uso de crédito da IA e revisar as métricas principais. Use esses insights para descobrir oportunidades de otimização e apoiar seus esforços de governança e adoção. Para saber mais, visite o [Guia de Monitoramento de Uso de IA Agênica](../overview/monitoring.md).
 
@@ -78,7 +71,7 @@ Se o Cliente quiser recusar o acesso a esses recursos do Agente e desabilitar o 
 
 Leia os guias a seguir para obter mais informações sobre o Colaborador, o Agent Orchestrator e o Assistente de IA:
 
-- [CX Enterprise Co-worker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
+- [Colaborador](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Visão geral do Agent Orchestrator](agent-orchestrator.md)
 - [Guia da interface do assistente de IA](../ai-assistant/ai-assistant-ui.md)
 - [Biblioteca de prompts do assistente do AI](../ai-assistant/prompt-library.md)
@@ -110,7 +103,7 @@ Esta versão de avaliação não requer nenhuma compra adicional. Não há conve
 
 ### Quem pode ver o uso e como?
 
-Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dashboards/guides/license-usage). Use o painel para exibir o uso e os relatórios dos seus créditos de IA. Somente administradores e usuários com as permissões apropriadas podem exibir suas informações de uso.
+Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage). Use o painel para exibir o uso e os relatórios dos seus créditos de IA. Somente administradores e usuários com as permissões apropriadas podem exibir suas informações de uso.
 
 Os clientes permanecem no controle de quem pode ver o uso e os relatórios. Somente administradores e usuários com as permissões apropriadas podem visualizar essas informações.
 

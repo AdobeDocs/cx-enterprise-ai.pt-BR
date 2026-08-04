@@ -5,9 +5,9 @@ user-guide-description: Saiba como usar o Assistente de IA para acelerar o fluxo
 description: Saiba mais sobre o AI Assistant no CX Enterprise. Melhore seu conhecimento sobre o produto e obtenha insights operacionais usando IA no CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 26%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 26%
   - [Agente de suporte ao produto](./agents/product-support.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Agente de notificações](./agents/notifications.md)
-  - [CX Enterprise Co-worker Trial](./agents/trial.md)
+  - [Avaliação de colega de trabalho](./agents/trial.md)
   - [Validar seus dados](./agents/data-validation.md)
   - Engenharia de dados {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
@@ -54,7 +54,7 @@ ht-degree: 26%
     - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Colaborador {#coworker}
   - [Sobre o Colaborador](./coworker/overview.md)
   - Campanhas {#campaigns}

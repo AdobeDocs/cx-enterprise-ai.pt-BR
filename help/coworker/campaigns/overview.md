@@ -1,18 +1,18 @@
 ---
-description: Saiba mais sobre o Adobe CX Enterprise Co-worker Campaigns, um aplicativo de marketing nativo de IA que transforma um único prompt em uma campanha pronta para revisão.
-title: Visão geral do Adobe CX Enterprise Co-worker
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+description: Saiba mais sobre o Adobe Co-worker Campaigns, um aplicativo de marketing nativo de IA que transforma um único prompt em uma campanha pronta para revisão.
+title: Visão geral do Adobe Co-worker
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Visão geral das campanhas de colegas de trabalho do Adobe CX Enterprise {#overview}
+# Visão geral das campanhas do Adobe Co-worker {#overview}
 
-O Adobe CX Enterprise Co-worker Campaigns é um aplicativo de marketing nativo em IA que leva você de um único prompt a uma campanha completa pronta para revisão.
+Campanhas de colegas de trabalho é um aplicativo de marketing nativo de IA que leva você de um único prompt a uma campanha completa pronta para revisão.
 
-No momento, todas as interações com a IA o direcionarão para a [geração de campanha] (./). Mais funcionalidades serão disponibilizadas em breve.
+No momento, todas as interações com a IA o direcionarão para a [geração de campanha](./). Mais funcionalidades serão disponibilizadas em breve.
 
 ## Como acessar o
 
@@ -46,9 +46,9 @@ A interface de Campanhas de colegas de trabalho é organizada em torno de uma na
 
 | Menu de navegação esquerdo | Finalidade |
 |---|---|
-| Novo chat | Inicie uma nova conversa para gerar uma campanha. |
+| Novo bate-papo | Inicie uma nova conversa para gerar uma campanha. |
 | Início | Seu ponto de partida: barra de prompts, campanhas recentes e templates de campanha prontos. |
-| Bate-papos | Todas as conversas que você iniciou que ainda não foram geradas em um quadro de campanha. |
+| Chats | Todas as conversas que você iniciou que ainda não foram geradas em um quadro de campanha. |
 | Campanhas | Seu inventário de todas as campanhas de rascunho e ativas. |
 | Suas coisas | Seus kits de marca e modelos de email (os ativos que o Colaborador do Campaigns usa para manter tudo sobre a marca). |
 | Personalizar | Conectores (Marketo Engage no lançamento) e habilidades (comportamentos personalizados que você pode aplicar em campanhas). |
@@ -110,7 +110,7 @@ O Co-worker Campaigns é um produto em desenvolvimento ativo. Veja o que você d
 
 ## Visão geral do vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3492811?captions=por_br&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 Novos recursos serão enviados durante a avaliação. Seus comentários ajudam a moldar o que vem a seguir. Envie feedback por meio do ícone de feedback no produto, no cabeçalho.

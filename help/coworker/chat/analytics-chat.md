@@ -1,16 +1,16 @@
 ---
 title: Analisar dados do Customer Journey Analytics com o Chat do parceiro
-description: Saiba como usar o Adobe CX Enterprise Co-worker Chat para analisar dados do Customer Journey Analytics, criar funis e descobrir onde os clientes chegam na jornada.
-source-git-commit: 4c615d3c844049e47edde3b4c4dd7f77a788c268
+description: Saiba como usar o Adobe Co-worker Chat para analisar dados do Customer Journey Analytics, criar funis e descobrir onde os clientes chegam na jornada.
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2040'
 ht-degree: 4%
 
 ---
 
 # Analisar dados do Customer Journey Analytics com o Chat do parceiro
 
-O Adobe CX Enterprise Co-worker Chat pode executar análises avançadas de dados que anteriormente eram possíveis somente no Analysis Workspace. O Bate-papo com colegas de trabalho acessa os dados das visualizações de dados do Customer Journey Analytics, permitindo que você explore esses dados e obtenha respostas para prompts em linguagem natural.
+O Adobe Co-worker Chat pode executar análises avançadas de dados que antes eram possíveis somente no Analysis Workspace. O Bate-papo com colegas de trabalho acessa os dados das visualizações de dados do Customer Journey Analytics, permitindo que você explore esses dados e obtenha respostas para prompts em linguagem natural.
 
 Antes de começar a análise, saiba mais sobre a interface do Coworker Chat e as opções de configuração e, em seguida, verifique se o Coworker está conectado ao Customer Journey Analytics e à visualização de dados que contém os dados que você deseja usar.
 
@@ -29,13 +29,13 @@ Antes de usar o Co-worker Chat com seus dados do Customer Journey Analytics, sai
 * Habilidades
 * E muito mais
 
-Para obter mais informações, consulte o [Guia de Interface de Chat do Colaborador] (./).
+Para obter mais informações, consulte o [Guia de Interface de Chat do Colaborador](./).
 
 ### Casos de uso do Customer Journey Analytics
 
-Você pode ver casos de uso da Customer Journey Analytics e exemplos de prompts que os profissionais estão usando no Adobe CX Enterprise Coworker Chat. Cada prompt é criado para ser copiado, adaptado com seus próprios dados e contexto e refinado através da conversa.
+Você pode ver casos de uso do Customer Journey Analytics e prompts de amostra que os profissionais estão usando no Chat do colaborador. Cada prompt é criado para ser copiado, adaptado com seus próprios dados e contexto e refinado através da conversa.
 
-Para obter mais informações, consulte [Casos de uso] (./).
+Para obter mais informações, consulte [Casos de uso](./).
 
 ## Verifique se o Chat do colaborador está conectado ao Customer Journey Analytics
 

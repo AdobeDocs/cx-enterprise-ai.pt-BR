@@ -1,14 +1,14 @@
 ---
 description: Saiba como o Coworker Chat usa uma interface de conversação para planejar, executar e concluir o trabalho da experiência do cliente na Adobe e nos sistemas conectados em minutos.
-title: Visão geral do Bate-papo com o Colaborador do Adobe CX Enterprise
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Visão geral do bate-papo com o Adobe Co-worker
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
-# Visão geral do Adobe CX Enterprise Co-worker Chat {#overview}
+# Visão geral do Adobe Co-worker Chat {#overview}
 
 O Bate-papo com colegas de trabalho é uma interface conversacional para realizar o trabalho de experiência do cliente. Você descreve uma meta em linguagem simples (por exemplo, &quot;crie um público-alvo para a promoção de yoga na primavera&quot; ou &quot;diga-me por que esse público-alvo encolheu na semana passada&quot;) e o Bate-papo do Colaborador planeja o trabalho, o executa em seu Adobe e em sistemas conectados, valida os resultados e traz o trabalho concluído de volta para você para aprovação.
 
@@ -20,7 +20,7 @@ O valor: trabalho que costumava abranger várias telas, equipes e dias agora aco
 
 >[!NOTE]
 >
->O Co-worker Chat é um módulo do Adobe CX Enterprise Co-worker. Dois outros módulos estendem a mesma base: Campanhas do colaborador (levante e inicie uma campanha completa a partir de uma conversa) e Projetos do colaborador (um espaço de trabalho sempre ativo para fluxos de trabalho completos de várias equipes). Esta página aborda o Bate-papo do Colaborador.
+>O Bate-papo com colegas de trabalho é um módulo do Adobe Coworker. Dois outros módulos estendem a mesma base: Campanhas do colaborador (levante e inicie uma campanha completa a partir de uma conversa) e Projetos do colaborador (um espaço de trabalho sempre ativo para fluxos de trabalho completos de várias equipes). Esta página aborda o Bate-papo do Colaborador.
 
 ## Uma evolução do Assistente de IA
 
@@ -51,4 +51,4 @@ O Chat do Colaborador é alimentado pelos blocos de construção do Colaborador.
 
 ## Visão geral do vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3495971?captions=por_br&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}

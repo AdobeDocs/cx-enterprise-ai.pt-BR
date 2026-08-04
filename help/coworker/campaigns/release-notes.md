@@ -1,16 +1,16 @@
 ---
-description: Saiba mais sobre os aprimoramentos e correções de recursos nas notas de versão do Adobe CX Enterprise Co-worker Campaigns.
-title: Notas de versão do Adobe CX Enterprise Co-worker Campaigns
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+description: Saiba mais sobre os aprimoramentos e correções de recursos nas notas de versão do Adobe Co-worker Campaigns.
+title: Notas de versão do Adobe Co-worker Campaigns
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
 
-# Notas de versão do Adobe CX Enterprise Co-worker Campaigns {#release-notes}
+# Notas de versão do Adobe Co-worker Campaigns {#release-notes}
 
-As versões do Adobe CX Enterprise Co-worker Campaigns operam em um modelo de entrega contínua que permite uma abordagem mais escalável e em fases para a implantação de recursos.
+As versões do Co-worker Campaigns operam em um modelo de entrega contínua que permite uma abordagem mais escalável e em fases para a implantação de recursos.
 
 ## Julho de 2026 {#july-2026}
 
@@ -130,7 +130,7 @@ As versões do Adobe CX Enterprise Co-worker Campaigns operam em um modelo de en
 
 **Data de lançamento: 10 de junho de 2026**
 
-* O aplicativo agora é o CX Enterprise Co-worker Campaigns com nomenclatura atualizada em todo o
+* O aplicativo agora é Campanhas de colega de trabalho com nomes atualizados em todo o
 * Um tour de integração pela primeira vez o orienta a criar uma marca de demonstração
 * Inicie campanhas a partir de um diálogo dedicado quando seu plano estiver pronto para uso
 * Conecte o HubSpot com uma chave de API do catálogo de integrações
