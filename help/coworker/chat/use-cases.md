@@ -1,9 +1,9 @@
 ---
 description: Procure casos de uso do Chat de colaborador e prompts de amostra, organizados por área entre insights de dados, públicos, jornadas e operações da plataforma.
 title: Casos de uso
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1232'
 ht-degree: 3%
 
 ---
@@ -44,6 +44,8 @@ Abaixo estão casos de uso e prompts de amostra que os profissionais estão usan
 | --- | --- | --- | --- | --- |
 | Criar jornadas a partir do idioma natural | Orquestrar a criação de jornadas no AJO a partir de um prompt de texto ou de uma imagem/fluxograma carregado | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;Criar uma jornada de boas-vindas que envia um email após a inscrição, aguarda 3 dias e envia um acompanhamento&quot; · &quot;Criar uma jornada a partir desta imagem de fluxograma carregada&quot; |
 | Analisar conflitos de jornada | Detectar sobreposição de público, agendamento de colisões e problemas de desduplicação entre jornadas ativas | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;A jornada de abandono do carrinho entra em conflito com outras jornadas?&quot; · &quot;Verificar se há sobreposição de público-alvo entre minhas jornadas ativas&quot; |
+| Analisar fallout de jornada | Identifique onde e por que os clientes caem durante uma jornada e detecte padrões de comportamento que levam à desvinculação | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;Onde as pessoas estão caindo na minha jornada de reengajamento?&quot; · &quot;Quais nós na jornada X têm o fallout mais alto?&quot; |
+| Analisar erros de ação personalizados | Identifique quando as ações personalizadas estão falhando ou as taxas de erro sobem em uma jornada e diagnostique as causas básicas antes que as falhas evoluam para uma interrupção mais ampla | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;Por que as ações personalizadas estão falhando na minha jornada de Inscrição de Fidelidade?&quot; · &quot;Mostrar a taxa de erro para a ação personalizada ExternalPush na minha jornada de boas-vindas&quot;. |
 
 ## Elementos fundamentais
 
