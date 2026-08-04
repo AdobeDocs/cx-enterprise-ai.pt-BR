@@ -44,7 +44,7 @@ O painel de [!UICONTROL Monitoramento] inclui as seguintes exibições:
 
 A documentação da [IA de agente na Adobe CX Enterprise](agentic-ai.md) lista os agentes no escopo para monitoramento de uso na tabela [agentes de IA em aplicativos CX Enterprise existentes](agentic-ai.md#existing-apps-table).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491872?captions=por_br&learn=on)
 
 ## Habilitar permissões de painel {#permissions}
 
@@ -99,7 +99,7 @@ O painel Visão geral é o local central para métricas de adoção e envolvimen
 * **Média de prompts por conversa:** Profundidade da participação por conversa.
 * **Feedback:** Distribuição de miniaturas para cima e miniaturas para baixo do feedback dos usuários (somente para [!DNL AI Assistant] interações).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491882?captions=por_br&learn=on)
 
 ### Repetição da conversa
 
@@ -108,7 +108,7 @@ A repetição da conversa mostra interações individuais, não apenas agregaç�
 * **Histórico de prompts e respostas:** o prompt do usuário e as respostas entregues.
 * **Sinais de feedback:** Interações de usuários marcadas com polegares para cima ou para baixo, para identificar necessidades de atrito, bloqueadores ou de habilitação. Essas informações ajudam a sua organização a melhorar a relevância imediata e ajudam a Adobe a melhorar a qualidade da resposta ao longo do tempo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491891?captions=por_br&learn=on)
 
 ## Painel de usuários
 
@@ -125,7 +125,7 @@ O painel Usuários mostra como a adoção e o engajamento do agente variam entre
 * **Atividade de conversa:** Número de conversas e prompts por usuário.
 * **Principais usuários ativos:** usuários e equipes altamente engajados que impulsionam a adoção de agentes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491924?captions=por_br&learn=on)
 
 ## Painel de comentários
 
@@ -139,7 +139,7 @@ O painel Feedback mostra o feedback do usuário enviado para interações do age
 * **Histórico de prompts e respostas:** prompts do usuário e as respostas associadas ao feedback enviado.
 * **Detalhes e observações do feedback:** Contexto e comentários adicionais dos usuários durante o envio do feedback.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491915?captions=por_br&learn=on)
 
 ## Painel Créditos de IA
 
@@ -151,7 +151,7 @@ O painel Créditos de IA mostra como o uso de [!DNL Experience Platform Agents] 
 * **Tendências diárias e mensais:** picos, declínios e alterações nos padrões de consumo.
 * **Créditos de IA restantes:** saldo restante para que você possa planejar de forma proativa e evitar excedentes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491906?captions=por_br&learn=on)
 
 ## Mais ajuda sobre este tópico
 
