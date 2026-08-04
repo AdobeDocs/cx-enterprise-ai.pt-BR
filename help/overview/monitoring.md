@@ -26,7 +26,7 @@ ht-degree: 1%
 
 # Painéis de monitoramento de IA corporativa
 
-O painel de [!UICONTROL Monitoramento] da IA de agência oferece aos membros do Centro de Excelência (COE) e a outras partes interessadas da governança visibilidade sobre o uso e a adoção da IA de agência. Visualize tendências de 7 ou 30 dias para ver quem usa [!DNL AI Assistant] ou outras superfícies (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) para interagir com [!DNL Experience Platform Agents] e o valor que elas recebem. Juntas, essas visualizações ajudam a orientar a adoção de agentes com dados em vez de suposições.
+O painel de [!UICONTROL Monitoramento] da IA de agência oferece aos membros do Centro de Excelência (COE) e a outras partes interessadas da governança visibilidade sobre o uso e a adoção da IA de agência. Visualize tendências de 7 ou 30 dias para ver quem usa [!DNL AI Assistant] ou outras superfícies (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) para interagir com [!DNL Experience Platform Agents] e o valor que elas recebem. Juntas, essas visualizações ajudam a orientar a adoção de agentes com dados em vez de suposições.
 
 **Disponibilidade**
 
@@ -155,7 +155,7 @@ O painel Créditos de IA mostra como o uso de [!DNL Experience Platform Agents] 
 
 ## Mais ajuda sobre este tópico
 
-* [Painel de uso de licença](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) em [!DNL Experience Platform]
+* [Painel de uso de licença](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dashboards/guides/license-usage) em [!DNL Experience Platform]
 * [IA de agente na Adobe CX Enterprise](agentic-ai.md)
 * [Trabalhos de agentes e consumo de crédito de IA](ai-credit-consumption.md)
-* [Painel de uso de licenças](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Painel de uso de licenças](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
