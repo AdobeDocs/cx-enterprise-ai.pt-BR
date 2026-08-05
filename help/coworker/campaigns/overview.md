@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Campanhas de colegas de trabalho é um aplicativo de marketing nativo de IA que leva você de um único prompt a uma campanha completa pronta para revisão.
 
-No momento, todas as interações com a IA o direcionarão para a [geração de campanha](./). Mais funcionalidades serão disponibilizadas em breve.
+No momento, todas as interações com a IA o direcionarão para a [geração de campanha] (./). Mais funcionalidades serão disponibilizadas em breve.
 
 ## Como acessar o
 
