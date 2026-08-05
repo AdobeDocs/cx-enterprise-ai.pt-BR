@@ -1,16 +1,16 @@
 ---
-description: Procure padrões reais de prompt para Campanhas do Adobe Co-worker, organizadas por caso de uso em campanhas de aquisição, envolvimento, eventos, conversão e retenção.
+description: Procure padrões reais de prompt para campanhas de colegas de trabalho do Adobe CX Enterprise, organizadas por caso de uso em campanhas de aquisição, envolvimento, eventos, conversão e retenção.
 title: Casos de uso
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
 
 # Casos de uso {#use-cases}
 
-Abaixo estão os padrões de solicitação reais que os profissionais de marketing de ciclo de vida e crescimento estão usando nas Campanhas de colega do Adobe. Cada uma é criada para ser copiada, trocada com seu próprio público-alvo e detalhes da marca e refinada na conversa.
+Abaixo estão os padrões de solicitação reais que os profissionais de marketing de ciclo de vida e crescimento estão usando nas Campanhas de Colaborador Corporativo do Adobe CX. Cada uma é criada para ser copiada, trocada com seu próprio público-alvo e detalhes da marca e refinada na conversa.
 
 ## Como usar
 

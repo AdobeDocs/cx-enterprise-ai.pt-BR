@@ -1,16 +1,16 @@
 ---
 description: Procure casos de uso do Chat de colaborador e prompts de amostra, organizados por área entre insights de dados, públicos, jornadas e operações da plataforma.
 title: Casos de uso
-source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
+source-git-commit: 58fc8c37c1bf26a6da3bc69e307931a7680c4490
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 3%
+source-wordcount: '1143'
+ht-degree: 4%
 
 ---
 
 # Casos de uso {#use-cases}
 
-Abaixo estão casos de uso e prompts de amostra que os profissionais estão usando no Adobe Co-worker Chat, organizado por área de trabalho. Cada prompt é criado para ser copiado, adaptado com seus próprios dados e contexto e refinado através da conversa.
+Abaixo estão os casos de uso e os prompts de amostra que os profissionais estão usando no Adobe CX Enterprise Coworker Chat, organizados por área de trabalho. Cada prompt é criado para ser copiado, adaptado com seus próprios dados e contexto e refinado através da conversa.
 
 ## Insights de dados
 
@@ -33,10 +33,10 @@ Abaixo estão casos de uso e prompts de amostra que os profissionais estão usan
 | Criar públicos-alvo a partir da linguagem natural | Orquestrar a criação passo a passo de público-alvo com a aprovação do usuário em cada fase | `audience-creation-flow` | Real-Time CDP (RTCDP) | &quot;Crie um público-alvo de usuários que compraram nos últimos 30 dias&quot; · &quot;Crie um segmento para membros de fidelidade de alto valor na Califórnia&quot; |
 | Criar definições do PQL | Reunir definições de público-alvo de propriedades XDM, eventos comportamentais ou públicos-alvo existentes; oferecer suporte à agregação e janelas de tempo | `segment-definition-assembly` | Real-Time CDP (RTCDP) | &quot;Crie uma PQL para pessoas que visualizaram mais de 3 produtos, mas não compraram&quot; · &quot;Adicione uma janela de tempo de 7 dias à minha condição de evento&quot; |
 | Pesquisar e encontrar públicos-alvo | Encontre públicos-alvo por ID, nome, pesquisa semântica; detecte duplicatas e analise a sobreposição | `audience-search` | Real-Time CDP (RTCDP) | &quot;Encontre todos os públicos-alvo de fidelidade&quot; · &quot;Há uma duplicata do meu segmento &quot;Compradores de Natal&quot;?&quot; |
-| Estimar tamanho do público | Estimar o alcance do perfil para uma expressão do PQL usando a API de visualização do AEP com sondagem | `audience-size-estimate` | Real-Time CDP (RTCDP) | &quot;Qual é o tamanho desse público?&quot; · &quot;Estimativa de alcance para essa expressão do PQL&quot; |
+| Estimar tamanho do público | Estimar o alcance do perfil para uma expressão do PQL usando a API de visualização do Adobe Experience Platform com sondagem | `audience-size-estimate` | Real-Time CDP (RTCDP) | &quot;Qual é o tamanho desse público?&quot; · &quot;Estimativa de alcance para essa expressão do PQL&quot; |
 | Cascata de tamanho do público | Decompor uma PQL em subpredicados e mostrar como cada condição contribui para o tamanho final do público | `audience-size-waterfall` | Real-Time CDP (RTCDP) | &quot;Mostre-me a cascata para esta PQL&quot; · &quot;Detalhe como cada condição reduz o público-alvo&quot; |
 | Descobrir campos XDM para direcionamento | Pesquisar campos por nome, descrição ou valor de dados; veja onde eles residem e onde já são usados | `field-discovery` | Real-Time CDP (RTCDP) | &quot;Quais campos posso usar para direcionar clientes do programa de fidelidade?&quot; · &quot;Encontrar campos relacionados ao histórico de compras&quot; |
-| Publicar/salvar públicos | Manter as definições de público-alvo para o Serviço de segmentação da AEP com convenções de nomenclatura e verificações de conformidade | `audience-publish` | Real-Time CDP (RTCDP) | &quot;Salvar como rascunho&quot; · &quot;Publicar o público-alvo com o nome &#39;Compradores de Vendas da primavera&#39;&quot; |
+| Publicar/salvar públicos | Manter as definições de público-alvo para o Serviço de segmentação da Experience Platform com convenções de nomenclatura e verificações de conformidade | `audience-publish` | Real-Time CDP (RTCDP) | &quot;Salvar como rascunho&quot; · &quot;Publicar o público-alvo com o nome &#39;Compradores de Vendas da primavera&#39;&quot; |
 
 ## Jornadas
 
@@ -52,17 +52,14 @@ Abaixo estão casos de uso e prompts de amostra que os profissionais estão usan
 | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
 | Conhecimento e documentação do produto | Responda perguntas práticas, conceituais, de solução de problemas e de práticas recomendadas dos documentos oficiais do Adobe | `product-knowledge` | Todos os aplicativos qualificados | &quot;Como configurar um destino de transmissão?&quot; · &quot;Qual é a diferença entre a segmentação em lote e por transmissão?&quot; |
-| Consultar entidades do AEP/AJO | Servir como ponto de entrada principal para dúvidas sobre entidades da plataforma; rotear para KG, descoberta de campo ou APIs, conforme necessário | `operational-insights` | Todos os aplicativos qualificados | &quot;Quantos conjuntos de dados eu tenho?&quot; · &quot;Mostrar todas as jornadas ativas&quot; · &quot;Listar meus destinos&quot; |
+| Consultar entidades do Experience Platform/Journey Optimizer | Servir como ponto de entrada principal para dúvidas sobre entidades da plataforma; rotear para KG, descoberta de campo ou APIs, conforme necessário | `operational-insights` | Todos os aplicativos qualificados | &quot;Quantos conjuntos de dados eu tenho?&quot; · &quot;Mostrar todas as jornadas ativas&quot; · &quot;Listar meus destinos&quot; |
 | Consultas do gráfico de conhecimento | Contagens agregadas, junções entre entidades, pesquisas de relacionamento e exploração de metadados por meio de consultas SQL únicas | `knowledge-graph` | Todos os aplicativos qualificados | &quot;Quais públicos-alvo usam esse conjunto de dados?&quot; · &quot;Mostre-me as relações entre esquemas e conjuntos de dados&quot; |
-| Operações de API do AEP/AJO/CJA | Fornecer um gateway de API direto para mutações, verificações de estado em tempo real e tipos de entidade que não estão no Gráfico de conhecimento | `cxo-api` | Todos os aplicativos qualificados | &quot;Excluir conjunto de dados X&quot; · &quot;Verificar o status do meu trabalho de assimilação em lote&quot; |
-| Resolução e vinculação da entidade | Use a pesquisa semântica e léxica para resolver menções de entidade a entidades reais do AEP e descobrir campos XDM | `entity-linking` | Adobe Experience Platform (AEP) | &quot;Resolver &#39;Compradores de Férias&#39; para um público real&quot; · &quot;Encontre-me campos relacionados ao histórico de compras&quot; |
-| Criar contexto pessoal | Gerar um perfil de usuário personalizado a partir dos logs de atividades do AEP, CJA e/ou Workfront | `build-my-context` | Todos os aplicativos qualificados | &quot;Criar meu contexto a partir da atividade do AEP e do CJA&quot; · &quot;Quem sou eu nesta organização?&quot; |
-| Contexto da organização de destilação | Extrair conhecimento de toda a organização de um documento para o wiki compartilhado de contexto da organização | `distill-org-context` | Todos os aplicativos qualificados | &quot;Destilar este documento no wiki da organização&quot; · &quot;Adicionar este arquivo ao contexto da organização&quot; |
-| Contexto de usuário do Distil | Extrair o contexto de trabalho pessoal de um documento para seu wiki de contexto de usuário | `distill-user-context` | Todos os aplicativos qualificados | &quot;Adicionar este arquivo ao meu contexto de usuário&quot; · &quot;Extrair meu contexto de trabalho deste documento&quot; |
+| Operações de API do Experience Platform / Journey Optimizer / Customer Journey Analytics | Fornecer um gateway de API direto para mutações, verificações de estado em tempo real e tipos de entidade que não estão no Gráfico de conhecimento | `cxo-api` | Todos os aplicativos qualificados | &quot;Excluir conjunto de dados X&quot; · &quot;Verificar o status do meu trabalho de assimilação em lote&quot; |
+| Resolução e vinculação da entidade | Use a pesquisa semântica e léxica para resolver menções de entidade a entidades reais do Experience Platform e descobrir campos XDM | `entity-linking` | Adobe Experience Platform | &quot;Resolver &#39;Compradores de Férias&#39; para um público real&quot; · &quot;Encontre-me campos relacionados ao histórico de compras&quot; |
 | Gerenciar habilidades personalizadas | Salvar, modificar ou excluir habilidades reutilizáveis de propriedade do usuário que persistem entre as sessões | `manage-skill` | Todos os aplicativos qualificados | &quot;Salvar esse fluxo de trabalho como uma habilidade&quot; · &quot;Excluir minha habilidade semanal de relatório&quot; · &quot;Transformar isso em uma habilidade reutilizável&quot; |
 
 ## Ferramentas de sandbox
 
 | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
-| Mover metadados de objetos em sandboxes | Migrar esquemas, públicos-alvo e outras configurações de objeto facilmente entre sandboxes, com dependências resolvidas automaticamente | `sandbox-tooling-workflow` | Adobe Experience Platform (AEP) | &quot;Mover Platina de Membros de Fidelidade Luma do esquema da sandbox atual para a sandbox de produção&quot; · &quot;Promover o público-alvo dos Membros de Fidelidade Gold dos EUA para o estágio&quot; |
+| Mover metadados de objetos em sandboxes | Migrar esquemas, públicos-alvo e outras configurações de objeto facilmente entre sandboxes, com dependências resolvidas automaticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Mover Platina de Membros de Fidelidade Luma do esquema da sandbox atual para a sandbox de produção&quot; · &quot;Promover o público-alvo dos Membros de Fidelidade Gold dos EUA para o estágio&quot; |
