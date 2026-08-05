@@ -1,14 +1,14 @@
 ---
-title: Colaborador do Adobe
-description: Saiba como elevar seu marketing a um novo patamar com o Adobe Co-worker.
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+title: Colaborador corporativo Adobe CX
+description: Saiba como elevar seu marketing a um novo patamar com o Adobe CX Enterprise Co-worker.
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '200'
 ht-degree: 4%
 
 ---
 
-# Sobre o Adobe Co-worker
+# Sobre o Adobe CX Enterprise Co-worker
 
 Colaborador é um colega de equipe alimentado por IA que reimagina a natureza do trabalho para organizações, equipes e indivíduos. O colega de trabalho automatiza elegantemente a experiência do cliente e os fluxos de trabalho de marketing para que as organizações possam se concentrar na realização de suas metas comerciais e na transformação de resultados, não na coordenação de tarefas. Como um mecanismo de agilidade, o Coworker adota uma nova abordagem inovadora para automatizar o processo de negócios. Ele eleva o desempenho e a precisão do modelo de IA, unindo dados, inteligência, colaboração e execução de habilidades agênicas com contexto corporativo, governança e supervisão humana integrada.
 

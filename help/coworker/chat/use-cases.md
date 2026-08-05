@@ -1,16 +1,16 @@
 ---
 description: Procure casos de uso do Chat de colaborador e prompts de amostra, organizados por área entre insights de dados, públicos, jornadas e operações da plataforma.
 title: Casos de uso
-source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1234'
 ht-degree: 3%
 
 ---
 
 # Casos de uso {#use-cases}
 
-Abaixo estão casos de uso e prompts de amostra que os profissionais estão usando no Adobe Co-worker Chat, organizado por área de trabalho. Cada prompt é criado para ser copiado, adaptado com seus próprios dados e contexto e refinado através da conversa.
+Abaixo estão os casos de uso e os prompts de amostra que os profissionais estão usando no Adobe CX Enterprise Coworker Chat, organizados por área de trabalho. Cada prompt é criado para ser copiado, adaptado com seus próprios dados e contexto e refinado através da conversa.
 
 ## Insights de dados
 

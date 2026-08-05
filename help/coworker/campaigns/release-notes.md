@@ -1,14 +1,14 @@
 ---
-description: Saiba mais sobre os aprimoramentos e correções de recursos nas notas de versão do Adobe Co-worker Campaigns.
-title: Notas de versão do Adobe Co-worker Campaigns
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+description: Saiba mais sobre os aprimoramentos e correções de recursos nas notas de versão do Adobe CX Enterprise Co-worker Campaigns.
+title: Notas de versão do Adobe CX Enterprise Co-worker Campaigns
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
-# Notas de versão do Adobe Co-worker Campaigns {#release-notes}
+# Notas de versão do Adobe CX Enterprise Co-worker Campaigns {#release-notes}
 
 As versões do Co-worker Campaigns operam em um modelo de entrega contínua que permite uma abordagem mais escalável e em fases para a implantação de recursos.
 
