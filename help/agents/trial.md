@@ -1,6 +1,6 @@
 ---
-title: CX Enterprise Co-worker Trial
-description: Saiba mais sobre a avaliação complementar do CX Enterprise Co-worker.
+title: Avaliação do Adobe Co-worker
+description: Saiba mais sobre a avaliação complementar do Adobe Co-worker.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -12,14 +12,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1430
 ht-degree: 0%
 
 ---
 
-# CX Enterprise Co-worker Trial
+# Avaliação do Adobe Co-worker
 
 >[!AVAILABILITY]
 >
@@ -78,7 +78,7 @@ Se o Cliente quiser recusar o acesso a esses recursos do Agente e desabilitar o 
 
 Leia os guias a seguir para obter mais informações sobre o Colaborador, o Agent Orchestrator e o Assistente de IA:
 
-- [CX Enterprise Co-worker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home)
+- [Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Visão geral do Agent Orchestrator](agent-orchestrator.md)
 - [Guia da interface do assistente de IA](../ai-assistant/ai-assistant-ui.md)
 - [Biblioteca de prompts do assistente do AI](../ai-assistant/prompt-library.md)

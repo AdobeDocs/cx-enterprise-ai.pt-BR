@@ -5,10 +5,10 @@ user-guide-description: Saiba como usar o Assistente de IA para acelerar o fluxo
 description: Saiba mais sobre o AI Assistant no CX Enterprise. Melhore seu conhecimento sobre o produto e obtenha insights operacionais usando IA no CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 24%
+source-wordcount: '235'
+ht-degree: 26%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 24%
 - Sobre IA no CX Enterprise {#overview}
   - [IA generativa](./overview/generative-ai.md)
   - [IA agêntica](./overview/agentic-ai.md)
-  - [Monitoramento de IA do agente](./overview/monitoring.md)
+  - [Monitoramento de IA agêntica](./overview/monitoring.md)
   - [Trabalhos de agentes e consumo de crédito de IA](./overview/ai-credit-consumption.md)
   - [Ferramentas agênticas](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-agentic-tools/using/overview)
 - Assistente de IA {#ai-assistant}
@@ -37,7 +37,7 @@ ht-degree: 24%
   - [Agente de suporte ao produto](./agents/product-support.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Agente de notificações](./agents/notifications.md)
-  - [CX Enterprise Co-worker Trial](./agents/trial.md)
+  - [Avaliação de colega de trabalho](./agents/trial.md)
   - [Validar seus dados](./agents/data-validation.md)
   - Engenharia de dados {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
@@ -70,5 +70,5 @@ ht-degree: 24%
     - [Guia da interface do usuário](./coworker/chat/ui-guide.md)
     - [Analisar dados do CJA](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[Validar dados de migração do AA para o CJA](./coworker/data-validation-aa-cja.md)
+  - [Validar dados de migração do AA para o CJA](./coworker/data-validation-aa-cja.md)
   - [Habilidades dos agentes de ferramentas de sandbox](./agents/sandbox-tooling.md)

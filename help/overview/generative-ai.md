@@ -41,16 +41,16 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1da893e900542a62e836250d9b38464016734740
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 3308
+source-wordcount: 3283
 ht-degree: 13%
 
 ---
 
 # IA generativa na CX Enterprise
 
-A Generative AI (genAI) no CX Enterprise ajuda a automatizar tarefas criativas e cognitivas e a aprimorar a produtividade. Esta página ajuda você a entender onde os aplicativos do CX Enterprise oferecem suporte ao genAI e ao AI Assistant, e fornece links para saber mais sobre esses recursos.
+A Generative AI (genAI) no CX Enterprise ajuda a automatizar tarefas criativas e cognitivas e a aprimorar a produtividade. Esta página ajuda você a entender onde os aplicativos do [!DNL CX Enterprise] oferecem suporte ao genAI e ao Assistente de IA. Ela fornece links para saber mais sobre esses recursos.
 
 >[!IMPORTANT]
 >
@@ -58,9 +58,9 @@ A Generative AI (genAI) no CX Enterprise ajuda a automatizar tarefas criativas e
 
 **O que é genAI?**
 
-A IA gerativa é um tipo de IA que pode criar conteúdo original. Por exemplo, ele pode criar texto, imagens, vídeo, áudio ou código de software em resposta ao prompt ou solicitação de um usuário.
+A GenAI pode _criar_ conteúdo original ou _gerar uma resposta_ ao prompt ou pergunta de um usuário.
 
-* **Criar:** a capacidade de gerar conteúdo (texto, imagens, música ou vídeos) do zero, com base em seu treinamento e prompts de entrada. Esta habilidade é o aspecto _gerativo_ da IA gerativa.
+* **Criar:** a capacidade de gerar conteúdo (texto, imagens, música ou vídeos) do zero, com base em seu treinamento e prompts de entrada. Esta habilidade é o aspecto _gerativo_ da genAI.
 
 * **Gerar uma resposta:** A IA fornece uma resposta ou reação a um prompt, normalmente com base em seus dados disponíveis e repositórios de conhecimento.
 
@@ -70,9 +70,9 @@ A IA gerativa é um tipo de IA que pode criar conteúdo original. Por exemplo, e
 
 O [!UICONTROL AI Assistant] é uma ferramenta conversacional genAI com suporte em vários aplicativos do CX Enterprise. Use-o para obter rapidamente _conhecimento sobre o produto_ e _insights operacionais_, dependendo do aplicativo que você estiver usando.
 
-* **Conhecimento do produto:** o conhecimento do produto se refere a conceitos e tópicos baseados na documentação do produto CX Enterprise no Experience League. Por exemplo, use [prompts baseados em objetivos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home) para aprender rapidamente sobre o Experience Platform. Todas as respostas do Experience League são verificáveis e citadas com links.
+* **Conhecimento do produto:** o conhecimento do produto se refere a conceitos e tópicos baseados na documentação do produto CX Enterprise no Experience League. Por exemplo, use [prompts baseados em objetivos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home) para saber mais sobre o Experience Platform rapidamente. Todas as respostas do Experience League são verificáveis e citadas com links.
 
-* **Insights operacionais:** Por exemplo, [insights operacionais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/questions#objects-questions) no Experience Platform se referem a respostas geradas sobre seus objetos de metadados (atributos, públicos, fluxos de dados, conjuntos de dados e assim por diante). Com o [!UICONTROL Assistente de IA], você pode concluir em segundos o que, de outra forma, poderia levar horas ou dias.
+* **Insights operacionais:** Por exemplo, [insights operacionais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/questions#objects-questions) no Experience Platform se referem a respostas geradas sobre seus objetos de metadados (atributos, públicos, fluxos de dados, conjuntos de dados e assim por diante). Com o [!UICONTROL Assistente de IA], você realiza em segundos o que pode levar horas ou dias.
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Este é um resumo de [!DNL CX Enterprise] aplicativos que usam recursos de IA ge
 
 | **Nome do produto** | **Principais Recursos da GenAI** | **Compatibilidade com o Firefly** |
 | ------------------ | ------------------------- | ------------------- |
-| [CX Enterprise Co-worker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/home) | O GenAI está disponível em: <ul><li>**[Chat](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/chat/overview)**: uma interface conversacional na qual você descreve uma meta em linguagem natural e a genAI planeja o trabalho, executa-o na Adobe e nos sistemas conectados, valida os resultados e retorna o trabalho concluído para sua aprovação.</li><li>**[Campanhas](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/campaigns/overview)**: um aplicativo nativo de IA que consolida resumo da campanha, criação de público, geração de conteúdo, design de jornada e provas em uma única experiência de conversação. A GenAI gera um plano de campanha, cria uma jornada e esboça conteúdo personalizado que você pode refinar iterativamente.</li></ul> | Não |
+| [Colaborador da Adobe](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview) | O GenAI está disponível em: <ul><li>**[Chat](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/chat/overview)**: uma interface conversacional na qual você descreve uma meta em linguagem natural e a genAI planeja o trabalho, executa-o na Adobe e nos sistemas conectados, valida os resultados e retorna o trabalho concluído para sua aprovação.</li><li>**[Campanhas](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/campaigns/overview)**: um aplicativo nativo de IA que consolida resumo da campanha, criação de público, geração de conteúdo, design de jornada e provas em uma única experiência de conversação. A GenAI gera um plano de campanha, cria uma jornada e esboça conteúdo personalizado que você pode refinar iterativamente.</li></ul> | Não |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/home) | Crie conteúdo personalizado na marca com a genAI. | Sim |
 | [Adobe Experience Manager as a Cloud Service (AEM CS)](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | O GenAI está disponível em: <ul><li>Gerar variações no **AEM Sites** ([Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor))</li><li>GenAI no **Sites Optimizer** ([Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-manager-sites-optimizer/content/opportunity-types/overview))</li><li>[Content Hub](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) e [Tags inteligentes](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) no **AEM Assets**</li></ul> Assistente de IA para: <ul><li>Página de visão geral do Experience Hub</li><li>Edge Delivery Services</li><li>Sites</li><li>Ativos</li><li>Formulários</li><li>Mídia dinâmica</li><li>Cloud Manager</li></ul> | Sim |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | Assistente de IA para: <ul><li>Página de visão geral do Experience Hub</li><li>Edge Delivery Services</li><li>Sites</li><li>Ativos</li><li>Formulários</li><li>Mídia dinâmica</li><li>Cloud Manager</li></ul> | Sim |
@@ -155,7 +155,7 @@ O Assistente de IA é compatível com o AEM as a Cloud Service nos seguintes loc
 
 #### Experience Manager Sites
 
-No AEM Sites, você pode usar _[!UICONTROL Gerar Variações]_. Esse recurso usa inteligência artificial geradora para criar variações de conteúdo com base nos prompts de entrada. Os prompts são fornecidos pela Adobe ou criados e gerenciados por você.
+Em [!DNL AEM Sites], você pode usar _[!UICONTROL Gerar Variações]_. Esse recurso usa inteligência artificial geradora para criar variações de conteúdo com base nos prompts de entrada. A Adobe fornece prompts ou você os cria e gerencia.
 
 Depois de criar variações, você pode usar o conteúdo no seu site e medir seu sucesso usando o recurso [Experimentação](https://www.aem.live/docs/experimentation) no Edge Delivery Services. Você também tem a opção de gerar imagens no Adobe Express usando os recursos de IA geradores do Firefly.
 
@@ -364,7 +364,7 @@ Os recursos alimentados por IA gerativa no Adobe Dynamic Chat permitem otimizar 
 
 **Designer de email**
 
-O [!UICONTROL Assistente de IA] do Marketo Engage [!UICONTROL Designer de email] ajuda a criar emails contemporâneos, com desempenho e intuitivos. Isso é feito por meio da tecnologia de IA gerativa da Adobe e da biblioteca de prompts, juntamente com o Firefly, para geração de imagens, que auxilia na criação de conteúdo adequado para um determinado grupo de persona/compras, estágio de jornada de marketing, estratégia de comunicação, tom etc. Ativos de marca específicos também podem ser utilizados para criar conteúdo.
+O [!UICONTROL Assistente de IA] do Marketo Engage [!UICONTROL Designer de email] ajuda a criar emails contemporâneos, com desempenho e intuitivos. Esse resultado é obtido por meio da tecnologia de IA gerativa da Adobe e da biblioteca de prompts, juntamente com o Firefly, para geração de imagens, que auxilia na criação de conteúdo adequado para um determinado grupo de persona/compras, estágio de jornada de marketing, estratégia de comunicação, tom etc. Ativos de marca específicos também podem ser utilizados para criar conteúdo.
 
 [!BADGE Saiba mais]{type=Informative url="https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant" tooltip="Saiba mais sobre o Dynamic Chat"}
 

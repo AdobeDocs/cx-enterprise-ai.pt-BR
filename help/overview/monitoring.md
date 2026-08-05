@@ -17,16 +17,16 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: cbded236e67d7d47ad70187a307f403a93ace8e9
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
-source-wordcount: 994
-ht-degree: 2%
+source-wordcount: 996
+ht-degree: 1%
 
 ---
 
 # Painéis de monitoramento de IA corporativa
 
-O painel de monitoramento da IA corporativa oferece aos membros do Centro de Excelência (COE) e a outras partes interessadas da governança visibilidade sobre o uso e a adoção da IA corporativa. Visualize tendências de 7 ou 30 dias para ver quem usa [!DNL AI Assistant] ou outras superfícies (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) para interagir com [!DNL Experience Platform Agents] e o valor que elas recebem. Juntas, essas visualizações ajudam a orientar a adoção de agentes com dados em vez de suposições.
+O painel de [!UICONTROL Monitoramento] da IA de agência oferece aos membros do Centro de Excelência (COE) e a outras partes interessadas da governança visibilidade sobre o uso e a adoção da IA de agência. Visualize tendências de 7 ou 30 dias para ver quem usa [!DNL AI Assistant] ou outras superfícies (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) para interagir com [!DNL Experience Platform Agents] e o valor que elas recebem. Juntas, essas visualizações ajudam a orientar a adoção de agentes com dados em vez de suposições.
 
 **Disponibilidade**
 
@@ -42,7 +42,7 @@ O painel de [!UICONTROL Monitoramento] inclui as seguintes exibições:
 | **Feedback** | Sinais sobre a qualidade da resposta e a satisfação do usuário |
 | **Créditos de IA** | Tendências de consumo de crédito e saldo restante |
 
-A documentação da [IA de agente na Adobe CX Enterprise](agentic-ai.md) lista os agentes no escopo para monitoramento de uso em [agentes de IA em aplicativos CX Enterprise existentes](agentic-ai.md#existing-apps-table).
+A documentação da [IA de agente na Adobe CX Enterprise](agentic-ai.md) lista os agentes no escopo para monitoramento de uso na tabela [agentes de IA em aplicativos CX Enterprise existentes](agentic-ai.md#existing-apps-table).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491872?captions=por_br&learn=on)
 
@@ -90,7 +90,7 @@ Conceda acesso ao painel em [!DNL Adobe Experience Platform] atualizando o perfi
 
 ## Painel de visão geral
 
-O painel Visão geral é o local central para métricas de adoção e envolvimento em toda a organização. Ele conecta tendências de alto nível a análises mais profundas. Para ver o que direciona os números, analise as conversas individuais a partir de qualquer métrica.
+O painel Visão geral é o local central para métricas de adoção e envolvimento em toda a organização. Ele conecta tendências de alto nível a análises mais profundas. Para ver os fatores que influenciam as métricas, analise as conversas individuais a partir de qualquer métrica.
 
 ### Métricas no painel Visão geral
 

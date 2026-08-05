@@ -12,20 +12,20 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 1da893e900542a62e836250d9b38464016734740
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: 1142
 ht-degree: 9%
 
 ---
 
 # IA de agente na Adobe CX Enterprise
 
-Os Adobe Experience Platform Agents são fornecidos pela [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/home) para habilitar recursos de IA de agente nos aplicativos CX Enterprise.
+O Adobe [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/home) habilita recursos de IA de agente em aplicativos CX Enterprise.
 
-Esses agentes ajudam a automatizar tarefas, fornecer insights mais rapidamente e simplificar fluxos de trabalho. Como resultado, as equipes podem trabalhar com mais eficiência e obter mais valor do CX Enterprise.
+Os agentes ajudam a automatizar tarefas, fornecer insights mais rapidamente e simplificar fluxos de trabalho. Como resultado, as equipes podem trabalhar com mais eficiência e obter mais valor do CX Enterprise.
 
-O acesso aos agentes de IA no CX Enterprise está disponível em:
+Os agentes do CX Enterprise AI estão disponíveis em:
 
 * [Aplicativos corporativos CX existentes](#existing-apps)
 * [Aplicativos corporativos CX AI-first](#ai-first-apps)
@@ -34,7 +34,7 @@ As seções a seguir descrevem essas duas maneiras de ativar IA agêntica no CX 
 
 ## Aplicativos corporativos CX existentes {#existing-apps}
 
-Em aplicativos existentes, você pode usar a linguagem natural para instruir os Adobe Experience Platform Agents por meio da interface conversacional do [Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/home). O Assistente de IA está disponível nas exibições em tela cheia e no painel direito.
+Em aplicativos existentes, você pode usar a linguagem natural para instruir os Adobe Experience Platform Agents por meio da interface conversacional no [Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/home). O Assistente de IA está disponível nas exibições em tela cheia e no painel direito.
 
 Os agentes podem ser ativados nos aplicativos CX Enterprise existentes para clientes em uma das seguintes categorias:
 
@@ -44,7 +44,7 @@ Os agentes podem ser ativados nos aplicativos CX Enterprise existentes para clie
 
 O uso de agentes de IA para executar _trabalhos de agente_ consome créditos de IA. Saiba mais sobre trabalhos de agentes e créditos de IA em _[Trabalhos de agentes e consumo de crédito de IA](ai-credit-consumption.md)_.
 
-Os agentes de IA seguem a _sua_ entrada, supervisão e respeitam os controles de acesso no nível do produto. Você só pode executar tarefas ou acessar dados que estão autorizados a usar no aplicativo CX Enterprise subjacente.
+Os agentes de IA seguem a _sua_ entrada e supervisão e respeitam os controles de acesso no nível do produto. Você só pode executar tarefas ou acessar dados que estão autorizados a usar no aplicativo CX Enterprise subjacente.
 
 ### Agentes de IA em aplicativos CX Enterprise existentes {#existing-apps-table}
 
@@ -63,9 +63,9 @@ A tabela a seguir lista os Experience Platform Agents disponíveis nos aplicativ
 
 ## Aplicativos corporativos CX AI-first {#ai-first-apps}
 
-Aplicativos de AI-first são construídos com Al gerativo ou agêntico no núcleo. Eles usam Al gerativo ou agêntico para tarefas-chave, e os recursos de agente já estão incluídos na licença de aplicativo Al-first. Dessa forma, eles não exigem a licença da Experience Platform Agent Orchestrator.
+Aplicativos de IA são criados com IA gerativa ou agêntica como o componente principal. Eles usam IA gerativa ou agêntica para tarefas importantes e os recursos de agente já estão incluídos na licença do aplicativo AI-first. Dessa forma, eles não exigem a licença da Experience Platform Agent Orchestrator.
 
-A tabela a seguir lista os Experience Platform Agents disponíveis como aplicativos Al-first. Eles são ativados pelo licenciamento desses aplicativos Al-first:
+A tabela a seguir lista os Agentes do Experience Platform disponíveis como aplicativos AI-first. Eles são ativados pelo licenciamento desses aplicativos AI-first:
 
 | Nome do agente | Recursos | Aplicativos compatíveis |
 |---|----------|----------|
