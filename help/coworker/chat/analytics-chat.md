@@ -1,9 +1,9 @@
 ---
 title: Analisar dados do Customer Journey Analytics com o Chat do parceiro
 description: Saiba como usar o Adobe CX Enterprise Co-worker Chat para analisar dados do Customer Journey Analytics, criar funis e descobrir onde os clientes chegam na jornada.
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 64745860140f636548155b7eda8605ffde43b75a
 workflow-type: tm+mt
-source-wordcount: '3243'
+source-wordcount: '3210'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ Você pode usar o Bate-papo de colega de trabalho de duas maneiras, dependendo d
 * **Respostas rápidas** - Faça uma pergunta direta em linguagem simples e obtenha uma resposta imediata. Usuários empresariais geralmente usam o Coworker Chat dessa maneira, e os analistas também o usam quando precisam de uma resposta rápida para uma parte interessada.
 * **Trabalho profundo** - Tenha uma conversa estendida, em várias ocasiões, com o Chat do Colaborador para investigar um problema comercial, descartar causas e chegar a uma recomendação. Normalmente, os analistas usam essa abordagem para explorar os dados em profundidade antes de fazer uma recomendação.
 
-Antes de começar a análise, saiba mais sobre a interface do Coworker Chat e as opções de configuração e, em seguida, verifique se o Coworker está conectado ao Customer Journey Analytics e à visualização de dados que contém os dados que você deseja usar.
+Antes de começar, aprenda a interface do Bate-papo com o Colaborador e as opções de configuração e, em seguida, verifique se o Colaborador está conectado ao Customer Journey Analytics e à visualização de dados relevante.
 
 ## Introdução ao Chat do Colaborador
 
@@ -54,12 +54,14 @@ Para obter mais informações, consulte o [Guia de Interface de Chat do Colabora
 
 #### Práticas recomendadas no nível do usuário
 
-* Use o modo de plano. Isso é especialmente útil para tarefas complexas, mas também pode produzir melhores resultados para tarefas simples, pois permite que o Colaborador faça perguntas de acompanhamento antes de agir. Para obter mais informações, consulte [Modo de plano](/help/coworker/chat/ui-guide.md#plan-mode).
+* Use o modo de plano.
+
+  Esse modo é especialmente útil para tarefas complexas, mas também pode produzir melhores resultados para tarefas simples, pois permite que o Colaborador faça perguntas de acompanhamento antes de agir. Para obter mais informações, consulte [Modo de plano](/help/coworker/chat/ui-guide.md#plan-mode).
 
 * Ao criar um prompt, seja o mais específico possível:
 
   * Nomeie as dimensões, as métricas e o intervalo de datas que deseja analisar.
-  * Referencie componentes de visualização de dados, como dimensões, métricas e segmentos, pelo seu nome exato.
+  * Faça referência aos componentes da visualização de dados pelo seu nome exato.
   * Especifique quaisquer segmentos, públicos, canais ou dispositivos que deseja incluir, excluir ou comparar.
   * Indique se deseja um tipo de visualização específico, como funnel, tendência ou tabela de coorte.
   * Peça as próximas etapas recomendadas se desejar que o Bate-papo com colegas de trabalho sugira perguntas de acompanhamento.
@@ -90,7 +92,7 @@ Você pode ter acesso a várias visualizações de dados no Customer Journey Ana
 
 ### Decida quais visualizações de dados você deseja usar
 
-Informe ao Coworker os tipos de perguntas que você deseja responder e pergunte a qual visualização de dados você tem acesso que seria melhor fornecer essas informações. Você também pode [definir sua visualização de dados como uma preferência na memória](#add-a-data-view-preference-in-memory).
+Informe ao Colaborador os tipos de perguntas que você deseja responder e pergunte a ele quais visualizações de dados você tem acesso que fornecem essas informações. Você também pode [definir sua visualização de dados como uma preferência na memória](#add-a-data-view-preference-in-memory).
 
 **Você:**
 
@@ -136,7 +138,7 @@ O Chat do Colaborador contém um recurso de memória que permite fornecer a ele 
 
 ## Analisar no Customer Journey Analytics
 
-Depois que o Colaborador cria uma visualização, você pode abri-la no Analysis Workspace no Customer Journey Analytics para uma análise mais profunda com controle mais granular. A visualização é aberta em um novo projeto do Analysis Workspace no Customer Journey Analytics.
+Depois que o Colaborador criar uma visualização, você poderá abri-la no Analysis Workspace para análise mais profunda e controle granular. A visualização é aberta em um novo projeto do Analysis Workspace no Customer Journey Analytics.
 
 Para abrir uma visualização em um novo projeto do Analysis Workspace:
 
@@ -265,7 +267,7 @@ Esta habilidade (`cja-skill-creator`) transforma uma análise que você já exec
 
 #### Permissões necessárias
 
-* Gerenciar habilidades para salvar uma habilidade reutilizável
+* Gerenciar habilidades
 
 #### Principais casos de uso
 
