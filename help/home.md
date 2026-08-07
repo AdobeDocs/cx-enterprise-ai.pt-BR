@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 4da8c6f87f4227983b19c682fdceb0db9a352122
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 3%
 
 ---
@@ -30,10 +30,10 @@ Este guia aborda os recursos de IA do Adobe CX Enterprise: IA gerativa, AI Assis
 
 Comece aqui para obter uma introdução sobre onde e como a IA é usada no CX Enterprise:
 
-- [IA Gerativa](./overview/generative-ai.md) descreve quais aplicativos do CX Enterprise oferecem suporte ao AI e ao AI Assistant gerativos e como eles se comparam.
-- [IA de agente](./overview/agentic-ai.md) explica como os Experience Platform Agents funcionam nos aplicativos CX Enterprise existentes e nos aplicativos AI-first, além de listar os agentes disponíveis em cada um.
-- O [Monitoramento de IA de agente](./overview/monitoring.md) abrange os painéis que rastreiam a adoção, o uso, o feedback e o consumo de crédito de IA do agente.
-- [Os trabalhos do agente e o consumo de crédito de IA](./overview/ai-credit-consumption.md) explica como os trabalhos do agente consomem os Créditos de IA, com taxas de consumo estimadas por agente e tipo de trabalho.
+- [Sobre a IA gerativa](./overview/generative-ai.md) descreve quais aplicativos do CX Enterprise oferecem suporte à IA gerativa e ao Assistente de IA e como eles se comparam.
+- [Sobre IA de agente](./overview/agentic-ai.md) explica como os Agentes da Experience Platform funcionam nos aplicativos CX Enterprise existentes e nos aplicativos AI-first, além de listar os agentes disponíveis em cada um.
+- O [monitoramento de IA](./overview/monitoring.md) abrange os painéis que rastreiam a adoção, o uso, o feedback e o consumo de crédito de IA do agente.
+- [Consumo de créditos de IA](./overview/ai-credit-consumption.md) explica como os trabalhos de agente consomem créditos de IA, com taxas de consumo estimadas por agente e tipo de trabalho.
 - As [ferramentas do CX Enterprise Agent](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-agentic-tools/using/overview) abrangem habilidades e ferramentas adicionais de agente que ampliam os CX Enterprise agents (tutoriais em vídeo).
 
 ## Assistente de IA

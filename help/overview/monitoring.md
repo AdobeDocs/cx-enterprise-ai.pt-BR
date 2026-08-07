@@ -17,14 +17,14 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
 source-wordcount: 996
 ht-degree: 1%
 
 ---
 
-# Painéis de monitoramento de IA corporativa
+# Painel de monitoramento do Agentic AI
 
 O painel de [!UICONTROL Monitoramento] da IA de agência oferece aos membros do Centro de Excelência (COE) e a outras partes interessadas da governança visibilidade sobre o uso e a adoção da IA de agência. Visualize tendências de 7 ou 30 dias para ver quem usa [!DNL AI Assistant] ou outras superfícies (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) para interagir com [!DNL Experience Platform Agents] e o valor que elas recebem. Juntas, essas visualizações ajudam a orientar a adoção de agentes com dados em vez de suposições.
 
