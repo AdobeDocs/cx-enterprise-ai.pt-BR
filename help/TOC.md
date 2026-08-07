@@ -1,14 +1,14 @@
 ---
 audience: user
-user-guide-title: Assistente de IA no Adobe CX Enterprise
-user-guide-description: Saiba como usar o Assistente de IA para acelerar o fluxo de trabalho com a Adobe Experience Platform e a Real-time Customer Data Platform.
-description: Saiba mais sobre o AI Assistant no CX Enterprise. Melhore seu conhecimento sobre o produto e obtenha insights operacionais usando IA no CX Enterprise.
+user-guide-title: Colaborador
+user-guide-description: Saiba como criar, configurar, integrar e estender o Assistente de IA, o Colaborador, os agentes e os MCPs por meio de documentação prática, orientação de implementação e materiais de referência.
+description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu conhecimento sobre o produto e obtenha insights operacionais usando IA no CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 23%
+source-wordcount: '238'
+ht-degree: 15%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 23%
     - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Colaborador {#coworker}
   - [Sobre o Colaborador](./coworker/overview.md)
   - Campanhas {#campaigns}
@@ -66,9 +66,12 @@ ht-degree: 23%
     - [Notas de versão](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Visão geral](./coworker/chat/overview.md)
-    - [Casos de uso](./coworker/chat/use-cases.md)
     - [Guia da interface do usuário](./coworker/chat/ui-guide.md)
-    - [Analisar dados do CJA](./coworker/chat/analytics-chat.md)
+    - Casos de uso {#use-cases}
+      - [Visão geral](./coworker/chat/use-cases/overview.md)
+      - Insights de dados {#data-insights}
+        - [Analisar dados do CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Validar dados de migração do AA para o CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - Ferramentas de sandbox {#sandbox-tooling}
+        - [Mover objetos em sandboxes](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md)
-  - [Validar dados de migração do AA para o CJA](./coworker/data-validation-aa-cja.md)
-  - [Habilidades dos agentes de ferramentas de sandbox](./agents/sandbox-tooling.md)
