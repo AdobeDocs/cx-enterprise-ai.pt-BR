@@ -1,7 +1,7 @@
 ---
 description: Procure casos de uso do Chat de colaborador e prompts de amostra, organizados por área entre insights de dados, públicos, jornadas e operações da plataforma.
 title: Casos de uso
-source-git-commit: 58fc8c37c1bf26a6da3bc69e307931a7680c4490
+source-git-commit: 5a04f8fea57dcf6e50ca0040aaad904158c6edf7
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 4%

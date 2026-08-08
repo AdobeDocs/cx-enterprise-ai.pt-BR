@@ -1,7 +1,7 @@
 ---
 title: Analisar dados do Customer Journey Analytics com o Chat do parceiro
 description: Saiba como usar o Adobe CX Enterprise Co-worker Chat para analisar dados do Customer Journey Analytics, criar funis e descobrir onde os clientes chegam na jornada.
-source-git-commit: 64745860140f636548155b7eda8605ffde43b75a
+source-git-commit: bfc9d04860f592093e4cab4b88463b173f6be369
 workflow-type: tm+mt
 source-wordcount: '3210'
 ht-degree: 3%
@@ -80,7 +80,7 @@ No Chat do colaborador, verifique se o colaborador está conectado ao Customer J
 
 1. Selecione o ícone MCP no painel à esquerda e verifique se [!UICONTROL **cja-mcp**] está disponível na lista de servidores MCP conectados.
 
-   ![O ícone MCP realçado no painel esquerdo do Colaborador](./assets/coworker-mcp-cja.png)
+   ![O ícone MCP realçado no painel esquerdo do Colaborador](../../assets/coworker-mcp-cja.png)
 
 1. (Condicional) Se o [!UICONTROL **cja-mcp**] ainda não estiver conectado, selecione [!UICONTROL **Adicionar Servidor MCP**], especifique o cja no campo [!UICONTROL **Nome do Servidor**] e selecione-o quando ele aparecer e selecione [!UICONTROL **Adicionar Servidor**].
 
@@ -134,7 +134,7 @@ O Chat do Colaborador contém um recurso de memória que permite fornecer a ele 
 
 1. Na página Memória, na seção [!UICONTROL **Preferências armazenadas**], especifique uma ou mais visualizações de dados que você deseja que o Chat de Colaborador use em seus chats.
 
-   ![Seção Memória no painel esquerdo](./assets/coworker-memory.png)
+   ![Seção Memória no painel esquerdo](../../assets/coworker-memory.png)
 
 ## Analisar no Customer Journey Analytics
 
@@ -152,7 +152,7 @@ Para abrir uma visualização em um novo projeto do Analysis Workspace:
 
 Você pode ver casos de uso da Customer Journey Analytics e prompts de amostra que os profissionais estão usando no Adobe CX Enterprise Coworker Chat, desde respostas rápidas até investigações de trabalho profundas. Cada prompt é criado para ser copiado, adaptado com seus próprios dados e contexto e refinado através da conversa.
 
-Para obter mais informações, consulte [Casos de uso](/help/coworker/chat/use-cases.md).
+Para obter mais informações, consulte [Casos de uso](/help/coworker/chat/use-cases/overview.md).
 
 ## Habilidades do Analytics
 
@@ -249,7 +249,7 @@ Esta habilidade (`aa-cja-validation`) compara, audita e reconcilia dados entre [
 
 | Caso de uso | Função | Exemplos de prompts |
 |---------|----------|---------|
-| **Validar dados ao atualizar do Adobe Analytics para o Customer Journey Analytics** | Comparar, auditar e reconciliar dados entre [!DNL Adobe Analytics] e o Customer Journey Analytics.<p>Para obter mais informações, consulte [Validar dados com o Colaborador ao atualizar do Adobe Analytics para o Customer Journey Analytics](/help/coworker/data-validation-aa-cja.md).</p> | <ul><li>&quot;Comparar meu conjunto de relatórios do Adobe Analytics com minha visualização de dados do Customer Journey Analytics&quot;</li><li>&quot;Validar exibições de página entre o Adobe Analytics e o Customer Journey Analytics&quot;</li></ul> |
+| **Validar dados ao atualizar do Adobe Analytics para o Customer Journey Analytics** | Comparar, auditar e reconciliar dados entre [!DNL Adobe Analytics] e o Customer Journey Analytics.<p>Para obter mais informações, consulte [Validar dados com o Colaborador ao atualizar do Adobe Analytics para o Customer Journey Analytics](data-validation-aa-cja.md).</p> | <ul><li>&quot;Comparar meu conjunto de relatórios do Adobe Analytics com minha visualização de dados do Customer Journey Analytics&quot;</li><li>&quot;Validar exibições de página entre o Adobe Analytics e o Customer Journey Analytics&quot;</li></ul> |
 
 #### No escopo
 
@@ -323,7 +323,7 @@ Observe que o Bate-papo com colegas de trabalho escolhe a visualização correta
 
 >[!BEGINSHADEBOX]
 
-![Tabela do Funnel mostrando contagens de sessão, taxas de conversão e entregas em cada etapa, desde sessões até compras](./assets/coworker-funnel-response.png)
+![Tabela do Funnel mostrando contagens de sessão, taxas de conversão e entregas em cada etapa, desde sessões até compras](../../assets/coworker-funnel-response.png)
 
 Esta é uma pergunta sobre o funnel — deixe-me executar o funnel de conversão para ver onde a entrega acontece no caminho da compra.
 
@@ -372,7 +372,7 @@ Ok, vamos detalhar por canal de marketing
 
 >[!BEGINSHADEBOX]
 
-![Tabela do Funnel mostrando taxas de conversão e listas suspensas detalhadas por canal de marketing](./assets/coworker-funnel-response2.png)
+![Tabela do Funnel mostrando taxas de conversão e listas suspensas detalhadas por canal de marketing](../../assets/coworker-funnel-response2.png)
 
 Há uma dimensão personalizada de **Canal de marketing**. Deixem-me analisar a funnel e calcular as taxas de conversão por canal e identificar onde cada canal vaza.
 
@@ -423,7 +423,7 @@ Interessante. Vamos tentar detalhar por tipo de dispositivo.
 
 >[!BEGINSHADEBOX]
 
-![Tabela do Funnel mostrando taxas de conversão e listas suspensas detalhadas por tipo de dispositivo](./assets/coworker-funnel-response3.png)
+![Tabela do Funnel mostrando taxas de conversão e listas suspensas detalhadas por tipo de dispositivo](../../assets/coworker-funnel-response3.png)
 
 **Encontrado: o check-out móvel foi desfeito**
 

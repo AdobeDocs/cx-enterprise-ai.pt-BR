@@ -1,7 +1,7 @@
 ---
 title: Habilidades dos agentes de ferramentas de sandbox
 description: Saiba como usar as habilidades de agente de ferramentas de sandbox para replicar metadados de objetos em ambientes de sandbox.
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -24,6 +24,8 @@ ht-degree: 1%
 >Atualmente, você pode usar as habilidades de agente de ferramentas de sandbox para descobrir, empacotar e migrar objetos de esquema e público-alvo. A compatibilidade com tipos de objetos adicionais será adicionada em versões futuras.
 
 Use as ferramentas de sandbox para habilidades essenciais a fim de mover metadados de objetos (incluindo esquemas e públicos) em ambientes Adobe Experience Platform, descrevendo o que você deseja realizar em linguagem natural. Com o CX Co-Worker, você pode detectar os metadados necessários, identificar dependências automaticamente, criar pacotes de migração e migrar objetos por meio de uma experiência de conversação.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496712?captions=por_br&learn=on)
 
 ## Pré-requisitos {#prerequisites}
 
