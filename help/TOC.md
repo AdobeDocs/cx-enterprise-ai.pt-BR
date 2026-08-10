@@ -5,9 +5,9 @@ user-guide-description: Saiba como criar, configurar, integrar e estender o Assi
 description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu conhecimento sobre o produto e obtenha insights operacionais usando IA no CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '253'
 ht-degree: 15%
 
 ---
@@ -71,7 +71,12 @@ ht-degree: 15%
       - [Visão geral](./coworker/chat/use-cases/overview.md)
       - Insights de dados {#data-insights}
         - [Analisar dados do CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Análise da causa principal](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validar dados de migração do AA para o CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - Públicos-alvo {#audiences}
+        - [Criar públicos-alvo usando linguagem natural](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - Jornadas {#journeys}
+        - [Criar jornadas usando o idioma natural](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - Ferramentas de sandbox {#sandbox-tooling}
         - [Mover objetos em sandboxes](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md)

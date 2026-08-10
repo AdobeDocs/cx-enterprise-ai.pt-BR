@@ -1,9 +1,9 @@
 ---
 description: Procure casos de uso do Chat de colaborador e prompts de amostra, organizados por área entre insights de dados, públicos, jornadas e operações da plataforma.
 title: Casos de uso
-source-git-commit: 5a04f8fea57dcf6e50ca0040aaad904158c6edf7
+source-git-commit: 539dac230b33d4dee06c940080b48a523211d73d
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1142'
 ht-degree: 4%
 
 ---
@@ -16,13 +16,13 @@ Abaixo estão os casos de uso e os prompts de amostra que os profissionais estã
 
 | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
-| Obter relatórios e métricas do CJA | Consulta o CJA em tempo real para obter métricas, dimensões, segmentos e visualizações de dados | `cja` | Customer Journey Analytics (CJA) | &quot;Mostrar as exibições de página dos últimos 30 dias&quot; · &quot;Listar os principais segmentos na exibição de dados mestres&quot; |
+| [Obter relatórios e métricas do CJA](data-insights/analytics-chat.md) | Consulta o CJA em tempo real para obter métricas, dimensões, segmentos e visualizações de dados | `cja` | Customer Journey Analytics (CJA) | &quot;Mostrar as exibições de página dos últimos 30 dias&quot; · &quot;Listar os principais segmentos na exibição de dados mestres&quot; |
 | Análise comparativa | Comparar métricas entre canais, períodos ou segmentos lado a lado | `cja` | Customer Journey Analytics (CJA) | &quot;Compare a receita por canal, mês a mês&quot; · &quot;Como está a conversão móvel vs desktop neste trimestre?&quot; |
 | Análise do funnel | Analise os funis de conversão de várias etapas com devolução em cada estágio | `cja` | Customer Journey Analytics (CJA) | &quot;Mostre-me o funnel de check-out&quot; · &quot;Mostrar o funnel de conversão do PDP para a compra&quot; |
 | Previsão | Projetar valores de métricas futuras com base em dados históricos do CJA | `cja` | Customer Journey Analytics (CJA) | &quot;Sessões de previsão para os próximos 30 dias&quot; · &quot;Estamos no caminho certo para atingir nossa meta de receita?&quot; |
-| Análise da causa principal | Investigar por que uma métrica mudou: diagnosticar quedas, picos e anomalias | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | &quot;Por que as conversões caíram na semana passada?&quot; · &quot;O que causou o pico de receita em 15 de janeiro?&quot; |
+| [Análise da causa principal](data-insights/root-cause-analysis.md) | Investigar por que uma métrica mudou: diagnosticar quedas, picos e anomalias | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | &quot;Por que as conversões caíram na semana passada?&quot; · &quot;O que causou o pico de receita em 15 de janeiro?&quot; |
 | Resumos executivos e resumos de KPI | Produzir resumos de desempenho prontos para as partes interessadas, recomendações prescritivas e descrições do conjunto de slides | `cja-executive-summary` | Customer Journey Analytics (CJA) | &quot;Dê-me um resumo executivo do mês passado&quot; · &quot;Criar um esboço do conjunto de slides a partir dos dados deste trimestre&quot; |
-| Validação de dados do CJA AA | Comparar, auditar e reconciliar dados entre o Adobe Analytics e o Customer Journey Analytics | `aa-cja-validation` | ADOBE ANALYTICS + CJA | &quot;Comparar meu conjunto de relatórios do AA com minha visualização de dados do CJA&quot; · &quot;Validar visualizações de página entre o AA e o CJA&quot; |
+| [Validação de dados do CJA considerada pelo AA](data-insights/data-validation-aa-cja.md) | Comparar, auditar e reconciliar dados entre o Adobe Analytics e o Customer Journey Analytics | `aa-cja-validation` | ADOBE ANALYTICS + CJA | &quot;Comparar meu conjunto de relatórios do AA com minha visualização de dados do CJA&quot; · &quot;Validar visualizações de página entre o AA e o CJA&quot; |
 | Séries cronológicas operacionais e análise causal | Consultar e analisar dados históricos de séries temporais para públicos, conjuntos de dados e jornadas com atribuição causal | `operational-stats-causal-analysis` | Todos os aplicativos qualificados | &quot;Mostre-me as tendências de tamanho de público nos últimos 90 dias&quot; · &quot;Por que minha contagem de linhas do conjunto de dados aumentou em 3 de março?&quot; |
 | Criar habilidades personalizadas do CJA | Transformar padrões analíticos em habilidades reutilizáveis e repetíveis que persistem entre as sessões | `cja-skill-creator` | Customer Journey Analytics (CJA) | &quot;Transformar esta análise semanal de receita em uma habilidade reutilizável&quot; · &quot;Salvar isso como uma habilidade para relatórios mensais do funnel&quot; |
 
@@ -30,7 +30,7 @@ Abaixo estão os casos de uso e os prompts de amostra que os profissionais estã
 
 | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
-| Criar públicos-alvo a partir da linguagem natural | Orquestrar a criação passo a passo de público-alvo com a aprovação do usuário em cada fase | `audience-creation-flow` | Real-Time CDP (RTCDP) | &quot;Crie um público-alvo de usuários que compraram nos últimos 30 dias&quot; · &quot;Crie um segmento para membros de fidelidade de alto valor na Califórnia&quot; |
+| [Criar públicos-alvo da linguagem natural](audiences/create-audience-from-natural-language.md) | Orquestrar a criação passo a passo de público-alvo com a aprovação do usuário em cada fase | `audience-creation-flow` | Real-Time CDP (RTCDP) | &quot;Crie um público-alvo de usuários que compraram nos últimos 30 dias&quot; · &quot;Crie um segmento para membros de fidelidade de alto valor na Califórnia&quot; |
 | Criar definições do PQL | Reunir definições de público-alvo de propriedades XDM, eventos comportamentais ou públicos-alvo existentes; oferecer suporte à agregação e janelas de tempo | `segment-definition-assembly` | Real-Time CDP (RTCDP) | &quot;Crie uma PQL para pessoas que visualizaram mais de 3 produtos, mas não compraram&quot; · &quot;Adicione uma janela de tempo de 7 dias à minha condição de evento&quot; |
 | Pesquisar e encontrar públicos-alvo | Encontre públicos-alvo por ID, nome, pesquisa semântica; detecte duplicatas e analise a sobreposição | `audience-search` | Real-Time CDP (RTCDP) | &quot;Encontre todos os públicos-alvo de fidelidade&quot; · &quot;Há uma duplicata do meu segmento &quot;Compradores de Natal&quot;?&quot; |
 | Estimar tamanho do público | Estimar o alcance do perfil para uma expressão do PQL usando a API de visualização do Adobe Experience Platform com sondagem | `audience-size-estimate` | Real-Time CDP (RTCDP) | &quot;Qual é o tamanho desse público?&quot; · &quot;Estimativa de alcance para essa expressão do PQL&quot; |
@@ -42,7 +42,7 @@ Abaixo estão os casos de uso e os prompts de amostra que os profissionais estã
 
 | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
-| Criar jornadas a partir do idioma natural | Orquestrar a criação de jornadas no AJO a partir de um prompt de texto ou de uma imagem/fluxograma carregado | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;Criar uma jornada de boas-vindas que envia um email após a inscrição, aguarda 3 dias e envia um acompanhamento&quot; · &quot;Criar uma jornada a partir desta imagem de fluxograma carregada&quot; |
+| [Criar jornadas do idioma natural](journeys/create-journey-from-natural-language.md) | Orquestrar a criação de jornadas no AJO a partir de um prompt de texto ou de uma imagem/fluxograma carregado | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;Criar uma jornada de boas-vindas que envia um email após a inscrição, aguarda 3 dias e envia um acompanhamento&quot; · &quot;Criar uma jornada a partir desta imagem de fluxograma carregada&quot; |
 | Analisar conflitos de jornada | Detectar sobreposição de público, agendamento de colisões e problemas de desduplicação entre jornadas ativas | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;A jornada de abandono do carrinho entra em conflito com outras jornadas?&quot; · &quot;Verificar se há sobreposição de público-alvo entre minhas jornadas ativas&quot; |
 | Analisar fallout de jornada | Identifique onde e por que os clientes caem durante uma jornada e detecte padrões de comportamento que levam à desvinculação | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;Onde as pessoas estão caindo na minha jornada de reengajamento?&quot; · &quot;Quais nós na jornada X têm o fallout mais alto?&quot; |
 | Analisar erros de ação personalizados | Identifique quando as ações personalizadas estão falhando ou as taxas de erro sobem em uma jornada e diagnostique as causas básicas antes que as falhas evoluam para uma interrupção mais ampla | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;Por que as ações personalizadas estão falhando na minha jornada de Inscrição de Fidelidade?&quot; · &quot;Mostrar a taxa de erro para a ação personalizada ExternalPush na minha jornada de boas-vindas&quot;. |
@@ -62,4 +62,4 @@ Abaixo estão os casos de uso e os prompts de amostra que os profissionais estã
 
 | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
-| Mover metadados de objetos em sandboxes | Migrar esquemas, públicos-alvo e outras configurações de objeto facilmente entre sandboxes, com dependências resolvidas automaticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Mover Platina de Membros de Fidelidade Luma do esquema da sandbox atual para a sandbox de produção&quot; · &quot;Promover o público-alvo dos Membros de Fidelidade Gold dos EUA para o estágio&quot; |
+| [Mover objetos entre sandboxes](/help/agents/sandbox-tooling.md) | Migrar esquemas, públicos-alvo e outras configurações de objeto facilmente entre sandboxes, com dependências resolvidas automaticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Mover Platina de Membros de Fidelidade Luma do esquema da sandbox atual para a sandbox de produção&quot; · &quot;Promover o público-alvo dos Membros de Fidelidade Gold dos EUA para o estágio&quot; |
