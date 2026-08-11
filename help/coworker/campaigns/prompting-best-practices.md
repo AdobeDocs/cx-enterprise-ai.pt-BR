@@ -139,4 +139,4 @@ Sempre forneça contexto e a proposta de valor para que a IA possa gerar conteú
 
 >[!MORELIKETHIS]
 >
->Procure mais [padrões de prompt](./) para Campanhas de Colaborador.
+>Procure mais [padrões de prompt] (./) para Campanhas de Colaborador.
