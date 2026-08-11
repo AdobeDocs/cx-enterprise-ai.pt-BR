@@ -1,16 +1,16 @@
 ---
 description: Procure casos de uso do Chat de colaborador e prompts de amostra, organizados por área entre insights de dados, públicos, jornadas e operações da plataforma.
-title: Casos de uso
-source-git-commit: 539dac230b33d4dee06c940080b48a523211d73d
+title: Casos de uso do chat com colegas de trabalho
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 4%
+source-wordcount: '1181'
+ht-degree: 3%
 
 ---
 
-# Casos de uso {#use-cases}
+# Casos de uso do chat do colaborador{#use-cases}
 
-Abaixo estão os casos de uso e os prompts de amostra que os profissionais estão usando no Adobe CX Enterprise Coworker Chat, organizados por área de trabalho. Cada prompt é criado para ser copiado, adaptado com seus próprios dados e contexto e refinado através da conversa.
+O Bate-papo com Colaborador permite que você consulte, analise e atue com seus dados do [!DNL Experience Platform] usando linguagem natural em vez de navegar por várias interfaces do usuário ou criar consultas manualmente. Esta página cataloga os casos de uso dos quais os profissionais mais dependem, organizados por área de trabalho: insights de dados, públicos, jornadas, elementos fundamentais e ferramentas de sandbox. Cada entrada inclui a habilidade que ele chama, os aplicativos com os quais ele funciona e avisos de amostra que você pode copiar, adaptar aos seus próprios dados e refinar através da conversa.
 
 ## Insights de dados
 
