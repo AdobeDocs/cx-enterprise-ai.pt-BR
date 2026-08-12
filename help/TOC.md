@@ -6,9 +6,9 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: b68e00babda4fb9f8af816ceb836367fe86cc0fa
+source-git-commit: 91ea22749d33f8d58b5eb7b41f06ea4cc0b9513e
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '259'
 ht-degree: 15%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 15%
     - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Colaborador {#coworker}
   - [Sobre o Colaborador](./coworker/overview.md)
   - Campanhas {#campaigns}
@@ -63,7 +63,6 @@ ht-degree: 15%
     - [Criar uma campanha de email](./coworker/campaigns/create-an-email-campaign.md)
     - [Casos de uso](./coworker/campaigns/use-cases.md)
     - [Solicitação de práticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[Conectores](./coworker/campaigns/connectors.md)
     - [Notas de versão](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Visão geral](./coworker/chat/overview.md)
