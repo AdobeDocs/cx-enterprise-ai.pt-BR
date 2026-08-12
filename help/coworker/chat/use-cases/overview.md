@@ -1,10 +1,10 @@
 ---
 description: Procure casos de uso do Chat de colaborador e prompts de amostra, organizados por área entre insights de dados, públicos, jornadas e operações da plataforma.
 title: Casos de uso do chat com colegas de trabalho
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 3%
+source-wordcount: '1219'
+ht-degree: 4%
 
 ---
 
@@ -46,6 +46,7 @@ O Bate-papo com Colaborador permite que você consulte, analise e atue com seus 
 | Analisar conflitos de jornada | Detectar sobreposição de público, agendamento de colisões e problemas de desduplicação entre jornadas ativas | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;A jornada de abandono do carrinho entra em conflito com outras jornadas?&quot; · &quot;Verificar se há sobreposição de público-alvo entre minhas jornadas ativas&quot; |
 | Analisar fallout de jornada | Identifique onde e por que os clientes caem durante uma jornada e detecte padrões de comportamento que levam à desvinculação | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;Onde as pessoas estão caindo na minha jornada de reengajamento?&quot; · &quot;Quais nós na jornada X têm o fallout mais alto?&quot; |
 | Analisar erros de ação personalizados | Identifique quando as ações personalizadas estão falhando ou as taxas de erro sobem em uma jornada e diagnostique as causas básicas antes que as falhas evoluam para uma interrupção mais ampla | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;Por que as ações personalizadas estão falhando na minha jornada de Inscrição de Fidelidade?&quot; · &quot;Mostrar a taxa de erro para a ação personalizada ExternalPush na minha jornada de boas-vindas&quot;. |
+| [Criar, editar e gerenciar desafios de fidelidade](journeys/create-loyalty-challenge.md) | Simplifique e acelere o gerenciamento do programa de fidelidade | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;Crie um desafio incentivando os membros a experimentar uma nova bebida sazonal&quot; · &quot;Mostre-me os desafios de fidelidade com as taxas mais altas de devolução de membros.&quot; |
 
 ## Elementos fundamentais
 
