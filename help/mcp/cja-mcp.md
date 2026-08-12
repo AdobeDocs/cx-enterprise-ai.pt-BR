@@ -1,9 +1,9 @@
 ---
-title: Ferramentas do Customer Journey Analytics no Adobe CX Co-worker Gateway
+title: Ferramentas Customer Journey Analytics no CX Co-worker Gateway
 description: Saiba quais ferramentas do Adobe Customer Journey Analytics estão disponíveis por meio do Adobe CX Co-worker Gateway.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '673'
 ht-degree: 3%
 
 ---

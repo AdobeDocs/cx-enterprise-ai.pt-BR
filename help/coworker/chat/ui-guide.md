@@ -1,10 +1,10 @@
 ---
 description: Um guia de referência para a interface do Chat do Colaborador, abordando a navegação, a caixa de entrada, as respostas, o histórico do chat e a configuração de Habilidades, servidores MCP e Memória.
-title: Guia da UI
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Guia da Interface do Usuário do Chat do Colaborador
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 1%
+source-wordcount: '1577'
+ht-degree: 3%
 
 ---
 
@@ -51,9 +51,9 @@ O painel oferece acesso a todas as partes do produto e ao seu trabalho recente.
 
 | Elemento da interface | Descrição |
 | --- | --- |
-| Novo chat | Inicie uma nova conversa. Seu chat atual foi salvo no histórico. |
+| Novo bate-papo | Inicie uma nova conversa. Seu chat atual foi salvo no histórico. |
 | Início | Retorne à saudação, caixa de entrada e prompts sugeridos. |
-| Bate-papos | Abra o histórico completo do chat para pesquisar, fixar, arquivar ou excluir conversas. |
+| Chats | Abra o histórico completo do chat para pesquisar, fixar, arquivar ou excluir conversas. |
 | Configurações | Gerenciar habilidades, servidores MCP, Marketplaces, plug-ins e memória. |
 | Fixado | Conversas que você estrelou, mantidas no topo para acesso rápido. Selecione Exibir todos para vê-los na página de Bate-papos. |
 | Recentes | Suas conversas mais recentes. Selecione Exibir tudo para abrir a página Bate-papos. |
@@ -78,7 +78,7 @@ A caixa de entrada (chamada &#39;Pergunte qualquer coisa ao colega&#39;) é onde
 | --- | --- |
 | + (Anexar) | Abra o menu anexar para adicionar um arquivo ou um objeto de dados à mensagem. |
 | Modo de plano | Peça ao bate-papo com colegas de trabalho que proponha um plano passo a passo e faça uma pausa para aprovação antes que ele aja. Desative para permitir que o Bate-papo com colega aja diretamente. |
-| Exibição de transcrição | Controla quanto da atividade interna do Chat de Colaborador é exibida: Normal, Foco ou Detalhado. |
+| Visualização de transcrição | Controla quanto da atividade interna do Chat de Colaborador é exibida: Normal, Foco ou Detalhado. |
 | Microfone | Ditar sua mensagem com entrada de voz. Selecione novamente para interromper a gravação. |
 | Enviar | Envie a mensagem. Enquanto o Chat do Colaborador está respondendo, isso se torna um controle Stop que pode ser usado para interromper. |
 
@@ -97,7 +97,7 @@ Ative o modo de Plano quando uma tarefa for complexa ou alterar os dados e você
 
 ![Modo de plano habilitado na barra de ferramentas de entrada](./assets/ui-guide-6.png)
 
-### Exibição de transcrição
+### Visualização de transcrição
 
 A visualização da transcrição define quanto do raciocínio do Coworker Chat e a atividade da ferramenta aparecem em linha na conversa:
 
@@ -154,8 +154,8 @@ Selecione Chats no painel de navegação para abrir seu histórico completo. As 
 | --- | --- |
 | Pesquisar por título | Localize uma conversa anterior por nome. |
 | Mostrar fixado | Mostrar apenas as conversas estreladas. |
-| Mostrar arquivados | Mostrar conversas arquivadas. |
-| Novo chat | Inicie uma nova conversa. |
+| Mostrar arquivado | Mostrar conversas arquivadas. |
+| Novo bate-papo | Inicie uma nova conversa. |
 | Menu Linha (...) | Em qualquer conversa, inicie (marque), renomeie, arquive ou exclua o arquivo. |
 
 ![A página de Bate-papos](./assets/ui-guide-11.png)

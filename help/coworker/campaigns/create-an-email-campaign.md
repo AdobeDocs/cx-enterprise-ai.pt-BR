@@ -1,7 +1,7 @@
 ---
 description: Um guia passo a passo para gerar uma campanha de e-mail nas Campanhas de colegas de trabalho corporativas do Adobe CX, desde escrever prompts até revisar e exportar sua campanha.
 title: Criar uma campanha de email
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 0%

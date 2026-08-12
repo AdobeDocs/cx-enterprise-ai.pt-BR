@@ -1,5 +1,5 @@
 ---
-title: Aviso de isenção legal - Dados pessoais, Suporte de idioma e Verificação de respostas
+title: Aviso de isenção legal - Dados pessoais, idioma e respostas
 description: Saiba mais sobre isenções de responsabilidade legais relacionadas a dados pessoais, suporte de idioma e verificação de respostas ao usar o Assistente de IA.
 TQID: https://experienceleague.adobe.com/yfjRu87Nfi1tYchKcfUY79g-13A319iW6g8splURndw
 product_v2:
@@ -11,9 +11,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: 232
+source-wordcount: 230
 ht-degree: 0%
 
 ---

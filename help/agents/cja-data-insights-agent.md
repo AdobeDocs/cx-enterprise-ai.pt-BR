@@ -1,6 +1,6 @@
 ---
 description: Saiba como visualizar dados com o Data Insights Agent no Customer Journey Analytics
-title: Visualizar dados com a Data Insights Agent no Customer Journey Analytics
+title: Visualizar dados com a Data Insights Agent
 role: User, Admin
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
@@ -22,9 +22,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: 2655
+source-wordcount: 2686
 ht-degree: 4%
 
 ---
@@ -49,7 +49,7 @@ Usar o Data Insights Agent para responder perguntas centradas em dados no Analys
 | **Ações do Workspace e recursos do agente** | <ul><li>Criar e atualizar visualizações<p>Gera uma tabela de forma livre e uma visualização associada (como uma linha, barra, rosca e assim por diante).</p><p>Por exemplo, *Qual é o lucro entre SKUs de fevereiro a maio?*</p></li><li>Fazer perguntas de acompanhamento<p>Responder a um prompt no contexto de qualquer prompt anterior. Por exemplo:</p> <ul><li>Prompt 1: *Eventos de tendência de março.*</li><li>Prompt 2: *Mostrar os dados de março a abril*</li></ul> </li><li>Detecção de prompt fora do escopo<p>Se você enviar um prompt que está fora do escopo, como *Exportar este projeto*, a Data Insights Agent responderá informando que a pergunta está fora do escopo.</p></li></ul> | <ul><li>Compartilhar</li><li>Exportar</li><li>Baixar</li><li>Gerenciar preferências do usuário</li><li>Gerenciar visualização de dados</li><li>aplicativo Painéis do Analytics</li><li>Atribuição</li><li>Resumo ou resposta em linha<p>O Data Insights Agent não pode responder embutido no painel de chat com uma resposta resumida de um prompt do usuário. Exemplos de prompts fora do escopo são: *Dê-me um resumo dos insights do meu último prompt* e *Resumir os destaques da visualização de linha.*</p></li></ul> |
 | **Esclarecimento de questões** | Se você fizer uma pergunta que não tenha contexto suficiente para o Data Insights Agent responder, ou que seja muito genérica, o Data Insights Agent responderá com uma pergunta esclarecedora ou com opções sugeridas. <p>As seguintes perguntas de esclarecimento são exemplos de perguntas relacionadas a componentes:</p><ul><li>Métrica: *Qual métrica de &quot;receita&quot; você quis dizer?*</li><li>Dimension: *Em qual das &quot;regiões&quot; abaixo você deseja se concentrar?*</li><li>Segmento: *Que segmento de &quot;Conta&quot; você deseja aplicar?*</li><li>Intervalo de datas: *Por &quot;último mês&quot;, você quis dizer o último mês completo ou os últimos 30 dias?*</li></ul><p>A pergunta esclarecedora a seguir é um exemplo de uma pergunta relacionada a itens de dimensão:</p> <ul><li>Que &quot;nome da loja&quot; você quis dizer? (Por exemplo, Armazenar #5274, Armazenar #2949 e assim por diante.)</li></ul> | As perguntas de esclarecimento estão limitadas a componentes e itens de dimensão. O Data Insights Agent não pode esclarecer aspectos como visualizações de dados, visualizações, granularidade de dados, comparação e escopo. Quando o esclarecimento de dúvidas não puder ser usado, o agente assumirá como padrão o que você provavelmente está solicitando. Se retornar uma visualização ou granularidade de dados inesperada, você poderá fazer uma pergunta complementar ou ajustar a visualização e os dados. |
 | **Verificabilidade e correção de dados** | A verificabilidade e a correção dos dados podem ser confirmadas visualizando-se a tabela de forma livre gerada e a visualização de dados. <p>Por exemplo, se você pedir à Data Insights Agent para *Fazer tendência de pedidos no mês passado*, será possível confirmar se a métrica (&quot;pedidos&quot;) e o intervalo de datas (&quot;mês passado&quot;) corretos foram selecionados no painel recém-gerado, na visualização de dados e na tabela de forma livre.</p> | O Data Insights Agent não responde informando quais componentes ou visualizações foram adicionados. |
-| **Mecanismos de feedback** | <ul><li>Polegar para cima</li><li>Polegar para baixo</li><li>Sinalizar</li></ul> |  |
+| **Mecanismos de feedback** | <ul><li>Gostei</li><li>Não gostei</li><li>Sinalizar</li></ul> |  |
 
 
 ## Gerenciar acesso ao Data Insights Agent {#manage-access}
@@ -285,8 +285,8 @@ Abaixo estão as práticas recomendadas para a configuração do Customer Journe
 
 >[!MORELIKETHIS]
 >
->[Configurações de componente](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Dicionário de Dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Configurações do componente](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Dicionário de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
 >[Aprovar métrica calculada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
 >[Compartilhar segmentos](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/segments/seg-share)
 
