@@ -1,7 +1,8 @@
 ---
 description: Saiba como o Coworker Chat usa uma interface de conversação para planejar, executar e concluir o trabalho da experiência do cliente na Adobe e nos sistemas conectados em minutos.
 title: Visão geral do Bate-papo com o Colaborador do Adobe CX Enterprise
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
 source-wordcount: 741

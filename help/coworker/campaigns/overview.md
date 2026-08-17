@@ -1,7 +1,8 @@
 ---
 description: Saiba mais sobre o Adobe CX Enterprise Co-worker Campaigns, um aplicativo de marketing nativo de IA que transforma um único prompt em uma campanha pronta para revisão.
 title: Visão geral do Adobe CX Enterprise Co-worker
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
 source-wordcount: 950
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Campanhas de colegas de trabalho é um aplicativo de marketing nativo de IA que leva você de um único prompt a uma campanha completa pronta para revisão.
 
-No momento, todas as interações com a IA o direcionarão para a [geração de campanha](./). Mais funcionalidades serão disponibilizadas em breve.
+No momento, todas as interações com a IA o direcionarão para a [geração de campanha] (./). Mais funcionalidades serão disponibilizadas em breve.
 
 ## Como acessar o
 
