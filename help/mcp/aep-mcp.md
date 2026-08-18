@@ -1,10 +1,10 @@
 ---
 title: Ferramentas Experience Platform no CX Co-worker Gateway
 description: Saiba quais ferramentas do Adobe Experience Platform estão disponíveis por meio do CX Co-worker Gateway.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 3b9aa67448b5686b614e5f34019d06272837f5c6
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 8%
+source-wordcount: '1537'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,7 @@ Você pode usar as ferramentas de produto do Adobe Experience Platform para insp
 | `search_data_lake` | Inspecionar metadados do conjunto de dados e integridade do lote | API Data Lake · conjuntos de dados, lotes | obter, obter tamanho, listar lotes com falha | Ativo |
 | `search_dule` | Consultar rótulos, políticas e ações de governança de dados | Controle de dados · rótulos, políticas, ações de marketing | lista, obter, lista ativada, avaliar | Ativo |
 | `search_query_service` | Consulta consultas SQL, modelos, agendamentos, alertas | Serviço de consulta · consultas, modelos, agendamentos, alertas | listar, obter, filtrar, obter parâmetros de conexão | Ativo |
+| `search_sandbox_health_assessment` | Recuperar os resultados mais recentes da avaliação de verificação de integridade Executar e Operar para a sandbox atual | Executar e operar · avaliações de verificação de integridade | lista, obter por nome de cheque | Ativo |
 | `search_schema_registry` | Consultar esquemas XDM, grupos de campos, classes, tipos | Registro de Esquemas · esquemas, grupos de campos, classes, data_types, descritores | listar, obter, filtrar por contêiner | Ativo |
 
 ## Referência da ferramenta
@@ -197,3 +198,18 @@ Ferramenta unificada para recursos do Serviço de consulta. Liste e recupere con
 | --- | --- | --- |
 | `entity_type` | Sim | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | Sim | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### search_sandbox_health_assessment
+
+**Recurso:** Executar e Operar · avaliações de verificação de integridade
+**Status:** Ativo
+
+Recupere os resultados mais recentes da avaliação de verificação de integridade Executar e Operar para a sandbox atual. Retorna resultados em todas as categorias compatíveis, incluindo esquemas e identidades, segmentação, assimilação e perfil. Para identificar a causa raiz sem uma pesquisa separada, cada resultado inclui os ativos afetados por trás de uma verificação com falha. Somente as verificações com um nome publicado e legível são retornadas. Todas as operações são somente leitura.
+
+>[!NOTE]
+>
+>Essa ferramenta recupera apenas os resultados da avaliação. Para corrigir um problema sinalizado, use o painel de detalhes da verificação de integridade na interface do usuário do [!DNL Experience Platform]. Consulte [Verificações de integridade](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). As orientações de correção automática para verificações de integridade com suporte estão disponíveis como uma habilidade no [CX Coworker Chat](../coworker/chat/overview.md).
+
+**Recursos:** lista todos os resultados da verificação de integridade da sandbox atual, obtém resultados para uma verificação nomeada
+
+Nenhum parâmetro.
