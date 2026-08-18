@@ -30,7 +30,7 @@ A tabela a seguir resume quando os metadados C2PA são anexados, com base na aç
 
 ## O que acontece quando o conteúdo se move {#cc-content-moves}
 
-As Campanhas de colegas de trabalho preservam o Content Credentials associado aos ativos de imagem compatíveis. Se uma imagem contiver Content Credentials quando importada para Campanhas do colega de trabalho, essas credenciais serão mantidas quando o ativo for usado no conteúdo da campanha gerado e nas experiências de email de saída. [Saiba mais sobre metadados C2PA](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}.
+As Campanhas de colegas de trabalho preservam o Content Credentials associado aos ativos de imagem compatíveis. Se uma imagem contiver Content Credentials quando importada para Campanhas do colega de trabalho, essas credenciais serão mantidas quando o ativo for usado no conteúdo da campanha gerado e nas experiências de email de saída. [Saiba mais sobre metadados C2PA](https://helpx.adobe.com/br/firefly/using/content-credentials.html){target="_blank"}.
 
 <!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
@@ -38,6 +38,6 @@ As Campanhas de colegas de trabalho preservam o Content Credentials associado ao
 
 * [Diretrizes do usuário da IA gerada da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"}
 
-* [Como o Content Credentials funciona em produtos da Adobe](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}
+* [Como o Content Credentials funciona em produtos da Adobe](https://helpx.adobe.com/br/firefly/using/content-credentials.html){target="_blank"}
 
-* [Medidas de proteção e limitações](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Medidas de proteção e limitações](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
