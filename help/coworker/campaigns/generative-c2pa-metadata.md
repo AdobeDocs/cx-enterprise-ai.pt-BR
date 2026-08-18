@@ -2,7 +2,7 @@
 description: Saiba como o Coworker Campaigns anexa e preserva automaticamente os metadados C2PA (Content Credentials) em imagens, desde a geração até a entrega de emails.
 title: Metadados do C2PA em campanhas de colegas de trabalho
 hide: true
-source-git-commit: 9796ac7d3d55e7a278414d44a214bfdf5311d727
+source-git-commit: 399f0e33cc98c0450fe5fd0b75d847525e89f978
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%
@@ -15,13 +15,9 @@ Novas leis estão surgindo em torno da transparência generativa da IA, e a Adob
 
 Os metadados C2PA são metadados duráveis e invisíveis que registram como um conteúdo foi criado ou editado. Quando você gera ou edita uma imagem com ferramentas de IA gerativas em Campanhas do colega de trabalho, os metadados do C2PA são anexados automaticamente a essa imagem. Nenhuma ação é necessária da sua parte.
 
->[!BEGINSHADEBOX]
-
 ## Content Credentials em campanhas de email {#content-credentials-email}
 
 As imagens enviadas em suas campanhas de email mantêm o Content Credentials intacto, para que os recipients possam verificar a origem e a autenticidade de qualquer imagem diretamente do email entregue.
-
->[!ENDSHADEBOX]
 
 ## Ações que anexam metadados C2PA {#cc-workflows}
 
@@ -44,8 +40,8 @@ As Campanhas de colegas de trabalho preservam o Content Credentials associado ao
 
 ## Recursos adicionais
 
-* [Saiba mais sobre os metadados C2PA](https://helpx.adobe.com/br/firefly/using/content-credentials.html){target="_blank"}
+* [Saiba mais sobre os metadados C2PA](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}
 
 * [Diretrizes do usuário da IA gerada da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"}
 
-* [Medidas de proteção e limitações](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Medidas de proteção e limitações](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
