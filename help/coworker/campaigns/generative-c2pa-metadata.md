@@ -44,8 +44,8 @@ As Campanhas de colegas de trabalho preservam o Content Credentials associado ao
 
 ## Recursos adicionais
 
-* [Saiba mais sobre os metadados C2PA](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}
+* [Saiba mais sobre os metadados C2PA](https://helpx.adobe.com/br/firefly/using/content-credentials.html){target="_blank"}
 
 * [Diretrizes do usuário da IA gerada da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"}
 
-* [Medidas de proteção e limitações](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Medidas de proteção e limitações](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
