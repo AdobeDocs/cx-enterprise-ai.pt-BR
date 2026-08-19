@@ -1,10 +1,10 @@
 ---
 title: Ferramentas Experience Platform no CX Co-worker Gateway
 description: Saiba quais ferramentas do Adobe Experience Platform estão disponíveis por meio do CX Co-worker Gateway.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 8%
+source-wordcount: '1947'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,10 @@ Você pode usar as ferramentas de produto do Adobe Experience Platform para insp
 | `search_data_lake` | Inspecionar metadados do conjunto de dados e integridade do lote | API Data Lake · conjuntos de dados, lotes | obter, obter tamanho, listar lotes com falha | Ativo |
 | `search_dule` | Consultar rótulos, políticas e ações de governança de dados | Controle de dados · rótulos, políticas, ações de marketing | lista, obter, lista ativada, avaliar | Ativo |
 | `search_query_service` | Consulta consultas SQL, modelos, agendamentos, alertas | Serviço de consulta · consultas, modelos, agendamentos, alertas | listar, obter, filtrar, obter parâmetros de conexão | Ativo |
+| `search_sandbox_health_assessment` | Recuperar os resultados mais recentes da avaliação de verificação de integridade Executar e Operar para a sandbox atual | Executar e operar · avaliações de verificação de integridade | lista, obter por nome de cheque | Ativo |
 | `search_schema_registry` | Consultar esquemas XDM, grupos de campos, classes, tipos | Registro de Esquemas · esquemas, grupos de campos, classes, data_types, descritores | listar, obter, filtrar por contêiner | Ativo |
+| `execute_observability_metrics_query` | Consultar [!DNL Observability Insights] métricas para a sandbox atual ou em todas as sandboxes | Insights de observação · métricas | séries de tempo e consultas agregadas, solicitações multimétricas, filtros de tag, groupBy/exclude, downsample por métrica | Ativo |
+| `inspect_observability_breaches` | Detectar [!DNL Observability Insights] intervalos de violação em que uma métrica excedeu sua linha de base configurada | Insights de capacidade de observação · violações | listar intervalos de violação por série, organização e escopo da sandbox | Ativo |
 
 ## Referência da ferramenta
 
@@ -197,3 +200,64 @@ Ferramenta unificada para recursos do Serviço de consulta. Liste e recupere con
 | --- | --- | --- |
 | `entity_type` | Sim | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | Sim | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### execute_observability_metrics_query
+
+**Recurso:** Insights de observação · métricas
+**Status:** Ativo
+
+Consulte [!DNL Observability Insights] métricas para a sandbox atual ou para todas as sandboxes da sua organização. Suporta várias métricas em uma única solicitação, filtros baseados em tags e redução de resolução por métrica. Para `scope=org`, inclua pelo menos um filtro `groupBy` em cada métrica. Todas as operações são somente leitura.
+
+**Recursos:** pontos de dados de métrica de consulta, série de tempo ou agregação, solicitações de várias métricas, filtros de marca, groupBy/exclude, downsample de cada métrica
+
+**Parâmetros:**
+
+| Parâmetro | Obrigatório | Descrição |
+| --- | --- | --- |
+| `metrics` | Sim | Matriz de especificações de métrica. Cada uma inclui `name` (nome de métrica totalmente qualificado), `aggregator` (`sum`, `avg`, `min`, `max`, `count`, `last`, `p50`, `p95`, `p99`, variantes de histograma ou `absent`), `filters` opcional e `downsample` opcional |
+| `start` | Sim | Início da janela, ISO 8601, ex.: `2026-01-15T00:00:00.000Z`. Deve ser anterior a `end`. Janela máxima: 31 dias |
+| `end` | Sim | Fim da janela, ISO 8601. Deve ser posterior a `start` |
+| `granularity` | Não | Tamanho do intervalo de tempo: `MINUTE`, `FIVE_MINUTE`, `TEN_MINUTE`, `FIFTEEN_MINUTE`, `THIRTY_MINUTE`, `HOUR`, `FOUR_HOUR`, `TWELVE_HOUR`, `DAY`, `TWO_DAY`, `WEEK`, `MONTH` ou `ALL` (recolhe a janela em uma única agregação). Omitir para permitir que o servidor escolha |
+| `scope` | Não | `sandbox` (padrão) consulta a sandbox atual. `org` consulta todas as sandboxes na sua organização e recomenda um filtro `groupBy` em cada métrica |
+
+Cada filtro em `metrics[].filters` inclui um `name` (nome da marca), `value` (correspondência exata, curinga ou regex) e booleanos `groupBy` e `exclude` opcionais.
+
+### inspect_observability_breaches
+
+**Recurso:** Insights de capacidade de observação · violações
+**Status:** Ativo
+
+Detectar [!DNL Observability Insights] intervalos de violação, as janelas de tempo em que uma métrica excedeu sua linha de base configurada, para a sandbox atual ou em todas as sandboxes na sua organização. Retorna intervalos pré-correspondidos por série. Violações abertas ainda em andamento no final da janela são retornadas com `end: null`. Todas as operações são somente leitura.
+
+**Recursos:** intervalos de violação de lista por série, organização e escopo de sandbox
+
+**Parâmetros:**
+
+| Parâmetro | Obrigatório | Descrição |
+| --- | --- | --- |
+| `metrics` | Sim | Conjunto de especificações de violação. Cada uma inclui `name` (nome de métrica totalmente qualificado) e `filters` opcional |
+| `start` | Sim | Início da janela, ISO 8601. Deve ser anterior a `end`. Janela máxima: 31 dias |
+| `end` | Sim | Extremidade da janela, ISO 8601 |
+| `granularity` | Não | Tamanho do bucket de tempo, mesmos valores de `execute_observability_metrics_query` exceto `ALL`. Cada bucket é avaliado independentemente em relação à linha de base |
+| `scope` | Não | `sandbox` (padrão) ou `org`. Em `org` sem um filtro de sandbox, inclua pelo menos um filtro com `groupBy: true` por métrica para que os resultados sejam divididos por essa dimensão em vez de recolhidos pela organização |
+
+`inspect_observability_breaches` não aceita `aggregator` ou `downsample` em `metrics[]`. A ferramenta os define internamente para avaliar a condição de violação.
+
+>[!NOTE]
+>
+>Ambas as ferramentas do Observability Insights também estão limitadas a cerca de 10.000 pontos de dados por solicitação. Restrinja o intervalo de tempo, adicione filtros ou use `granularity` mais grosso se uma solicitação for rejeitada por exceder esse limite.
+
+### search_sandbox_health_assessment
+
+**Recurso:** Executar e Operar · avaliações de verificação de integridade
+**Status:** Ativo
+
+Recupere os resultados mais recentes da avaliação de verificação de integridade Executar e Operar para a sandbox atual. Retorna resultados em todas as categorias compatíveis, incluindo esquemas e identidades, segmentação, assimilação e perfil. Para identificar a causa raiz sem uma pesquisa separada, cada resultado inclui os ativos afetados por trás de uma verificação com falha. Somente as verificações com um nome publicado e legível são retornadas. Todas as operações são somente leitura.
+
+>[!NOTE]
+>
+>Essa ferramenta recupera apenas os resultados da avaliação. Para corrigir um problema sinalizado, use o painel de detalhes da verificação de integridade na interface do usuário do [!DNL Experience Platform]. Consulte [Verificações de integridade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/run-and-operate/health-checks). As orientações de correção automática para verificações de integridade com suporte estão disponíveis como uma habilidade no [CX Coworker Chat](../coworker/chat/overview.md).
+
+**Recursos:** lista todos os resultados da verificação de integridade da sandbox atual, obtém resultados para uma verificação nomeada
+
+Nenhum parâmetro.

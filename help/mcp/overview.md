@@ -1,10 +1,10 @@
 ---
 title: Visão geral do Adobe CX Co-worker Gateway
 description: O Adobe CX Co-worker Gateway é o MCP unificado para Adobe CX Enterprise, oferecendo aos clientes de MCP uma única conexão com as ferramentas de produtos compatíveis.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 4%
+source-wordcount: '456'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ As seguintes ferramentas de produto estão documentadas neste guia:
 | Ferramentas do produto | O que ele expõe por meio do endpoint | Disponibilidade | Documentação |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Real-Time CDP** | Públicos, destinos, origens, namespaces de identidade e integridade da ativação (somente leitura) | Beta | [Ferramentas do Real-Time CDP](rtcdp-mcp.md) |
-| **Experience Platform** | Esquemas, conjuntos de dados, governança de dados, Serviço de consulta e eventos de auditoria (somente leitura) | Beta | [Ferramentas do Experience Platform](aep-mcp.md) |
+| **Experience Platform** | Esquemas, conjuntos de dados, governança de dados, Serviço de consulta, eventos de auditoria, métricas de observabilidade e avaliações de verificação de integridade da sandbox (somente leitura) | Beta | [Ferramentas do Experience Platform](aep-mcp.md) |
 | **Journey Optimizer** | Campanhas e configurações de canal (somente leitura) | Beta | [Ferramentas do Journey Optimizer](ajo-mcp.md) |
 | **Customer Journey Analytics** | Visualizações de dados, dimensões, métricas, relatórios, segmentos, intervalos de datas, projetos e públicos-alvo (leitura e gravação) | Disponível | [Ferramentas do Customer Journey Analytics](cja-mcp.md) |
 | **Adobe Analytics** | Conjuntos de relatórios, dimensões, métricas, relatórios, segmentos, intervalos de datas e projetos do espaço de trabalho (leitura e gravação para componentes compatíveis) | Disponível | [Ferramentas do Adobe Analytics](analytics-mcp.md) |
