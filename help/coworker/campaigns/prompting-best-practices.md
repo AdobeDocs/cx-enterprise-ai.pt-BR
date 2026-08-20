@@ -1,7 +1,8 @@
 ---
 description: 'Saiba mais sobre as Campanhas do colega de trabalho que geram práticas recomendadas: a estrutura CO-STAR, o que fazer e o que não fazer, o conteúdo não suportado e uma lista de verificação de qualidade para prompts.'
 title: Práticas recomendadas de criação de prompts
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
 workflow-type: tm+mt
 source-wordcount: 532
