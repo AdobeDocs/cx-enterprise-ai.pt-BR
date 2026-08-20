@@ -42,4 +42,4 @@ As Campanhas de colega de trabalho preservam os metadados C2PA associados aos at
 
 * [Diretrizes do usuário da IA gerada da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"}
 
-* [Medidas de proteção e limitações](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Medidas de proteção e limitações](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
