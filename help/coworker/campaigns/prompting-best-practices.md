@@ -3,7 +3,7 @@ description: 'Saiba mais sobre as Campanhas do colega de trabalho que geram prá
 title: Práticas recomendadas de criação de prompts
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
 workflow-type: tm+mt
 source-wordcount: 532
 ht-degree: 1%
@@ -141,4 +141,4 @@ Sempre forneça contexto e a proposta de valor para que a IA possa gerar conteú
 
 >[!MORELIKETHIS]
 >
->Procure mais [padrões de prompt] (./) para Campanhas de Colaborador.
+>Procure mais [padrões de prompt](use-cases.md) para Campanhas de Colaborador.

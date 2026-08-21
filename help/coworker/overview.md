@@ -5,10 +5,10 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
 workflow-type: tm+mt
-source-wordcount: 195
-ht-degree: 4%
+source-wordcount: 202
+ht-degree: 3%
 
 ---
 
@@ -24,11 +24,8 @@ Campanhas de colegas de trabalho é um recurso modelado para que pequenas equipe
 * [Criar uma campanha de email](./campaigns/create-an-email-campaign.md)
 * [Casos de uso](./campaigns/use-cases.md)
 * [Solicitação de práticas recomendadas](./campaigns/prompting-best-practices.md)
-<!--
-broken links
-* [Connect to Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-* [Connect to Hubspot](./coworker/campaigns/connectors/hubspot.md) 
--->
+* [Conectar-se ao Marketo Engage](./campaigns/connectors/marketo.md)
+* [Conectar ao Hubspot](./campaigns/connectors/hubspot.md)
 
 ## Chat
 
