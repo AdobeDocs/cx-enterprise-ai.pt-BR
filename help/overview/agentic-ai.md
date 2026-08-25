@@ -12,9 +12,9 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: cdf395ef366771780ee549385fa5ed6aaa6bd873
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: 1194
 ht-degree: 11%
 
 ---
@@ -69,6 +69,7 @@ A tabela a seguir lista os Agentes do Experience Platform disponíveis como apli
 
 | Nome do agente | Recursos | Aplicativos compatíveis |
 |---|----------|----------|
+| [CX Enterprise Coworker](../coworker/overview.md) | Atua como um colega de equipe agente: planeja o trabalho em várias etapas de uma meta em linguagem natural, executa-o em sistemas Adobe e conectados, valida os resultados e retorna o trabalho concluído para sua aprovação — reduzindo a necessidade de coordenar as tarefas manualmente. | <ul><li>CX Enterprise Co-worker (Bate-papo)</li><li>CX Enterprise Co-worker (Campanhas)</li></ul> |
 | [Experimentation Agent](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | Automatize, analise e sintetize insights para que você possa identificar rapidamente experiências de alto impacto e oportunidades de crescimento em um espaço de trabalho centralizado — tudo isso enquanto reduz os processos manuais. | <ul><li>AJO Experimentation Accelerator</li></ul> |
 | [Agente de Otimização LLM](https://experienceleague.adobe.com/pt-br/docs/llm-optimizer/using/home) | Melhore a visibilidade, a precisão e a influência em ambientes de pesquisa orientados por IA, forneça insights sobre a presença da marca em respostas geradas por IA, ofereça recomendações de conteúdo prescritivas e automatize correções de otimização. | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/pt-br/docs/experience-manager-sites-optimizer/content/home) | Maximize o impacto nos negócios, detectando e implantando automaticamente as melhorias no site. Com o uso de IA gerativa e várias tecnologias de monitoramento, você pode aumentar a aquisição de tráfego do site, o engajamento e muito mais | <ul><li>AEM Sites Optimizer</li></ul> |
