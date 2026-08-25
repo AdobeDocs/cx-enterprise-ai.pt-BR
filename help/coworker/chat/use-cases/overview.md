@@ -1,9 +1,8 @@
 ---
 description: Procure casos de uso do Chat de colaborador e prompts de amostra, organizados por área entre insights de dados, públicos, jornadas e operações da plataforma.
 title: Casos de uso do chat com colegas de trabalho
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 46299bb3b1cd8179f277940d67bcb876b3f4e9fc
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: e396bdc6974eb4484049af450f1b3a6b5045311b
 workflow-type: tm+mt
 source-wordcount: 3050
 ht-degree: 7%
@@ -28,21 +27,17 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 ### Produção de experiência - Casos de uso de sites
 
->[!NOTE]
->
->Consulte também [Recursos de agente no AEM: Experiência da marca - Produção da experiência - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites).
-
 | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
 | Atualizar páginas do AEM | Execute ações como atualizar, remover, substituir ou adicionar elementos de conteúdo para manter as experiências precisas e atuais. As entradas podem ser linguagem natural ou anotações visuais como PDFs ou capturas de tela. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) | Em &lt;URL> atualize o título para Olá, mundo<br><br>em &lt;URL> altere o botão &quot;Faça nosso questionário do café&quot; para uma versão mais envolvente<br><br>Atualize &lt;URL> com base no anexo<br><br>em &lt;URL> Quero adicionar uma nova seção de teaser ao final da página sobre uma promoção que estamos executando no mês de agosto, que é comprar uma máquina de café e obter 2 sacos de café gratuitamente. Encontre também imagens de amigos bebendo café e use-as no teaser |
 | Atualizar o AEM em massa | Execute ações em massa em várias páginas ao mesmo tempo, como remover, substituir ou adicionar elementos de conteúdo para manter as experiências precisas e atuais. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) | em &lt;aem path>, atualize todas as páginas que contenham a cópia &quot;MyBarista\&quot; para &quot;BrewPass&quot; |
 | Ir do Figma para o Fragmento de conteúdo visual | Importe designs diretamente do Figma para o Adobe Experience Manager usando a linguagem natural. A habilidade cria automaticamente o modelo de conteúdo, o fragmento de conteúdo, os ativos e o modelo de visualização necessários, permitindo que os usuários empresariais migrem do design para o conteúdo pronto para a Web em minutos sem configuração manual. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) | Importar de &lt;Figma_URL> |
 
-### Produção de experiência - Casos de uso do Forms
+**Informações relacionadas**
 
->[!NOTE]
->
->Consulte também [Recursos de agente no AEM: Experiência da marca - Produção da experiência - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms).
+* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+
+### Produção de experiência - Casos de uso do Forms
 
 | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
@@ -51,11 +46,11 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 | Adicionar lógica de negócios | Criar regras simples, como mostrar ou ocultar um campo com base no valor de outro campo | `aem-forms-adaptiveform-edit` | Adobe Experience Manager (AEM) | &quot;Mostrar o campo Empresa somente quando o Tipo de Funcionário for Contratante&quot;<br><br>&quot;Mostrar o campo &lt;campo> somente quando &lt;outro campo> for &lt;valor>&quot; |
 | Formulário incorporado | Coloque um formulário existente ou recém-criado em uma página do AEM Sites designada (compatível somente com páginas do Edge Delivery Services) | `aem-forms-adaptiveform-embed` | Adobe Experience Manager (AEM) | &quot;Incorporar este formulário na página inicial do nosso site&quot;<br><br>&quot;Incorporar este formulário no &lt;caminho da página>&quot; |
 
-### Desenvolvimento
+**Informações relacionadas**
 
->[!NOTE]
->
->Consulte também [Recursos de agente no AEM: Experiência da marca - Desenvolvimento](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases).
+* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+
+### Desenvolvimento
 
 | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
@@ -65,11 +60,11 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 | Gerenciar programas do Cloud Manager | Listar, inspecionar e excluir programas do AEM Cloud Manager, incluindo seus pipelines e ambientes | `cloud-manager-program-management` | Adobe Experience Manager (AEM) | &quot;Listar meus programas do Cloud Manager&quot;<br><br>&quot;Obter detalhes do programa 12345&quot; |
 | Gerenciar agendamentos de atualização de versão do AEM | Configure o Quiet Hours diário e os Períodos de ausência de atualização para manutenção automatizada e visualize as janelas globais de Congelamento de código do Adobe | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | &quot;Qual é a minha janela atual de Período de Silêncio?&quot;<br><br>&quot;Agende um período sem atualizações de 20 de dezembro a 2 de janeiro&quot; |
 
-### Integração - Casos de uso do AEM Assets
+**Informações relacionadas**
 
->[!NOTE]
->
->Consulte também [Recursos de agente no AEM: Experiência da marca - Integração](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases).
+* [Recursos de agente no AEM: experiência da marca - desenvolvimento](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+
+### Integração - Casos de uso do AEM Assets
 
 | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
@@ -78,13 +73,13 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 | Criar e criar tags | Cria e cria vocabulários de marcas controladas em `/content/cq:tags` — namespaces, marcas hierárquicas e operações de marcas em lote. | `aem-tag-taxonomy` | Adobe Experience Manager (AEM) Assets | &quot;Projetar uma taxonomia de marcas com namespaces para nossas categorias de produto&quot;<br><br>&quot;Importar marcas deste CSV&quot;<br><br>&quot;Criar essas marcas hierárquicas na AEM&quot; |
 | Criar e atribuir formulários de metadados | Projeta e cria formulários de metadados personalizados, a interface de criação que os autores de conteúdo usam, de um CSV, tabela, documento de requisitos ou descrição e, opcionalmente, os atribui a pastas. | `aem-metadata-form` | Adobe Experience Manager (AEM) Assets | &quot;Criar um formulário de metadados a partir desta lista de campos&quot;<br><br>&quot;Atribuir este formulário à pasta `campaigns`&quot; |
 
+**Informações relacionadas**
+
+* [Recursos de agente no AEM: experiência da marca - integração](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+
 ## Supervisor de conteúdo - Casos de uso do AEM Assets
 
 ### Descoberta de conteúdo
-
->[!NOTE]
->
->Consulte também [Recursos de agente no AEM: Supervisor de conteúdo - Descoberta de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases).
 
 | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
@@ -93,11 +88,11 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 | Pesquisar por status de aprovação | Filtrar ativos com base no status de aprovação. Por exemplo, status aprovado, em revisão, rejeitado ou ausente. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | &quot;Mostrar todos os ativos aprovados na pasta `Campaign`&quot; |
 | Pesquisar por pasta/caminho | Identifique ativos interpretando prompts de idioma natural que fazem referência a nomes de pastas no AEM. Você pode simplesmente mencionar a pasta no prompt, sem navegar manualmente pelo repositório, reduzindo significativamente o número de cliques necessários para localizar o conteúdo correto. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | &quot;Há algum svgs na pasta `WKND`&quot;?<br><br>&quot;Mostrar ativos modificados após 1º de novembro de 2025 na pasta `WKND`&quot; |
 
-### Otimização de conteúdo
+**Informações relacionadas**
 
->[!NOTE]
->
->Consulte também [Recursos de agente no AEM: Supervisor de conteúdo - Otimização de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases).
+* [Recursos de agente no AEM: Supervisor de conteúdo - Detecção de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+
+### Otimização de conteúdo
 
 | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
@@ -105,17 +100,21 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 | Sobreposições de marca e geração composta | Aplique gráficos promocionais, sobreposições ou selos aos ativos existentes com posicionamento preciso, apoiando a criação rápida de compostos prontos para campanha. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | &quot;Sobreponha a imagem com `30%` gráficos de desconto sobre o banner promocional, colocando-a `100px` do centro&quot; |
 | Aprimoramentos de imagem, ajustes de cor de fundo, transformações de orientação | Aplique melhorias visuais (nitidez da imagem), substitua cores de fundo e execute transformações de orientação. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | &quot;Alterar a cor de plano de fundo de `PNG` para `#ff8932`&quot;<br><br>&quot;Nitidez da imagem&quot;<br><br>&quot;Espelhar a imagem horizontalmente&quot; |
 
-## Governança da marca
+**Informações relacionadas**
 
->[!NOTE]
->
->Consulte também [Recursos de agente no AEM: Governança de marca](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases).
+* [Recursos de agente no AEM: Supervisor de conteúdo - Otimização de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+
+## Governança da marca
 
 | Caso de uso | Descrição | Habilidades | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
 | Pesquisa de diretriz e segmento | Recuperar diretrizes detalhadas da marca, com escopo por segmento, mercado ou categoria | enterprise-context | Adobe Experience Manager (AEM) | &quot;Quais são as diretrizes de tom de voz desta marca?&quot;<br>&quot;Listar as categorias de declaração usadas no vertical de integridade&quot; |
 | Avaliar o conteúdo em relação às diretrizes da marca | Avaliar uma página publicada/criada, bloco de texto ou imagem em relação às verificações de marca configuradas | aem-governance | Adobe Experience Manager (AEM) | &quot;Avaliar esta página de aterrissagem em relação às diretrizes do SecurBank&quot;<br>&quot;Esse slogan passa pelas nossas verificações de tom de voz?&quot; |
 | Depurar permissões do AEM | Depurar/entender políticas de permissão, ACLs e regras de herança. | aem-governance | Adobe Experience Manager (AEM) | &quot;Por que o administrador principal pode gravar `/content/folder/us` em `https://author/` ?&quot;<br>&quot;Por que o autor de amostra não pode gravar em `/content/dam` em `https://author`&quot; |
+
+**Informações relacionadas**
+
+* [Recursos de agente no AEM: governança da marca](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Insights de dados
 
@@ -165,7 +164,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 | Resolução e vinculação da entidade | Use a pesquisa semântica e léxica para resolver menções de entidade a entidades reais do Experience Platform e descobrir campos XDM | `entity-linking` | Adobe Experience Platform | &quot;Resolver &#39;Compradores de Férias&#39; para um público real&quot; · &quot;Encontre-me campos relacionados ao histórico de compras&quot; |
 | Gerenciar habilidades personalizadas | Salvar, modificar ou excluir habilidades reutilizáveis de propriedade do usuário que persistem entre as sessões | `manage-skill` | Todos os aplicativos qualificados | &quot;Salvar esse fluxo de trabalho como uma habilidade&quot; · &quot;Excluir minha habilidade semanal de relatório&quot; · &quot;Transformar isso em uma habilidade reutilizável&quot; |
 | Monitorar a capacidade de transmissão e as violações | Verificar o uso atual e histórico da transmissão, a capacidade e o status de violação em sandboxes | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;Qual é minha capacidade de transmissão atual na minha sandbox atual?&quot; · &quot;Minha sandbox atual está excedendo os limites de capacidade na última semana?&quot; |
-| [Exibir resultados da avaliação de verificação de integridade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/run-and-operate/health-checks/overview) | Visualize a avaliação de verificação de integridade mais recente para sua sandbox, examine uma verificação de falha e veja as entidades afetadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;O que há de errado com minha sandbox?&quot; · &quot;Conte-me sobre minha última avaliação de verificação de integridade&quot; · &quot;Quais são os problemas da verificação de descrição do namespace personalizado?&quot; |
+| [Exibir resultados da avaliação de verificação de integridade](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Visualize a avaliação de verificação de integridade mais recente para sua sandbox, examine uma verificação de falha e veja as entidades afetadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;O que há de errado com minha sandbox?&quot; · &quot;Conte-me sobre minha última avaliação de verificação de integridade&quot; · &quot;Quais são os problemas da verificação de descrição do namespace personalizado?&quot; |
 | Corrigir problemas de verificação de integridade | Corrija problemas de namespace de identidade, política de mesclagem e esquema sinalizados diretamente do chat, com sua aprovação antes que qualquer alteração seja feita | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Corrigir descrições de namespace de identidade&quot; · &quot;Corrigir nomes de política de mesclagem duplicados&quot; · &quot;Corrigir esquemas que não têm o grupo de campos de auditoria&quot; · &quot;Corrigir nomenclatura de política de mesclagem padrão&quot; |
 
 ## Ferramentas de sandbox
