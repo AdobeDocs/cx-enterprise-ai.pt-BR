@@ -1,15 +1,15 @@
 ---
 audience: user
-user-guide-title: Colaborador
+user-guide-title: IA no CX Enterprise
 user-guide-description: Saiba como criar, configurar, integrar e estender o Assistente de IA, o Colaborador, os agentes e os MCPs por meio de documentação prática, orientação de implementação e materiais de referência.
 description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu conhecimento sobre o produto e obtenha insights operacionais usando IA no CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 785b5d106cb029d68506c90385786cbdae164991
+source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 15%
+source-wordcount: '279'
+ht-degree: 16%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 15%
   - [Sobre o consumo de créditos de IA](./overview/ai-credit-consumption.md)
   - [Painel de monitoramento do Agentic AI](./overview/monitoring.md)
   - [Ferramentas agênticas](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Transparência do conteúdo de IA gerativa](content-transparency.md)
 - Assistente de IA {#ai-assistant}
   - [Guia da interface do assistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de Prompts](./ai-assistant/prompt-library.md)
@@ -56,7 +57,7 @@ ht-degree: 15%
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Colaborador {#coworker}
+- Coworker {#coworker}
   - [Sobre o Colaborador](./coworker/overview.md)
   - Campanhas {#campaigns}
     - [Visão geral](./coworker/campaigns/overview.md)
