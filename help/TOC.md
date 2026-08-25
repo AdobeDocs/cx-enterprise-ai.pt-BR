@@ -1,15 +1,15 @@
 ---
 audience: user
-user-guide-title: Coworker
+user-guide-title: IA no CX Enterprise
 user-guide-description: Saiba como criar, configurar, integrar e estender o Assistente de IA, o Colaborador, os agentes e os MCPs por meio de documentação prática, orientação de implementação e materiais de referência.
 description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu conhecimento sobre o produto e obtenha insights operacionais usando IA no CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 2adef3bad3a31beeedc6ae722327d7f875693584
+source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 15%
+source-wordcount: '279'
+ht-degree: 16%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 15%
     - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Sobre o Colaborador](./coworker/overview.md)
   - Campanhas {#campaigns}
