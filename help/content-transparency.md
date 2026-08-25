@@ -99,7 +99,7 @@ No entanto, quando aplicável, todos os aplicativos corporativos Adobe CX contin
 |---|---|
 | Adobe Advertising Cloud | |
 | Adobe Experience Manager (AEM) | |
-| Assistente de IA para geração de conteúdo (recurso no Adobe Journey Optimizer/Adobe Campaign) | <!--[Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata)--> |
+| Assistente de IA para geração de conteúdo (recurso no Adobe Journey Optimizer/Adobe Campaign) | <!--[Documentation] (https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata)--> |
 | Adobe Journey Optimizer B2B edition | <!--[Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/content-credentials)--> |
 | Adobe Journey Optimizer B2C | |
 | Adobe Campaign | |
@@ -107,7 +107,7 @@ No entanto, quando aplicável, todos os aplicativos corporativos Adobe CX contin
 | GenStudio para marketing de desempenho | |
 | Adobe Marketo Engage | |
 | Adobe Workfront | |
-| Campanhas do CX Enterprise Co-worker (antigo HALO) | <!--[Documentation](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)--> |
+| Campanhas do CX Enterprise Co-worker (antigo HALO) | <!--[Documentation](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)--> |
 
 ## Links relacionados
 
