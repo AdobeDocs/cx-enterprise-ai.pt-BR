@@ -1,9 +1,12 @@
 ---
 title: Transparência do conteúdo de IA gerativa
 description: Saiba como o Adobe anexa automaticamente metadados C2PA a conteúdo gerado e editado por GenAI nos aplicativos corporativos do Adobe CX.
-source-git-commit: f6627af3f62ae3238b6a2bff665e8d1eabcdf3d1
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+source-git-commit: 02de82fd17bdf3f806ce120b93cbbd85b50f9b8a
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: 1539
 ht-degree: 1%
 
 ---
@@ -61,7 +64,7 @@ O Adobe não controla como os serviços externos interpretam, exibem ou usam met
 
 Em algumas circunstâncias e em determinadas regiões, as organizações podem escolher ou ser solicitadas a identificar visivelmente o conteúdo gerado ou editado pela GenAI.
 
-A Adobe fornece [orientação](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) sobre como usar os recursos de marca d&#39;água existentes compatíveis com os aplicativos da Adobe. A visibilidade da marca d&#39;água depende dos requisitos de negócios de uma organização e das leis e regulamentos aplicáveis nas jurisdições onde o conteúdo é publicado.
+A Adobe fornece [orientação](https://helpx.adobe.com/br/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) sobre como usar os recursos de marca d&#39;água existentes compatíveis com os aplicativos da Adobe. A visibilidade da marca d&#39;água depende dos requisitos de negócios de uma organização e das leis e regulamentos aplicáveis nas jurisdições onde o conteúdo é publicado.
 
 >[!NOTE]
 >
@@ -83,7 +86,7 @@ Os metadados C2PA são anexados automaticamente ao conteúdo compatível gerado 
 
 ### Orientação de marca d&#39;água
 
-A Adobe fornece a [documentação](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) descrevendo como usar os recursos de marca d&#39;água existentes disponíveis em aplicativos compatíveis da Adobe para organizações que escolhem ou precisam aplicar rótulos visíveis.
+A Adobe fornece a [documentação](https://helpx.adobe.com/br/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) descrevendo como usar os recursos de marca d&#39;água existentes disponíveis em aplicativos compatíveis da Adobe para organizações que escolhem ou precisam aplicar rótulos visíveis.
 
 ## Aplicativos compatíveis com toda a Adobe CX Enterprise {#supported-applications}
 
@@ -111,7 +114,7 @@ No entanto, quando aplicável, todos os aplicativos corporativos Adobe CX contin
 
 ## Links relacionados
 
-* [Guia de marca d&#39;água visível](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
+* [Guia de marca d&#39;água visível](https://helpx.adobe.com/br/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
 * [Adobe Inspect](https://contentauthenticity.adobe.com/inspect)
 
 ## Perguntas frequentes

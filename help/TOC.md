@@ -6,10 +6,10 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
+source-git-commit: 41dce794de5268fa6f89fcd601ee53fd4da2da5b
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 16%
+source-wordcount: '284'
+ht-degree: 17%
 
 ---
 
@@ -64,11 +64,15 @@ ht-degree: 16%
     - [Criar uma campanha de email](./coworker/campaigns/create-an-email-campaign.md)
     - [Casos de uso](./coworker/campaigns/use-cases.md)
     - [Solicitação de práticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[Metadados C2PA](./coworker/campaigns/generative-c2pa-metadata.md)
+    - [Metadados do C2PA](./coworker/campaigns/c2pa-metadata.md)
     - Conectores {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [Notas de versão](./coworker/campaigns/release-notes.md)
+  - Personalizações {#customizations}
+    - Habilidades {#skills}
+      - [O que são habilidades?](./coworker/customizations/skills/what-are-skills.md)
+      - [Crie sua primeira habilidade](./coworker/customizations/skills/create-your-first-skill.md)
   - Chat {#chat}
     - [Visão geral](./coworker/chat/overview.md)
     - [Guia da interface do usuário](./coworker/chat/ui-guide.md)
@@ -85,4 +89,3 @@ ht-degree: 16%
         - [Criar um desafio de fidelidade e insights de superfície](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Ferramentas de sandbox {#sandbox-tooling}
         - [Habilidades de agente de ferramentas de sandbox](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md)

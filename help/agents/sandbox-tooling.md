@@ -1,7 +1,7 @@
 ---
 title: Habilidades dos agentes de ferramentas de sandbox
 description: Saiba como usar as habilidades de agente de ferramentas de sandbox para replicar metadados de objetos em ambientes de sandbox.
-source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
+source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -62,7 +62,7 @@ Para usar as habilidades de agentes de ferramentas de sandbox:
 
 1. Quando a migração for concluída, os objetos selecionados estarão disponíveis na sandbox de destino.
 
-![Página de transferência concluída mostrando o status da solicitação.](./assets/sandbox-tooling/transfer-complete.png)
+   ![Página de transferência concluída mostrando o status da solicitação.](./assets/sandbox-tooling/transfer-complete.png)
 
 Para obter mais informações sobre como usar o CX Coworker, consulte o [Guia da Interface do Usuário do Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
@@ -78,7 +78,7 @@ Com o CX Co-worker, você pode migrar metadados de objetos (incluindo esquemas, 
 
 Por exemplo:
 
-> &quot;Mover Platina de Membros de Fidelidade da Luma de esquema da sandbox atual para a sandbox de produção.&quot;
+- &quot;Mover Platina de Membros de Fidelidade da Luma de esquema da sandbox atual para a sandbox de produção.&quot;
 
 ### Promover públicos-alvo entre sandboxes
 
@@ -86,7 +86,7 @@ Como administrador de sandbox, você pode promover públicos-alvo entre ambiente
 
 Por exemplo:
 
-> &quot;Promova o público-alvo &quot;Nome do público-alvo&quot; para a sandbox de preparo.&quot;
+- &quot;Promova o público-alvo &quot;Nome do público-alvo&quot; para a sandbox de preparo.&quot;
 
 As habilidades dos agentes de ferramentas de sandbox identificam o público-alvo especificado, validam suas dependências e migram todos os objetos necessários para a sandbox de destino.
 
@@ -111,3 +111,4 @@ Use esses prompts quando você souber o nome do público-alvo.
 Depois de ler este guia, você deve entender como usar as habilidades de agente de ferramentas de sandbox para detectar, empacotar e migrar objetos compatíveis entre as sandboxes.
 
 Para obter mais informações sobre as ferramentas de sandbox, consulte o [Guia de ferramentas de sandbox](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/ui/sandbox-tooling).
+
