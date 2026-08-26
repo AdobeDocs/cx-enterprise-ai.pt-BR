@@ -7,7 +7,7 @@ doc-type: Feature Video
 duration: 155
 last-substantial-update: 2026-08-26T00:00:00Z
 jira: KT-22377
-source-git-commit: 638e01d8a9a6f8763e1197348360ffc13be77b4a
+source-git-commit: 25eef0f43755edf478eb7130aba470b43584d6ef
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Criar sua primeira habilidade no Colaborador?
+# Crie sua primeira habilidade no Colaborador
 
 Neste vídeo, você verá como um analista de varejo usa o Colaborador e o Customer Journey Analytics (CJA) para preparar um resumo executivo de desempenho de negócios em um prazo apertado.
  
