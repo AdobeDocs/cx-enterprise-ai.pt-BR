@@ -2,22 +2,12 @@
 title: IA nos aplicativos do CX Enterprise
 description: Saiba como os aplicativos do CX Enterprise usam as ferramentas Gerative AI (GenAI), AI Assistant, Agentic AI, CX Enterprise Co-worker e MCP.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 543c62ff56886213b9212864e6ff6ad02dc0f742
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7668505ba139898a4747e049290e5eaf1e29b9f8
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 969
 ht-degree: 3%
 
 ---
@@ -34,6 +24,7 @@ Comece aqui para obter uma introdução sobre onde e como a IA é usada no CX En
 - [Sobre IA de agente](./overview/agentic-ai.md) explica como os Agentes da Experience Platform funcionam nos aplicativos CX Enterprise existentes e nos aplicativos AI-first, além de listar os agentes disponíveis em cada um.
 - O [monitoramento de IA](./overview/monitoring.md) abrange os painéis que rastreiam a adoção, o uso, o feedback e o consumo de crédito de IA do agente.
 - [Consumo de créditos de IA](./overview/ai-credit-consumption.md) explica como os trabalhos de agente consomem créditos de IA, com taxas de consumo estimadas por agente e tipo de trabalho.
+- [Transparência do conteúdo de IA de geração](./content-transparency.md) explica como o Adobe anexa automaticamente metadados C2PA a conteúdo gerado e editado por GenAI nos aplicativos CX Enterprise.
 - As [ferramentas do CX Enterprise Agent](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-agentic-tools/using/overview) abrangem habilidades e ferramentas adicionais de agente que ampliam os CX Enterprise agents (tutoriais em vídeo).
 
 ## Assistente de IA
@@ -60,12 +51,12 @@ Os seguintes agentes da Experience Platform estão documentados neste guia:
 
 Para obter a lista completa de agentes, os aplicativos compatíveis e os requisitos de qualificação, consulte [IA de agente no CX Enterprise](./overview/agentic-ai.md).
 
-## Colaborador
+## Coworker
 
 O Colaborador é uma evolução do Assistente de IA realizada por um agente que automatiza a experiência do cliente e os fluxos de trabalho de marketing, para que sua equipe possa se concentrar nas metas de negócios em vez da execução de rotina. Em vez de fazer uma pergunta por vez, você descreve uma meta. O colega de trabalho planeja, executa, valida e retorna o trabalho concluído para sua aprovação. O colega de trabalho inclui:
 
-- **[Chat do Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: uma interface conversacional para explorar seus dados, validar públicos e jornadas e concluir tarefas de várias etapas nos aplicativos do CX Enterprise.
-- **[Campanhas de colega](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: um aplicativo nativo de IA que consolida informações de campanha, criação de público, geração de conteúdo, design de jornada e provas em uma única experiência de conversação. Ele usa modelos integrados, práticas recomendadas e orientação de solicitação para ajudar equipes pequenas e ágeis a iniciar campanhas rapidamente.
+- **[Chat do Colaborador](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: uma interface conversacional para explorar seus dados, validar públicos e jornadas e concluir tarefas de várias etapas nos aplicativos do CX Enterprise.
+- **[Campanhas de colega](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: um aplicativo nativo de IA que consolida informações de campanha, criação de público, geração de conteúdo, design de jornada e provas em uma única experiência de conversação. Ele usa modelos integrados, práticas recomendadas e orientação de solicitação para ajudar equipes pequenas e ágeis a iniciar campanhas rapidamente.
 - **Projetos de Colaborador** (em breve): um espaço de trabalho unificado para automatizar fluxos de trabalho completos de orquestração da experiência do cliente, ajudando as equipes a coordenar tarefas, aprovações e execução para impulsionar resultados da estratégia até a entrega. A documentação dos Projetos será disponibilizada em breve.
 
 Os clientes qualificados estão sendo gradualmente migrados do Assistente de IA e Agentes do Experience Platform para o Chat de colaborador. Leia [Avaliação de colaborador](./agents/trial.md) para saber mais sobre qualificação de avaliação, uso de Crédito de IA e como obter acesso.
@@ -76,9 +67,16 @@ Para obter a documentação completa do produto sobre Chat, Campanhas e Projetos
 
 ## MCP
 
-O [Adobe CX Co-worker Gateway](./mcp/overview.md) é o terminal MCP (Unified Model Context Protocol) do CX Enterprise. Ele fornece aos clientes compatíveis com MCP, como [!DNL Claude], [!DNL ChatGPT] e [!DNL Cursor], uma única conexão controlada com as ferramentas de produto que sua organização está autorizada a usar. Essas ferramentas incluem [!DNL Real-Time CDP], [!DNL Experience Platform], [!DNL Journey Optimizer], [!DNL Customer Journey Analytics], [!DNL Adobe Analytics] e [!DNL Workfront].
+O [Adobe CX Co-worker Gateway](./mcp/overview.md) é o terminal MCP (Unified Model Context Protocol) do CX Enterprise. Ele fornece aos clientes compatíveis com MCP, como [!DNL Claude], [!DNL ChatGPT] e [!DNL Cursor], uma única conexão controlada com as ferramentas de produto que sua organização está autorizada a usar:
 
-Novo no CX Co-worker Gateway? Consulte [Acessar as ferramentas do CX Coworker Gateway](./mcp/access.md) e [Instalar o CX Coworker Gateway](./mcp/install.md) para se conectar.
+- [Ferramentas do Real-Time CDP](./mcp/rtcdp-mcp.md)
+- [Ferramentas do Experience Platform](./mcp/aep-mcp.md)
+- [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
+- [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
+- [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
+- [!DNL Workfront] ferramentas, documentadas no [guia do servidor Workfront MCP](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+
+Novo no CX Co-worker Gateway? Consulte [Acessar as ferramentas do CX Coworker Gateway](./mcp/access.md) e [Instalar o CX Coworker Gateway](./mcp/install.md) para se conectar. Depois de conectado, use as [ferramentas de contexto de sessão](./mcp/context-tools.md) para definir a organização ativa, a sandbox e a exibição de dados antes de chamar as ferramentas do produto.
 
 ## Introdução
 
@@ -103,4 +101,6 @@ Para obter o máximo valor de sua experiência com o Assistente de IA ou Colabor
 ## Considerações legais
 
 O Assistente de IA atualmente suporta respostas somente em inglês e os modelos de idioma ocasionalmente cometem erros. Sempre verifique as informações fornecidas e use as etapas de raciocínio incluídas em cada resposta para entender como elas foram geradas. Para obter detalhes completos, leia o [aviso de isenção legal](./ai-assistant/legal-disclaimer.md).
+
+O Adobe também anexa automaticamente metadados C2PA a conteúdo gerado e editado por GenAI nos aplicativos CX Enterprise, para atender às regulamentações geradoras de transparência de IA. Para obter detalhes, leia [Transparência do conteúdo da IA gerativa](./content-transparency.md).
 
