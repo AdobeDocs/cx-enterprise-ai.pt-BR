@@ -1,9 +1,10 @@
 ---
 title: Transparência do conteúdo de IA gerativa
 description: Saiba como o Adobe anexa automaticamente metadados C2PA a conteúdo gerado e editado por GenAI nos aplicativos corporativos do Adobe CX.
-source-git-commit: f6627af3f62ae3238b6a2bff665e8d1eabcdf3d1
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+source-git-commit: 02de82fd17bdf3f806ce120b93cbbd85b50f9b8a
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: 1539
 ht-degree: 1%
 
 ---
@@ -99,7 +100,7 @@ No entanto, quando aplicável, todos os aplicativos corporativos Adobe CX contin
 |---|---|
 | Adobe Advertising Cloud | |
 | Adobe Experience Manager (AEM) | |
-| Assistente de IA para geração de conteúdo (recurso no Adobe Journey Optimizer/Adobe Campaign) | <!--[Documentation] (https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata)--> |
+| Assistente de IA para geração de conteúdo (recurso no Adobe Journey Optimizer/Adobe Campaign) | <!--[Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata)--> |
 | Adobe Journey Optimizer B2B edition | <!--[Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/content-credentials)--> |
 | Adobe Journey Optimizer B2C | |
 | Adobe Campaign | |
@@ -107,7 +108,7 @@ No entanto, quando aplicável, todos os aplicativos corporativos Adobe CX contin
 | GenStudio para marketing de desempenho | |
 | Adobe Marketo Engage | |
 | Adobe Workfront | |
-| Campanhas do CX Enterprise Co-worker (antigo HALO) | <!--[Documentation](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)--> |
+| Campanhas do CX Enterprise Co-worker (antigo HALO) | <!--[Documentation](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)--> |
 
 ## Links relacionados
 
