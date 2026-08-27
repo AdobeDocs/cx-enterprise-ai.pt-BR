@@ -1,28 +1,19 @@
 ---
 title: Sobre IA no CX Enterprise
 description: Uma visão geral de nível empresarial de onde a IA gerativa e agêntica aparece nos aplicativos corporativos do Adobe CX, como o uso é controlado e medido e como suas equipes podem começar.
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c5345fbf43da8f310c1b076618a615bf8bb8d998
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: aed11b3ad3450c80516d9cbd580cf983008ddbfd
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 2%
+source-wordcount: 387
+ht-degree: 3%
 
 ---
 
 # Sobre IA no CX Enterprise
 
-Os aplicativos do Adobe CX Enterprise usam a IA de duas maneiras complementares: **IA gerativa**, que você solicita diretamente para criar conteúdo ou obter uma resposta, e **IA agêntica**, que planeja e executa o trabalho em várias etapas em seu nome, com a sua supervisão. Esse grupo de páginas fornece aos líderes de negócios e de TI um mapa do local onde cada tipo de IA é exibido, como ela é controlada e medida e como o conteúdo gerado por IA é divulgado, para que você possa informar as partes interessadas e planejar a ativação antes de implantar IA para suas equipes.
-
->[!NOTE]
->
->Essas páginas são conceituais, não baseadas em tarefas. Para obter uma orientação passo a passo sobre o uso do AI Assistant, Agent Orchestrator ou CX Enterprise Coworker, comece em [AI nos aplicativos CX Enterprise](../home.md).
+Os aplicativos do Adobe CX Enterprise usam a IA de duas maneiras complementares: **IA gerativa**, que você solicita diretamente para criar conteúdo ou obter uma resposta, e **IA agêntica**, que planeja e executa o trabalho em várias etapas em seu nome, com a sua supervisão. Os tópicos a seguir descrevem amplamente onde cada tipo de IA está disponível no CX Enterprise.
 
 ## O que é abordado nesta seção
 
@@ -36,7 +27,7 @@ Os aplicativos do Adobe CX Enterprise usam a IA de duas maneiras complementares:
 ## Por onde começar
 
 1. Leia **Sobre IA gerativa** e **Sobre IA agêntica** para entender as duas formas de IA disponíveis e onde cada uma já está ativa em seus aplicativos licenciados.
-2. Leia **Consumo de créditos de IA** para entender como o uso se traduz em custo, para que você possa definir expectativas com finanças e compras.
-3. Configure as permissões do painel de **Monitoramento de IA do agente** para sua equipe de governança, de modo que a adoção e o uso fiquem visíveis desde o primeiro dia.
-4. Leia **Transparência do conteúdo de IA gerativa** para entender quais divulgações são aplicadas automaticamente ao conteúdo gerado por IA publicado pelas suas equipes.
-5. Quando sua organização estiver pronta para integrar os usuários, aponte-os para [IA nos aplicativos do CX Enterprise](../home.md) para obter orientação prática sobre o AI Assistant, o Agent Orchestrator e o CX Enterprise Co-worker.
+1. Leia **Consumo de créditos de IA** para entender como o uso se traduz em custo, para que você possa definir expectativas com finanças e compras.
+1. Configure as permissões do painel de **Monitoramento de IA do agente** para sua equipe de governança, de modo que a adoção e o uso fiquem visíveis desde o primeiro dia.
+1. Leia **Transparência do conteúdo de IA gerativa** para entender quais divulgações são aplicadas automaticamente ao conteúdo gerado por IA publicado pelas suas equipes.
+1. Quando sua organização estiver pronta para integrar os usuários, aponte-os para [IA nos aplicativos do CX Enterprise](../home.md) para obter orientação prática sobre o AI Assistant, o Agent Orchestrator e o CX Enterprise Co-worker.
