@@ -1,13 +1,12 @@
 ---
 description: Um guia de referência para a interface do Chat do Colaborador, abordando a navegação, a caixa de entrada, as respostas, o histórico do chat e a configuração de Habilidades, servidores MCP e Memória.
 title: Guia da Interface do Usuário do Chat do Colaborador
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
+source-git-commit: 01d955d0cacf42789f955ba4fa9e6a6bf90222da
 workflow-type: tm+mt
-source-wordcount: 1577
-ht-degree: 3%
+source-wordcount: 1718
+ht-degree: 4%
 
 ---
 
@@ -15,9 +14,28 @@ ht-degree: 3%
 
 Orientar-se com a interface de bate-papo de colega de trabalho. Este guia aborda tudo, desde acessar o aplicativo e navegar pelo espaço de trabalho até aproveitar ao máximo as conversas, gerenciar seu histórico e adaptar sua configuração.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498571?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Acessar o bate-papo do colega
+
+Quando sua organização obtém acesso ao Colaborador, você pode usar seus recursos por meio da experiência imersiva ou de uma experiência no produto.
+
+>[!NOTE]
+>
+>A experiência no produto pode ser acessada por meio do ícone de Colaborador (![ícone de Colaborador](./assets/icon-coworker.png)) no canto superior direito. Os detalhes da experiência imersiva estão [descritos abaixo](#immersive).
+
+A tabela a seguir mostra quando essas experiências estarão disponíveis para cada aplicativo CX Enterprise.
+
+| Aplicativo corporativo CX | Experiência imersiva | Experiência no produto |
+|---|---|---|
+| RTCDP | Disponível agora | Em breve |
+| AJO | Disponível agora | Em breve |
+| CJA | Disponível agora | Em breve |
+| AEM | Lançamento em setembro de 2026 | Em breve |
+| Workfront | Lançamento em setembro de 2026 | Em breve:<br><br>* início de setembro de 2026 no modo de visualização para administradores de sistema Workfront selecionados<br><br>* meados de setembro de 2026 no modo de produção para clientes Workfront de lançamento rápido qualificados<br><br>* meados de outubro de 2026 no modo de produção para clientes Workfront de lançamento trimestral qualificados |
+| Target | Lançamento em setembro de 2026 | Em breve |
+
+### Experiência imersiva {#immersive}
 
 Acesse o Chat do Colaborador navegando até [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker) e entrando com suas credenciais da Adobe.
 
