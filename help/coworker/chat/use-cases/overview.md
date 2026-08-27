@@ -3,9 +3,9 @@ description: Procure casos de uso do Chat de colaborador e prompts de amostra, o
 title: Casos de uso do chat com colegas de trabalho
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: e396bdc6974eb4484049af450f1b3a6b5045311b
+source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
 workflow-type: tm+mt
-source-wordcount: 3050
+source-wordcount: 3344
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 >
 >Todos os clientes qualificados terão acesso aos recursos de agentes da Adobe Experience Manager no Colaborador continuamente.
 >
->Consulte também [IA no AEM - Visão geral dos recursos de agente no AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Consulte também [IA no AEM - Visão geral dos recursos de agente no AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Experiência da marca
 
@@ -36,7 +36,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Sites](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
 ### Produção de experiência - Casos de uso do Forms
 
@@ -49,7 +49,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Forms](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Desenvolvimento
 
@@ -63,7 +63,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: experiência da marca - desenvolvimento](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Recursos de agente no AEM: experiência da marca - desenvolvimento](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Integração - Casos de uso do AEM Assets
 
@@ -76,7 +76,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: experiência da marca - integração](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Recursos de agente no AEM: experiência da marca - integração](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Supervisor de conteúdo - Casos de uso do AEM Assets
 
@@ -91,7 +91,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: Supervisor de conteúdo - Detecção de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Recursos de agente no AEM: Supervisor de conteúdo - Detecção de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Otimização de conteúdo
 
@@ -103,7 +103,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: Supervisor de conteúdo - Otimização de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Recursos de agente no AEM: Supervisor de conteúdo - Otimização de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Governança da marca
 
@@ -115,7 +115,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: governança da marca](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Recursos de agente no AEM: governança da marca](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Insights de dados
 
@@ -173,3 +173,15 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 | Caso de uso | Descrição | Habilidades | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
 | [Mover objetos entre sandboxes](/help/agents/sandbox-tooling.md) | Migrar esquemas, públicos-alvo e outras configurações de objeto facilmente entre sandboxes, com dependências resolvidas automaticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Mover Platina de Membros de Fidelidade Luma do esquema da sandbox atual para a sandbox de produção&quot; · &quot;Promover o público-alvo dos Membros de Fidelidade Gold dos EUA para o estágio&quot; |
+
+## Alertas do cliente
+
+| Caso de uso | Descrição | Habilidades | Aplicativo | Exemplos de Prompts |
+| --- | --- | --- | --- | --- |
+| Gerenciar assinaturas de alerta | Exiba e gerencie assinaturas de alerta por meio de conversas em idioma natural. | `alerts-subscribe` | Adobe Experience Platform | &quot;Em quais alertas estou inscrito?&quot;<br><br>&quot;Assinar este alerta.&quot;<br><br>&quot;Remover minha inscrição neste alerta.&quot; |
+| Revisar atividade de alerta | Revise o status do alerta atual e a atividade de alerta histórica para um período de tempo especificado. | `alerts-list` | Adobe Experience Platform | &quot;O que aconteceu nas últimas 24 horas?&quot;<br><br>&quot;Quais alertas foram disparados nas últimas 24 horas?&quot;<br><br>&quot;Mostrar alertas ativos dos últimos sete dias.&quot; |
+| Identificar padrões de alerta recorrentes | Analise o histórico de alertas para identificar tipos de alertas acionados com frequência e tendências operacionais. | `alerts-list` | Adobe Experience Platform | &quot;Mostrar os 3 principais tipos de alertas acionados.&quot;<br><br>&quot;Quais tipos de alertas ocorreram com mais frequência este mês?&quot;<br><br>&quot;Quais padrões de alertas você vê nos últimos sete dias?&quot; |
+| Concentre-se em questões de alta prioridade | Filtre a atividade de alerta por gravidade para priorizar os esforços de investigação. | `alerts-list` | Adobe Experience Platform | &quot;Mostrar apenas alertas de alta severidade.&quot;<br><br>&quot;Quais alertas críticos foram disparados esta semana?&quot;<br><br>&quot;Mostrar alertas críticos dos últimos 30 dias.&quot; |
+| Entender o raio de impacto dos alertas | Identifique os objetos mais afetados pelos alertas e determine onde a investigação deve começar. | `alerts-list` | Adobe Experience Platform | &quot;Quais são os 5 principais objetos afetados?&quot;<br><br>&quot;Quais objetos estão associados aos alertas de severidade mais alta?&quot; |
+| Conectar tipos de alerta a objetos afetados | Analisar relações entre tipos de alertas e recursos afetados. | `alerts-list` | Adobe Experience Platform | &quot;Quais tipos de alerta afetaram este conjunto de dados com mais frequência?&quot;<br><br>&quot;Mostrar a relação entre os tipos de alerta e os objetos afetados.&quot;<br><br>&quot;Qual tipo de alerta afetou o objeto afetado com mais frequência?&quot; |
+| Foco em Meus Alertas | Analise os alertas nos quais você se inscreve e que são responsáveis pelo monitoramento. | `alerts-list` | Adobe Experience Platform | &quot;Mostrar os alertas de alta severidade que eu assino.&quot;<br><br>&quot;Quais alertas dos Meus Alertas foram disparados esta semana?&quot;<br><br>&quot;Algum dos meus alertas que assinei requer atenção?&quot; |
