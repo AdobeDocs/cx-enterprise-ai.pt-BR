@@ -6,10 +6,10 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 487b6e32ef108f864e878516e32921c958422763
+source-git-commit: 74c7d4e455b0b7079b5fe85d2b5325e32fe6642e
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 16%
+source-wordcount: '284'
+ht-degree: 17%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 16%
     - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Sobre o Colaborador](./coworker/overview.md)
   - Campanhas {#campaigns}
@@ -87,6 +87,5 @@ ht-degree: 16%
       - Jornadas {#journeys}
         - [Criar jornadas usando o idioma natural](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [Criar um desafio de fidelidade e insights de superfície](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
-  - {hide-from-toc}[Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md)
-    - [Habilidades dos agentes de ferramentas de sandbox](./agents/sandbox-tooling.md)
-    - [Competências de alerta do cliente](./agents/customer-alert-skills.md)
+      - Ferramentas de sandbox {#sandbox-tooling}
+        - [Habilidades de agente de ferramentas de sandbox](./agents/sandbox-tooling.md)
