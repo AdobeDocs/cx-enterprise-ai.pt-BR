@@ -6,9 +6,9 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 74c7d4e455b0b7079b5fe85d2b5325e32fe6642e
+source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '288'
 ht-degree: 17%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 17%
     - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Sobre o Colaborador](./coworker/overview.md)
   - Campanhas {#campaigns}
@@ -89,3 +89,6 @@ ht-degree: 17%
         - [Criar um desafio de fidelidade e insights de superfície](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Ferramentas de sandbox {#sandbox-tooling}
         - [Habilidades de agente de ferramentas de sandbox](./agents/sandbox-tooling.md)
+      - Alertas {#alerts}
+        - [Habilidades de alerta do cliente](./agents/customer-alerts.md)
+
