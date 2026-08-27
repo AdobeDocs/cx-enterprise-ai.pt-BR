@@ -1,7 +1,8 @@
 ---
 description: Procure casos de uso do Chat de colaborador e prompts de amostra, organizados por área entre insights de dados, públicos, jornadas e operações da plataforma.
 title: Casos de uso do chat com colegas de trabalho
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 74c7d4e455b0b7079b5fe85d2b5325e32fe6642e
 workflow-type: tm+mt
 source-wordcount: 3050
