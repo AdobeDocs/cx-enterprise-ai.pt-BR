@@ -6,9 +6,9 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+source-git-commit: 4045f52a0ff95b9b64327551388fddb5a86650ea
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '292'
 ht-degree: 17%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 17%
     - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Sobre o Colaborador](./coworker/overview.md)
   - Campanhas {#campaigns}
@@ -76,6 +76,7 @@ ht-degree: 17%
   - Chat {#chat}
     - [Visão geral](./coworker/chat/overview.md)
     - [Guia da interface do usuário](./coworker/chat/ui-guide.md)
+    - {hide-from-toc}[Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md)
     - Casos de uso {#use-cases}
       - [Casos de uso do chat do colaborador](./coworker/chat/use-cases/overview.md)
       - Insights de dados {#data-insights}
