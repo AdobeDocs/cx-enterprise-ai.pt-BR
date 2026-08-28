@@ -6,18 +6,19 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 17%
+source-wordcount: '296'
+ht-degree: 18%
 
 ---
 
 
 # IA no CX Enterprise {#experience-cloud-ai}
 
-- [IA em aplicativos CX Enterprise](home.md)
+- [IA no CX Enterprise](home.md)
 - Sobre IA no CX Enterprise {#overview}
+  - [Sobre IA no CX Enterprise](./overview/overview-ai-cxe.md)
   - [Sobre a IA gerativa](./overview/generative-ai.md)
   - [Sobre IA agêntica](./overview/agentic-ai.md)
   - [Sobre o consumo de créditos de IA](./overview/ai-credit-consumption.md)
@@ -76,6 +77,7 @@ ht-degree: 17%
   - Chat {#chat}
     - [Visão geral](./coworker/chat/overview.md)
     - [Guia da interface do usuário](./coworker/chat/ui-guide.md)
+    - {hide-from-toc}[Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md)
     - Casos de uso {#use-cases}
       - [Casos de uso do chat do colaborador](./coworker/chat/use-cases/overview.md)
       - Insights de dados {#data-insights}
