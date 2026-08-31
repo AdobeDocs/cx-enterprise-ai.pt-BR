@@ -4,9 +4,9 @@ title: Guia da Interface do Usuário do Chat do Colaborador
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: 7bb455d36977d05d1d7d7b93fb16201ebd05695e
+source-git-commit: 94a546c3b9f89b35b0e34c821ea3f0f8c021fae4
 workflow-type: tm+mt
-source-wordcount: 1712
+source-wordcount: 1713
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ A tabela a seguir mostra quando essas experiências estarão disponíveis para c
 | AJO | Disponível agora | Em breve |
 | CJA | Disponível agora | Em breve |
 | AEM | Setembro de 2026 | Em breve |
-| Workfront | Setembro de 2026 | Em breve:<br><br>* início de setembro de 2026 na instância de visualização para administradores de sistema Workfront selecionados<br><br>* meados de setembro de 2026 na instância de produção para clientes Workfront de lançamento rápido qualificados<br><br>* meados de outubro de 2026 na instância de produção para clientes Workfront de lançamento trimestral qualificados |
+| Workfront | Setembro de 2026 | Em breve:<br><br>* início de setembro de 2026 na instância de visualização para administradores de sistema da Workfront selecionados<br><br>* meados de setembro de 2026 na instância de produção para clientes Workfront de lançamento rápido qualificados<br><br>* meados de outubro de 2026 na instância de produção para clientes Workfront de lançamento trimestral qualificados |
 | Target | Setembro de 2026 | Em breve |
 
 ### Experiência imersiva {#immersive}
