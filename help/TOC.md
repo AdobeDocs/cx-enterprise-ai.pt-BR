@@ -6,10 +6,10 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
+source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 18%
+source-wordcount: '304'
+ht-degree: 17%
 
 ---
 
@@ -93,4 +93,6 @@ ht-degree: 18%
         - [Habilidades de agente de ferramentas de sandbox](./agents/sandbox-tooling.md)
       - Alertas {#alerts}
         - [Habilidades de alerta do cliente](./agents/customer-alerts.md)
-
+      - Supervisor de conteúdo {#content-advisor}
+        - [Gerar ativos de marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
+        - [Verificação de conformidade da marca](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
