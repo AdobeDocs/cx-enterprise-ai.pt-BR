@@ -1,10 +1,10 @@
 ---
 description: Um guia de referência para a interface do Chat do Colaborador, abordando a navegação, a caixa de entrada, as respostas, o histórico do chat e a configuração de Habilidades, servidores MCP e Memória.
 title: Guia da Interface do Usuário do Chat do Colaborador
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: 94a546c3b9f89b35b0e34c821ea3f0f8c021fae4
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 1713
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Orientar-se com a interface de bate-papo de colega de trabalho. Este guia aborda tudo, desde acessar o aplicativo e navegar pelo espaço de trabalho até aproveitar ao máximo as conversas, gerenciar seu histórico e adaptar sua configuração.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498571?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Acessar o bate-papo do colega
 

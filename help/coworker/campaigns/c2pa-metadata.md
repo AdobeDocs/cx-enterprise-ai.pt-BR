@@ -1,9 +1,10 @@
 ---
 description: Saiba como o Coworker Campaigns anexa e preserva automaticamente metadados C2PA em imagens, desde a geração até a entrega de emails.
 title: Metadados do C2PA em campanhas de colegas de trabalho
-source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 387
 ht-degree: 4%
 
 ---
@@ -37,6 +38,6 @@ As Campanhas de colega de trabalho preservam os metadados C2PA associados aos at
 
 ## Recursos adicionais {#resources}
 
-* [Transparência do conteúdo de IA gerativa](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}
+* [Transparência do conteúdo de IA gerativa](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}
 * [Diretrizes do usuário da IA gerada da Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR){target="_blank"}
-* [Medidas de proteção e limitações](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Medidas de proteção e limitações](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
