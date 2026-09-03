@@ -1,13 +1,11 @@
 ---
 description: Procure casos de uso do Chat de colaborador e prompts de amostra, organizados por área entre insights de dados, públicos, jornadas e operações da plataforma.
 title: Casos de uso do chat com colegas de trabalho
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: befb56a0afc6de347aa2481bc930d1e0fc812f09
 workflow-type: tm+mt
-source-wordcount: 3729
+source-wordcount: 4261
 ht-degree: 6%
 
 ---
@@ -24,7 +22,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 >
 >Todos os clientes qualificados terão acesso aos recursos de agentes da Adobe Experience Manager no Colaborador continuamente.
 >
->Consulte também [IA no AEM - Visão geral dos recursos de agente no AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Consulte também [IA no AEM - Visão geral dos recursos de agente no AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Experiência da marca
 
@@ -43,9 +41,9 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Sites](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Forms](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Desenvolvimento
 
@@ -58,7 +56,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: experiência da marca - desenvolvimento](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Recursos de agente no AEM: experiência da marca - desenvolvimento](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Integração
 
@@ -71,7 +69,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: experiência da marca - integração](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Recursos de agente no AEM: experiência da marca - integração](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Supervisor de conteúdo
 
@@ -86,7 +84,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: Supervisor de conteúdo - Detecção de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Recursos de agente no AEM: Supervisor de conteúdo - Detecção de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Otimização de conteúdo
 
@@ -98,7 +96,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: Supervisor de conteúdo - Otimização de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Recursos de agente no AEM: Supervisor de conteúdo - Otimização de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Governança da marca
 
@@ -110,7 +108,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: governança da marca](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Recursos de agente no AEM: governança da marca](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Insights de dados
 
@@ -160,7 +158,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 | Resolução e vinculação da entidade | Use a pesquisa semântica e léxica para resolver menções de entidade a entidades reais do Experience Platform e descobrir campos XDM | `entity-linking` | Adobe Experience Platform | &quot;Resolver &#39;Compradores de Feriados&#39; para um público-alvo real&quot; <br> &quot;Encontre-me campos relacionados ao histórico de compras&quot; |
 | Gerenciar habilidades personalizadas | Salvar, modificar ou excluir habilidades reutilizáveis de propriedade do usuário que persistem entre as sessões | `manage-skill` | Todos os aplicativos qualificados | &quot;Salvar este fluxo de trabalho como uma habilidade&quot; <br> &quot;Excluir minha habilidade semanal de relatório&quot; <br> &quot;Transformar em uma habilidade reutilizável&quot; |
 | Monitorar a capacidade de transmissão e as violações | Verificar o uso atual e histórico da transmissão, a capacidade e o status de violação em sandboxes | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;Qual é minha capacidade de streaming atual na minha sandbox atual?&quot; <br> &quot;Minha sandbox atual está excedendo os limites de capacidade na última semana?&quot; |
-| [Exibir resultados da avaliação de verificação de integridade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/run-and-operate/health-checks/overview) | Visualize a avaliação de verificação de integridade mais recente para sua sandbox, examine uma verificação de falha e veja as entidades afetadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;O que há de errado na minha sandbox?&quot; <br> &quot;Conte-me sobre minha última avaliação de verificação de integridade&quot; <br> &quot;Quais são os problemas da verificação de descrição do namespace personalizado?&quot; |
+| [Exibir resultados da avaliação de verificação de integridade](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Visualize a avaliação de verificação de integridade mais recente para sua sandbox, examine uma verificação de falha e veja as entidades afetadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;O que há de errado na minha sandbox?&quot; <br> &quot;Conte-me sobre minha última avaliação de verificação de integridade&quot; <br> &quot;Quais são os problemas da verificação de descrição do namespace personalizado?&quot; |
 | Corrigir problemas de verificação de integridade | Corrija problemas de namespace de identidade, política de mesclagem e esquema sinalizados diretamente do chat, com sua aprovação antes que qualquer alteração seja feita | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Corrigir descrições de namespace de identidade&quot; <br> &quot;Corrigir nomes de política de mesclagem duplicados&quot; <br> &quot;Corrigir esquemas que não têm o grupo de campos de auditoria&quot; <br> &quot;Corrigir nomeação de política de mesclagem padrão&quot; |
 
 ## Ferramentas de sandbox
@@ -187,9 +185,25 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 | --- | --- | --- | --- | --- |
 | Gerenciar espaço de trabalho do Planning | Crie e desenvolva espaços de trabalho, seções, tipos de registro e campos do Workfront Planning para organizar programas e rastrear o trabalho | `manage-workfront-planning`, `wf-planning-solution-architect` | Planejamento do Workfront | &quot;Crie um espaço de trabalho chamado Hub MKG e configure tipos de registro para rastrear programas por região&quot; <br> &quot;Configure os tipos de registro e as relações necessárias para rastrear programas MKG entre canais e regiões&quot; |
 | Gerenciar registros do Planning | Criar e atualizar registros de planejamento (campanhas, resumos) e seus valores de campo em um espaço de trabalho | `manage-workfront-planning` | Planejamento do Workfront | &quot;Crie um resumo para a campanha do Fall Brand Launch com o objetivo, o público-alvo e as mensagens principais&quot; <br> &quot;Atualize o resumo do Fall Brand Launch com o orçamento e os canais principais&quot; |
-| Criar e gerenciar projetos | Girar e estruturar projetos - aplique modelos, defina prioridades e orçamentos, sequencie tarefas, adicione fases e dependências e atribua pessoas ou funções | `manage-workfront-workflow` | Fluxo de trabalho do Workfront | &quot;Crie uma campanha do primeiro trimestre, defina-a como alta prioridade com um orçamento de $200K e sequencie as tarefas&quot; <br> &quot;Crie um plano de projeto do Workfront chamado [nome do projeto] de [modelo do projeto]&quot; <br> &quot;Crie um plano de projeto para o lançamento do último trimestre - Campanha social com tarefas para concepção, design, cópia e revisão&quot; <br> &quot;Adicione uma nova tarefa de Marketing por email e atribua-a a Rachel Smith&quot; |
-| Acelerar revisões e aprovações | Configurar aprovações em vários estágios, aplicar modelos de aprovação, adicionar/remover aprovadores, enviar lembretes e fazer atualizações em massa | `manage-workfront-workflow` | Fluxo de trabalho do Workfront | &quot;Criar uma aprovação em vários estágios - copiar, projetar, legal - e lembrar a qualquer pessoa que não tenha aprovado&quot; <br> &quot;Remover Chris Smith de todas as aprovações abertas e substituir por Jane Francis&quot; |
+| Criar e gerenciar projetos | Rotação e estrutura de projetos: aplique modelos, defina prioridades e orçamentos, sequencie tarefas, adicione fases e dependências e atribua pessoas ou funções | `manage-workfront-workflow` | Fluxo de trabalho do Workfront | &quot;Crie uma campanha do primeiro trimestre, defina-a como alta prioridade com um orçamento de $200K e sequencie as tarefas&quot; <br> &quot;Crie um plano de projeto do Workfront chamado [nome do projeto] de [modelo do projeto]&quot; <br> &quot;Crie um plano de projeto para o último trimestre: Campanha social com tarefas para concepção, design, cópia e revisão&quot; <br> &quot;Adicione uma nova tarefa de Marketing por email e atribua-a a Rachel Smith&quot; |
+| Acelerar revisões e aprovações | Configurar aprovações em vários estágios, aplicar modelos de aprovação, adicionar/remover aprovadores, enviar lembretes e fazer atualizações em massa | `manage-workfront-workflow` | Fluxo de trabalho do Workfront | &quot;Crie uma aprovação em vários estágios (cópia, design, ofício) e lembre qualquer pessoa que não tenha aprovado&quot; <br> &quot;Remover Chris Smith de todas as aprovações abertas e substituir por Jane Francis&quot; |
 | Atualizar status de tarefa e trabalho | Marcar tarefas como concluídas, atualizar percentual concluído e fechar seu trabalho | `manage-workfront-workflow` | Fluxo de trabalho do Workfront | &quot;Marcar minha tarefa &quot;Produzir arte principal&quot; no lançamento do último trimestre como concluída&quot; <br> &quot;Fechar minha tarefa de cópia do lançamento do último trimestre em 100%&quot; |
 | Insights de trabalho de superfície | Faça perguntas exploratórias para encontrar trabalho em risco, tarefas não atribuídas, problemas em aberto e status entre projetos | `query-workfront` | Fluxo de trabalho do Workfront | &quot;Localizar tarefas incompletas nos projetos atuais que não estão atribuídas a ninguém e que devem ser concluídas esta semana&quot; <br> &quot;Quantos problemas há em aberto nos projetos atuais?&quot; |
 | Resumo de projetos e tarefas | Listas de pull, tabelas e contagens de projetos, tarefas, problemas e atribuições | `query-workfront` | Fluxo de trabalho do Workfront | &quot;Mostrar uma tabela de minhas tarefas prontas para começar, com o nome do projeto, a data de vencimento da tarefa e o usuário atribuído&quot; <br> &quot;Obter todas as tarefas atribuídas a [nome do usuário]&quot; |
 | Rastrear aprovações e status do portfólio | Verifique o status de suas aprovações e acumule o trabalho incompleto por portfólio | `query-workfront` | Fluxo de trabalho do Workfront | &quot;Mostrar o status de minhas aprovações&quot; <br> &quot;Mostrar uma tabela com problemas incompletos que fazem parte do portfólio [Nome do Portfolio]&quot; |
+
+## Experimentação e otimização
+
+| Domínio | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
+|---|---|---|---|---|---|
+| **Experimentação e otimização** | Procurar e localizar entidades de Destino | Descubra, inspecione, pesquise e liste entidades do Target — atividades (A/B, XT, AP, alocação automática, MVT), públicos-alvo e ofertas. Comece aqui para obter informações. | `target-browse` | Adobe Target | &quot;Mostrar todas as minhas atividades A/B ativas&quot;<br>&quot;Quais públicos-alvo tenho?&quot;<br>&quot;Localizar atividade \&lt;nome ou ID>&quot; |
+| **Experimentação e otimização, análise de público-alvo, inteligência de desempenho de conteúdo** | Relatório sobre o desempenho da atividade | Relatórios de desempenho e pedidos em todos os tipos de atividade (incluindo Recommendations) — aumento de conversão, receita e pedidos. | `target-analyze` | Adobe Target | &quot;Como está o desempenho da atividade \&lt;nome/ID>?&quot;<br>&quot;Mostrar aumento de conversão e receita para \&lt;atividade>&quot;<br>&quot;Quais atividades geraram mais pedidos no mês passado?&quot; |
+| **Experimentação e otimização, Gerenciamento de público-alvo** | Atividades, ofertas e públicos-alvo do autor | Crie e configure atividades, ofertas (HTML/JSON/redirect), públicos-alvo e tokens de resposta. A principal habilidade de criação. | `target-design` | Adobe Target | &quot;Criar uma atividade A/B de direcionamento \&lt;público-alvo>&quot;<br>&quot;Criar uma oferta JSON para \&lt;caso de uso>&quot;<br>&quot;Adicionar um token de resposta para \&lt;atributo>&quot; |
+| **Experimentação e otimização, Criação de conteúdo** | Criar atividades visuais (WYSIWYG) | Criação do Visual Experience Composer — crie e edite atividades visuais A/B e XT em relação a um URL de página ao vivo usando modificações do seletor de CSS. | `target-vec` | Adobe Target | &quot;Criar um teste A/B visual em \&lt;URL da página>&quot;<br>&quot;Alterar o título principal em \&lt;URL da página> para \&lt;texto>&quot;<br>&quot;Configurar uma atividade XT com edições visuais em \&lt;URL da página>&quot; |
+| **Experimentação e otimização** | Procurar e inspecionar Recommendations | Navegação e inspeção somente leitura de critérios, coleções, designs, promoções, exclusões, catálogo e feeds; inclui consultoria de limpeza e inteligência de atributos de catálogo. | `target-recs` | Adobe Target | &quot;Mostrar meus critérios e coleções do Recommendations&quot;<br>&quot;Inspecionar o design para \&lt;atividade recs>&quot;<br>&quot;Revisar feeds e exclusões de catálogo&quot; |
+| **Experimentação e otimização** | Solução de problemas do Recommendations | Solução de problemas somente leitura para problemas de recs, como &quot;resultados não prontos&quot;, resultados vazios e recs com falha. | `target-recs-diagnose` | Adobe Target | &quot;Por que os resultados da minha recomendação não estão prontos?&quot;<br>&quot;Meus registros estão voltando vazios — o que há de errado?&quot;<br>&quot;Diagnosticar por que a &lt;atividade recs> está falhando&quot; |
+| **Experimentação e otimização** | Criar e automatizar o Recommendations | Criação de relatórios — crie, atualize e exclua critérios, coleções, designs, exclusões, promoções e feeds; crie atividades de recs; além de itens em massa/automação em muitas atividades. | `target-recs-design` | Adobe Target | &quot;Criar um critério &quot;visualizado recentemente&quot;<br>&quot;Criar uma atividade do Recommendations usando \&lt;critério>&quot;<br>&quot;Atualizar o design em massa em todas as minhas atividades recs&quot; |
+| **Experimentação e otimização** | Experimentos de navegação e pesquisa | Navegação genérica e pesquisas em experimentos — listar, exibir e extrair resultados e insights. | `experiment-explorer` | Acelerador de experimentação | &quot;Mostrar meus experimentos&quot;<br>&quot;Listar experimentos ativos&quot;<br>&quot;Mostrar resultados para \&lt;experimento>&quot;<br>&quot;Quais insights o \&lt;experimento> tem?&quot; |
+| **Experimentação e otimização, análise de público-alvo, inteligência de desempenho de conteúdo** | Analisar e decidir sobre experimentos | Síntese guiada e suporte a decisões em experimentos — verificações de saúde, decisões de envio e resumos executivos. | `experiment-analysis` | Acelerador de experimentação | &quot;Como estão indo meus experimentos?&quot;<br>&quot;Devo enviar \&lt;experimento>?&quot;<br>&quot;Meu experimento está íntegro?&quot;<br>&quot;Escreva um resumo executivo de nossos experimentos&quot; |
+| **Experimentação e otimização** | Experimentos de design e planejamento | Design e planejamento de experimentos voltados para o futuro — o que testar a seguir, como projetar um teste e como criar um roteiro. | `experiment-strategist` | Acelerador de experimentação | &quot;O que devo testar a seguir?&quot;<br>&quot;Ajude-me a projetar um experimento para \&lt;goal>&quot;<br>&quot;Meu experimento falhou — o que vem a seguir?&quot;<br>&quot;Criar um roteiro de teste&quot; |
+| **Experimentação e otimização; Inteligência de Jornada de clientes e contas** | Pesquisar conhecimento e assimilar dados | Recupere e pesquise o conhecimento de contexto do experimento ou assimile dados CSV externos para análise. | `experiment-knowledge-base` | Acelerador de experimentação | &quot;O que sabemos sobre o experimento \&lt;name>?&quot;<br>&quot;Já testamos essa hipótese antes?&quot;<br>&quot;Carregar um CSV e analisar este arquivo&quot; |
