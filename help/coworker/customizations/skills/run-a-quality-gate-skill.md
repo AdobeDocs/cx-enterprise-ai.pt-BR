@@ -80,8 +80,9 @@ The three gates are:
 [Paste Gate 1, Gate 2, and Gate 3 definitions here]
 ```
 
----
+&#x200B;---
  
+
 ## Portão 1: Supressão / Consentimento
  
 > Edite esta seção para corresponder aos requisitos de supressão e consentimento de sua organização.
@@ -109,8 +110,9 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
----
+&#x200B;---
  
+
 ## Porta 2: Limite de frequência
 
 > Edite esta seção para corresponder aos requisitos de frequência de entrega de sua organização.
@@ -135,7 +137,7 @@ Our standard:
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 ```
 
----
+&#x200B;---
 
 ## Portão 3: Convenção de Nomenclatura
  
@@ -178,7 +180,7 @@ When blocked on naming, always propose a compliant replacement name.
 
  
 
----
+&#x200B;---
 
 ## Orientação
 
@@ -195,7 +197,7 @@ Todo o resto deve permanecer inalterado:
 - Renderização do scorecard
 - Lógica de veredicto
 
----
+&#x200B;---
 
 
 ### &#x200B;2. Verificar pré-requisitos
@@ -213,7 +215,7 @@ Essa habilidade depende de:
 
 Se esses recursos não estiverem disponíveis no ambiente do cliente, a habilidade não poderá ser executada conforme projetado.
 
----
+&#x200B;---
 
 ### &#x200B;3. Manter a habilidade como somente leitura
 
