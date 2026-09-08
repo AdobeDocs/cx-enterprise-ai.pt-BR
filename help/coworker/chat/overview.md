@@ -1,13 +1,11 @@
 ---
 description: Saiba como o Coworker Chat usa uma interface de conversação para planejar, executar e concluir o trabalho da experiência do cliente na Adobe e nos sistemas conectados em minutos.
 title: Visão geral do Bate-papo com o Colaborador do Adobe CX Enterprise
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 5c430cb5e63575da34a51f39fe871988e4c873d0
 workflow-type: tm+mt
-source-wordcount: 741
+source-wordcount: 739
 ht-degree: 0%
 
 ---
@@ -50,8 +48,9 @@ Os seguintes aplicativos CX Enterprise são compatíveis com o Co-worker Chat:
 * Real-Time CDP B2C Edition
 * Adobe Journey Optimizer B2C Edition
 * Customer Journey Analytics B2C Edition
-* _AEM (em breve)_
-* _Workfront (em breve)_
+* AEM
+* Workfront
+* Marketo Engage
 * _Real-Time CDP B2B edition (em breve)_
 * _Adobe Journey Optimizer B2B edition (em breve)_
 * _Customer Journey Analytics B2B edition (em breve)_
@@ -68,4 +67,4 @@ O Chat do Colaborador é alimentado pelos blocos de construção do Colaborador.
 
 ## Visão geral do vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3495971?captions=por_br&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
