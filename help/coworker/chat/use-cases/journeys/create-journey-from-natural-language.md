@@ -8,11 +8,9 @@ doc-type: Feature Video
 duration: 102
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22081
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 97
 ht-degree: 0%
@@ -26,4 +24,4 @@ Tradicionalmente, a criação de jornadas para clientes requer configuração ab
  
 Ao automatizar o processo de configuração inicial, as equipes podem gastar menos tempo criando jornadas do zero e mais tempo refinando as experiências dos clientes e os resultados dos negócios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496880/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)

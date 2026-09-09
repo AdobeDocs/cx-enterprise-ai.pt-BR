@@ -7,11 +7,9 @@ doc-type: Feature Video
 duration: 499
 last-substantial-update: 2026-08-12T00:00:00.000Z
 jira: KT-22312
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 90
 ht-degree: 0%
@@ -25,4 +23,4 @@ Nesta demonstração, você verá como a Fidelidade do Adobe Journey Optimizer (
  
 O vídeo mostra o plug-in de Fidelidade e sua habilidade de Gerenciamento de desafios, um recurso alimentado por IA que ajuda os profissionais de marketing a criar, editar e gerenciar desafios de fidelidade usando linguagem natural em vez de configurar manualmente cada configuração na interface do usuário.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496542/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)

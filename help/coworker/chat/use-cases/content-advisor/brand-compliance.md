@@ -8,11 +8,9 @@ doc-type: Feature Video
 duration: 76
 last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22501
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 134
 ht-degree: 0%
@@ -28,4 +26,4 @@ Por exemplo, o Colaborador pode revisar o conteúdo gerado automaticamente, como
 
 O colega de trabalho não apenas identifica problemas, mas oferece sugestões acionáveis. Por exemplo, se uma legenda for muito genérica ou não tiver uma call to action, ela fornecerá uma versão revisada que atende aos padrões da sua marca, completa com tags relevantes. Esse processo simplifica a criação de conteúdo e garante a conformidade da marca com o mínimo esforço.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502706/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502691/?learn=on&enablevpops)

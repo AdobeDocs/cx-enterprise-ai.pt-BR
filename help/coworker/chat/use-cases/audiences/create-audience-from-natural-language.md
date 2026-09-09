@@ -8,11 +8,9 @@ doc-type: Feature Video
 duration: 221
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22080
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 84
 ht-degree: 0%
@@ -24,4 +22,4 @@ ht-degree: 0%
 
 Auditoria de como públicos-alvo, jornadas, conjuntos de dados e destinos se conectam normalmente é um exercício manual e demorado. Neste vídeo, saiba como o Coworker pode gerar uma visão operacional completa do seu ambiente Adobe Experience Platform (AEP), compará-lo com as práticas recomendadas do setor e usar essas descobertas para criar um novo público-alvo, tudo em uma única conversa.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496871/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496848/?learn=on&enablevpops)
