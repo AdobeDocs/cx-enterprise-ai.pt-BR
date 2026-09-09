@@ -6,9 +6,9 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
+source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '311'
 ht-degree: 17%
 
 ---
@@ -74,6 +74,7 @@ ht-degree: 17%
     - Habilidades {#skills}
       - [O que são habilidades?](./coworker/customizations/skills/what-are-skills.md)
       - [Crie sua primeira habilidade](./coworker/customizations/skills/create-your-first-skill.md)
+      - [Criar e executar uma habilidade de portal de qualidade](./coworker/customizations/skills/run-a-quality-gate-skill.md)
   - Chat {#chat}
     - [Visão geral](./coworker/chat/overview.md)
     - [Guia da interface do usuário](./coworker/chat/ui-guide.md)
