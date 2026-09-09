@@ -41,7 +41,7 @@ O Agent Orchestrator é composto por vários componentes principais, incluindo a
 
 ### Interface de conversação do Assistente de IA {#ai-assistant}
 
-O AI Assistant é uma experiência de conversação inteligente em linguagem natural que permite que os profissionais que usam os aplicativos habilitados do CX Enterprise aproveitem os recursos GenAI e Agentic AI, cuja amplitude depende dos aplicativos do CX Enterprise licenciados pelos clientes. Para desbloquear o acesso, leia [o manual sobre como acessar o Assistente de IA](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
+O AI Assistant é uma experiência de conversação inteligente em linguagem natural que permite que os profissionais que usam os aplicativos habilitados do CX Enterprise aproveitem os recursos GenAI e Agentic AI, cuja amplitude depende dos aplicativos do CX Enterprise licenciados pelos clientes. Para desbloquear o acesso, leia [o manual sobre como acessar o Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/access).
 
 Para obter mais informações, leia o [Guia da interface do usuário do Assistente de IA](../ai-assistant/ai-assistant-ui.md).
 
@@ -81,7 +81,7 @@ Todos os usuários obtêm acesso ao Assistente de IA e aos agentes Experience Pl
 
 * **Adobe Experience Manager**: o administrador deve conceder a você permissão para acessar o Assistente de IA por meio da [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html).
 
-* **Customer Journey Analytics**: o administrador deve conceder a você permissão para acessar o Assistente de IA por meio do [Controle de Acesso do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control). Isso permite fazer perguntas sobre conhecimento do produto e insights de dados.
+* **Customer Journey Analytics**: o administrador deve conceder a você permissão para acessar o Assistente de IA por meio do [Controle de Acesso do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/technotes/access-control). Isso permite fazer perguntas sobre conhecimento do produto e insights de dados.
 
 >[!NOTE]
 >
