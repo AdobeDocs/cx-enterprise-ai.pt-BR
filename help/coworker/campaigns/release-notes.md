@@ -5,9 +5,9 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+source-git-commit: dcd2c251357930ae31f78e2d9460d038a0710e3d
 workflow-type: tm+mt
-source-wordcount: 2187
+source-wordcount: 3291
 ht-degree: 0%
 
 ---
@@ -16,7 +16,124 @@ ht-degree: 0%
 
 As versões do Co-worker Campaigns operam em um modelo de entrega contínua que permite uma abordagem mais escalável e em fases para a implantação de recursos.
 
+## Setembro de 2026 {#sep-2026}
+
+**Data de lançamento: 3 de setembro de 2026**
+
+* Copie qualquer mensagem de chat e classifique as respostas da IA com uma miniatura para cima ou miniatura, diretamente da própria mensagem
+* A lista de tarefas do plano de campanha agora permanece fixada acima da entrada do chat enquanto sua campanha está em execução, para que você possa rastrear o progresso sem rolar para fora
+* Conectar um DataFracks SQL warehouse como uma nova fonte de dados para suas campanhas
+* O editor de email baseado em chat mais antigo foi removido em favor do editor de ativos de email mais recente
+* Agora, o Administrador de usuários de avaliação permite excluir usuários do Adobe, facilitando a visualização de inscrições em avaliações reais
+* Correção de um problema em que sugestões de campanha semelhante podiam falhar ao carregar
+* As mensagens de chat agora têm um espaçamento mais estreito e consistente
+
+**Data de lançamento: 1 de setembro de 2026**
+
+* Agora, emails grandes de campanha são exibidos totalmente no editor, em vez de serem cortados
+* O botão de lançamento do painel de campanha agora é rotulado como &quot;Revisar e iniciar&quot; para maior clareza
+* A conexão de uma conta do Salesforce não mostra mais uma mensagem de erro incorreta do Marketo
+* O Salesforce agora tem seu próprio logotipo na lista de conectores
+* Os conectores disponíveis agora estão listados antes dos próximos
+* A integração agora mostra um indicador de progresso enquanto o kit da sua marca é carregado
+* As visualizações de público-alvo e fonte de conhecimento agora têm um botão Fechar e podem abrir em tela cheia
+* Os cartões do plano de campanha não param de mostrar &quot;criação&quot; depois que a campanha começa a funcionar
+* O chat não mantém mais mensagens de progresso temporárias (como &quot;Explorando...&quot;) no seu histórico de conversas
+* Os controles da barra de ferramentas agora são bloqueados adequadamente enquanto a imagem da IA ou as sugestões de texto estão sendo aplicadas
+* Correção de um problema em que substituir uma imagem no editor de ativos não funcionava corretamente
+
+## Agosto de 2026 {#aug-2026}
+
+**Data de lançamento: 26 de agosto de 2026**
+
+* Clicar em qualquer lugar em um cartão de modelo de campanha agora abre sua visualização, não apenas o título
+* O espaço reservado da barra de prompt da campanha é exibido novamente corretamente depois que você limpa a entrada, com suporte mais claro ao leitor de tela
+* A sugestão &quot;Help me prompt&quot; agora substitui corretamente o texto existente na barra de prompts da campanha
+* Baixar cancelamentos de assinatura como um CSV agora reflete somente a execução da campanha que você está visualizando
+* A comparação do plano de avaliação agora mostra campanhas do Launch e insights do Campaign como recursos incluídos
+* Os públicos-alvo criados sem um fluxo de trabalho completo agora são exibidos corretamente no cartão Público-alvo do quadro de campanha
+* Os prompts de feedback de estado vazio são lidos mais naturalmente no aplicativo
+
+**Data de lançamento: 25 de agosto de 2026**
+
+* Fazer logon em uma guia do navegador agora sincroniza as outras automaticamente, corrigindo combinações de contas entre guias
+* Clicar em Criar agora faz com que seu plano avance com confiança, em vez de gerá-lo novamente ocasionalmente
+* Diagramas de fluxo de trabalho em bate-papo mostram mais telas, de modo que os controles de zoom não cubram mais as etapas
+* As guias de detalhes da campanha têm uma aparência atualizada e mais consistente
+* Salvar ou remover um domínio de envio em Domínios e remetentes agora é mais rápido e confiável
+
+**Data de lançamento: 24 de agosto de 2026**
+
+* Veja sua estratégia de campanha gerada diretamente no quadro da campanha
+* Substitua seu público diretamente da caixa de diálogo de validação de campanha
+* Exportações de PDF e Word do Campaign agora incluem seu diagrama de fluxo de trabalho real
+* A guia Insights permanece visível com um estado vazio útil logo após o lançamento
+* Adicionar ou remover pontos de contato ao revisar campos de campanha
+* A barra de ferramentas do quadro do Campaign é mais simples com a remoção de botões desnecessários
+* O assistente para Domínios e remetentes limpa subdomínios e orienta a configuração pela primeira vez com uma marca de formatação
+* O assistente para Domínios e remetentes mostra erros de validação de subdomínio em linha enquanto você digita
+* O call-to-action de campanha pós-prova foi removido para um fluxo mais limpo
+* Os nomes dos idiomas chineses agora são exibidos corretamente no seletor de idiomas
+* Miniaturas de variante geradas por IA são carregadas de forma confiável sem rótulos duplicados
+* Campanhas recém-criadas agora são exibidas imediatamente na lista de campanhas recentes na Página inicial
+* Os insights de todas as campanhas agora incluem um resumo gerado por IA do desempenho da campanha da sua organização
+* Fornecer a entrada solicitada em uma conversa de fluxo de trabalho não a deixa mais paralisada
+* A integração de avaliação não pisca mais uma tela de carregamento extra ao verificar se há um kit de marca existente
+* As fontes de público-alvo de amostra obsoletas agora são apagadas automaticamente do seu fluxo de trabalho
+* Layout, tema e fontes agora são renderizados corretamente no shell unificado da Experience Cloud
+* Sugestões de campanha semelhantes não mostram mais um campo de canal desnecessário
+
+**Data de lançamento: 14 de agosto de 2026**
+
+* Excluir domínios de rascunho que não são mais necessários em Domínios e remetentes
+* Consulte o status de verificação de DNS para cada registro durante a configuração do domínio
+* Os detalhes do domínio agora mostram o remetente de email configurado
+* Os valores do registro DNS são truncados perfeitamente com uma dica de ferramenta para o texto completo
+* Formatar vários blocos de texto de email de uma só vez com várias seleções
+* Receba sugestões de campanha semelhantes ao criar uma nova campanha
+* Escopo dos insights da campanha para uma única execução de uma campanha recorrente
+* Escolha o idioma de sua preferência no menu de perfil
+* Chame a atenção quando as descrições de template de campanha precisarem de mais detalhes
+* As notas de versão são mais fáceis de navegar com uma navegação e paginação melhores
+* Recolher a lista de campanhas recentes da barra lateral para economizar espaço
+* A visualização do inventário da campanha agora permanece do jeito que você deixou
+* Reordenar filtros de execução e ir para um intervalo de datas de um seletor de calendário
+* Visualizar detalhes do público-alvo mesmo em cartões de público-alvo somente leitura
+* Correção de flashes da tela de fluxo de avaliação de integração e um problema de tempo de entrada
+* A alça de redimensionamento do painel de chat não bloqueia mais a barra de rolagem da lista de mensagens
+* A criação do kit de marca agora mostra o motivo real pelo qual um salvamento falhou
+
+**Data de lançamento: 6 de agosto de 2026**
+
+* O Campaign Insights agora mostra cancelamentos de assinatura com um CSV para download de quem recusou
+* Uma tabela de detalhamento de desempenho por email agora está na guia Insights
+* Veja seu mapa de jornadas de campanha diretamente na guia Insights
+* As etapas de espera com base na duração agora estão visíveis na exibição do fluxo de trabalho do jornada
+* As ramificações de jornada ponderadas são mostradas na exibição de edição do fluxo de trabalho
+* Listas de contato agora estão conectadas a dados em tempo real
+* As campanhas recorrentes mostram 0 envios imediatamente em vez de &quot;insights pendentes&quot;
+* Editar texto de prompt de remix diretamente em torno dos chips de espaço reservado
+* Aprimoramento de coachmark e chips de espaço reservado mais limpos no editor de remix
+* Os cartões de workflow do Campaign agora mostram um estado vazio útil quando nada está em execução
+* O botão de plano de atualização não bagunça mais o cabeçalho de detalhes da campanha
+* Os cartões de workflow têm um layout mais simples com o nome e a descrição da jornada removidos
+
 ## Julho de 2026 {#july-2026}
+
+**Data de lançamento: 30 de julho de 2026**
+
+* Os insights de todas as campanhas agora correspondem ao layout de insights de campanha individuais, além de um novo gráfico de desempenho diário
+* Interromper uma campanha ao vivo diretamente da página da campanha
+* A duplicação de uma campanha agora solicita apenas um novo nome
+* Editar modelos de email diretamente na lista de modelos
+* Filtrar a exibição de jornada de campanha recorrente por execução
+* Adicionar uma imagem de marca diretamente do quadro de campanha
+* A tabela de administração de avaliação agora é compatível com pesquisa de email, paginação e exportação completa de CSV
+* O botão &quot;Surprise me&quot; agora responde instantaneamente, sem atraso de animação
+* Remoção das configurações de cancelamento de inscrição de email da campanha enquanto este recurso era reprocessado
+* Editar a programação de uma campanha depois que ela já estiver definida, sem iniciar novamente
+* Abra o editor de estilo de gravação no menu estouro para obter acesso mais rápido
+* Pressionar Enter agora envia de forma consistente em cada barra de prompt no aplicativo
 
 **Data de lançamento: 23 de julho de 2026**
 

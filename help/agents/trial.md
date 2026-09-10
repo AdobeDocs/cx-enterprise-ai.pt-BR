@@ -12,10 +12,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 1433
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -78,7 +78,7 @@ Se o Cliente quiser recusar o acesso a esses recursos do Agente e desabilitar o 
 
 Leia os guias a seguir para obter mais informações sobre o Colaborador, o Agent Orchestrator e o Assistente de IA:
 
-- [Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Visão geral do Agent Orchestrator](agent-orchestrator.md)
 - [Guia da interface do assistente de IA](../ai-assistant/ai-assistant-ui.md)
 - [Biblioteca de prompts do assistente do AI](../ai-assistant/prompt-library.md)
