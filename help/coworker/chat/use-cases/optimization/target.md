@@ -24,4 +24,4 @@ ht-degree: 0%
 
 Saiba mais sobre o valor que o CX Enterprise Co-worker traz para o seu programa de otimização. O Colaborador entende o objetivo comercial e coordena o trabalho em todos os aplicativos da Adobe - analisar, diagnosticar e iniciar - sem precisar de ferramentas de comutação. Economize dias de idas e vindas usando o colega de trabalho para ler os resultados, diagnosticar variações perdedoras e dimensionar as durações dos testes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496880/?captions=por_br&learn=on&enablevpops)
