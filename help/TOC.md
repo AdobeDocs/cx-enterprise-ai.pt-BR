@@ -6,9 +6,9 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: f06ee8c16052091f661f16e291767a38ac7edee9
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '317'
 ht-degree: 17%
 
 ---
@@ -57,6 +57,8 @@ ht-degree: 17%
       - Jornadas {#journeys}
         - [Criar jornadas usando o idioma natural](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [Criar um desafio de fidelidade e insights de superfície](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
+      - Otimização {#optimization}
+        - [Iniciar atividades do Target](./coworker/chat/use-cases/optimization/target.md)
       - Ferramentas de sandbox {#sandbox-tooling}
         - [Habilidades de agente de ferramentas de sandbox](./agents/sandbox-tooling.md)
       - Alertas {#alerts}
