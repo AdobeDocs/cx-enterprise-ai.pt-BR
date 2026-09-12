@@ -1,10 +1,10 @@
 ---
-title: Acesse as ferramentas do CX Co-worker Gateway
-description: Confirme a disponibilidade do produto, a ativação da organização e as permissões antes de usar as ferramentas do Adobe CX Co-worker Gateway.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+title: Acessar as ferramentas do CX Coworker Gateway
+description: Confirme a disponibilidade do produto, a ativação da organização e as permissões antes de usar as ferramentas do Adobe CX Coworker Gateway.
+source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 3%
+source-wordcount: '583'
+ht-degree: 4%
 
 ---
 
@@ -14,7 +14,7 @@ O Adobe CX Enterprise expõe as ferramentas do produto por meio de um único MCP
 
 >[!IMPORTANT]
 >
->Sua organização da Adobe deve estar habilitada para que você possa usar as ferramentas do CX Co-worker Gateway. Se sua organização ainda não tiver acesso, entre em contato com a equipe de conta da Adobe para solicitar a ativação da organização.
+>Sua organização da Adobe deve estar habilitada para que você possa usar as ferramentas do CX Coworker Gateway. Se sua organização ainda não tiver acesso, entre em contato com a equipe de conta da Adobe para solicitar a ativação da organização.
 
 ## Requisitos de acesso {#mcp-requirements}
 
@@ -26,7 +26,9 @@ O Adobe CX Enterprise expõe as ferramentas do produto por meio de um único MCP
 | Journey Optimizer | Beta | Licença ativa do Journey Optimizer, ativação do Beta para sua organização da Adobe e permissões para visualizar campanhas e configurações de canal. |
 | Customer Journey Analytics | Disponível | Licença do Customer Journey Analytics ativo e um perfil de produto que inclui o item de permissão **Acesso ao MCP** no Adobe Admin Console. As permissões de produto ainda controlam quais visualizações de dados, componentes, relatórios, projetos e públicos-alvo você pode acessar ou modificar. |
 | Adobe Analytics | Disponível | Licença do Adobe Analytics ativo e um perfil de produto que inclui o item de permissão **Acesso ao MCP** no Adobe Admin Console. As permissões de produto ainda governam quais conjuntos de relatórios, componentes, relatórios, segmentos, intervalos de datas e projetos você pode acessar ou modificar. |
-| Workfront | Visualização | Licença ativa do Workfront e ativação do Workfront MCP. Consulte a [documentação do Workfront MCP](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview). |
+| Workfront | Visualização | Licença ativa do Workfront e ativação do Workfront MCP. Consulte a [documentação do Workfront MCP](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview). |
+| Target | Beta | Licença do Target ativa com uma organização da Adobe Experience Platform. Consulte a [documentação do MCP do Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp-get-started). |
+
 
 
 >[!NOTE]
@@ -35,7 +37,7 @@ O Adobe CX Enterprise expõe as ferramentas do produto por meio de um único MCP
 
 ## Solicitar acesso {#mcp-request}
 
-Para obter ferramentas do produto Beta ou de versões limitadas, entre em contato com o representante de conta da Adobe e especifique quais ferramentas de produto do Adobe for CX Co-worker Gateway você deseja usar. Seu representante pode coordenar a ativação do produto e confirmar quando sua organização da Adobe está pronta.
+Para ferramentas de produtos Beta ou de versão limitada, entre em contato com o representante de conta da Adobe e especifique quais ferramentas de produto do Adobe para CX Coworker Gateway você deseja usar. Seu representante pode coordenar a ativação do produto e confirmar quando sua organização da Adobe está pronta.
 
 Para ferramentas de produtos geralmente disponíveis que usam o item de permissão **Acesso ao MCP**, peça a um administrador de sistema ou de produto para adicionar sua conta a um perfil de produto que inclua acesso ao MCP.
 
@@ -58,4 +60,4 @@ Antes de conectar o cliente MCP, confirme se:
 - Você tem acesso a um cliente MCP com suporte, como [!DNL Claude], [!DNL ChatGPT], [!DNL Cursor], [!DNL Claude Code], [!DNL Codex] ou [!DNL VS Code].
 - Para instalação corporativa, você ou um colega podem gerenciar conectores ou aplicativos personalizados nas configurações da organização do cliente MCP.
 
-Próximo: [Instalar o Adobe CX Co-worker Gateway](install.md).
+Próximo: [Instalar o Adobe CX Coworker Gateway](install.md).
