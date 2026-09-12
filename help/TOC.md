@@ -98,6 +98,6 @@ ht-degree: 17%
     - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
 
