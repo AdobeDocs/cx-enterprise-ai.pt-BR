@@ -3,15 +3,15 @@ description: insira uma descrição aqui.
 title: Programar uma campanha
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 1%
-
+source-wordcount: '589'
+ht-degree: 2%
 ---
-
 # Programar uma campanha {#schedule-campaign}
 
 Ao iniciar uma campanha, os usuários agora podem escolher exatamente quando ela sai: imediatamente, em uma data e hora futuras específicas ou em um cronograma repetitivo (recorrente). Os usuários também podem voltar mais tarde e alterar a programação de uma campanha que já foi iniciada ou programada.
@@ -39,7 +39,7 @@ Quando um usuário inicia uma campanha, ele escolhe um dos três modos de agenda
 
 **Para agendar uma campanha no lançamento:**
 
-1. Na campanha, clique em **Pronto para iniciar**.
+1. Na campanha, clique em **Revisar e iniciar**.
 2. Na caixa de diálogo de inicialização, escolha uma opção de programação:
    - **Agora** — a campanha começa a ser enviada imediatamente após o lançamento.
    - **Agendar uma vez** — escolha uma **Data de início** futura (data e hora juntas).
@@ -66,17 +66,7 @@ Quando um usuário inicia uma campanha, ele escolhe um dos três modos de agenda
 | Dia do mês | Em qual dia do mês a campanha se repete | Sim, para frequência Mensal |
 | Encerrar campanha | Nunca ou em uma data final específica | Sim, para Recorrente |
 
-## Chamadas de interface do usuário
 
-> **Nota técnica do escritor**: Capturas de tela necessárias para o seguinte:
-
-- [ ] A caixa de diálogo de inicialização mostrando as opções Agora / Agendar uma vez / Recorrente
-- [ ] O seletor de data e hora Agendar uma vez
-- [ ] As opções Recorrentes: seletor de frequência, alternância semanal de dia, grade mensal de dia do mês
-- [ ] A &quot;Campanha final&quot; Nunca / Em uma data escolhida
-- [ ] O selo de status &quot;Agendado&quot; em uma campanha aguardando sua hora de início
-- [ ] O selo de status &quot;Ao vivo&quot; com um resumo de recorrência (por exemplo, &quot;Semanalmente na Terça, quinta às 9h)
-- [ ] A seção de agendamento nas configurações da campanha, mostrando o ponto de entrada de edição
 
 ## O que este recurso não faz
 
