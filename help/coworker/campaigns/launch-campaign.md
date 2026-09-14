@@ -42,9 +42,9 @@ CAPTURA DE TELA
 
 CAPTURA DE TELA
 
->>
+&#x200B;>>
 >
-Ele não permite o lançamento de uma campanha com uma amostra de público-alvo (não real), rascunhos de email que não foram revisados ou configurações de envio não definidas
+>Ele não permite o lançamento de uma campanha com uma amostra de público-alvo (não real), rascunhos de email que não foram revisados ou configurações de envio não definidas
 
 ### Itens a serem observados
 
