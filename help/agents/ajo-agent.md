@@ -310,7 +310,7 @@ As seguintes funcionalidades não são compatíveis no momento:
 
 A Análise de Jornada permite que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com a Análise de Jornada, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e público-alvo, detectar pontos de abandono do usuário em uma jornada e exibir insights ou recomendações para melhorar o desempenho.
 
-Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/pt-br/slides/journey-agent-overview).
 
 Para obter mais informações, consulte [Análise de Jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"} na documentação do Adobe Journey Optimizer.
 
