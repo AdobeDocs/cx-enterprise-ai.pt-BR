@@ -3,15 +3,15 @@ description: insira uma descrição aqui.
 title: Interromper uma campanha
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 410
+source-wordcount: '349'
 ht-degree: 0%
-
 ---
-
 # Interromper uma campanha {#stop-campaign}
 
 Os usuários agora podem interromper uma campanha que está enviando ativamente (uma campanha &quot;em tempo real&quot;) diretamente da página de detalhes da campanha. Interromper uma campanha é permanente: os recipients param de progredir pela campanha imediatamente e a campanha não pode ser retomada ou reiniciada posteriormente.
@@ -33,13 +33,7 @@ Uma ação &quot;Interromper campanha&quot; é exibida no cabeçalho de detalhes
 - Depois de parar, o emblema de status da campanha é atualizado para &quot;Parado&quot;.
 - Se a solicitação de interrupção falhar, uma mensagem de erro será exibida e a campanha permanecerá ativa.
 
-## Como usá-lo
 
-1. Abrir uma campanha que esteja ativa (enviando ativamente).
-2. No cabeçalho de detalhes da campanha, clique em **Parar Campanha**.
-3. Na caixa de diálogo de confirmação, revise o aviso: &quot;Interromper a campanha é permanente. Todos os recipients pararão de avançar e a campanha não poderá ser retomada.&quot;
-4. Clique em **Parar** para confirmar.
-5. Uma &quot;Campanha interrompida.&quot; será exibida e o status da campanha será atualizado para &quot;Parado&quot;.
 
 ### Campos/parâmetros de entrada
 

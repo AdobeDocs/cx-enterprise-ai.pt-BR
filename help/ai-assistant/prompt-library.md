@@ -4,22 +4,28 @@ description: Saiba mais sobre os diferentes tipos de prompts e padrões de promp
 TQID: https://experienceleague.adobe.com/QICjh9cNBT3XeKObkXqSDEGQT26zpv86V36L0tqvSgo
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+    internal-label: Privacy
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 813
+source-wordcount: '841'
 ht-degree: 16%
-
 ---
-
 # Biblioteca de prompts do assistente do AI
 
 Leia este guia para obter os diferentes tipos de prompts que você pode usar no Assistente de IA.
@@ -71,7 +77,9 @@ Os prompts de exemplo a seguir podem ser usados com o Data Insights Agent para a
 
 ## Journey Agent
 
-Os exemplos de prompts a seguir podem ser usados com o Journey Agent para ajudar você a analisar ciclos de vida de jornadas, gerenciar recursos de jornadas, obter insights sobre relacionamentos de público-alvo e jornada e detectar conflitos entre jornadas. Use essas instruções para otimizar a orquestração de jornadas e resolver problemas com eficiência.
+Os seguintes prompts de exemplo podem ser usados com o [Journey Agent](../agents/ajo-agent.md) para ajudá-lo a analisar os ciclos de vida da jornada, gerenciar recursos da jornada, obter insights sobre as relações de público-alvo e jornada e detectar conflitos entre jornadas. Use essas instruções para otimizar a orquestração de jornadas e resolver problemas com eficiência.
+
+Para ver exemplos de prompts que abrangem a criação de jornadas, a geração de conteúdo do canal e a análise de fallout, consulte as seções [Criação de Jornadas](../agents/ajo-agent.md#journey-create), [Criação de Conteúdo de Canais](../agents/ajo-agent.md#channel-content-create) e [Análise de Jornadas](../agents/ajo-agent.md#journey-analyze) do guia do Journey Agent.
 
 ### Perguntas sobre o ciclo de vida da jornada
 

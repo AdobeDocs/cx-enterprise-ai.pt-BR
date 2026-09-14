@@ -1,13 +1,11 @@
 ---
 title: Acessar as ferramentas do CX Coworker Gateway
 description: Confirme a disponibilidade do produto, a ativação da organização e as permissões antes de usar as ferramentas do Adobe CX Coworker Gateway.
-source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 4%
-
 ---
-
 # Acesse as ferramentas do CX Co-worker Gateway {#mcp-access}
 
 O Adobe CX Enterprise expõe as ferramentas do produto por meio de um único MCP. O acesso é avaliado por ferramentas do produto: sua organização da Adobe deve estar habilitada para as ferramentas do produto relevantes e sua conta de usuário deve ter as permissões de produto necessárias para exibir ou alterar os dados do produto expostos por essas ferramentas.
@@ -23,7 +21,7 @@ O Adobe CX Enterprise expõe as ferramentas do produto por meio de um único MCP
 | --- | --- | --- |
 | Real-Time CDP | Beta | Licença ativa do Real-Time CDP, habilitação do Beta para sua organização da Adobe e permissões para exibir os públicos, destinos, fontes, identidade e recursos de ativação que você consulta. |
 | Experience Platform | Beta | Licença ativa do Experience Platform, capacitação da Beta para sua organização da Adobe e permissões para visualizar os esquemas, conjuntos de dados, governança, Serviço de consulta, auditoria e recursos de sandbox que você consulta. |
-| Journey Optimizer | Beta | Licença ativa do Journey Optimizer, ativação do Beta para sua organização da Adobe e permissões para visualizar campanhas e configurações de canal. |
+| Journey Optimizer | Beta | Licença ativa do Journey Optimizer, ativação do Beta para sua organização da Adobe e permissões para exibir campanhas, jornadas e configurações de canal. |
 | Customer Journey Analytics | Disponível | Licença do Customer Journey Analytics ativo e um perfil de produto que inclui o item de permissão **Acesso ao MCP** no Adobe Admin Console. As permissões de produto ainda controlam quais visualizações de dados, componentes, relatórios, projetos e públicos-alvo você pode acessar ou modificar. |
 | Adobe Analytics | Disponível | Licença do Adobe Analytics ativo e um perfil de produto que inclui o item de permissão **Acesso ao MCP** no Adobe Admin Console. As permissões de produto ainda governam quais conjuntos de relatórios, componentes, relatórios, segmentos, intervalos de datas e projetos você pode acessar ou modificar. |
 | Workfront | Visualização | Licença ativa do Workfront e ativação do Workfront MCP. Consulte a [documentação do Workfront MCP](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview). |

@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22081
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 97
-ht-degree: 0%
-
+source-wordcount: '117'
+ht-degree: 1%
 ---
-
 
 # Como gerar Jornadas do Adobe Journey Optimizer a partir de prompts em linguagem natural
 
@@ -27,3 +27,8 @@ Tradicionalmente, a criação de jornadas para clientes requer configuração ab
 Ao automatizar o processo de configuração inicial, as equipes podem gastar menos tempo criando jornadas do zero e mais tempo refinando as experiências dos clientes e os resultados dos negócios.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496880/?captions=por_br&learn=on&enablevpops)
+
+## Consulte também
+
+- [Journey Agent](../../../../agents/ajo-agent.md#journey-create), o recurso de IA subjacente que habilita a criação de jornadas no Chat de Colaborador.
+- [Mais casos de uso do bate-papo com colegas de trabalho](../overview.md#journeys)
