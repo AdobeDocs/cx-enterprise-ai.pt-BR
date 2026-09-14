@@ -1,13 +1,11 @@
 ---
 title: Visão geral do Adobe CX Co-worker Gateway
 description: O Adobe CX Co-worker Gateway é o MCP unificado para Adobe CX Enterprise, oferecendo aos clientes de MCP uma única conexão com as ferramentas de produtos compatíveis.
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '469'
 ht-degree: 3%
-
 ---
-
 # Adobe CX Co-worker Gateway {#mcp-overview}
 
 O Adobe CX Co-worker Gateway é o MCP (Protocolo de contexto de modelo unificado) para Adobe CX Enterprise. Com uma conexão, os clientes compatíveis com MCP podem acessar as ferramentas de produto do Adobe que sua organização e conta têm direito a usar.
@@ -41,10 +39,10 @@ As seguintes ferramentas de produto estão documentadas neste guia:
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Real-Time CDP** | Públicos, destinos, origens, namespaces de identidade e integridade da ativação (somente leitura) | Beta | [Ferramentas do Real-Time CDP](rtcdp-mcp.md) |
 | **Experience Platform** | Esquemas, conjuntos de dados, governança de dados, Serviço de consulta, eventos de auditoria, métricas de observabilidade e avaliações de verificação de integridade da sandbox (somente leitura) | Beta | [Ferramentas do Experience Platform](aep-mcp.md) |
-| **Journey Optimizer** | Campanhas e configurações de canal (somente leitura) | Beta | [Ferramentas do Journey Optimizer](ajo-mcp.md) |
+| **Journey Optimizer** | Campanhas, jornadas e configurações de canal (somente leitura); modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha (leitura e gravação) | Beta | [Ferramentas do Journey Optimizer](ajo-mcp.md) |
 | **Customer Journey Analytics** | Visualizações de dados, dimensões, métricas, relatórios, segmentos, intervalos de datas, projetos e públicos-alvo (leitura e gravação) | Disponível | [Ferramentas do Customer Journey Analytics](cja-mcp.md) |
 | **Adobe Analytics** | Conjuntos de relatórios, dimensões, métricas, relatórios, segmentos, intervalos de datas e projetos do espaço de trabalho (leitura e gravação para componentes compatíveis) | Disponível | [Ferramentas do Adobe Analytics](analytics-mcp.md) |
-| **Workfront** | Ferramentas de gerenciamento de trabalho para projetos, tarefas e fluxos de trabalho de aprovação | Visualização | [Servidor MCP do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
+| **Workfront** | Ferramentas de gerenciamento de trabalho para projetos, tarefas e fluxos de trabalho de aprovação | Visualização | [Servidor MCP do Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
 >[!NOTE]
@@ -55,7 +53,7 @@ As seguintes ferramentas de produto estão documentadas neste guia:
 
 ## Introdução {#mcp-get-started}
 
-1. Revise as [ferramentas do CX Co-worker Gateway](access.md) para confirmar a disponibilidade, a habilitação e as permissões do produto.
-2. Siga [Instalar o Adobe para o CX Co-worker Gateway](install.md) para conectar seu cliente MCP ao endpoint.
+1. Revise [Acessar as ferramentas do CX Coworker Gateway](access.md) para confirmar a disponibilidade, a habilitação e as permissões do produto.
+2. Siga [Instalar o Adobe para o Gateway do CX Coworker](install.md) para conectar seu cliente MCP ao ponto de extremidade.
 3. Revise a página do produto para cada ferramenta de produto que você planeja usar.
 

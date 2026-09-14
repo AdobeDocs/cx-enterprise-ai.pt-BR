@@ -7,41 +7,54 @@ role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+    internal-label: Journey design
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+    internal-label: Audiences
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0daf43247c80b5a2d3978515a45256bd03326c0c
+    internal-label: Audience segmentation
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 3372
-ht-degree: 11%
-
+source-wordcount: '3801'
+ht-degree: 9%
 ---
 
-
 # Journey Agent: visão geral e guia do usuário
-
->[!AVAILABILITY]
->
->Os recursos de criação de IA do Journey Agent e de geração de conteúdo de IA estão disponíveis para clientes que fazem parte do programa Agent Orchestrator Explorer. Para obter mais informações, entre em contato com o Atendimento ao cliente da Adobe.
 
 ## Introdução ao Journey Agent no Adobe Journey Optimizer
 
@@ -53,21 +66,23 @@ O Journey Agent consiste em quatro tarefas principais a serem realizadas:
 - **Criação de Conteúdo de Canal**: gere, edite e gerencie conteúdo específico de canal (email, push, SMS) para jornada usando a geração de conteúdo habilitado por IA
 - **Analisar Jornada**: analise jornadas, detecte problemas, descubra insights e otimize o engajamento do cliente
 
-Além disso, a **Simulação de Jornada** é um recurso do Journey Optimizer que inclui o [Simulação de Jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), um recurso de IA não conversacional no produto com três sub-recursos:
+Além disso, a **Simulação de Jornada** é um recurso do Journey Optimizer que inclui o [Simulação de Jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs){target="_blank"}, um recurso de IA não conversacional no produto com três sub-recursos:
 
 - Gerar usuários simulados
 - Gerar valores de evento
 - Simulação rápida
 
-## Jornada Criar: casos de uso, recursos de IA e guia do usuário
+## Jornada Criar: casos de uso, recursos de IA e guia do usuário {#journey-create}
 
 ## Visão geral
 
 A Criação de jornadas permite que os usuários do Journey Optimizer criem e configurem jornadas de marketing usando uma interface de linguagem natural. Com a Criação de Jornadas, os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em prompts de conversação. O agente simplifica a criação de jornadas, permitindo que os profissionais de marketing se concentrem na estratégia em vez da configuração técnica.
 
+Para obter mais informações, consulte [Criar Jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-create){target="_blank"} na documentação do Adobe Journey Optimizer.
+
 >[!AVAILABILITY]
 >
->A opção Criar Jornada está disponível para clientes que fazem parte do programa Agent Orchestrator Explorer. Você também precisará das seguintes permissões para usar totalmente os recursos Criar do Jornada:
+>Você precisa das seguintes permissões para usar totalmente os recursos Criar do Jornada:
 >
 >**Gerenciar Jornadas**: essa permissão permite que você crie novas jornadas diretamente no Assistente do AI.
 >
@@ -109,6 +124,11 @@ O Jornada Create oferece recursos que podem ser aproveitados para acelerar a exe
    - Crie ramificações de decisão com base nos atributos do cliente.
    - Criar caminhos divididos que se adaptam às preferências do cliente.
 
+1. **Criar jornada a partir da imagem**
+
+   - Faça upload de uma imagem de referência e peça ao agente para criar uma jornada usando a imagem como referência.
+   - O agente extrai um prompt editável da imagem de referência.
+
 Para cada um desses casos de uso, o agente traduz os requisitos de linguagem natural em configurações de jornada estruturadas.
 
 ## Recursos de IA dentro e fora do escopo
@@ -128,9 +148,14 @@ Os seguintes recursos são compatíveis com a Criação de Jornada:
 As seguintes funcionalidades não são compatíveis no momento:
 
 - **Análise de jornada avançada**
-- **Modificações de jornada em tempo real**
 - **Orquestração entre jornadas**
 - **Configuração de teste A/B**
+- **Geração de expressão InAudience**
+- **Nós de pesquisa do conjunto de dados**
+- **Configurações de envio da onda**
+- **Opções de recorrência de agendamento**
+- **Seleção de namespace para públicos-alvo**
+- **Mapeamento de campo de ação personalizada**
 - **Transformações de dados complexas**
 
 ## Exemplos de prompts
@@ -195,7 +220,7 @@ Quando um usuário entrar no meu local de armazenamento, envie uma mensagem de b
 - **Conteúdo da Mensagem do Plano**: Defina sua estratégia de mensagens antes da criação da jornada.
 - **Considere a Experiência do Cliente**: crie fluxos de jornada que respeitem as preferências do cliente e evitem a comunicação excessiva.
 
-## Criação de conteúdo do canal: Casos de uso, Recursos de IA e Guia do usuário
+## Criação de conteúdo do canal: Casos de uso, Recursos de IA e Guia do usuário {#channel-content-create}
 
 >[!AVAILABILITY]
 >
@@ -204,6 +229,8 @@ Quando um usuário entrar no meu local de armazenamento, envie uma mensagem de b
 ## Visão geral
 
 A Criação de conteúdo de canal permite que os usuários do Journey Optimizer gerem, editem e gerenciem conteúdo específico de canal para jornada usando a geração de conteúdo habilitada por IA.
+
+Para obter mais informações, consulte [Criação de conteúdo do canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#channel-content-create){target="_blank"} na documentação do Adobe Journey Optimizer.
 
 ## Casos de uso
 
@@ -254,7 +281,7 @@ As seguintes funcionalidades não são compatíveis no momento:
 
 &quot;Gerar conteúdo de SMS para minha jornada acionada por evento. Crie uma mensagem curta notificando os clientes sobre uma venda rápida com um call-to-action.&quot;
 
-### Seleção de modelo
+### Seleção de modelos
 
 &quot;Mostre-me os modelos de email disponíveis para a minha jornada de campanha sazonal.&quot;
 
@@ -277,13 +304,15 @@ As seguintes funcionalidades não são compatíveis no momento:
 1. **Definir Tom**: especifique o tom desejado (amigável, formal, casual, urgente).
 1. **Iterar e Refinar**: use a ação de regeneração para refinar o conteúdo até que ele atenda aos seus requisitos.
 
-## Jornada análise: casos de uso, recursos de IA e guia do usuário
+## Jornada análise: casos de uso, recursos de IA e guia do usuário {#journey-analyze}
 
 ## Visão geral
 
-O Journey Agent permitirá que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com o Journey Agent, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e/ou público-alvo, detectar pontos de abandono de usuários em uma jornada e fornecer insights ou recomendações. Ele capacita profissionais de marketing a tomar decisões baseadas em dados, melhorar o engajamento do cliente e simplificar a orquestração da jornada.
+A Análise de Jornada permite que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com a Análise de Jornada, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e público-alvo, detectar pontos de abandono do usuário em uma jornada e exibir insights ou recomendações para melhorar o desempenho.
 
-Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/pt-br/slides/journey-agent-overview).
+Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+
+Para obter mais informações, consulte [Análise de Jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"} na documentação do Adobe Journey Optimizer.
 
 >[!AVAILABILITY]
 >
@@ -327,6 +356,19 @@ O Jornada Analyze oferece uma variedade de funcionalidades que podem ser aprovei
 
    - Insights do Jornada com base em prompts - Surja insights operacionais sobre o jornada, ou seja, &quot;mostrar todas as jornadas ativas para mim&quot;.
 
+1. **Análise de Erro de Ação Personalizada de Jornada**
+
+   - Identifique quando as ações personalizadas estão falhando ou quando as taxas de erro aumentam em uma jornada.
+   - Diagnosticar as causas raiz antes que as falhas ocorram em uma interrupção mais ampla da jornada.
+   - Use etapas de correção específicas para restaurar rapidamente a confiabilidade da ação personalizada.
+
+1. **Analisar anomalias da Jornada**
+
+   - Detecta picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de mensagem de uma jornada em comparação às linhas de base históricas, inclusive quando a pergunta é colocada em torno do número de perfis que entram, saem ou concluem a jornada.
+   - Confirme se uma alteração sinalizada é uma anomalia genuína usando uma verificação estatística determinística, em vez de depender apenas do sinalizador de anomalia bruta.
+   - Execute diagnósticos limitados e somente leitura nos dados de execução da jornada para identificar uma causa raiz provável, identificando o que cada verificação procurou e encontrou junto com a recomendação.
+   - Investigue alertas de anomalias que fazem referência a uma versão e um carimbo de data e hora específicos do jornada.
+
 Para cada uma dessas análises, o agente não apenas detecta problemas, mas também fornece **recomendações acionáveis para resolvê-los**.
 
 ## Recursos de IA dentro e fora do escopo
@@ -338,13 +380,14 @@ Os seguintes recursos são compatíveis com o Jornada Analyze:
 - **Consultas reativas**: permite que usuários façam perguntas específicas sobre o desempenho da jornada, a utilização do público-alvo e conflitos de agendamento.
 - **Integração com outros agentes**: colabora com o Audience Agent e o Data Insights Agent para realizar análises mais aprofundadas.
 - **Estrutura de resposta do agente**: raciocínio (explique a lógica), resumo da análise (destaque os pontos principais), detalhes do problema (descreva o problema) e recomendação (proponha as próximas etapas).
+- **Análise de erro de ação personalizada**: detectar e diagnosticar falhas de ação personalizada e picos de erro em uma jornada.
+- **Detecção de anomalias**: detecte e confirme picos, quedas ou linhas achatadas estatisticamente significativos nas contagens de entrada, saída ou envio de uma jornada e mostre uma causa raiz provável.
 
 ### **Fora do escopo**
 
 As seguintes funcionalidades não são compatíveis no momento:
 
 - **Criação automatizada de jornadas**
-- **Detecção de anomalias em tempo real**
 - **Sobreposição de canais**
 - **Análise de entrada da jornada**
 - **Análise de problemas técnicos**
@@ -409,6 +452,22 @@ Use estes prompts para analisar potenciais conflitos entre jornadas, incluindo s
 - &quot;Analisar o risco de conflito da jornada [Nome da Jornada].&quot;
 - &quot;Forneça diagnósticos de conflito para [Nome da Jornada].&quot;
 
+### Análise de erro de ação personalizada
+
+- &quot;Por que as ações personalizadas estão falhando na jornada [Nome da Jornada]?&quot;
+- &quot;Qual é a taxa de erro da ação personalizada [Nome da Ação Personalizada] na jornada [Nome da Jornada]?&quot;
+- &quot;Mostrar a causa raiz das falhas de ação personalizada na jornada [Nome da Jornada].&quot;
+- &quot;Há algum erro de ação personalizada afetando a jornada [Nome da Jornada] neste momento?&quot;
+
+### Jornada análise de anomalias
+
+- &quot;Por que as entradas da minha jornada de boas-vindas caíram ontem?&quot;
+- &quot;As saídas tiveram um pico na jornada de Abandono do carrinho esta semana?&quot;
+- &quot;Envios parecem baixos para a jornada Lembrete de Renovação hoje — o que aconteceu?&quot;
+- &quot;Por que houve uma queda repentina no número de perfis que entraram na minha jornada de agradecimento de aniversário de membros nos últimos 30 dias?&quot;
+- &quot;Menos perfis do que o normal estão concluindo minha jornada de Lembrete de Renovação este mês — por quê?&quot;
+- &quot;Um alerta de anomalia foi disparado para a jornada [ID da Versão da Jornada] em [carimbo de data/hora] — investigue.&quot;
+
 ## Práticas recomendadas
 
 ### Práticas recomendadas de criação de prompts
@@ -425,7 +484,7 @@ Para maximizar a eficácia do Jornada Analyze, siga estas práticas recomendadas
 - **Monitore regularmente**: agende revisões regulares do desempenho da jornada para identificar tendências e anomalias.
 - **Otimize a segmentação**: mantenha uma segmentação de público-alvo equilibrada para evitar fadiga e maximizar o engajamento.
 
-## Jornada Simular: casos de uso, recursos de IA e guia do usuário
+## Jornada Simular: casos de uso, recursos de IA e guia do usuário {#journey-simulate}
 
 ## Visão geral
 
@@ -503,4 +562,11 @@ Além disso, os seguintes recursos são compatíveis com o recurso Simular IA do
 
 A simulação pode não suportar todas as atividades, canais ou integrações compatíveis com o modo de Teste ou com uma jornada em tempo real, e o comportamento pode mudar conforme o recurso amadurece.
 
-➡️ Saiba mais sobre [Limitações de simulação](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) na documentação do Journey Optimizer.
+➡️ Saiba mais sobre [Limitações de simulação](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs#limitations){target="_blank"} na documentação do Journey Optimizer.
+
+## Consulte também
+
+- [Agent Orchestrator](./agent-orchestrator.md), a camada de agente que habilita o Journey Agent e outros Agentes da Experience Platform.
+- [Ferramentas do Journey Optimizer no CX Coworker Gateway](../mcp/ajo-mcp.md), uma superfície MCP somente leitura para revisão de configuração de campanha e canal.
+- [Crie jornadas a partir da linguagem natural](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md) e [Crie, edite e gerencie desafios de fidelidade](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md), casos de uso do Chat de Colaborador que se baseiam na Criação de Jornadas.
+- [Agente de Suporte ao Produto](./product-support.md), para solucionar problemas do Journey Optimizer que surgiram por meio do Assistente de IA.
