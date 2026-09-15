@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+source-git-commit: 2f1f6aa3aa3eff13fa932bb8500476371e9be705
 workflow-type: tm+mt
-source-wordcount: '4795'
+source-wordcount: '4802'
 ht-degree: 6%
 ---
 # Casos de uso do chat do colaborador{#use-cases}
 
-O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Experience Platform] usando linguagem natural em vez de navegar em várias interfaces do usuário ou gravar consultas manualmente. Esta página cataloga os casos de uso dos quais os profissionais mais dependem, organizados por área de trabalho: insights de dados, públicos, jornadas, elementos fundamentais e ferramentas de sandbox. Cada entrada inclui a habilidade que ele chama, os aplicativos com os quais ele funciona e avisos de amostra que você pode copiar, adaptar aos seus próprios dados e refinar através da conversa.
+O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Experience Platform] usando linguagem natural em vez de navegar em várias interfaces do usuário ou gravar consultas manualmente. Esta página cataloga os casos de uso dos quais os profissionais mais dependem, organizados por área de trabalho: insights de dados, públicos, jornadas, fidelidade, elementos essenciais e ferramentas de sandbox. Cada entrada inclui a habilidade que ele chama, os aplicativos com os quais ele funciona e avisos de amostra que você pode copiar, adaptar aos seus próprios dados e refinar através da conversa.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 >
 >Todos os clientes qualificados terão acesso aos recursos de agentes da Adobe Experience Manager no Colaborador continuamente.
 >
->Consulte também [IA no AEM - Visão geral dos recursos de agente no AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Consulte também [IA no AEM - Visão geral dos recursos de agente no AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Experiência da marca
 
@@ -43,9 +43,9 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Sites](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Forms](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Recursos de agente no AEM: Experiência da marca - Produção de experiência - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Desenvolvimento
 
@@ -58,7 +58,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: experiência da marca - desenvolvimento](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Recursos de agente no AEM: experiência da marca - desenvolvimento](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Integração
 
@@ -71,7 +71,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: experiência da marca - integração](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Recursos de agente no AEM: experiência da marca - integração](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Supervisor de conteúdo
 
@@ -86,7 +86,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: Supervisor de conteúdo - Detecção de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Recursos de agente no AEM: Supervisor de conteúdo - Detecção de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Otimização de conteúdo
 
@@ -98,7 +98,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: Supervisor de conteúdo - Otimização de conteúdo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Recursos de agente no AEM: Supervisor de conteúdo - Otimização de conteúdo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Governança da marca
 
@@ -110,7 +110,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 **Informações relacionadas**
 
-* [Recursos de agente no AEM: governança da marca](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Recursos de agente no AEM: governança da marca](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Insights de dados
 
@@ -143,13 +143,22 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 | Caso de uso | Descrição | Habilidades | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
-| [Criar jornadas do idioma natural](journeys/create-journey-from-natural-language.md) | Orquestrar a criação de jornadas no AJO a partir de um prompt de texto ou de uma imagem/fluxograma carregado | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;Crie uma jornada de boas-vindas que envie um email após a inscrição, aguarde 3 dias e envie um acompanhamento&quot; <br> &quot;Crie uma jornada a partir desta imagem de fluxograma carregada&quot; |
-| [Analisar conflitos de jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Detectar sobreposição de público, agendamento de colisões e problemas de desduplicação entre jornadas ativas | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;A jornada de abandono do meu carrinho está em conflito com outras jornadas?&quot; <br> &quot;Verificar se há sobreposição de público-alvo entre minhas jornadas ativas&quot; |
-| [Analisar fallout de jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Identifique onde e por que os clientes caem durante uma jornada e detecte padrões de comportamento que levam à desvinculação | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;Onde as pessoas estão saindo na minha jornada de Reengajamento?&quot; <br> &quot;Quais nós na jornada X têm o fallout mais alto?&quot; |
-| [Analisar erros de ação personalizada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Identifique quando as ações personalizadas estão falhando ou as taxas de erro sobem em uma jornada e diagnostique as causas básicas antes que as falhas evoluam para uma interrupção mais ampla | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;Por que as ações personalizadas estão falhando na minha jornada de Inscrição de Fidelidade?&quot; <br> &quot;Mostrar a taxa de erro para a ação personalizada ExternalPush na minha jornada de Boas-vindas.&quot; |
-| [Detectar anomalias na jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Detectar e confirmar picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de uma jornada em relação às linhas de base históricas e destacar uma causa raiz provável | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | &quot;Por que as entradas da minha jornada de Boas-vindas caíram ontem?&quot; <br> &quot;As saídas tiveram um pico na jornada de Abandono do carrinho esta semana?&quot; |
-| [Criar, editar e gerenciar desafios de fidelidade](journeys/create-loyalty-challenge.md) | Simplifique e acelere o gerenciamento do programa de fidelidade | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;Crie um desafio incentivando os membros a experimentar uma nova bebida sazonal&quot; <br> &quot;Mostre-me desafios de fidelidade com as taxas mais altas de devolução de membros.&quot; |
-| [Analisar o desempenho do programa de fidelidade](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-data-insight){target="_blank"} | Consultar e analisar pontos de fidelidade, níveis de membros, resgates e métricas de receita usando linguagem natural | `loyalty-insights` | Adobe Journey Optimizer (AJO) | &quot;Quantos pontos de fidelidade foram concedidos durante agosto de 2026?&quot; <br> &quot;Mostrar a receita total do programa de fidelidade dividida por dia durante agosto de 2026.&quot; |
+| Criar jornadas a partir do idioma natural | Orquestrar a criação de jornadas no AJO a partir de um prompt de texto ou de uma imagem/fluxograma carregado | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;Crie uma jornada de boas-vindas que envie um email após a inscrição, aguarde 3 dias e envie um acompanhamento&quot; <br> &quot;Crie uma jornada a partir desta imagem de fluxograma carregada&quot; |
+| Analisar conflitos de jornada | Detectar sobreposição de público, agendamento de colisões e problemas de desduplicação entre jornadas ativas | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;A jornada de abandono do meu carrinho está em conflito com outras jornadas?&quot; <br> &quot;Verificar se há sobreposição de público-alvo entre minhas jornadas ativas&quot; |
+| Analisar fallout de jornada | Identifique onde e por que os clientes caem durante uma jornada e detecte padrões de comportamento que levam à desvinculação | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;Onde as pessoas estão saindo na minha jornada de Reengajamento?&quot; <br> &quot;Quais nós na jornada X têm o fallout mais alto?&quot; |
+| Analisar erros de ação personalizados | Identifique quando as ações personalizadas estão falhando ou as taxas de erro sobem em uma jornada e diagnostique as causas básicas antes que as falhas evoluam para uma interrupção mais ampla | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;Por que as ações personalizadas estão falhando na minha jornada de Inscrição de Fidelidade?&quot; <br> &quot;Mostrar a taxa de erro para a ação personalizada ExternalPush na minha jornada de Boas-vindas.&quot; |
+| Detectar anomalias de jornada | Detectar e confirmar picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de uma jornada em relação às linhas de base históricas e destacar uma causa raiz provável | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | &quot;Por que as entradas da minha jornada de Boas-vindas caíram ontem?&quot; <br> &quot;As saídas tiveram um pico na jornada de Abandono do carrinho esta semana?&quot; |
+
+Para obter informações mais detalhadas sobre as habilidades do CX Coworker para jornada, consulte a [documentação do Adobe Journey Optimizer jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/journeys-coworker-skills){target="_blank"}.
+
+## Fidelidade
+
+| Caso de uso | Descrição | Habilidades | Aplicativo | Exemplos de Prompts |
+| --- | --- | --- | --- | --- |
+| Criar, editar e gerenciar desafios de fidelidade | Simplifique e acelere o gerenciamento do programa de fidelidade | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;Crie um desafio incentivando os membros a experimentar uma nova bebida sazonal&quot; <br> &quot;Mostre-me desafios de fidelidade com as taxas mais altas de devolução de membros.&quot; |
+| Analisar desempenho do programa de fidelidade | Consultar e analisar pontos de fidelidade, níveis de membros, resgates e métricas de receita usando linguagem natural | `loyalty-insights` | Adobe Journey Optimizer (AJO) | &quot;Quantos pontos de fidelidade foram concedidos durante agosto de 2026?&quot; <br> &quot;Mostrar a receita total do programa de fidelidade dividida por dia durante agosto de 2026.&quot; |
+
+Para obter informações mais detalhadas sobre as habilidades do CX Coworker para fidelidade, consulte a [documentação de fidelidade do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/loyalty-coworker-skills){target="_blank"}.
 
 ## Otimização
 
@@ -159,10 +168,10 @@ Use o Bate-papo com colegas de trabalho para procurar, analisar e planejar exper
 
 | Caso de uso | Descrição | Habilidades | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
-| Procurar e explorar experimentos | Pesquisar visões gerais de experimento, listas, contagens, resultados brutos, insights e oportunidades | `experiment-explorer` | Acelerador de experimentação | &quot;Mostrar meus experimentos&quot; · &quot;Listar testes ativos&quot; · &quot;Quantos experimentos estão sendo executados?&quot; |
-| Analisar desempenho de experimento | Obtenha detalhamentos de portfólio, verificações de integridade de experimento único, resumos executivos e relatórios entre experimentos com métricas, opcionalmente enriquecidas com dados do CJA | `experiment-analysis` | Acelerador de experimentação | &quot;Como meus testes A/B estão se saindo?&quot; · &quot;Gerar um relatório para minhas atividades com métricas do CJA&quot; · &quot;Este teste está íntegro?&quot; |
-| Planejar e projetar experimentos | Obter o próximo teste de maior impacto a ser executado, um design para um tópico nomeado, tradução de meta para métrica, orientação de recuperação para um teste com falha ou um roteiro sequenciado de vários experimentos | `experiment-strategist` | Acelerador de experimentação | &quot;O que devo testar a seguir?&quot; · &quot;Ajude-me a projetar um experimento para melhorar as conversões de check-out&quot; · &quot;Crie um roteiro de testes para o 3º trimestre&quot; |
-| Pesquisar histórico de experimento | Recupere hipóteses, aprendizados, resultados e tratamentos de experimentos anteriores, encontre experimentos anteriores por tópico ou assimile um CSV externo para enriquecer os resultados | `experiment-knowledge-base` | Acelerador de experimentação | &quot;O que sabemos sobre o experimento X?&quot; · &quot;Já testamos essa hipótese antes?&quot; · &quot;Assimilar esse CSV&quot; |
+| Procurar e explorar experimentos | Pesquisar visões gerais de experimento, listas, contagens, resultados brutos, insights e oportunidades | `experiment-explorer` | Adobe Target/Adobe Journey Optimizer | &quot;Mostrar meus experimentos&quot; · &quot;Listar testes ativos&quot; · &quot;Quantos experimentos estão sendo executados?&quot; |
+| Analisar desempenho de experimento | Obtenha detalhamentos de portfólio, verificações de integridade de experimento único, resumos executivos e relatórios entre experimentos com métricas, opcionalmente enriquecidas com dados do CJA | `experiment-analysis` | Adobe Target/Adobe Journey Optimizer | &quot;Como meus testes A/B estão se saindo?&quot; · &quot;Gerar um relatório para minhas atividades com métricas do CJA&quot; · &quot;Este teste está íntegro?&quot; |
+| Planejar e projetar experimentos | Obter o próximo teste de maior impacto a ser executado, um design para um tópico nomeado, tradução de meta para métrica, orientação de recuperação para um teste com falha ou um roteiro sequenciado de vários experimentos | `experiment-strategist` | Adobe Target/Adobe Journey Optimizer | &quot;O que devo testar a seguir?&quot; · &quot;Ajude-me a projetar um experimento para melhorar as conversões de check-out&quot; · &quot;Crie um roteiro de testes para o 3º trimestre&quot; |
+| Pesquisar histórico de experimento | Recupere hipóteses, aprendizados, resultados e tratamentos de experimentos anteriores, encontre experimentos anteriores por tópico ou assimile um CSV externo para enriquecer os resultados | `experiment-knowledge-base` | Adobe Target/Adobe Journey Optimizer | &quot;O que sabemos sobre o experimento X?&quot; · &quot;Já testamos essa hipótese antes?&quot; · &quot;Assimilar esse CSV&quot; |
 
 ### Atividades e públicos-alvo
 
@@ -199,7 +208,7 @@ Use o Bate-papo com colegas de trabalho para procurar, analisar e planejar exper
 | Resolução e vinculação da entidade | Use a pesquisa semântica e léxica para resolver menções de entidade a entidades reais do Experience Platform e descobrir campos XDM | `entity-linking` | Adobe Experience Platform | &quot;Resolver &#39;Compradores de Feriados&#39; para um público-alvo real&quot; <br> &quot;Encontre-me campos relacionados ao histórico de compras&quot; |
 | Gerenciar habilidades personalizadas | Salvar, modificar ou excluir habilidades reutilizáveis de propriedade do usuário que persistem entre as sessões | `manage-skill` | Todos os aplicativos qualificados | &quot;Salvar este fluxo de trabalho como uma habilidade&quot; <br> &quot;Excluir minha habilidade semanal de relatório&quot; <br> &quot;Transformar em uma habilidade reutilizável&quot; |
 | Monitorar a capacidade de transmissão e as violações | Verificar o uso atual e histórico da transmissão, a capacidade e o status de violação em sandboxes | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;Qual é minha capacidade de streaming atual na minha sandbox atual?&quot; <br> &quot;Minha sandbox atual está excedendo os limites de capacidade na última semana?&quot; |
-| [Exibir resultados da avaliação de verificação de integridade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/run-and-operate/health-checks/overview) | Visualize a avaliação de verificação de integridade mais recente para sua sandbox, examine uma verificação de falha e veja as entidades afetadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;O que há de errado na minha sandbox?&quot; <br> &quot;Conte-me sobre minha última avaliação de verificação de integridade&quot; <br> &quot;Quais são os problemas da verificação de descrição do namespace personalizado?&quot; |
+| [Exibir resultados da avaliação de verificação de integridade](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Visualize a avaliação de verificação de integridade mais recente para sua sandbox, examine uma verificação de falha e veja as entidades afetadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;O que há de errado na minha sandbox?&quot; <br> &quot;Conte-me sobre minha última avaliação de verificação de integridade&quot; <br> &quot;Quais são os problemas da verificação de descrição do namespace personalizado?&quot; |
 | Corrigir problemas de verificação de integridade | Corrija problemas de namespace de identidade, política de mesclagem e esquema sinalizados diretamente do chat, com sua aprovação antes que qualquer alteração seja feita | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Corrigir descrições de namespace de identidade&quot; <br> &quot;Corrigir nomes de política de mesclagem duplicados&quot; <br> &quot;Corrigir esquemas que não têm o grupo de campos de auditoria&quot; <br> &quot;Corrigir nomeação de política de mesclagem padrão&quot; |
 
 ## Ferramentas de sandbox
