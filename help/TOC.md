@@ -6,7 +6,7 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
+source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 17%
@@ -25,22 +25,6 @@ ht-degree: 17%
   - [Transparência do conteúdo de IA gerativa](content-transparency.md)
 - CX Enterprise Coworker {#coworker}
   - [Sobre o Colaborador](./coworker/overview.md)
-  - Campanhas {#campaigns}
-    - [Visão geral](./coworker/campaigns/overview.md)
-    - [Criar uma campanha de email](./coworker/campaigns/create-an-email-campaign.md)
-    - [Casos de uso](./coworker/campaigns/use-cases.md)
-    - [Solicitação de práticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
-    - [Metadados do C2PA](./coworker/campaigns/c2pa-metadata.md)
-    - Conectores {#connectors}
-      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
-    - [Notas de versão](./coworker/campaigns/release-notes.md)
-  - Personalizações {#customizations}
-    - Habilidades {#skills}
-      - [O que são habilidades?](./coworker/customizations/skills/what-are-skills.md)
-      - [Crie sua primeira habilidade](./coworker/customizations/skills/create-your-first-skill.md)
-      - [Criar e executar uma habilidade de portal de qualidade](./coworker/customizations/skills/run-a-quality-gate-skill.md)
-      - [Gerenciar e iterar em habilidades](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - Chat {#chat}
     - [Visão geral](./coworker/chat/overview.md)
     - [Guia da interface do usuário](./coworker/chat/ui-guide.md)
@@ -67,6 +51,22 @@ ht-degree: 17%
       - Supervisor de conteúdo {#content-advisor}
         - [Gerar ativos de marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Verificação de conformidade da marca](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+  - Personalizações {#customizations}
+    - Habilidades {#skills}
+      - [O que são habilidades?](./coworker/customizations/skills/what-are-skills.md)
+      - [Crie sua primeira habilidade](./coworker/customizations/skills/create-your-first-skill.md)
+      - [Criar e executar uma habilidade de portal de qualidade](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [Gerenciar e iterar em habilidades](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+  - Campanhas {#campaigns}
+    - [Visão geral](./coworker/campaigns/overview.md)
+    - [Criar uma campanha de email](./coworker/campaigns/create-an-email-campaign.md)
+    - [Casos de uso](./coworker/campaigns/use-cases.md)
+    - [Solicitação de práticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
+    - [Metadados do C2PA](./coworker/campaigns/c2pa-metadata.md)
+    - Conectores {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
+    - [Notas de versão](./coworker/campaigns/release-notes.md)
 - Assistente de IA {#ai-assistant}
   - [Guia da interface do assistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de Prompts](./ai-assistant/prompt-library.md)
@@ -99,6 +99,6 @@ ht-degree: 17%
     - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 

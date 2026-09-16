@@ -3,26 +3,26 @@ description: Saiba mais sobre o Adobe CX Enterprise Co-worker Campaigns, um apli
 title: Visão geral do Adobe CX Enterprise Co-worker
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 21d2304c94d68d7800283b46e2a15012ffe55810
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '950'
 ht-degree: 0%
-
 ---
-
 # Visão geral das campanhas de colegas de trabalho do Adobe CX Enterprise {#overview}
 
 Campanhas de colegas de trabalho é um aplicativo de marketing nativo de IA que leva você de um único prompt a uma campanha completa pronta para revisão.
 
-No momento, todas as interações com a IA o direcionarão para a [geração de campanha] (./). Mais funcionalidades serão disponibilizadas em breve.
+No momento, todas as interações com a IA o direcionarão para a [geração de campanha](/help/coworker/campaigns/create-an-email-campaign.md). Mais funcionalidades serão disponibilizadas em breve.
 
 ## Como acessar o
 
 >[!NOTE]
 >
->O Coworker Campaigns está disponível por meio de avaliação gratuita até 1º de outubro de 2026. Durante a avaliação, todos os ativos e atividades são específicos do usuário.
+>O Coworker Campaigns está disponível por meio de avaliação gratuita até 31 de dezembro de 2026. Durante a avaliação, todos os ativos e atividades são específicos do usuário.
 
 1. Acesse coworker-campaigns.experience.adobe.com.
 
@@ -104,7 +104,7 @@ Alguns achados dos primeiros usuários que fazem uma diferença real:
 
 O Co-worker Campaigns é um produto em desenvolvimento ativo. Veja o que você deve saber sobre a entrada:
 
-- **Janela de avaliação**: até 1º de outubro de 2026.
+- **Janela de avaliação**: até 31 de dezembro de 2026.
 - **Aceitação necessária**: você precisará revisar e aceitar os termos de avaliação antes de acessar o produto.
 - **Região**: a avaliação gratuita está disponível somente para usuários na América do Norte no momento.
 - **Públicos-alvo**: os públicos-alvo são carregados via CSV. Todos os públicos-alvo são específicos para suas respectivas campanhas (eles não são armazenados em nenhum outro lugar do seu ambiente no momento).
@@ -114,7 +114,7 @@ O Co-worker Campaigns é um produto em desenvolvimento ativo. Veja o que você d
 
 ## Visão geral do vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3492811?captions=por_br&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 Novos recursos serão enviados durante a avaliação. Seus comentários ajudam a moldar o que vem a seguir. Envie feedback por meio do ícone de feedback no produto, no cabeçalho.
