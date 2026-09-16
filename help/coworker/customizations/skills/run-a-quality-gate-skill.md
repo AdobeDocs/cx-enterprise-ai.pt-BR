@@ -5,15 +5,13 @@ role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 101
-last-substantial-update: 2026-09-08T00:00:00Z
+last-substantial-update: 2026-09-08
 jira: KT-22379
-source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
+source-git-commit: 4cb104d919b71cb8c0e71ec5c747b23020c102ca
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
-
 ---
-
 
 # Criar e executar uma habilidade de portal de qualidade usando habilidades de IA personalizadas
 
@@ -23,7 +21,7 @@ O desafio é que essas verificações dependem frequentemente de conhecimentos t
 
 Neste vídeo, você verá como uma habilidade personalizada de colega de trabalho atua como um Portal de ativação, validando automaticamente os públicos-alvo em relação aos padrões de ativação da sua organização antes que eles sejam transferidos para a jusante.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503169/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503162/?learn=on&enablevpops)
 
 ## Exemplo de habilidade do portal de qualidade de ativação
  
@@ -80,9 +78,6 @@ The three gates are:
 [Paste Gate 1, Gate 2, and Gate 3 definitions here]
 ```
 
-&#x200B;---
- 
-
 ## Portão 1: Supressão / Consentimento
  
 > Edite esta seção para corresponder aos requisitos de supressão e consentimento de sua organização.
@@ -110,9 +105,6 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
-&#x200B;---
- 
-
 ## Porta 2: Limite de frequência
 
 > Edite esta seção para corresponder aos requisitos de frequência de entrega de sua organização.
@@ -136,8 +128,6 @@ Our standard:
 
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 ```
-
-&#x200B;---
 
 ## Portão 3: Convenção de Nomenclatura
  
@@ -178,10 +168,6 @@ Mortgage – High Propensity Prospects
 When blocked on naming, always propose a compliant replacement name.
 ```
 
- 
-
-&#x200B;---
-
 ## Orientação
 
 ### &#x200B;1. Personalizar apenas as seções entre colchetes
@@ -196,8 +182,6 @@ Todo o resto deve permanecer inalterado:
 - Avaliação de portal
 - Renderização do scorecard
 - Lógica de veredicto
-
-&#x200B;---
 
 
 ### &#x200B;2. Verificar pré-requisitos
@@ -214,8 +198,6 @@ Essa habilidade depende de:
 - Renderização de DataTable
 
 Se esses recursos não estiverem disponíveis no ambiente do cliente, a habilidade não poderá ser executada conforme projetado.
-
-&#x200B;---
 
 ### &#x200B;3. Manter a habilidade como somente leitura
 
