@@ -6,9 +6,9 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f16706f2bf434e77743bfe17cd18c0f2e6b0f6ad
+source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '339'
 ht-degree: 17%
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 17%
       - [O que são habilidades?](./coworker/customizations/skills/what-are-skills.md)
       - [Crie sua primeira habilidade](./coworker/customizations/skills/create-your-first-skill.md)
       - [Criar e executar uma habilidade de portal de qualidade](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [Gerenciar e iterar em habilidades](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - Chat {#chat}
     - [Visão geral](./coworker/chat/overview.md)
     - [Guia da interface do usuário](./coworker/chat/ui-guide.md)
@@ -50,6 +51,7 @@ ht-degree: 17%
         - [Analisar dados do CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Explorar tendências e causas básicas](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validar dados do AA para o CJA ao atualizar](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [Validar a qualidade do conjunto de dados para os relatórios do CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - Públicos-alvo {#audiences}
         - [Avalie a integridade da plataforma e crie públicos-alvo](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Jornadas {#journeys}
@@ -97,6 +99,6 @@ ht-degree: 17%
     - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
