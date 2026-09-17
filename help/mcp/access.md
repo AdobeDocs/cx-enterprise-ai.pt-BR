@@ -1,7 +1,8 @@
 ---
 title: Acessar as ferramentas do CX Coworker Gateway
 description: Confirme a disponibilidade do produto, a ativação da organização e as permissões antes de usar as ferramentas do Adobe CX Coworker Gateway.
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 4%
@@ -35,7 +36,7 @@ O Adobe CX Enterprise expõe as ferramentas do produto por meio de um único MCP
 
 ## Solicitar acesso {#mcp-request}
 
-Para ferramentas de produtos Beta ou de versão limitada, entre em contato com o representante de conta da Adobe e especifique quais ferramentas de produto do Adobe para CX Coworker Gateway você deseja usar. Seu representante pode coordenar a ativação do produto e confirmar quando sua organização da Adobe está pronta.
+Para obter ferramentas do produto Beta ou de versões limitadas, entre em contato com o representante de conta da Adobe e especifique quais ferramentas de produto do Adobe for CX Co-worker Gateway você deseja usar. Seu representante pode coordenar a ativação do produto e confirmar quando sua organização da Adobe está pronta.
 
 Para ferramentas de produtos geralmente disponíveis que usam o item de permissão **Acesso ao MCP**, peça a um administrador de sistema ou de produto para adicionar sua conta a um perfil de produto que inclua acesso ao MCP.
 
@@ -58,4 +59,4 @@ Antes de conectar o cliente MCP, confirme se:
 - Você tem acesso a um cliente MCP com suporte, como [!DNL Claude], [!DNL ChatGPT], [!DNL Cursor], [!DNL Claude Code], [!DNL Codex] ou [!DNL VS Code].
 - Para instalação corporativa, você ou um colega podem gerenciar conectores ou aplicativos personalizados nas configurações da organização do cliente MCP.
 
-Próximo: [Instalar o Adobe CX Coworker Gateway](install.md).
+Próximo: [Instalar o Adobe CX Co-worker Gateway](install.md).

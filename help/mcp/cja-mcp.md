@@ -1,17 +1,16 @@
 ---
-title: Ferramentas Customer Journey Analytics no CX Co-worker Gateway
-description: Saiba quais ferramentas do Adobe Customer Journey Analytics estão disponíveis por meio do Adobe CX Co-worker Gateway.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+title: Ferramentas do Customer Journey Analytics no CX Coworker Gateway
+description: Saiba quais ferramentas do Adobe Customer Journey Analytics estão disponíveis por meio do Adobe CX Coworker Gateway.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 3%
-
 ---
 
+# Ferramentas do Customer Journey Analytics no Adobe CX Coworker Gateway {#cja-mcp}
 
-# Ferramentas do Customer Journey Analytics no Adobe CX Co-worker Gateway {#cja-mcp}
-
-Use as ferramentas de produto do Customer Journey Analytics para explorar visualizações de dados, descobrir dimensões e métricas, executar relatórios e gerenciar componentes de análise selecionados de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [CX Co-worker Gateway](overview.md) quando sua conta tem a licença e as permissões necessárias da Customer Journey Analytics.
+Use as ferramentas de produto do Customer Journey Analytics para explorar visualizações de dados, descobrir dimensões e métricas, executar relatórios e gerenciar componentes de análise selecionados de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [CX Coworker Gateway](overview.md) quando sua conta tem a licença e as permissões necessárias da Customer Journey Analytics.
 
 >[!AVAILABILITY]
 >

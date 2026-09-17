@@ -1,20 +1,19 @@
 ---
-title: Ferramentas Adobe Analytics no CX Co-worker Gateway
-description: Saiba quais ferramentas do Adobe Analytics estão disponíveis por meio do Adobe CX Co-worker Gateway.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+title: Ferramentas do Adobe Analytics no CX Coworker Gateway
+description: Saiba quais ferramentas do Adobe Analytics estão disponíveis por meio do Adobe CX Coworker Gateway.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
-
 ---
+# Ferramentas do Adobe Analytics no Adobe CX Coworker Gateway {#aa-mcp}
 
-# Ferramentas do Adobe Analytics no Adobe CX Co-worker Gateway {#aa-mcp}
-
-Você pode usar as ferramentas do Adobe Analytics para explorar conjuntos de relatórios, descobrir dimensões e métricas, executar relatórios e gerenciar componentes de análise selecionados de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [Adobe CX Co-worker Gateway](overview.md) unificado, quando sua conta tem a licença e as permissões necessárias da Adobe Analytics.
+Você pode usar as ferramentas do Adobe Analytics para explorar conjuntos de relatórios, descobrir dimensões e métricas, executar relatórios e gerenciar componentes de análise selecionados de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [Adobe CX Coworker Gateway](overview.md) unificado, quando sua conta tem a licença e as permissões necessárias da Adobe Analytics.
 
 >[!AVAILABILITY]
 >
->As ferramentas do Analytics estão disponíveis para clientes com uma licença da Adobe Analytics. O acesso é controlado pela permissão **Acesso ao MCP** no Adobe Admin Console. Leia as [Ferramentas do CX Co-worker Gateway](access.md) do Access para obter mais informações.
+>As ferramentas do Analytics estão disponíveis para clientes com uma licença da Adobe Analytics. O acesso é controlado pela permissão **Acesso ao MCP** no Adobe Admin Console. Leia as [Ferramentas do CX Coworker Gateway](access.md) para obter mais informações.
 
 ## Principais recursos {#mcp-capabilities}
 

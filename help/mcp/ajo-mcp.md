@@ -1,14 +1,15 @@
 ---
-title: Ferramentas Journey Optimizer no CX Co-worker Gateway
-description: Saiba quais ferramentas do Adobe Journey Optimizer estão disponíveis por meio do CX Co-worker Gateway.
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+title: Ferramentas do Journey Optimizer no CX Coworker Gateway
+description: Saiba quais ferramentas do Adobe Journey Optimizer estão disponíveis por meio do CX Coworker Gateway.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 2%
 ---
-# Ferramentas Adobe Journey Optimizer no CX Co-worker Gateway {#ajo-mcp}
+# Ferramentas do Adobe Journey Optimizer no CX Coworker Gateway {#ajo-mcp}
 
-Use as ferramentas de produto do Adobe Journey Optimizer para inspecionar campanhas, jornadas e configurações de canal de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [CX Co-worker Gateway](overview.md), quando sua organização está habilitada e sua conta de usuário tem as permissões necessárias da Journey Optimizer.
+Use as ferramentas de produto do Adobe Journey Optimizer para inspecionar campanhas, jornadas e configurações de canal de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [CX Coworker Gateway](overview.md) quando sua organização está habilitada e sua conta de usuário tem as permissões necessárias do Journey Optimizer.
 
 Para obter mais informações, consulte [Trabalhar com clientes MCP](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"} na documentação do Adobe Journey Optimizer.
 
@@ -66,7 +67,7 @@ As ferramentas do Journey Optimizer fornecem uma superfície somente leitura par
 
 Além das ferramentas de produto somente leitura mencionadas acima, os usuários do Journey Optimizer podem descobrir e gerenciar ativos de conteúdo — modelos de conteúdo, fragmentos, páginas de aterrissagem e conteúdo de mensagem em linha do jornada ou da campanha — diretamente do CX Coworker usando prompts em linguagem natural. Esse recurso é alimentado por um conjunto separado de ferramentas MCP com capacidade de leitura e gravação para conteúdo Journey Optimizer e está disponível para todos os clientes que têm acesso ao CX Coworker.
 
-Para obter mais informações, consulte [Ferramentas de gerenciamento de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"} na documentação do Adobe Journey Optimizer.
+Para obter mais informações, consulte [Ferramentas de gerenciamento de conteúdo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"} na documentação do Adobe Journey Optimizer.
 
 As ferramentas de gerenciamento de conteúdo permitem:
 
