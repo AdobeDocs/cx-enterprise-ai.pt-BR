@@ -1,13 +1,12 @@
 ---
 title: Ferramentas de Contexto de Sessão no CX Co-worker Gateway
 description: Saiba mais sobre as principais ferramentas que definem o contexto de organização, sandbox e visualização de dados para todas as chamadas de ferramenta do CX Co-worker Gateway.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
-
 ---
-
 # Ferramentas de contexto de sessão no Adobe CX Co-worker Gateway {#mcp-core}
 
 O Adobe CX Co-worker Gateway inclui um conjunto de ferramentas de contexto de sessão que estabelecem a organização da Adobe, a sandbox da Adobe Experience Platform e a visualização de dados da Customer Journey Analytics em que todas as outras ferramentas de produtos operam. Não é necessária nenhuma licença ou habilitação adicional — essas ferramentas estão disponíveis para todos os usuários autenticados após a conexão com o [CX Co-worker Gateway server](overview.md).

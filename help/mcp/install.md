@@ -1,16 +1,15 @@
 ---
-title: Instalar o Adobe CX Co-worker Gateway
-description: Saiba como conectar clientes compatíveis com MCP ao Adobe CX Co-worker Gateway.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+title: Instalar o Adobe CX Coworker Gateway
+description: Saiba como conectar clientes compatíveis com MCP ao Adobe CX Coworker Gateway.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%
-
 ---
+# Instalar o Adobe CX Coworker Gateway {#mcp-install}
 
-# Instalar o Adobe CX Co-worker Gateway {#mcp-install}
-
-Leia este guia para saber como conectar um cliente compatível com MCP ao Adobe CX Co-worker Gateway.  O CX Co-worker Gateway usa um endpoint para todas as ferramentas de produto documentadas:
+Leia este guia para saber como conectar um cliente compatível com MCP ao Adobe CX Coworker Gateway.  O CX Coworker Gateway usa um endpoint para todas as ferramentas de produto documentadas:
 
 ```
 https://cx-coworker-gateway.adobe.io/mcp
@@ -20,7 +19,7 @@ Antes de instalar, confirme se a organização e a conta de usuário podem acess
 
 ## Como a instalação funciona {#mcp-install-how}
 
-O CX Co-worker Gateway usa um transporte HTTP remoto com um fluxo de logon Adobe baseado em navegador. Em todos os clientes compatíveis, o padrão de configuração é o mesmo:
+O CX Coworker Gateway usa um transporte HTTP remoto com um fluxo de logon Adobe baseado em navegador. Em todos os clientes compatíveis, o padrão de configuração é o mesmo:
 
 1. Adicione a URL do ponto de extremidade: `https://cx-coworker-gateway.adobe.io/mcp`.
 2. Salve ou habilite a conexão.
@@ -35,7 +34,7 @@ O CX Co-worker Gateway usa um transporte HTTP remoto com um fluxo de logon Adobe
 
 A maioria dos planos de equipes e clientes MCP empresariais exige que um administrador adicione conectores personalizados à organização. Nesses ambientes, a instalação do tem duas etapas:
 
-1. Um administrador adiciona o endpoint do gateway do CX Co-worker uma vez para a organização.
+1. Um administrador adiciona o endpoint do CX Coworker Gateway uma vez para a organização.
 2. Cada usuário ativa o conector e faz logon com suas próprias credenciais do Adobe.
 
 ### Etapa 1: Um administrador adiciona o endpoint {#mcp-install-enterprise-admin}

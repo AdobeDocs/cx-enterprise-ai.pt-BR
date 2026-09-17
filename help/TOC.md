@@ -6,7 +6,7 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 17%
@@ -87,18 +87,18 @@ ht-degree: 17%
   - Engenharia de dados {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Adobe CX Co-worker Gateway](./mcp/overview.md)
+  - {hide-from-toc}[Adobe CX Coworker Gateway](./mcp/overview.md)
   - {hide-from-toc}[MCP beta do Real-Time CDP](./mcp/beta/rtcdp-mcp.md)
   - Introdução {#mcp-get-started}
-    - [Acesse as ferramentas do CX Co-worker Gateway](./mcp/access.md)
-    - [Instalar o CX Co-worker Gateway](./mcp/install.md)
-    - [Ferramentas de contexto de sessão no CX Co-worker Gateway](./mcp/context-tools.md)
+    - {hide-from-toc}[Acessar as ferramentas do CX Coworker Gateway](./mcp/access.md)
+    - {hide-from-toc}[Instalar o CX Coworker Gateway](./mcp/install.md)
+    - {hide-from-toc}[Ferramentas de contexto de sessão no CX Coworker Gateway](./mcp/context-tools.md)
   - Ferramentas do produto {#mcp-product-tools}
-    - [Ferramentas do Real-Time CDP](./mcp/rtcdp-mcp.md)
-    - [Ferramentas do Experience Platform](./mcp/aep-mcp.md)
-    - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
-    - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
-    - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Ferramentas do Real-Time CDP](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Ferramentas do Experience Platform](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
