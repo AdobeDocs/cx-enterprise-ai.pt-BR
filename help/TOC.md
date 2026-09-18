@@ -6,7 +6,7 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 4ae7aa9127368da137582ce3aad3259fa815a497
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 17%
@@ -60,7 +60,7 @@ ht-degree: 17%
   - Campanhas {#campaigns}
     - [Visão geral](./coworker/campaigns/overview.md)
     - [Criar uma campanha de email](./coworker/campaigns/create-an-email-campaign.md)
-    - {hide-from-toc}[Iniciar e gerenciar uma campanha](./coworker/campaigns/launch-manage-campaign.md)
+    - [Iniciar e gerenciar uma campanha](./coworker/campaigns/launch-manage-campaign.md)
     - [Casos de uso](./coworker/campaigns/use-cases.md)
     - [Solicitação de práticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
     - [Metadados do C2PA](./coworker/campaigns/c2pa-metadata.md)
@@ -100,6 +100,6 @@ ht-degree: 17%
     - {hide-from-toc}[Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 

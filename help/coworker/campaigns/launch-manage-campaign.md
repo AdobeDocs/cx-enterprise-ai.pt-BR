@@ -1,5 +1,5 @@
 ---
-description: Saiba como iniciar uma campanha, agendar quando ela é enviada agora, uma vez ou de forma recorrente e parar permanentemente uma campanha ativa que está enviando.
+description: Saiba como iniciar uma campanha, agendar quando ela sai e com que frequência e parar permanentemente uma campanha ao vivo que está enviando ativamente.
 title: Iniciar e gerenciar uma campanha
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 4ae7aa9127368da137582ce3aad3259fa815a497
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '610'
 ht-degree: 2%
 ---
 # Iniciar e gerenciar uma campanha {#launch-campaign}
@@ -24,23 +24,15 @@ Depois que a campanha for criada, saiba como iniciá-la, agendar quando ela for 
 
 1. Na campanha concluída, clique em **Revisar e iniciar**.
 
-   CAPTURA DE TELA
-
    >[!NOTE]
    >
    >Se algo estiver faltando, uma caixa de diálogo será exibida, listando o que você precisa concluir. Faça as correções e selecione novamente **Revisar e iniciar**.
 
 1. Depois que a campanha passa a verificação de preparação, a caixa de diálogo de inicialização é aberta, mostrando uma pré-visualização do email e do público-alvo.
 
-   CAPTURA DE TELA
-
 1. Revise o agendamento mostrado na caixa de diálogo. Para alterá-la, use as opções de agendamento descritas em [Agendar quando uma campanha for iniciada](#schedule-when-a-campaign-launches) e, em seguida, clique em **Salvar**.
 
-   CAPTURA DE TELA
-
 1. Clique em **Iniciar campanha** quando terminar.
-
-   CAPTURA DE TELA
 
 >[!NOTE]
 >
@@ -60,18 +52,12 @@ A campanha deve estar pronta para ser iniciada (todas as configurações necess�
 
 1. Na campanha, clique em **Revisar e iniciar**.
 
-   CAPTURA DE TELA
-
 1. Na caixa de diálogo de inicialização, escolha uma opção de programação:
-   - **Agora** — a campanha começa a ser enviada imediatamente após o lançamento.
-   - **Agendar uma vez** — escolha uma **Data de início** futura (data e hora juntas).
-   - **Recorrente** — escolha uma **Frequência** (Diariamente, Semanalmente ou Mensalmente) e uma hora de início, depois defina o padrão de recorrência (consulte os campos abaixo).
-
-   CAPTURA DE TELA
+   - **Agora**: a campanha começa a ser enviada imediatamente após o lançamento.
+   - **Agendar uma vez**: escolha uma **Data de início** futura (data e hora juntas).
+   - **Recorrente**: escolha uma **Frequência** (Diariamente, Semanalmente ou Mensalmente) e uma hora de início, depois defina o padrão de recorrência (consulte os campos abaixo).
 
 1. Se a opção Recorrente estiver selecionada, escolha se a campanha termina **Nunca** ou **Em uma data** e escolha uma data final, se aplicável.
-
-   CAPTURA DE TELA
 
 1. Confirme para iniciar a campanha com a programação selecionada.
 
@@ -79,15 +65,9 @@ A campanha deve estar pronta para ser iniciada (todas as configurações necess�
 
 1. Abra a campanha e vá para as configurações.
 
-   CAPTURA DE TELA
-
 1. Localize a seção programação e selecione o resumo da programação atual.
 
-   CAPTURA DE TELA
-
 1. Atualize a programação usando as mesmas opções descritas acima.
-
-   CAPTURA DE TELA
 
 1. Salve a alteração.
 
@@ -116,24 +96,18 @@ Você pode interromper uma campanha que está enviando ativamente (uma campanha 
 >
 >Interromper uma campanha é permanente. Os recipients param de avançar pela campanha imediatamente e a campanha não pode ser retomada ou reiniciada posteriormente. Para enviar novamente, você deve criar uma nova campanha e iniciá-la.
 
-### Pré-requisitos
+<!--
 
-- [PRECISA DE ENTRADA — para confirmar com o engenheiro: parar uma campanha requer uma função ou permissão específica, ou qualquer usuário com acesso à campanha pode fazer isso?]
+### Prerequisites
+
+- [NEEDS INPUT - to confirm with engineer: does stopping a campaign require a specific role or permission, or can any user with campaign access do this?]
+
+-->
 
 ### Como interromper uma campanha
 
 1. Abra uma campanha que esteja ativa no momento.
 
-   CAPTURA DE TELA
-
 1. No cabeçalho de detalhes da campanha, clique em **Parar Campanha**.
 
-   CAPTURA DE TELA
-
-1. Na caixa de diálogo de confirmação, clique em EM BRANCO.
-
-   CAPTURA DE TELA
-
 1. Clique em **Parar** para confirmar.
-
-   CAPTURA DE TELA
