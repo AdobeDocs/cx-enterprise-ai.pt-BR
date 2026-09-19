@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: db8f6b723110d86fc3bd65f2e1f5ab3047157e8f
+source-git-commit: 92553b9b27ee38ba31ccd00b443502e990e625be
 workflow-type: tm+mt
-source-wordcount: '4800'
+source-wordcount: '4876'
 ht-degree: 6%
 ---
 # Casos de uso do chat do colaborador{#use-cases}
@@ -149,7 +149,13 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 | Analisar erros de ação personalizados | Identifique quando as ações personalizadas estão falhando ou as taxas de erro sobem em uma jornada e diagnostique as causas básicas antes que as falhas evoluam para uma interrupção mais ampla | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;Por que as ações personalizadas estão falhando na minha jornada de Inscrição de Fidelidade?&quot; <br> &quot;Mostrar a taxa de erro para a ação personalizada ExternalPush na minha jornada de Boas-vindas.&quot; |
 | Detectar anomalias de jornada | Detectar e confirmar picos, quedas ou linhas achatadas inesperados nas contagens de entrada, saída ou envio de uma jornada em relação às linhas de base históricas e destacar uma causa raiz provável | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | &quot;Por que as entradas da minha jornada de Boas-vindas caíram ontem?&quot; <br> &quot;As saídas tiveram um pico na jornada de Abandono do carrinho esta semana?&quot; |
 
-Para obter informações mais detalhadas sobre as habilidades do CX Coworker para jornada, consulte a [documentação do Adobe Journey Optimizer jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
+Para obter informações mais detalhadas sobre as habilidades do CX Coworker para jornada, consulte a [documentação do Adobe Journey Optimizer jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
+
+## Programas de marketing
+
+| Caso de uso | Descrição | Habilidades | Aplicativo | Exemplos de Prompts |
+|---|---|---|---|---|
+| Criar um programa | Adaptar um modelo de programa existente a um novo programa, gerando Campanhas inteligentes, agendamento e emails de espaço reservado de uma descrição de campanha em linguagem simples ou resumo de campanha carregado | `build-programs` | Adobe Marketo Engage | &quot;Crie um programa de registro de webinário para nossa demonstração de produto de agosto&quot;<br><br>&quot;Crie um programa que seja acionado quando um cliente potencial atingir uma pontuação de 50&quot;<br><br>&quot;Crie uma série de reengajamento de 3 emails para clientes potenciais inativos por 90 dias&quot; |
 
 ## Fidelidade
 
@@ -158,7 +164,7 @@ Para obter informações mais detalhadas sobre as habilidades do CX Coworker par
 | Criar, editar e gerenciar desafios de fidelidade | Simplifique e acelere o gerenciamento do programa de fidelidade | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;Crie um desafio incentivando os membros a experimentar uma nova bebida sazonal&quot; <br> &quot;Mostre-me desafios de fidelidade com as taxas mais altas de devolução de membros.&quot; |
 | Analisar desempenho do programa de fidelidade | Consultar e analisar pontos de fidelidade, níveis de membros, resgates e métricas de receita usando linguagem natural | `loyalty-insights` | Adobe Journey Optimizer (AJO) | &quot;Quantos pontos de fidelidade foram concedidos durante agosto de 2026?&quot; <br> &quot;Mostrar a receita total do programa de fidelidade dividida por dia durante agosto de 2026.&quot; |
 
-Para obter informações mais detalhadas sobre as habilidades do CX Coworker para fidelidade, consulte a [documentação de fidelidade do Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}.
+Para obter informações mais detalhadas sobre as habilidades do CX Coworker para fidelidade, consulte a [documentação de fidelidade do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}.
 
 ## Otimização
 
