@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 92553b9b27ee38ba31ccd00b443502e990e625be
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '4876'
+source-wordcount: '5040'
 ht-degree: 6%
 ---
 # Casos de uso do chat do colaborador{#use-cases}
@@ -216,6 +216,13 @@ Use o Bate-papo com colegas de trabalho para procurar, analisar e planejar exper
 | Monitorar a capacidade de transmissão e as violações | Verificar o uso atual e histórico da transmissão, a capacidade e o status de violação em sandboxes | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;Qual é minha capacidade de streaming atual na minha sandbox atual?&quot; <br> &quot;Minha sandbox atual está excedendo os limites de capacidade na última semana?&quot; |
 | [Exibir resultados da avaliação de verificação de integridade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/run-and-operate/health-checks/overview) | Visualize a avaliação de verificação de integridade mais recente para sua sandbox, examine uma verificação de falha e veja as entidades afetadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;O que há de errado na minha sandbox?&quot; <br> &quot;Conte-me sobre minha última avaliação de verificação de integridade&quot; <br> &quot;Quais são os problemas da verificação de descrição do namespace personalizado?&quot; |
 | Corrigir problemas de verificação de integridade | Corrija problemas de namespace de identidade, política de mesclagem e esquema sinalizados diretamente do chat, com sua aprovação antes que qualquer alteração seja feita | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Corrigir descrições de namespace de identidade&quot; <br> &quot;Corrigir nomes de política de mesclagem duplicados&quot; <br> &quot;Corrigir esquemas que não têm o grupo de campos de auditoria&quot; <br> &quot;Corrigir nomeação de política de mesclagem padrão&quot; |
+
+## Gerenciamento de dados
+
+| Caso de uso | Descrição | Habilidades | Aplicativo | Exemplos de Prompts |
+| --- | --- | --- | --- | --- |
+| [Encontrar dados que valham a pena otimizar ou limpar](./data-management/manage-data-lake-retention.md#find-data-worth-optimizing) | Saiba se seus dados do Evento de experiência podem ser otimizados identificando os maiores, menos usados ou esquecidos conjuntos de dados como candidatos para limpeza ou uma política de retenção de data lake | `List datasets` | Adobe Experience Platform | &quot;Sinto que meus dados podem ser otimizados&quot; <br> &quot;Ajude-me a entender o valor dos meus dados&quot; <br> &quot;Otimizar meus dados de sandbox&quot; <br> &quot;Limpar meus conjuntos de dados de sandbox&quot; |
+| [Investigar o uso e gerenciar a retenção de um conjunto de dados](./data-management/manage-data-lake-retention.md#check-how-actively-a-dataset-is-used) | Depois de encontrar um conjunto de dados que mereça uma análise mais detalhada, descubra como ele é usado ativamente, modele o impacto de uma possível política de retenção de data lake e defina, altere ou remova essa política quando estiver pronto, com sua revisão e aprovação antes que algo mude | `Analyze dataset usage`, `Analyze dataset retention`, `Manage dataset retention` | Adobe Experience Platform | &quot;Quão ativamente meu conjunto de dados de Eventos da Web está sendo usado?&quot; <br> &quot;Qual seria o impacto se eu definisse um período de retenção de 60 dias nesse conjunto de dados?&quot; |
 
 ## Ferramentas de sandbox
 
