@@ -8,12 +8,12 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
+source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
 ---
-# Validar dados do Customer Journey Analytics com a Habilidade de Validação de Dados em [!DNL Coworker]
+# Validar dados do Customer Journey Analytics com a habilidade de validação de dados em [!DNL Coworker]
 
 A qualidade dos dados é a base de relatórios precisos no Adobe Customer Journey Analytics (CJA). Antes de criar métricas, painéis, segmentos ou jornadas para clientes, é essencial compreender se os dados subjacentes do Adobe Experience Platform (AEP) podem ser confiáveis.
 
@@ -110,3 +110,4 @@ A validação de conjuntos de dados antes de criar relatórios ajuda as equipes 
 - Solucionar problemas de métricas inesperadas com mais eficiência
 
 Com o Colaborador, essas verificações podem ser iniciadas usando prompts de linguagem natural, tornando a validação de dados mais acessível para usuários técnicos e não técnicos.
+
