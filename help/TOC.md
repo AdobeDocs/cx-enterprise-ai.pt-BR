@@ -6,9 +6,9 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 17%
 ---
 
@@ -59,10 +59,12 @@ ht-degree: 17%
       - [Crie sua primeira habilidade](./coworker/customizations/skills/create-your-first-skill.md)
       - [Criar e executar uma habilidade de portal de qualidade](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [Gerenciar e iterar em habilidades](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - Integrações {#integrations}
+      - [O que são integrações?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - Plug-ins {#plugins}
-      - [O que são plug-ins](./coworker/customizations/plugins/what-are-plugins.md)
+      - [O que são plug-ins?](./coworker/customizations/plugins/what-are-plugins.md)
     - Memória {#memory}
-      - [O que é memória](./coworker/customizations/memory/what-is-memory.md)
+      - [O que é memória?](./coworker/customizations/memory/what-is-memory.md)
   - Campanhas {#campaigns}
     - [Visão geral](./coworker/campaigns/overview.md)
     - [Criar uma campanha de email](./coworker/campaigns/create-an-email-campaign.md)
