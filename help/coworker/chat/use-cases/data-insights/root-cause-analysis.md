@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics e Colaborador - Análise de causa básica
-description: Saiba como o Colaborador responde a perguntas de análise em linguagem natural, visualiza tendências, descobre padrões e executa análise de causa básica sem consultas manuais.
+description: Saiba como explorar tendências e causas básicas nos dados de análise usando linguagem natural e o Co-worker, sem escrever consultas manuais.
 feature: AI Tools
 role: User
 level: Beginner
@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: '106'
 ht-degree: 0%
-
 ---
-
 
 # Customer Journey Analytics &amp; Co-worker - explore tendências e causas básicas com linguagem natural
 
@@ -26,4 +26,4 @@ Entender por que as métricas mudam geralmente requer navegar em vários relató
  
 Usando a linguagem natural, analistas e profissionais de marketing podem fazer perguntas sobre seus dados, receber resultados visualizados, identificar tendências significativas e descobrir os fatores que impulsionam o desempenho, tudo em uma única conversa.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496856/?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)
