@@ -1,24 +1,90 @@
 ---
-title: Sobre o Adobe CX Enterprise Coworker
-description: Saiba como elevar seu marketing ao próximo nível com o Adobe CX Enterprise Coworker.
+title: Sobre o Adobe CX Enterprise Co-worker
+description: Saiba como elevar seu marketing a um novo patamar com o Adobe CX Enterprise Co-worker.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 34cad34ad13eaf9de30e49ba90ef2530763aabc1
+source-git-commit: 14da4b0adb24ef6ebea3ebcd0a88ac7856b35a1c
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 3%
+source-wordcount: '461'
+ht-degree: 18%
 ---
-# Sobre o Adobe CX Enterprise Coworker
+# Sobre o Adobe CX Enterprise Co-worker
 
 Colaborador é um colega de equipe alimentado por IA que reimagina a natureza do trabalho para organizações, equipes e indivíduos. O colega de trabalho automatiza elegantemente a experiência do cliente e os fluxos de trabalho de marketing para que as organizações possam se concentrar na realização de suas metas comerciais e na transformação de resultados, não na coordenação de tarefas. Como um mecanismo de agilidade, o Coworker adota uma nova abordagem inovadora para automatizar o processo de negócios. Ele eleva o desempenho e a precisão do modelo de IA, unindo dados, inteligência, colaboração e execução de habilidades agênicas com contexto corporativo, governança e supervisão humana integrada.
 
 ## Chat do colega de trabalho
 
 O Bate-papo com colegas de trabalho permite que as equipes automatizem tarefas de produtos Adobe usando linguagem natural, transformando rapidamente ideias em ações com planejamento flexível, habilidades personalizáveis e execução inteligente.
+
+<!--
+CARDS
+
+* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide
+  {title = UI guide}
+  {description = Learn about the Coworker Chat interface, including navigation, the input box, responses, chat history, and configuring Skills, MCP servers, and Memory.}
+  {cta = Watch}
+
+* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja
+  {title = Validate Customer Journey Analytics data}
+  {description = Learn how Analytics admins use the CX Enterprise Coworker data validation skill to compare Adobe Analytics and Customer Journey Analytics data during the upgrade.}
+  {cta = Watch}
+-->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="UI guide">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide" title="Guia da interface do usuário" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg&nocache=1790258761614" alt="Guia da interface do usuário"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide" target="_blank" rel="referrer" title="Guia da interface do usuário">guia da interface</a>
+                    </p>
+                    <p class="is-size-6">Saiba mais sobre a interface do Chat do colega de trabalho, incluindo navegação, a caixa de entrada, respostas, histórico do chat e configuração de Habilidades, servidores MCP e Memória.</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Assistir</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Validate Customer Journey Analytics data">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" title="Validar dados do Customer Journey Analytics" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3496846/?format=jpeg&nocache=1790258762238" alt="Validar dados do Customer Journey Analytics"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" target="_blank" rel="referrer" title="Validar dados do Customer Journey Analytics">Validar dados do Customer Journey Analytics</a>
+                    </p>
+                    <p class="is-size-6">Saiba como os administradores do Analytics usam a habilidade de validação de dados do CX Enterprise Co-worker para comparar os dados do Adobe Analytics e do Customer Journey Analytics durante a atualização.</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Assistir</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+**Neste guia**
 
 * [Visão geral](./chat/overview.md)
 * [Casos de uso](./chat/use-cases/overview.md)
