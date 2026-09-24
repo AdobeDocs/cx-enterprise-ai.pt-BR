@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 81c51c896a10559db58c6389a08f9c84b96ef73c
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '965'
 ht-degree: 2%
 ---
 # IA em aplicativos do CX Enterprise
@@ -52,12 +52,12 @@ O Colaborador é uma evolução do Assistente de IA realizada por um agente que 
 O colega de trabalho inclui:
 
 - **[Chat do Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: uma interface conversacional para explorar seus dados, validar públicos e jornadas e concluir tarefas de várias etapas nos aplicativos do CX Enterprise.
-- **[Campanhas de colega](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: um aplicativo nativo de IA que consolida informações de campanha, criação de público, geração de conteúdo, design de jornada e provas em uma única experiência de conversação. Ele usa modelos integrados, práticas recomendadas e orientação de solicitação para ajudar equipes pequenas e ágeis a iniciar campanhas rapidamente. Saiba mais sobre o [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html).
+- **[Campanhas de colega](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: um aplicativo nativo de IA que consolida informações de campanha, criação de público, geração de conteúdo, design de jornada e provas em uma única experiência de conversação. Ele usa modelos integrados, práticas recomendadas e orientação de solicitação para ajudar equipes pequenas e ágeis a iniciar campanhas rapidamente. Saiba mais sobre o [Adobe for Business](https://business.adobe.com/br/products/cx-enterprise-coworker/teams.html).
 - **Projetos de Colaborador** (em breve): um espaço de trabalho unificado para automatizar fluxos de trabalho completos de orquestração da experiência do cliente, ajudando as equipes a coordenar tarefas, aprovações e execução para impulsionar resultados da estratégia até a entrega. A documentação dos Projetos será disponibilizada em breve.
 
 Os clientes qualificados estão sendo gradualmente migrados do Assistente de IA e Agentes do Experience Platform para o Chat de colaborador. Leia [Avaliação de colaborador](./agents/trial.md) para saber mais sobre qualificação de avaliação, uso de Crédito de IA e como obter acesso.
 
-Para ver o Chat do Colaborador em ação, passe pelo [Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md) ou leia casos de uso reais, como [Validar o AA para dados de migração do CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md) e [Analisar dados do CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md).
+Para ver o Chat do Colaborador em ação, analise o [Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md) ou leia casos de uso reais, como [Validar o AA para dados de migração do CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md), [validar os dados do Experience Platform](./coworker/chat/use-cases/data-insights/data-validation-aep.md) e [Analisar dados do CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md).
 
 Para obter a documentação completa do produto sobre o Chat do Colaborador, Colaborador para equipes (Campanhas do Colaborador) e Projetos, consulte [Colaborador](./coworker/overview.md). Para replicação de objetos de sandbox para sandbox, consulte [Habilidades do agente de ferramentas de sandbox](./agents/sandbox-tooling.md).
 

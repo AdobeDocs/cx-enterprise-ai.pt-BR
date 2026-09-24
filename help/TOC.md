@@ -6,9 +6,9 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '370'
 ht-degree: 17%
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 17%
         - [Explorar tendências e causas básicas](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validar dados do AA para o CJA ao atualizar](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Validar a qualidade do conjunto de dados para os relatórios do CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+        - [Validar os dados do Experience Platform](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
       - Gerenciamento de dados {#data-management}
         - [Gerenciar retenção de data lake](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - Públicos-alvo {#audiences}
@@ -111,4 +112,3 @@ ht-degree: 17%
     - {hide-from-toc}[Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
-

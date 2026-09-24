@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '5040'
-ht-degree: 6%
+source-wordcount: '5301'
+ht-degree: 5%
 ---
 # Casos de uso do chat do colaborador{#use-cases}
 
@@ -124,6 +124,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 | [Análise da causa principal](data-insights/root-cause-analysis.md) | Investigar por que uma métrica mudou: diagnosticar quedas, picos e anomalias | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | &quot;Por que as conversões caíram na semana passada?&quot; <br> &quot;O que causou o pico de receita em 15 de janeiro?&quot; |
 | Resumos executivos e resumos de KPI | Produzir resumos de desempenho prontos para as partes interessadas, recomendações prescritivas e descrições do conjunto de slides | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics (CJA) | &quot;Dê-me um resumo executivo do mês passado&quot; <br> &quot;Criar uma descrição do conjunto de slides a partir dos dados deste trimestre&quot; |
 | [Validação de dados do CJA considerada pelo AA](data-insights/data-validation-aa-cja.md) | Comparar, auditar e reconciliar dados entre o Adobe Analytics e o Customer Journey Analytics, especialmente ao atualizar do Adobe Analytics para o Customer Journey Analytics | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | &quot;Comparar meu conjunto de relatórios do AA com minha visualização de dados do CJA&quot; <br> &quot;Validar visualizações de página entre o AA e o CJA&quot; |
+| [Validar qualidade de conjunto de dados e campo](data-insights/data-validation-aep.md) | Execute a validação estatística e semântica em conjuntos de dados e campos do Experience Platform para capturar problemas de qualidade de dados após a implementação ou de forma contínua <!--TODO: confirm skill ID(s) with engineering before publishing--> | `data-validation` | Adobe Experience Platform | &quot;Validar a Amostra de Eletrônicos do conjunto de dados 1000&quot; <br> &quot;Validar o campo de email no conjunto de dados Customers_2024&quot; |
 | Séries cronológicas operacionais e análise causal | Consultar e analisar dados históricos de séries temporais para públicos, conjuntos de dados e jornadas com atribuição causal | `operational-stats-causal-analysis` | Todos os aplicativos qualificados | &quot;Mostre-me as tendências de tamanho de público nos últimos 90 dias&quot; <br> &quot;Por que minha contagem de linhas do conjunto de dados aumentou em 3 de março?&quot; |
 | Criar habilidades personalizadas do CJA | Transformar padrões analíticos em habilidades reutilizáveis e repetíveis que persistem entre as sessões | `cja-skill-creator` | Customer Journey Analytics (CJA) | &quot;Transformar esta análise semanal de receita em uma habilidade reutilizável&quot; <br> &quot;Salvar como uma habilidade para relatórios mensais do funnel&quot; |
 
@@ -153,9 +154,12 @@ Para obter informações mais detalhadas sobre as habilidades do CX Coworker par
 
 ## Programas de marketing
 
-| Caso de uso | Descrição | Habilidades | Aplicativo | Exemplos de Prompts |
-|---|---|---|---|---|
-| Criar um programa | Adaptar um modelo de programa existente a um novo programa, gerando Campanhas inteligentes, agendamento e emails de espaço reservado de uma descrição de campanha em linguagem simples ou resumo de campanha carregado | `build-programs` | Adobe Marketo Engage | &quot;Crie um programa de registro de webinário para nossa demonstração de produto de agosto&quot;<br><br>&quot;Crie um programa que seja acionado quando um cliente potencial atingir uma pontuação de 50&quot;<br><br>&quot;Crie uma série de reengajamento de 3 emails para clientes potenciais inativos por 90 dias&quot; |
+| Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
+| --- | --- | --- | --- | --- |
+| Criar um programa | Adaptar um modelo de programa existente a um novo programa, com Campanhas inteligentes, agendamento e emails de espaço reservado gerados a partir de uma descrição em linguagem simples ou um resumo carregado | `build-programs` | Adobe Marketo Engage | &quot;Crie um programa de registro de webinário para nossa demonstração de produto de agosto&quot;<br><br>&quot;Crie um programa que seja acionado quando um cliente potencial atingir uma pontuação de 50&quot;<br><br>&quot;Crie uma série de reengajamento de 3 emails para clientes potenciais inativos por 90 dias&quot; |
+| Prepare um programa a partir de um resumo | Transforme um resumo em linguagem simples ou um documento de campanha carregado em um programa de trabalho: clone o modelo correspondente mais próximo, transporte de Campanhas inteligentes e tokens e atualize os detalhes do evento. As novas Campanhas inteligentes ficam desativadas para sua análise | `build-programs` | Adobe Marketo Engage | &quot;Estou realizando um webinário em 10 de setembro em Chicago. Configurar o programa para mim&quot;<br><br>&quot;Configurar o programa de apresentações de slides do próximo mês a partir deste resumo e atualizar os tokens do evento&quot; |
+| Clonar e adaptar um programa existente | Copie um programa anterior para uma nova cidade, trimestre ou região e atualize datas, tokens e nomes. As Campanhas inteligentes secundárias são transportadas e desativadas até serem ativadas | `build-programs` | Adobe Marketo Engage | &quot;Clonar o programa de eventos do último trimestre para nossa parada em Nova York em 17 de outubro e atualizar as datas e os tokens&quot;<br><br>&quot;Duplicar o programa de exibição em Chicago para nosso público no Reino Unido&quot; |
+| Criar uma campanha inteligente com lógica de qualificação | Crie um acionador ou um lote de Campanha inteligente, adicione regras de Smart List, como Preenchimentos de formulário ou Alcance de pontuação, e configure etapas de fluxo, como Enviar email | `build-programs` | Adobe Marketo Engage | &quot;Crie uma campanha de acionador que envie nosso email de boas-vindas quando um cliente potencial preencher o formulário Fale Conosco&quot;<br><br>&quot;Crie uma campanha em lote para clientes potenciais que atinjam uma pontuação de 50 e adicione uma etapa Enviar Email&quot; |
 
 ## Fidelidade
 

@@ -1,22 +1,22 @@
 ---
-title: Sobre o Adobe CX Enterprise Co-worker
-description: Saiba como elevar seu marketing a um novo patamar com o Adobe CX Enterprise Co-worker.
+title: Sobre o Adobe CX Enterprise Coworker
+description: Saiba como elevar seu marketing ao próximo nível com o Adobe CX Enterprise Coworker.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
+source-git-commit: 34cad34ad13eaf9de30e49ba90ef2530763aabc1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '203'
 ht-degree: 3%
 ---
-# Sobre o Adobe CX Enterprise Co-worker
+# Sobre o Adobe CX Enterprise Coworker
 
 Colaborador é um colega de equipe alimentado por IA que reimagina a natureza do trabalho para organizações, equipes e indivíduos. O colega de trabalho automatiza elegantemente a experiência do cliente e os fluxos de trabalho de marketing para que as organizações possam se concentrar na realização de suas metas comerciais e na transformação de resultados, não na coordenação de tarefas. Como um mecanismo de agilidade, o Coworker adota uma nova abordagem inovadora para automatizar o processo de negócios. Ele eleva o desempenho e a precisão do modelo de IA, unindo dados, inteligência, colaboração e execução de habilidades agênicas com contexto corporativo, governança e supervisão humana integrada.
 
-## Chat
+## Chat do colega de trabalho
 
 O Bate-papo com colegas de trabalho permite que as equipes automatizem tarefas de produtos Adobe usando linguagem natural, transformando rapidamente ideias em ações com planejamento flexível, habilidades personalizáveis e execução inteligente.
 
