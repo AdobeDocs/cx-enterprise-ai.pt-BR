@@ -30,4 +30,4 @@ Neste vídeo, o Coworker adiciona uma nova promoção à página inicial do WKND
 >
 >Este vídeo mostra o Colaborador criando uma página em um site baseado no Editor de páginas. O colega de trabalho funciona da mesma maneira em sites fornecidos com o Edge Delivery Services.
 
-Consulte [Visão geral do Chat do Colaborador](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview) para começar a usar o Chat do Colaborador.
+Consulte [Visão geral do Chat do Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview) para começar a usar o Chat do Colaborador.
