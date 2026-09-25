@@ -1,23 +1,21 @@
 ---
 title: Habilidades de alerta do cliente
-description: Saiba como usar as habilidades de alerta do cliente no CX Co-worker para revisar alertas, analisar atividades de alerta, gerenciar assinaturas e priorizar problemas operacionais por meio de conversas em linguagem natural.
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+description: Saiba como usar as Habilidades de alerta do cliente no CX Coworker para revisar, analisar e priorizar atividades de alerta por meio de conversas em linguagem natural.
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1022'
 ht-degree: 4%
-
 ---
-
 
 # Habilidades de alerta do cliente
 
 >[!AVAILABILITY]
 >
-> As habilidades de alerta do cliente estão disponíveis para todos os clientes com acesso ao Adobe CX Enterprise Co-worker.
+> As habilidades de alerta do cliente estão disponíveis para todos os clientes com acesso ao Adobe CX Enterprise Coworker.
 >
 > Para usar as Habilidades de alerta do cliente, você deve ter acesso aos alertas do Adobe Experience Platform e aos recursos associados a esses alertas.
 
-Use as habilidades de alerta do cliente no CX Co-worker para transformar a atividade de alerta em um resumo operacional personalizado. Revise alertas recentes, identifique problemas de alta prioridade, entenda quais recursos são afetados e concentre esforços de investigação por meio de conversas em linguagem natural.
+Usar as habilidades de alerta do cliente no CX Coworker para transformar a atividade de alerta em um resumo operacional personalizado. Revise alertas recentes, identifique problemas de alta prioridade, entenda quais recursos são afetados e concentre esforços de investigação por meio de conversas em linguagem natural.
 
 As habilidades de alerta do cliente ajudam você a mudar de sinais de alerta para insights acionáveis sem revisar manualmente visualizações de alertas ou correlacionar informações em várias interfaces. Comece com uma pergunta abrangente sobre a atividade de alerta recente e, em seguida, use perguntas de acompanhamento para identificar padrões de alerta recorrentes, analisar objetos afetados e se concentrar nos alertas que você possui.
 
@@ -35,17 +33,17 @@ Para obter instruções sobre como instalar plug-ins, consulte o site https://ex
 
 ## Usar habilidades de alerta do cliente {#use-customer-alert-skills}
 
-Interaja com as habilidades de alerta do cliente por meio do CX Co-worker usando solicitações em linguagem natural. Faça perguntas sobre atividades de alerta, assinaturas, tendências de alerta ou objetos afetados. Continue a conversa com perguntas de acompanhamento para refinar os resultados e concentrar sua análise.
+Interaja com as habilidades de alerta do cliente por meio do CX Coworker usando solicitações em linguagem natural. Faça perguntas sobre atividades de alerta, assinaturas, tendências de alerta ou objetos afetados. Continue a conversa com perguntas de acompanhamento para refinar os resultados e concentrar sua análise.
 
 Para usar as Habilidades de Alerta do Cliente:
 
-1. Navegue até **[!UICONTROL CX Co-worker]**.
+1. Navegue até **[!UICONTROL CX Coworker]**.
 
 1. Insira uma pergunta ou solicitação sobre seus alertas. Por exemplo:
 
    *&quot;Listar todos os alertas disparados nas últimas 24 horas?&quot;*
 
-   ![A primeira pergunta feita no CX Co-worker](./assets/alerts/initial-question.png)
+   ![A primeira pergunta feita no CX Coworker](./assets/alerts/initial-question.png)
 
 1. Revise os resultados retornados pelas Habilidades de alerta do cliente.
 

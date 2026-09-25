@@ -1,6 +1,6 @@
 ---
 title: Geração de Ativo de Marketing de Colaborador
-description: Descubra como o Co-worker otimiza a criação de ativos para canais de mídia social, economizando tempo e esforço.
+description: Saiba como usar o Bate-papo com colegas de trabalho para gerar ativos de marketing na marca para canais sociais, economizando tempo e esforço.
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
@@ -9,15 +9,15 @@ last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22502
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 
 # Gerar ativos de marketing com o Bate-papo do colaborador
 

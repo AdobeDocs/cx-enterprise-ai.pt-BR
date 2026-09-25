@@ -1,6 +1,6 @@
 ---
 title: O que são habilidades?
-description: Saiba como as habilidades no Adobe CX Co-worker ajudam as equipes a padronizar a orquestração de experiência do cliente, automatizar fluxos de trabalho recorrentes e fornecer resultados consistentes usando manuais reutilizáveis alimentados por IA.
+description: Saiba mais sobre as habilidades no Adobe CX Coworker, manuais reutilizáveis que padronizam fluxos de trabalho e fornecem resultados consistentes em conversas e usuários.
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -9,17 +9,16 @@ last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 220
+source-wordcount: '215'
 ht-degree: 0%
-
 ---
 
+# Quais são as habilidades no Colaborador?
 
-# O que são habilidades no colega de trabalho?
-
-As habilidades são manuais reutilizáveis que ajudam o Adobe CX Co-worker a executar tarefas de orquestração de experiência do cliente de maneira consistente e eficiente. Em vez de explicar repetidamente o mesmo processo, as equipes podem usar as habilidades para padronizar fluxos de trabalho comuns, métodos de relatório e abordagens de análise em conversas e usuários.
+As habilidades são manuais reutilizáveis que ajudam o Adobe CX Coworker a executar tarefas de orquestração de experiência do cliente de maneira consistente e eficiente. Em vez de explicar repetidamente o mesmo processo, as equipes podem usar as habilidades para padronizar fluxos de trabalho comuns, métodos de relatório e abordagens de análise em conversas e usuários.
  
 Neste vídeo, você aprenderá como as habilidades funcionam, quando usá-las e como elas ajudam as equipes a dimensionar práticas de experiência do cliente repetíveis.
 

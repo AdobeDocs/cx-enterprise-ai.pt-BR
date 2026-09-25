@@ -1,6 +1,6 @@
 ---
 title: Verificação de Marca de Colaborador
-description: Descubra como o Coworker garante que seu conteúdo permaneça na marca com verificações automatizadas em seus fluxos de trabalho de marketing.
+description: Saiba como verificar o conteúdo para conformidade da marca com o Chat do colaborador, usando verificações automatizadas integradas em seus fluxos de trabalho de marketing.
 version: Experience Manager as a Cloud Service
 role: User
 level: Beginner, Intermediate
@@ -10,15 +10,15 @@ last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22501
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 134
+source-wordcount: '137'
 ht-degree: 0%
-
 ---
-
 
 # Verifique o conteúdo quanto à conformidade da marca com o Chat do colaborador
 

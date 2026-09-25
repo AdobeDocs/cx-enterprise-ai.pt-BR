@@ -1,19 +1,17 @@
 ---
 title: Habilidades dos agentes de ferramentas de sandbox
 description: Saiba como usar as habilidades de agente de ferramentas de sandbox para replicar metadados de objetos em ambientes de sandbox.
-source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
-
 ---
 
-
-# Habilidades dos agentes de ferramentas de sandbox
+# Habilidades de agente de ferramentas de sandbox
 
 >[!AVAILABILITY]
 >
->As habilidades de agentes de ferramentas de sandbox estão disponíveis para todos os clientes com acesso ao Adobe CX Enterprise Co-worker. Para usar todos os recursos disponíveis, você precisa das seguintes permissões:
+>As habilidades de agente de ferramentas de sandbox estão disponíveis para todos os clientes com acesso ao Adobe CX Enterprise Coworker. Para usar todos os recursos disponíveis, você precisa das seguintes permissões:
 >
 >**Manage-sandbox** ou **View-sandbox**: essas permissões permitem usar Habilidades de agente de ferramentas de sandbox para exibir sandboxes diretamente no Coworker.
 >
@@ -39,11 +37,11 @@ Para obter instruções sobre como instalar plug-ins, consulte o [Guia da Interf
 
 ## Usar habilidades de agentes de ferramentas de sandbox {#use-sandbox-tooling-agentic-skills}
 
-Interaja com as habilidades dos agentes de ferramentas de sandbox por meio do CX Coworker usando a linguagem natural. Descreva seu objetivo da maneira mais clara possível. Solicitações específicas produzem os melhores resultados, enquanto solicitações vagas ou muito breves podem retornar resultados de qualidade inferior ou não chamar o agente.
+Interaja com as habilidades de agentes de ferramentas de sandbox usando a linguagem natural no CX Coworker. Descreva seu objetivo da maneira mais clara possível. Solicitações específicas produzem os melhores resultados, enquanto solicitações vagas ou muito breves podem retornar resultados de qualidade inferior ou não chamar o agente.
 
 Para usar as habilidades de agentes de ferramentas de sandbox:
 
-1. Navegue até **[!UICONTROL CX Co-worker]**.
+1. Navegue até **[!UICONTROL CX Coworker]**.
 1. Insira uma descrição clara do que você deseja realizar. Por exemplo:
 
    *&quot;Mover Platina, Membro de Fidelidade do esquema, da sandbox atual para a sandbox de demonstração Acme.&quot;*
@@ -64,7 +62,7 @@ Para usar as habilidades de agentes de ferramentas de sandbox:
 
    ![Página de transferência concluída mostrando o status da solicitação.](./assets/sandbox-tooling/transfer-complete.png)
 
-Para obter mais informações sobre como usar o CX Coworker, consulte o [Guia da Interface do Usuário do Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Para obter mais informações sobre como usar o CX Coworker, consulte o [Guia da Interface do Usuário do Colaborador](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Casos de uso aceitos {#supported-use-cases}
 
@@ -74,7 +72,7 @@ Explore maneiras comuns de usar as habilidades de agente de ferramentas de sandb
 
 Como administrador de sandbox gerenciando várias sandboxes do Adobe Experience Platform, você pode migrar metadados de objeto usando solicitações em linguagem natural, em vez de navegar manualmente pela interface do usuário.
 
-Com o CX Co-worker, você pode migrar metadados de objetos (incluindo esquemas, públicos-alvo e ativos de configuração relacionados) de uma sandbox para outra descrevendo a migração na linguagem natural. As habilidades dos agentes de ferramentas de sandbox identificam e empacotam automaticamente as dependências necessárias, ajudando a garantir uma migração confiável.
+Usando o CX Coworker, você pode migrar metadados de objetos (incluindo esquemas, públicos-alvo e ativos de configuração relacionados) de uma sandbox para outra descrevendo a migração na linguagem natural. As habilidades dos agentes de ferramentas de sandbox identificam e empacotam automaticamente as dependências necessárias, ajudando a garantir uma migração confiável.
 
 Por exemplo:
 

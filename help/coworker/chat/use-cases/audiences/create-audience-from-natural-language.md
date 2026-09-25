@@ -1,6 +1,6 @@
 ---
 title: Criar públicos-alvo a partir da linguagem natural
-description: Saiba como usar o Coworker para criar públicos-alvo a partir da linguagem natural.
+description: Saiba como usar o Coworker para criar públicos-alvo a partir da linguagem natural. Avalie a integridade do Experience Platform e transforme prompts em linguagem simples em segmentos prontos para uso.
 feature: AI Tools
 role: User
 level: Beginner
@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22080
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 84
+source-wordcount: '98'
 ht-degree: 0%
-
 ---
-
 
 # Avalie a integridade do Experience Platform e crie públicos-alvo a partir da linguagem natural com o Co-worker
 

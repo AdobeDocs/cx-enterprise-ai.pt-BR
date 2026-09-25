@@ -1,15 +1,15 @@
 ---
 title: Plug-ins do colaborador - O que eles são, como eles funcionam e como instalá-los
-description: Saiba como os plug-ins do Adobe CX Coworker estendem a funcionalidade com habilidades e servidores MCP.
+description: Saiba mais sobre os plug-ins do Adobe CX Coworker, pacotes instaláveis que agrupam habilidades e servidores MCP para estender a funcionalidade para uma necessidade comercial específica.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 210
 last-substantial-update: 2026-09-22
 jira: KT-22449
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '500'
 ht-degree: 4%
 ---
 

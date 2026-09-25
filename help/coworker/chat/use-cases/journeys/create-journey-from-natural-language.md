@@ -1,6 +1,6 @@
 ---
 title: Journey Optimizer e Colaboradores - Gerar Jornadas
-description: Saiba como o Coworker ajuda os profissionais de marketing a criar jornadas do Adobe Journey Optimizer usando prompts de linguagem natural simples.
+description: Saiba como criar jornadas do Adobe Journey Optimizer a partir de prompts de linguagem natural com o Colaborador.
 feature: AI Tools
 role: User
 level: Beginner
@@ -14,13 +14,13 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '114'
 ht-degree: 1%
 ---
 
-# Como gerar Jornadas do Adobe Journey Optimizer a partir de prompts em linguagem natural
+# Gerar jornadas do Adobe Journey Optimizer a partir de prompts em linguagem natural
 
 Tradicionalmente, a criação de jornadas para clientes requer configuração abrangente em acionadores, regras de tempo, canais, lógica de decisão e etapas de mensagens. Neste vídeo, você verá como o Coworker simplifica o processo, transformando uma descrição em linguagem simples em uma jornada totalmente redigida no Adobe Journey Optimizer.
  

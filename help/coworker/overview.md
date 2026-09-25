@@ -1,15 +1,15 @@
 ---
-title: Sobre o Adobe CX Enterprise Co-worker
-description: Saiba como elevar seu marketing a um novo patamar com o Adobe CX Enterprise Co-worker.
+title: Sobre o Adobe CX Enterprise Coworker
+description: Saiba mais sobre o Adobe CX Enterprise Coworker, um companheiro de equipe alimentado por IA que automatiza a experiência do cliente e os fluxos de trabalho de marketing em toda a organização.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 7b3e62eed184e54e03e61ea3e46b611d0ab46394
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '499'
 ht-degree: 17%
 ---
 # Visão geral do CX Enterprise Coworker {#overview}
@@ -73,7 +73,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" target="_blank" rel="referrer" title="Validar dados do Customer Journey Analytics">Validar dados do Customer Journey Analytics</a>
                     </p>
-                    <p class="is-size-6">Saiba como os administradores do Analytics usam a habilidade de validação de dados do CX Enterprise Co-worker para comparar os dados do Adobe Analytics e do Customer Journey Analytics durante a atualização.</p>
+                    <p class="is-size-6">Saiba como os administradores do Analytics usam a habilidade de validação de dados do CX Enterprise Coworker para comparar os dados do Adobe Analytics e do Customer Journey Analytics durante a atualização.</p>
                 </div>
                 <a href="https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Assistir</span>
