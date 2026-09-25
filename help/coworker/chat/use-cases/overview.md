@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 792890c00265d0319e8eee3c1008ef5ce155b0ec
 workflow-type: tm+mt
 source-wordcount: '5341'
 ht-degree: 6%
@@ -30,7 +30,7 @@ O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Expe
 
 | Caso de uso | Descrição | Habilidade(s) | Aplicativo | Exemplos de Prompts |
 | --- | --- | --- | --- | --- |
-| Atualizar páginas do AEM | Execute ações como atualizar, remover, substituir ou adicionar elementos de conteúdo para manter as experiências precisas e atuais. As entradas podem ser linguagem natural ou anotações visuais como PDFs ou capturas de tela. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | Em &lt;URL> atualize o título para Olá, mundo<br><br>em &lt;URL> altere o botão &quot;Faça nosso questionário do café&quot; para uma versão mais envolvente<br><br>Atualize &lt;URL> com base no anexo<br><br>em &lt;URL> Quero adicionar uma nova seção de teaser ao final da página sobre uma promoção que estamos executando no mês de agosto, que é comprar uma máquina de café e obter 2 sacos de café gratuitamente. Encontre também imagens de amigos bebendo café e use-as no teaser |
+| [Atualizar páginas do AEM](content-advisor/author-web-pages.md) | Execute ações como atualizar, remover, substituir ou adicionar elementos de conteúdo para manter as experiências precisas e atuais. As entradas podem ser linguagem natural ou anotações visuais como PDFs ou capturas de tela. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | Em &lt;URL> atualize o título para Olá, mundo<br><br>em &lt;URL> altere o botão &quot;Faça nosso questionário do café&quot; para uma versão mais envolvente<br><br>Atualize &lt;URL> com base no anexo<br><br>em &lt;URL> Quero adicionar uma nova seção de teaser ao final da página sobre uma promoção que estamos executando no mês de agosto, que é comprar uma máquina de café e obter 2 sacos de café gratuitamente. Encontre também imagens de amigos bebendo café e use-as no teaser |
 | Atualizar o AEM em massa | Execute ações em massa em várias páginas ao mesmo tempo, como remover, substituir ou adicionar elementos de conteúdo para manter as experiências precisas e atuais. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) - AEM Sites | em &lt;aem path>, atualize todas as páginas que contenham a cópia &quot;MyBarista\&quot; para &quot;BrewPass&quot; |
 | Ir do Figma para o Fragmento de conteúdo visual | Importe designs diretamente do Figma para o Adobe Experience Manager usando a linguagem natural. A habilidade cria automaticamente o modelo de conteúdo, o fragmento de conteúdo, os ativos e o modelo de visualização necessários, permitindo que os usuários empresariais migrem do design para o conteúdo pronto para a Web em minutos sem configuração manual. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) - AEM Sites | Importar de &lt;Figma_URL> |
 
