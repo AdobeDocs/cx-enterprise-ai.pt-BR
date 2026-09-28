@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: d037ab69c5d03cba18dcfcdd8745c8f331765214
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '781'
 ht-degree: 1%
 ---
 # Solicitação de práticas recomendadas {#best-practices}
@@ -18,9 +18,9 @@ Aproveitar ao máximo as Campanhas de colega de trabalho começa com o modo como
 
 >[!NOTE]
 >
->Atualmente, você só pode se conectar a integrações compatíveis com o Campaign de colaborador.  Se você tiver algum aplicativo Adobe Enterprise existente, em que armazene públicos ou compile jornadas, recomendamos que você use o [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md).
+>Atualmente, você só pode se conectar a integrações compatíveis com o Co-worker Campaigns. Se você tiver algum aplicativo Adobe Enterprise existente, em que armazene públicos ou compile jornadas, recomendamos que você use o [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md).
 
-## Usar a estrutura CO-STAR {#costar-framework}
+## Usar a estrutura CO-STAR
 
 Para obter melhores resultados, organize seus prompts usando a estrutura CO-STAR. Essa abordagem estruturada garante que a IA entenda exatamente o que você precisa.
 
@@ -33,7 +33,7 @@ Para obter melhores resultados, organize seus prompts usando a estrutura CO-STAR
 | **A - Público** | Público-alvo que você está direcionando | Garante que a mensagem repercuta com as pessoas certas |
 | **R - Requisitos** | Restrições específicas ou must-haves | Define limites e elementos críticos |
 
-## Fundamentos dos prompts de IA {#key-takeaways}
+## Fundamentos do prompt de IA
 
 ### Fazer e não fazer
 
@@ -106,7 +106,7 @@ Estas solicitações **não** têm suporte e devem ser tratadas por meio de outr
 <ul>
 <li>Alterações de fundo</li>
 <li>Adicionar sobreposições de texto ou logotipos</li>
-<li>Recorte ou redimensionamento de imagens</li>
+<li>Recorte ou redimensionamento de imagem</li>
 <li>Ajustes de cor</li>
 </ul>
 </td>
@@ -114,7 +114,7 @@ Estas solicitações **não** têm suporte e devem ser tratadas por meio de outr
 </tbody>
 </table>
 
-### Lista de verificação de qualidade {#quality-checklist}
+### Lista de verificação de qualidade
 
 Antes de gerar o conteúdo, verifique o seguinte:
 
@@ -122,7 +122,7 @@ Antes de gerar o conteúdo, verifique o seguinte:
 
 ✓ **Público-alvo definido**: especifica a demografia, a função ou o segmento.
 
-✓ **Marca correta atribuída como padrão**: as diretrizes de marca adequadas estão selecionadas.
+✓ **Marca correta atribuída como padrão**: as diretrizes de marca apropriadas estão selecionadas.
 
 ✓ **Escopo realista**: evitar solicitações de alterações de layout, estilo ou edições estruturais.
 
@@ -160,6 +160,22 @@ Sempre forneça contexto e a proposta de valor para que a IA possa gerar conteú
 </tr>
 </tbody>
 </table>
+
+## Ideias gerais de prompts de marketing
+
+### Marketing de conteúdo
+
+- &quot;Gerar 20 tópicos de blog que respondam a perguntas comuns de compradores de casa pela primeira vez.&quot;
+- &quot;Brainstorm LinkedIn postou ideias para uma start-up de segurança cibernética B2B.&quot;
+- &quot;Crie um calendário de conteúdo de três meses com foco na educação de novos clientes.&quot;
+- &quot;Sugira temas de conteúdo que podem ser redefinidos em blogs, vídeos, boletins informativos e postagens sociais.&quot;
+
+### Marketing por email
+
+- &quot;Gerar uma sequência de email de boas-vindas para novos assinantes interessados em moda sustentável.&quot;
+- &quot;Elementos de assunto do debate que criam curiosidade sem soar como clickbait.&quot;
+- &quot;Sugira ideias de campanha de reengajamento para clientes inativos.&quot;
+- &quot;Crie ideias de e-mail de ciclo de vida para usuários que concluíram a integração.&quot;
 
 >[!MORELIKETHIS]
 >
