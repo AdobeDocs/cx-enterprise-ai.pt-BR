@@ -1,22 +1,47 @@
 ---
-description: Saiba mais sobre os aprimoramentos e correções de recursos nas notas de versão do Adobe CX Enterprise Co-worker Campaigns.
-title: Notas da versão das campanhas do CX Enterprise Co-worker
+description: Saiba mais sobre as melhorias e correções de recursos nas notas de versão do Adobe CX Enterprise Coworker Campaigns.
+title: Notas de versão do CX Enterprise Coworker Campaigns
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: dcd2c251357930ae31f78e2d9460d038a0710e3d
+    internal-label: CX Enterprise Coworker
+source-git-commit: 25e4b0b917fec566b7f85f6914817d3d038abf0e
 workflow-type: tm+mt
-source-wordcount: 3291
+source-wordcount: '3590'
 ht-degree: 0%
-
 ---
-
-# Notas de versão do Adobe CX Enterprise Co-worker Campaigns {#release-notes}
+# Notas de versão do Adobe CX Enterprise Coworker Campaigns {#release-notes}
 
 As versões do Co-worker Campaigns operam em um modelo de entrega contínua que permite uma abordagem mais escalável e em fases para a implantação de recursos.
 
 ## Setembro de 2026 {#sep-2026}
+
+**Data de lançamento: 17 de setembro de 2026**
+
+* Conecte um espaço de trabalho de Databricks hospedado no Azure, GCP ou um domínio personalizado
+* As campanhas não podem mais ser iniciadas até que o workflow esteja totalmente configurado
+* Os modelos de campanha foram atualizados com conteúdo atualizado
+* Escolha um conector diretamente ao fazer upload do CSV da sua lista de contatos
+* Correção de uma falha que poderia ocorrer após a rolagem por uma longa lista de inscrições de avaliação
+* Correção de um problema em que o upload de um CSV de público-alvo com cabeçalhos em branco ou duplicados poderia causar falha na página
+* Correção do texto de espaço reservado em um prompt de campanha que aparecia não preenchido após ser resolvido
+* Correção de uma falha na página Habilidades causada pela ausência de um gradiente de cor
+* Fixo bate-papo ficando preso repetindo a mesma pergunta depois que você já respondeu
+* As respostas do chat não mostram mais um prefixo de ID perdido na frente da resposta selecionada
+* O bate-papo agora sugere respostas rápidas para a próxima etapa que você pode tocar para preencher a caixa de composição
+* Os modelos de campanha agora abrem em uma exibição simplificada na página em vez de em uma caixa de diálogo separada
+* A barra de progresso expandida do chat agora rola internamente em vez de colocar sua conversa fora da visualização
+* As configurações do Campaign agora refletem os detalhes mais recentes do painel com mais precisão
+* A caixa de diálogo do plano de atualização agora usa uma aparência mais consistente
+* Remoção de um indicador de status redundante do cabeçalho do plano de campanha para uma aparência mais limpa
+* As edições rápidas de e-mail agora são salvas juntas como uma única entrada de histórico de versões, em vez de várias
+* Correção de títulos de kits de marca ocasionalmente vazando enquanto um rascunho estava sendo gerado
+* Editar uma imagem com o Adobe Express diretamente na barra de ferramentas da imagem
+* Os dados básicos do público-alvo do agente agora permanecem sincronizados no quadro de campanha sem uma atualização manual
+* Os logotipos de marca no quadro de campanha são cortados de forma mais organizada para se ajustarem ao seu espaço
+* Transferência visual mais suave quando seu plano de campanha muda para o quadro de campanha
 
 **Data de lançamento: 3 de setembro de 2026**
 
@@ -345,7 +370,7 @@ As versões do Co-worker Campaigns operam em um modelo de entrega contínua que 
 
 * Os quadros e as listas de campanha permanecem alinhados aos detalhes mais recentes enquanto você trabalha
 * Um aviso de isenção de responsabilidade generativa clara é exibido no bate-papo da campanha e no Construtor de agentes
-* Os detalhes de contato de suporte agora usam o endereço de email dedicado do CX Co-worker Campaigns
+* Os detalhes de contato de suporte agora usam o endereço de email dedicado do CX Coworker Campaigns
 * A página inicial de marketing remove a seção da lista de espera e mostra o vídeo principal com mais clareza
 * Mais telas respeitam os formatos de idioma e data locais automaticamente
 * Várias melhorias de desempenho e confiabilidade no

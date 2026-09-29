@@ -6,7 +6,7 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
+source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 16%
@@ -51,12 +51,12 @@ ht-degree: 16%
         - [Habilidades de agente de ferramentas de sandbox](./agents/sandbox-tooling.md)
       - Alertas {#alerts}
         - [Habilidades de alerta do cliente](./agents/customer-alerts.md)
-      - Supervisor de conteúdo {#content-advisor}
-        - [Gerar ativos de marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
-        - [Verificação de conformidade da marca](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+      - Visibilidade da marca {#brand-visibility}
+        - [Gerar ativos de marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
+        - [Verificação de conformidade da marca](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
+        - [Páginas do AEM Sites do autor](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
       - Fluxo de trabalho e planejamento {#workflow-and-planning}
         - [Planejar o lançamento de uma campanha digital](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-        - [Páginas do AEM Sites do autor](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - Personalizações {#customizations}
     - [Visão geral](./coworker/customizations/overview.md)
     - Habilidades {#skills}
