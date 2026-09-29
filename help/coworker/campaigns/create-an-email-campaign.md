@@ -1,17 +1,17 @@
 ---
-description: Um guia passo a passo para gerar uma campanha de e-mail nas Campanhas de colegas de trabalho corporativas do Adobe CX, desde escrever prompts até revisar e exportar sua campanha.
+description: Um guia passo a passo para gerar uma campanha de email no Adobe CX Enterprise Coworker Campaigns, desde escrever prompts até revisar e exportar sua campanha.
 title: Criar uma campanha de email
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 82da1f40081c2d448208a4b96c152c8b79a1ecfe
 workflow-type: tm+mt
-source-wordcount: 976
+source-wordcount: '976'
 ht-degree: 0%
-
 ---
-
 # Criar uma campanha de email {#create-an-email-campaign}
 
 Saiba como gerar e revisar campanhas de email completas em minutos.
@@ -24,7 +24,7 @@ Saiba como gerar e revisar campanhas de email completas em minutos.
 
 Verifique se você tem:
 
-* Uma conta ativa de Campanhas do Adobe CX Enterprise Co-worker ([inscreva-se aqui](https://coworker-campaigns.experience.adobe.com/){target="_blank"} se você ainda não tiver uma conta).
+* Uma conta ativa do Adobe CX Enterprise Coworker Campaigns ([inscreva-se aqui](https://coworker-campaigns.experience.adobe.com/){target="_blank"} se você ainda não tiver uma).
 
 * Sua marca adicionada em **Seus itens** > **Marcas**.
 
