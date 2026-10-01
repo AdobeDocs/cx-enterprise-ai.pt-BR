@@ -1,7 +1,7 @@
 ---
 title: Habilidades dos agentes de ferramentas de sandbox
 description: Saiba como usar as habilidades de agente de ferramentas de sandbox para replicar metadados de objetos em ambientes de sandbox.
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 >Atualmente, você pode usar as habilidades de agente de ferramentas de sandbox para descobrir, empacotar e migrar objetos de esquema e público-alvo. A compatibilidade com tipos de objetos adicionais será adicionada em versões futuras.
 
-Use as ferramentas de sandbox para habilidades essenciais a fim de mover metadados de objetos (incluindo esquemas e públicos) em ambientes Adobe Experience Platform, descrevendo o que você deseja realizar em linguagem natural. Com o CX Co-Worker, você pode detectar os metadados necessários, identificar dependências automaticamente, criar pacotes de migração e migrar objetos por meio de uma experiência de conversação.
+Use as ferramentas de sandbox para habilidades essenciais a fim de mover metadados de objetos (incluindo esquemas e públicos) em ambientes Adobe Experience Platform, descrevendo o que você deseja realizar em linguagem natural. Com o CX Coworker, você pode descobrir os metadados necessários, identificar dependências automaticamente, criar pacotes de migração e migrar objetos por meio de uma experiência de conversação.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496712?captions=por_br&learn=on)
 
@@ -31,7 +31,7 @@ Antes de começar, verifique se você tem:
 
 - Acesso ao Adobe Experience Platform e à organização e sandbox apropriadas.
 - Acesso aos objetos que você deseja descobrir ou migrar.
-- O plug-in CXO do Adobe instalado no CX Co-worker.
+- O plug-in CXO do Adobe instalado no CX Coworker.
 
 Para obter instruções sobre como instalar plug-ins, consulte o [Guia da Interface do Usuário do Coworker](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 

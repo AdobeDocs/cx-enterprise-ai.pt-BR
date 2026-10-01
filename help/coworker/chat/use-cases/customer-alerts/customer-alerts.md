@@ -1,7 +1,7 @@
 ---
 title: Habilidades de alerta do cliente
 description: Saiba como usar as Habilidades de alerta do cliente no CX Coworker para revisar, analisar e priorizar atividades de alerta por meio de conversas em linguagem natural.
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 4%
@@ -27,7 +27,7 @@ Antes de começar, verifique se você tem:
 
 - Acesso ao Adobe Experience Platform.
 - Permissão para exibir alertas relevantes para sua organização.
-- O plug-in CXO do Adobe instalado no CX Co-worker.
+- O plug-in CXO do Adobe instalado no CX Coworker.
 
 Para obter instruções sobre como instalar plug-ins, consulte o site https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-coworker/content/chat/ui-guide.
 
@@ -184,6 +184,6 @@ Use os prompts a seguir como exemplos ao interagir com as Habilidades de alerta 
 
 ## Próximas etapas {#next-steps}
 
-Depois de ler este guia, você deve entender como usar as habilidades de alerta do cliente no CX Co-worker para revisar as atividades de alerta, analisar tendências de alerta, gerenciar assinaturas de alerta e investigar problemas operacionais por meio de conversas em linguagem natural.
+Depois de ler este manual, você deve entender como usar as Habilidades de alerta do cliente no CX Coworker para revisar as atividades de alerta, analisar tendências de alerta, gerenciar assinaturas de alerta e investigar problemas operacionais por meio de conversas em linguagem natural.
 
 Para obter mais informações sobre alertas, consulte a [Visão geral dos Alertas do cliente](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/alerts/overview).
