@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 7aeb7c4a4a0bf26a3178bfbf34944fe71cb22907
+source-git-commit: f3430820a49a690ef43b23347495653a41294ca9
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 6%
@@ -27,18 +27,18 @@ O Bate-papo com colegas de trabalho permite que as equipes automatizem tarefas d
         <div class="card" style="height: 100%; display: flex; flex-direction: column;">
         <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/pt-br/playlists/coworker-get-started-with-chat" title="Introdução ao CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498571?captions=por_br&format=jpeg" alt="Experience League LIVE: recursos B2C de público-alvo e Jornada no Co-worker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="Introdução ao CX Enterprise Coworker Chat" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="Experience League LIVE: recursos B2C de público-alvo e Jornada no Co-worker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/pt-br/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="Introdução ao CX Enterprise Coworker Chat">Introdução ao CX Enterprise Coworker Chat</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="Introdução ao CX Enterprise Coworker Chat">Introdução ao CX Enterprise Coworker Chat</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/pt-br/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Lista de reprodução</span>
                 </a>
             </div>
@@ -50,7 +50,7 @@ O Bate-papo com colegas de trabalho permite que as equipes automatizem tarefas d
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="ttps://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="Introdução ao CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502327?captions=por_br&format=jpeg" alt="Experience League LIVE: recursos B2C de público-alvo e Jornada no Co-worker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502322?format=jpeg" alt="Experience League LIVE: recursos B2C de público-alvo e Jornada no Co-worker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
@@ -118,7 +118,7 @@ O Bate-papo com colegas de trabalho permite que as equipes automatizem tarefas d
 
 ## Equipes de colegas de trabalho (anteriormente Campanhas)
 
-Campanhas de colegas de trabalho é um recurso modelado para que pequenas equipes ágeis levantem e executem campanhas.
+Equipes de colegas de trabalho é um recurso modelado para que pequenas equipes ágeis levantem e executem campanhas.
 
 * [Visão geral](./campaigns/overview.md)
 * [Criar uma campanha de email](./campaigns/create-an-email-campaign.md)
