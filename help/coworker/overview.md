@@ -28,7 +28,7 @@ O Bate-papo com colegas de trabalho permite que as equipes automatizem tarefas d
         <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/pt-br/playlists/coworker-get-started-with-chat" title="Introdução ao CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="Experience League LIVE: recursos B2C de público-alvo e Jornada no Co-worker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498571?captions=por_br&format=jpeg" alt="Experience League LIVE: recursos B2C de público-alvo e Jornada no Co-worker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
@@ -50,7 +50,7 @@ O Bate-papo com colegas de trabalho permite que as equipes automatizem tarefas d
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="ttps://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="Introdução ao CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502322?format=jpeg" alt="Experience League LIVE: recursos B2C de público-alvo e Jornada no Co-worker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502327?captions=por_br&format=jpeg" alt="Experience League LIVE: recursos B2C de público-alvo e Jornada no Co-worker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
