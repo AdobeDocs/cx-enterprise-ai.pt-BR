@@ -2,11 +2,11 @@
 audience: user
 user-guide-title: IA no CX Enterprise
 user-guide-description: Saiba como criar, configurar, integrar e estender o Assistente de IA, o Colaborador, os agentes e os MCPs por meio de documentação prática, orientação de implementação e materiais de referência.
-description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore seu conhecimento sobre o produto e obtenha insights operacionais usando IA no CX Enterprise.
+description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore o conhecimento do seu produto e obtenha insights operacionais usando IA no CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 16%
@@ -48,9 +48,9 @@ ht-degree: 16%
       - Otimização {#optimization}
         - [Iniciar atividades do Target](./coworker/chat/use-cases/optimization/target.md)
       - Ferramentas de sandbox {#sandbox-tooling}
-        - [Habilidades de agente de ferramentas de sandbox](./agents/sandbox-tooling.md)
+        - [Habilidades de agente de ferramentas de sandbox](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
       - Alertas {#alerts}
-        - [Habilidades de alerta do cliente](./agents/customer-alerts.md)
+        - [Habilidades de alerta do cliente](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Visibilidade da marca {#brand-visibility}
         - [Gerar ativos de marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Verificação de conformidade da marca](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
@@ -114,5 +114,5 @@ ht-degree: 16%
     - {hide-from-toc}[Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
