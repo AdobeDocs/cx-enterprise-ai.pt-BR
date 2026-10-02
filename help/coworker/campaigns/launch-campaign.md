@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 82da1f40081c2d448208a4b96c152c8b79a1ecfe
+source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -32,15 +32,15 @@ Depois que a campanha for criada e agendada, saiba como iniciá-la.
 
 1. Depois que a campanha passa a verificação de preparação, a caixa de diálogo de inicialização é aberta, mostrando uma pré-visualização do email e do público-alvo.
 
-CAPTURA DE TELA
+   CAPTURA DE TELA
 
 1. Revise o agendamento mostrado na caixa de diálogo. Para alterá-la, use as opções de agendamento descritas em [Agendar quando uma campanha for iniciada](/help/coworker/campaigns/schedule-campaign.md) e, em seguida, clique em **Salvar**.
 
-CAPTURA DE TELA
+   CAPTURA DE TELA
 
 1. Clique em **Iniciar campanha** quando terminar.
 
-CAPTURA DE TELA
+   CAPTURA DE TELA
 
 Ele não permite o lançamento de uma campanha com uma amostra de público-alvo (não real), rascunhos de email que não foram revisados ou configurações de envio não definidas
 
