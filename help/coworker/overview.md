@@ -30,7 +30,7 @@ Quer você esteja apenas começando ou querendo aprofundar seu conhecimento, ess
         <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/pt-br/playlists/coworker-get-started-with-chat" title="Introdução ao CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="Introdução ao Chat do Colaborador" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498571?captions=por_br&format=jpeg" alt="Introdução ao Chat do Colaborador" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
@@ -52,7 +52,7 @@ Quer você esteja apenas começando ou querendo aprofundar seu conhecimento, ess
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/pt-br/playlists/coworker-customize-chat" title="Introdução ao CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502322?format=jpeg" alt="Personalizar o bate-papo do CX Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502327?captions=por_br&format=jpeg" alt="Personalizar o bate-papo do CX Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
