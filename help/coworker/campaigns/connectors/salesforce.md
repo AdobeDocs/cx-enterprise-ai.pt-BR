@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 13961eecbb862bf40cf86e892001392c72aae36c
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '221'
 ht-degree: 0%
 ---
 # Conectar-se ao Salesforce {#salesforce}
 
-O Adobe Co-worker Campaigns permite conectar sua conta do Salesforce a...
+O Adobe Co-worker Campaigns permite que você conecte sua conta da Salesforce para acessar seus leads e contatos.
 
 >[!PREREQUISITES]
 >
@@ -52,7 +52,7 @@ O Adobe Co-worker Campaigns permite conectar sua conta do Salesforce a...
 
    ![](./assets/salesforce-4.png)
 
-Após a conexão, o Salesforce é exibido na lista de Conectores E O QUE MAIS?
+Após a conexão, o Salesforce é exibido na lista Conectores e pode ser selecionado ao vincular um cliente potencial ou lista de contatos para sincronização do Salesforce.
 
 **Para desconectar:**
 
