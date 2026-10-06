@@ -6,17 +6,17 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore o c
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
+source-git-commit: 6397e3d8e40511dfc261757046b216fa37e4162e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 16%
+source-wordcount: '391'
+ht-degree: 18%
 ---
 
 # IA no CX Enterprise {#experience-cloud-ai}
 
 - [IA no CX Enterprise](home.md)
-- Sobre IA no CX Enterprise {#overview}
-  - [Sobre IA no CX Enterprise](./overview/overview-ai-cxe.md)
+- Sobre a IA no CX Enterprise {#overview}
+  - [Sobre a IA no CX Enterprise](./overview/overview-ai-cxe.md)
   - [Sobre a IA gerativa](./overview/generative-ai.md)
   - [Sobre IA agêntica](./overview/agentic-ai.md)
   - [Sobre o consumo de créditos de IA](./overview/ai-credit-consumption.md)
@@ -52,9 +52,10 @@ ht-degree: 16%
       - Alertas {#alerts}
         - [Habilidades de alerta do cliente](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Visibilidade da marca {#brand-visibility}
-        - [Gerar ativos de marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Verificação de conformidade da marca](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [Páginas do AEM Sites do autor](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [AEM Assets integrado](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [Gerar ativos de marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - Fluxo de trabalho e planejamento {#workflow-and-planning}
         - [Planejar o lançamento de uma campanha digital](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Personalizações {#customizations}
@@ -115,5 +116,5 @@ ht-degree: 16%
     - {hide-from-toc}[Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
