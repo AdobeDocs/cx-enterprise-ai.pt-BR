@@ -6,9 +6,9 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: 105c91a962a55a168272f0febb82af92b9f0bea5
+source-git-commit: 909dbae2c8abce1c89ae4f8039de04d4f4328d0b
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1944'
 ht-degree: 1%
 ---
 
@@ -24,7 +24,16 @@ O Bate-papo com colegas de trabalho permite que as equipes automatizem tarefas d
 
 O Bate-papo com colegas de trabalho pode executar uma análise de dados avançada que antes só era possível no Analysis Workspace. O Chat de colaborador acessa dados de suas visualizações de dados do Customer Journey Analytics ou conjuntos de relatórios do Adobe Analytics, permitindo que você explore dados e obtenha respostas com prompts em linguagem natural.
 
+O Chat do colega herda permissões do Customer Journey Analytics ou do Adobe Analytics. Você pode acessar somente as visualizações de dados, conjuntos de relatórios, dimensões, métricas e segmentos disponíveis no Analysis Workspace.
+
 Ao criar uma visualização no bate-papo do Colaborador, você pode abri-la no Analysis Workspace a qualquer momento para obter mais controle manual.
+
+## Respostas rápidas e trabalho profundo
+
+Você pode usar o Bate-papo de colega de trabalho de duas maneiras, dependendo de quanta análise você precisa:
+
+* **Respostas rápidas** - Faça uma pergunta direta em linguagem simples e obtenha uma resposta imediata. Usuários empresariais geralmente usam o Coworker Chat dessa maneira, e os analistas também o usam quando precisam de uma resposta rápida para uma parte interessada.
+* **Trabalho profundo** - Tenha uma conversa estendida, em várias ocasiões, com o Chat do Colaborador para investigar um problema comercial, descartar causas e chegar a uma recomendação. Normalmente, os analistas usam essa abordagem para explorar os dados em profundidade antes de fazer uma recomendação.
 
 ## Iniciar análise no Chat do Colaborador
 
@@ -38,10 +47,10 @@ Os seguintes casos de uso são agrupados pelo que você deseja realizar. Cada gr
 
 | Caso de uso | Função |
 | --- | --- |
-| [Analisar dados do Customer Journey Analytics e do Adobe Analytics](/help/coworker/chat/use-cases/data-insights/analytics-chat.md)<p>![Analisar dados do Customer Journey Analytics e do Adobe Analytics](../../assets/coworker-funnel-response-card.png)</p> | Responde perguntas em linguagem natural sobre suas visualizações de dados ou conjuntos de relatórios, cria funis e outras visualizações e descobre onde os clientes chegam. É possível abrir qualquer visualização no Analysis Workspace para análise adicional.<p>**Prompt de exemplo:** &quot;Mostrar exibições de página dos últimos 30 dias&quot;</p><p>Para obter mais informações, consulte [Analisar dados do Adobe CX Analytics com o Chat do Colaborador](/help/coworker/chat/use-cases/data-insights/analytics-chat.md).</p> |
-| [Comparar desempenho](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#query-and-analyze-data) | Comparar métricas entre canais, períodos ou segmentos lado a lado.<p>**Exemplo de prompt:** &quot;Comparar receita por canal mês a mês&quot;</p><p>Para obter mais informações, consulte [Consultar e analisar dados](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#query-and-analyze-data) em Analisar dados do Adobe CX Analytics com o Chat do Colaborador.</p> |
+| [Analisar dados do Customer Journey Analytics e do Adobe Analytics](/help/coworker/chat/use-cases/data-insights/analytics-chat.md)<p>![Analisar dados do Customer Journey Analytics e do Adobe Analytics](../../assets/coworker-funnel-response-card.png)</p> | Responde perguntas em linguagem natural sobre suas visualizações de dados ou conjuntos de relatórios, cria funis e outras visualizações e descobre onde os clientes chegam. É possível abrir qualquer visualização no Analysis Workspace para análise adicional.<p>**Prompt de exemplo:** &quot;Mostrar exibições de página dos últimos 30 dias&quot;</p><p>Para obter mais informações, consulte [Introdução à análise de dados com o Chat de Colaborador](/help/coworker/chat/use-cases/data-insights/analytics-chat.md).</p> |
+| [Comparar desempenho](#skills-and-limitations) | Comparar métricas entre canais, períodos ou segmentos lado a lado.<p>**Exemplo de prompt:** &quot;Comparar receita por canal mês a mês&quot;</p><p>Para obter mais informações, consulte [Habilidades e limitações](#skills-and-limitations).</p> |
 | [Meça o desempenho da campanha](/help/coworker/chat/use-cases/overview.md#data-insights) | Veja como as campanhas, os canais e as propriedades da Web foram executados em um determinado período.<p>**Prompt de exemplo:** &quot;Como foi o desempenho das campanhas da Web do Acrobat no mês passado?&quot;</p><p>Para obter mais informações, consulte [Insights de dados](/help/coworker/chat/use-cases/overview.md#data-insights) em casos de uso de Chat de Colaborador.</p> |
-| [Analisar funis](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#query-and-analyze-data) | Percorra os funis de conversão de várias etapas e veja a devolução em cada estágio.<p>**Recomendado para:** analista</p><p>**Exemplo de prompt:** &quot;Oriente-me durante o check-out do funnel&quot;</p><p>Para obter mais informações, consulte [Consultar e analisar dados](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#query-and-analyze-data) em Analisar dados do Adobe CX Analytics com o Chat do Colaborador.</p> |
+| [Analisar funis](#skills-and-limitations) | Percorra os funis de conversão de várias etapas e veja a devolução em cada estágio.<p>**Recomendado para:** analista</p><p>**Exemplo de prompt:** &quot;Oriente-me durante o check-out do funnel&quot;</p><p>Para obter mais informações, consulte [Habilidades e limitações](#skills-and-limitations).</p> |
 
 ### Descubra por que as métricas foram alteradas
 
@@ -58,7 +67,7 @@ Os seguintes casos de uso são agrupados pelo que você deseja realizar. Cada gr
 
 | Caso de uso | Função |
 | --- | --- |
-| [Métricas de previsão](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#query-and-analyze-data) | Projete valores de métrica futuros a partir de dados históricos do Customer Journey Analytics ou do Adobe Analytics, por exemplo, se você estiver no caminho para atingir uma meta de receita.<p>**Exemplo de prompt:** &quot;Sessões de previsão para os próximos 30 dias&quot;</p><p>Para obter mais informações, consulte [Consultar e analisar dados](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#query-and-analyze-data) em Analisar dados do Adobe CX Analytics com o Chat do Colaborador.</p> |
+| [Métricas de previsão](#skills-and-limitations) | Projete valores de métrica futuros a partir de dados históricos do Customer Journey Analytics ou do Adobe Analytics, por exemplo, se você estiver no caminho para atingir uma meta de receita.<p>**Exemplo de prompt:** &quot;Sessões de previsão para os próximos 30 dias&quot;</p><p>Para obter mais informações, consulte [Habilidades e limitações](#skills-and-limitations).</p> |
 
 ### Compartilhar insights com as partes interessadas
 
@@ -66,7 +75,7 @@ Os seguintes casos de uso são agrupados pelo que você deseja realizar. Cada gr
 
 | Caso de uso | Função |
 | --- | --- |
-| [Criar resumos executivos e resumos de KPI](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#executive-summaries-and-performance-digests) | Produzir resumos de desempenho, recomendações e resumos de slides prontos para as partes interessadas.<p>**Exemplo de prompt:** &quot;Dê-me um resumo executivo do mês passado&quot;</p><p>Para obter mais informações, consulte [Resumos executivos e resumos de desempenho](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#executive-summaries-and-performance-digests) em Analisar dados do Adobe CX Analytics com o Chat do Colaborador.</p> |
+| [Criar resumos executivos e resumos de KPI](#skills-and-limitations) | Produzir resumos de desempenho, recomendações e resumos de slides prontos para as partes interessadas.<p>**Exemplo de prompt:** &quot;Dê-me um resumo executivo do mês passado&quot;</p><p>Para obter mais informações, consulte [Habilidades e limitações](#skills-and-limitations).</p> |
 
 ### Planejar sua implementação ou atualização
 
@@ -94,8 +103,58 @@ Os seguintes casos de uso são agrupados pelo que você deseja realizar. Cada gr
 
 | Caso de uso | Função |
 | --- | --- |
-| [Criar habilidades personalizadas do Customer Journey Analytics](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#create-custom-skills) | Transforme uma análise que você repete em uma habilidade reutilizável que persiste entre as sessões.<p>**Exemplo de prompt:** &quot;Transformar esta análise semanal de receita em uma habilidade reutilizável&quot;</p><p>Para obter mais informações, consulte [Criar habilidades personalizadas](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#create-custom-skills) em Analisar dados do Adobe CX Analytics com o Chat do Colaborador.</p> |
+| [Criar habilidades personalizadas do Customer Journey Analytics](#skills-and-limitations) | Transforme uma análise que você repete em uma habilidade reutilizável que persiste entre as sessões.<p>**Exemplo de prompt:** &quot;Transformar esta análise semanal de receita em uma habilidade reutilizável&quot;</p><p>Para obter mais informações, consulte [Habilidades e limitações](#skills-and-limitations).</p> |
 
 Para obter mais informações sobre esses casos de uso, incluindo as habilidades que eles usam e mais prompts de amostra, consulte [Casos de uso de insights de dados](/help/coworker/chat/use-cases/overview.md#data-insights).
+
+## Habilidades e limitações
+
+As habilidades a seguir estão disponíveis para analisar dados do Customer Journey Analytics ou Adobe Analytics.
+
+| Habilidade | Use-o para | Permissões necessárias | Fora do escopo |
+| --- | --- | --- | --- |
+| `cja`, `aa` | Consulte as visualizações de dados do Customer Journey Analytics (`cja`) ou os conjuntos de relatórios do Adobe Analytics (`aa`) em tempo real:<ul><li>Extrair métricas, dimensões, segmentos, visualizações de dados e conjuntos de relatórios</li><li>Comparar canais, períodos de tempo ou segmentos lado a lado</li><li>Executar análise de fallout e funnel de várias etapas</li><li>Métricas de previsão baseadas em tendências históricas</li></ul> | Acesso de visualização à visualização de dados ou ao conjunto de relatórios que você deseja consultar | <ul><li>Criar ou editar componentes de visualização de dados ou de conjunto de relatórios</li><li>Dados fora das visualizações de dados ou conjuntos de relatórios aos quais você tem acesso</li><li>Modelagem preditiva além da previsão de métrica</li></ul> |
+| `cja-root-cause-analysis`, `aa-root-cause-analysis` | Investigue por que uma métrica mudou em vez de apenas relatar que mudou:<ul><li>Investigar uma alteração em uma métrica conhecida durante um período conhecido</li><li>Supervisione as dimensões e os segmentos que contribuíram para a alteração</li></ul> | Acesso de visualização à visualização de dados ou ao conjunto de relatórios que está sendo analisado | <ul><li>Detecção de anomalias sobre as quais você não perguntou (nenhum alerta automatizado ou em tempo real)</li><li>Análise de causa básica para métricas fora de uma visualização de dados ou conjunto de relatórios ao qual você tem acesso</li></ul> |
+| `cja-executive-summary` | Produzir resumos dos seus dados prontos para as partes interessadas:<ul><li>Resumir o desempenho em um período especificado</li><li>Gerar recomendações prescritivas com base nos dados</li><li>Descrever o conteúdo de um conjunto de slides ou da leitura das partes interessadas</li></ul> | Visualizar o acesso às visualizações de dados ou conjuntos de relatórios abordados no resumo | <ul><li>Criação do conjunto de slides ou arquivo de apresentação final</li><li>Resumos que abrangem visualizações de dados ou conjuntos de relatórios aos quais você não tem acesso</li></ul> |
+| `aa-cja-validation` | Comparar, auditar e reconciliar dados entre [!DNL Adobe Analytics] e o Customer Journey Analytics:<ul><li>Comparar valores de métrica entre um conjunto de relatórios e uma visualização de dados</li><li>Sinalizar discrepâncias entre as duas fontes de dados</li></ul> | Visualize o acesso ao conjunto de relatórios [!DNL Adobe Analytics] e a visualização de dados do Customer Journey Analytics sendo comparados | <ul><li>Resolução da causa subjacente de uma discrepância de dados</li><li>Validando fontes de dados diferentes de [!DNL Adobe Analytics] e Customer Journey Analytics</li></ul> |
+| `cja-skill-creator` | Transforme uma análise que você já executou em uma habilidade reutilizável:<ul><li>Converter uma análise concluída em uma habilidade nomeada e reutilizável</li><li>Disponibilizar uma habilidade salva em suas futuras sessões de chat</li></ul> | Gerenciar habilidades | <ul><li>Compartilhar uma habilidade salva com outros usuários automaticamente (bibliotecas de habilidades no nível da organização exigem configuração de administrador)</li><li>Editar os componentes da visualização de dados ou do conjunto de relatórios que uma habilidade faz referência</li></ul> |
+
+## Práticas recomendadas ao analisar dados com o Chat do colaborador
+
+### Práticas recomendadas no nível da organização
+
+* Nomeie um analista de sua organização como defensor do Colaborador.
+
+* Crie uma biblioteca de prompts e habilidades verificadas que se correlacionam com os dados e componentes que estão disponíveis para os usuários.
+
+* Crie uma ou mais habilidades que direcionam o Bate-papo com colegas de trabalho para usar somente os componentes que você deseja usar nas análises. Isso ajuda o Bate-papo com colegas de trabalho a fornecer aos usuários em sua organização os dados mais relevantes.
+
+* Ensine os usuários sobre quando pedir uma resposta rápida ao bate-papo com colegas de trabalho, e não quando usá-la para um trabalho de reflexão profunda.
+
+### Práticas recomendadas no nível do usuário
+
+* Use o modo de plano.
+
+  Esse modo é especialmente útil para tarefas complexas, mas também pode produzir melhores resultados para tarefas simples, pois permite que o Colaborador faça perguntas de acompanhamento antes de agir. Para obter mais informações, consulte [Modo de plano](/help/coworker/chat/ui-guide.md#plan-mode).
+
+* Ao criar um prompt, seja o mais específico possível:
+
+  * Nomeie as dimensões, as métricas e o intervalo de datas que deseja analisar.
+  * Faça referência aos componentes pelo nome exato.
+  * Especifique quaisquer segmentos, públicos, canais ou dispositivos que deseja incluir, excluir ou comparar.
+  * Indique se deseja um tipo de visualização específico, como funnel, tendência ou tabela de coorte.
+  * Peça as próximas etapas recomendadas se desejar que o Bate-papo com colegas de trabalho sugira perguntas de acompanhamento.
+  * Solicitar um horizonte de previsão, como &quot;próximos 30 dias&quot;, ao projetar métricas.
+  * Mencione qualquer hipótese que você já tenha, para que o Bate-papo com colegas de trabalho possa validá-la ou descartá-la.
+  * Solicite as dimensões de contribuição se desejar um detalhamento de uma alteração de métrica.
+  * Especifique o público-alvo para um resumo, como liderança ou a equipe de marketing, e solicite uma descrição do conjunto de slides se planeja apresentar os resultados.
+  * Nomeie o conjunto de relatórios específico e a visualização de dados que deseja comparar ao validar os dados.
+  * Conclua uma análise primeiro e peça ao bate-papo do colaborador para salvá-la como uma habilidade, dando a ela um nome claro e descritivo e observando com que frequência você planeja reutilizá-la.
+
+* Adicione instruções padrão à memória do Chat do colega. Por exemplo, se você sempre usar dados das mesmas visualizações de dados ou conjuntos de relatórios, adicione esses dados à memória. Para obter mais informações, consulte [Adicionar uma visualização de dados ou preferência de conjunto de relatórios na Memória](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#add-a-data-view-or-report-suite-preference-in-memory) na Introdução à análise de dados com o Chat de Colaborador.
+
+## Próximas etapas
+
+Para configurar o Chat do Colaborador e percorrer um exemplo funcional, consulte [Introdução à análise de dados com o Chat do Colaborador](/help/coworker/chat/use-cases/data-insights/analytics-chat.md).
 
 

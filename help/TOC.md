@@ -6,9 +6,9 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore o c
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 76cf3aae7e2749c3d1318625c4938cc8fc2eeec6
+source-git-commit: 909dbae2c8abce1c89ae4f8039de04d4f4328d0b
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '397'
 ht-degree: 19%
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 19%
       - Insights de dados {#data-insights}
         - {hide-from-toc}[Visão geral](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
         - {hide-from-toc}[Visão geral](./coworker/chat/use-cases/data-insights/analytics-overview.md)
-        - [Analisar dados do CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Introdução](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Explorar tendências e causas básicas](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validar dados do AA para o CJA ao atualizar](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Validar a qualidade do conjunto de dados para os relatórios do CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
@@ -119,5 +119,5 @@ ht-degree: 19%
     - {hide-from-toc}[Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
