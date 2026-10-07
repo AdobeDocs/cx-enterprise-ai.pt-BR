@@ -6,17 +6,17 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore o c
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
+source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 16%
+source-wordcount: '396'
+ht-degree: 18%
 ---
 
 # IA no CX Enterprise {#experience-cloud-ai}
 
 - [IA no CX Enterprise](home.md)
-- Sobre IA no CX Enterprise {#overview}
-  - [Sobre IA no CX Enterprise](./overview/overview-ai-cxe.md)
+- Sobre a IA no CX Enterprise {#overview}
+  - [Sobre a IA no CX Enterprise](./overview/overview-ai-cxe.md)
   - [Sobre a IA gerativa](./overview/generative-ai.md)
   - [Sobre IA agêntica](./overview/agentic-ai.md)
   - [Sobre o consumo de créditos de IA](./overview/ai-credit-consumption.md)
@@ -52,9 +52,10 @@ ht-degree: 16%
       - Alertas {#alerts}
         - [Habilidades de alerta do cliente](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Visibilidade da marca {#brand-visibility}
-        - [Gerar ativos de marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Verificação de conformidade da marca](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [Páginas do AEM Sites do autor](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [AEM Assets integrado](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [Gerar ativos de marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - Fluxo de trabalho e planejamento {#workflow-and-planning}
         - [Planejar o lançamento de uma campanha digital](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Personalizações {#customizations}
@@ -68,6 +69,7 @@ ht-degree: 16%
       - [O que são integrações?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - Plug-ins {#plugins}
       - [O que são plug-ins?](./coworker/customizations/plugins/what-are-plugins.md)
+      - [Gerenciar plug-ins da sua organização](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
     - Memória {#memory}
       - [O que é memória?](./coworker/customizations/memory/what-is-memory.md)
   - Campanhas {#campaigns}
