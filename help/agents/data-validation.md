@@ -1,9 +1,9 @@
 ---
 title: Validar seus dados no Assistente de IA
 description: Saiba como usar a validação de dados habilitada pela Agent Orchestrator no Assistente de IA para executar validações estatísticas e semânticas em seus conjuntos de dados.
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1616'
 ht-degree: 0%
 ---
 # Validar seus dados no Assistente de IA
@@ -24,7 +24,7 @@ Leia esta documentação para saber como validar seus dados no Assistente de IA.
 
 >[!NOTE]
 >
->A validação de dados também está disponível como uma habilidade de colega de trabalho. Consulte [Validar os dados do Experience Platform com o Colaborador](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md).
+>A validação de dados também está disponível como uma habilidade de colega de trabalho. Consulte [Validar os dados do Experience Platform com o Colaborador](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep).
 
 ## Casos de uso
 

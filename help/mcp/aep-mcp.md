@@ -2,19 +2,19 @@
 title: Ferramentas do Experience Platform no CX Coworker Gateway
 description: Saiba quais ferramentas do Adobe Experience Platform estão disponíveis por meio do CX Coworker Gateway.
 hide: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1955'
 ht-degree: 6%
 ---
 
-# Ferramentas do Adobe Experience Platform no Adobe CX Co-worker Gateway {#aep-mcp}
+# Ferramentas do Adobe Experience Platform no Adobe CX Coworker Gateway {#aep-mcp}
 
 Você pode usar as ferramentas de produto do Adobe Experience Platform para inspecionar esquemas, conjuntos de dados, configuração de governança de dados, recursos do Serviço de consulta e eventos de auditoria de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [Adobe CX Coworker Gateway](overview.md) quando sua organização está habilitada e sua conta de usuário tem as permissões necessárias do Experience Platform.
 
 >[!AVAILABILITY]
 >
->A ferramenta do produto Experience Platform está no Beta. O acesso é apenas por convite e requer a habilitação da organização da Adobe. Consulte [Acessar as ferramentas do CX Co-worker Gateway](access.md).
+>A ferramenta do produto Experience Platform está no Beta. O acesso é apenas por convite e requer a habilitação da organização da Adobe. Consulte [Acessar ferramentas do CX Coworker Gateway](access.md).
 
 ## Resumo
 
@@ -255,7 +255,7 @@ Recupere os resultados mais recentes da avaliação de verificação de integrid
 
 >[!NOTE]
 >
->Essa ferramenta recupera apenas os resultados da avaliação. Para corrigir um problema sinalizado, use o painel de detalhes da verificação de integridade na interface do usuário do [!DNL Experience Platform]. Consulte [Verificações de integridade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/run-and-operate/health-checks). As orientações de remediação automática para verificações de integridade com suporte estão disponíveis como uma habilidade no [CX Coworker Chat](../coworker/chat/overview.md).
+>Essa ferramenta recupera apenas os resultados da avaliação. Para corrigir um problema sinalizado, use o painel de detalhes da verificação de integridade na interface do usuário do [!DNL Experience Platform]. Consulte [Verificações de integridade](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). As orientações de remediação automática para verificações de integridade com suporte estão disponíveis como uma habilidade no [CX Coworker Chat](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
 
 **Recursos:** lista todos os resultados da verificação de integridade da sandbox atual, obtém resultados para uma verificação nomeada
 

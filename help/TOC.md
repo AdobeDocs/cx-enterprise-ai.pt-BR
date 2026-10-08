@@ -6,10 +6,10 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore o c
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a761ad545e40707e69538699ef69fbed1022165b
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 19%
+source-wordcount: '222'
+ht-degree: 18%
 ---
 
 # IA no CX Enterprise {#experience-cloud-ai}
@@ -23,70 +23,6 @@ ht-degree: 19%
   - [Painel de monitoramento do Agentic AI](./overview/monitoring.md)
   - [Ferramentas agênticas](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-agentic-tools/using/overview)
   - [Transparência do conteúdo de IA gerativa](content-transparency.md)
-- Guia do CX Enterprise Coworker {#coworker}
-  - [Visão geral do colaborador](./coworker/overview.md)
-  - Chat {#chat}
-    - [Visão geral](./coworker/chat/overview.md)
-    - [Guia da interface do usuário](./coworker/chat/ui-guide.md)
-    - {hide-from-toc}[Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md)
-    - Casos de uso {#use-cases}
-      - [Casos de uso do chat do colaborador](./coworker/chat/use-cases/overview.md)
-      - Insights de dados {#data-insights}
-        - {hide-from-toc}[Visão geral](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
-        - {hide-from-toc}[Visão geral](./coworker/chat/use-cases/data-insights/analytics-overview.md)
-        - [Introdução](./coworker/chat/use-cases/data-insights/analytics-chat.md)
-        - [Explorar tendências e causas básicas](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
-        - [Validar dados do AA para o CJA ao atualizar](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
-        - [Validar a qualidade do conjunto de dados para os relatórios do CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
-        - [Validar os dados do Experience Platform](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
-      - Gerenciamento de dados {#data-management}
-        - [Gerenciar retenção de data lake](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
-      - Públicos-alvo {#audiences}
-        - [Avalie a integridade da plataforma e crie públicos-alvo](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
-      - Jornadas {#journeys}
-        - [Criar jornadas usando o idioma natural](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
-      - Fidelidade {#loyalty}
-        - [Criar um desafio de fidelidade e insights de superfície](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
-      - Otimização {#optimization}
-        - [Iniciar atividades do Target](./coworker/chat/use-cases/optimization/target.md)
-        - [Acelerar a experimentação](./coworker/chat/use-cases/optimization/accelerate-experimentation.md)
-      - Ferramentas de sandbox {#sandbox-tooling}
-        - [Habilidades de agente de ferramentas de sandbox](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
-      - Alertas {#alerts}
-        - [Habilidades de alerta do cliente](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
-      - Visibilidade da marca {#brand-visibility}
-        - [Verificação de conformidade da marca](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
-        - [Páginas do AEM Sites do autor](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
-        - [AEM Assets integrado](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
-        - [Gerar ativos de marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
-      - Fluxo de trabalho e planejamento {#workflow-and-planning}
-        - [Planejar o lançamento de uma campanha digital](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-  - Personalizações {#customizations}
-    - [Visão geral](./coworker/customizations/overview.md)
-    - Habilidades {#skills}
-      - [O que são habilidades?](./coworker/customizations/skills/what-are-skills.md)
-      - [Crie sua primeira habilidade](./coworker/customizations/skills/create-your-first-skill.md)
-      - [Criar e executar uma habilidade de portal de qualidade](./coworker/customizations/skills/run-a-quality-gate-skill.md)
-      - [Gerenciar e iterar em habilidades](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
-    - Integrações {#integrations}
-      - [O que são integrações?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
-    - Plug-ins {#plugins}
-      - [O que são plug-ins?](./coworker/customizations/plugins/what-are-plugins.md)
-      - [Gerenciar plug-ins da sua organização](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
-    - Memória {#memory}
-      - [O que é memória?](./coworker/customizations/memory/what-is-memory.md)
-  - Campanhas {#campaigns}
-    - {hide-from-toc}[Nova experiência com equipes](./coworker/campaigns/new-teams-experience.md)
-    - [Visão geral](./coworker/campaigns/overview.md)
-    - [Criar uma campanha de email](./coworker/campaigns/create-an-email-campaign.md)
-    - [Iniciar e gerenciar uma campanha](./coworker/campaigns/launch-manage-campaign.md)
-    - [Casos de uso](./coworker/campaigns/use-cases.md)
-    - [Solicitação de práticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
-    - [Metadados do C2PA](./coworker/campaigns/c2pa-metadata.md)
-    - Conectores {#connectors}
-      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
-    - [Notas de versão](./coworker/campaigns/release-notes.md)
 - Guia do Assistente de IA {#ai-assistant}
   - [Guia da interface do assistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de Prompts](./ai-assistant/prompt-library.md)
@@ -121,5 +57,5 @@ ht-degree: 19%
     - {hide-from-toc}[Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)

@@ -1,14 +1,14 @@
 ---
 title: Preparação de dados SQL no Co-worker
 description: Saiba como usar a Preparação de dados SQL no Colaborador para gerar, otimizar, solucionar problemas e agendar consultas SQL.
-source-git-commit: dff76b520c013554276e72a3e19b5d56c16af5fa
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1126'
 ht-degree: 1%
 ---
 # Preparação de dados SQL no Co-worker
 
-Use a Preparação de Dados SQL no Colaborador para executar tarefas comuns do [Data Distiller](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/overview) com prompts em linguagem natural. Você pode gerar SQL, solucionar problemas ou otimizar uma consulta existente, visualizar resultados e agendar consultas para execução recorrente.
+Use a Preparação de Dados SQL no Colaborador para executar tarefas comuns do [Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview) com prompts em linguagem natural. Você pode gerar SQL, solucionar problemas ou otimizar uma consulta existente, visualizar resultados e agendar consultas para execução recorrente.
 
 >[!AVAILABILITY]
 >
@@ -29,7 +29,7 @@ Você pode identificar os conjuntos de dados que deseja usar em sua solicitaçã
 
 Depois que o Colaborador gerar ou atualizar o SQL, você poderá continuar a conversa para visualizar os resultados, refinar a consulta, salvá-la ou agendá-la para execução recorrente.
 
-Para obter orientação sobre como usar a interface do Colaborador, consulte o [Guia da Interface do Colaborador](../coworker/chat/ui-guide.md).
+Para obter orientação sobre como usar a interface do Colaborador, consulte o [Guia da Interface do Colaborador](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide).
 
 ## Recursos compatíveis {#supported-capabilities}
 
@@ -56,7 +56,7 @@ Por exemplo, você pode:
 
 O colaborador pode fazer perguntas de acompanhamento quando informações adicionais são necessárias, como identificar o conjunto de dados apropriado ou confirmar o fuso horário de um agendamento.
 
-Uma pré-visualização de consulta retorna até cinco linhas. Para executar e trabalhar com consultas diretamente no Experience Platform, consulte o [Guia da interface do Editor de Consultas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/ui/user-guide).
+Uma pré-visualização de consulta retorna até cinco linhas. Para executar e trabalhar com consultas diretamente no Experience Platform, consulte o [Guia da interface do Editor de Consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide).
 
 ![Resposta do colaborador mostrando uma visualização de cinco linhas dos resultados da consulta SQL e opções para salvar a consulta como modelo ou agendá-la para execução recorrente.](./assets/sql-data-prep/query-preview.png)
 
@@ -74,7 +74,7 @@ O colaborador retorna o SQL gerado e pode executar a consulta para fornecer uma 
 
 ![Resposta do colaborador mostrando o SQL gerado para resumir o envolvimento do cliente por tipo de evento, seguida por uma visualização da tabela do total de eventos e clientes únicos e uma análise dos resultados.](./assets/sql-data-prep/authoring-result.png)
 
-Para obter informações sobre como criar e executar consultas diretamente no Experience Platform, consulte o [Guia da interface do Editor de Consultas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/ui/user-guide).
+Para obter informações sobre como criar e executar consultas diretamente no Experience Platform, consulte o [Guia da interface do Editor de Consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide).
 
 ### Otimizar SQL existente {#optimize-sql}
 
@@ -113,7 +113,7 @@ Se a consulta fornecida já estiver otimizada, o Colaborador poderá determinar 
 
 O SQL gerado pelo recurso de criação do SQL já está otimizado. Não é necessário enviar o SQL recém-gerado separadamente para otimização.
 
-Para obter a sintaxe SQL e os comandos com suporte, consulte a [Referência SQL do Serviço de Consulta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/sql/overview).
+Para obter a sintaxe SQL e os comandos com suporte, consulte a [Referência SQL do Serviço de Consulta](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview).
 
 ### Diagnosticar e corrigir erros SQL {#diagnose-sql-errors}
 
@@ -156,13 +156,13 @@ Depois que você confirmar os detalhes de agendamento necessários, o Colaborado
 
 ![Resposta do colaborador confirmando uma consulta SQL agendada, incluindo o modelo salvo, o agendamento, o fuso horário, a data final, o status do agendamento e o alerta de falha.](./assets/sql-data-prep/schedule-query.png)
 
-Para obter informações detalhadas sobre agendamentos de consulta, configurações de recorrência, conjuntos de dados de saída e alertas, consulte [Agendamentos de consulta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/ui/query-schedules).
+Para obter informações detalhadas sobre agendamentos de consulta, configurações de recorrência, conjuntos de dados de saída e alertas, consulte [Agendamentos de consulta](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules).
 
 ## Próximas etapas {#next-steps}
 
 Para obter mais informações sobre os recursos do Data Distiller e do Serviço de consulta usados pela Preparação de dados SQL, consulte a seguinte documentação:
 
-- [Visão geral do Data Distiller](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/data-distiller/overview)
-- [Guia da interface do Editor de consultas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/ui/user-guide)
-- [Agendamentos de consulta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/ui/query-schedules)
-- [Referência SQL do serviço de consulta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/sql/overview)
+- [Visão geral do Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
+- [Guia da interface do Editor de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)
+- [Agendamentos de consulta](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)
+- [Referência SQL do serviço de consulta](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)
