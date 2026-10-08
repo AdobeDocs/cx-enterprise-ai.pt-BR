@@ -6,9 +6,9 @@ description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore o c
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
+source-git-commit: a761ad545e40707e69538699ef69fbed1022165b
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '402'
 ht-degree: 19%
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 19%
         - [Criar um desafio de fidelidade e insights de superfície](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Otimização {#optimization}
         - [Iniciar atividades do Target](./coworker/chat/use-cases/optimization/target.md)
+        - [Acelerar a experimentação](./coworker/chat/use-cases/optimization/accelerate-experimentation.md)
       - Ferramentas de sandbox {#sandbox-tooling}
         - [Habilidades de agente de ferramentas de sandbox](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
       - Alertas {#alerts}
