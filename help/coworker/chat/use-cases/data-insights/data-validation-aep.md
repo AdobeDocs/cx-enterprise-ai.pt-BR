@@ -10,15 +10,15 @@ jira: PLAT-302857
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1045'
 ht-degree: 0%
 ---
 
 # Valide os dados do Experience Platform com o Co-worker
 
-O colaborador inclui a habilidade Validação de dados, que verifica a qualidade dos dados dos conjuntos de dados do Experience Platform. Use-a para executar validações estatísticas e semânticas em conjuntos de dados, analisar campos de conjuntos de dados e identificar problemas de qualidade de dados, tudo por meio de uma única conversa no Chat de colegas de trabalho.
+O Adobe CX Enterprise Coworker inclui a habilidade Validação de dados, que verifica a qualidade dos dados dos conjuntos de dados do Experience Platform. Use-a para executar validações estatísticas e semânticas em conjuntos de dados, analisar campos de conjuntos de dados e identificar problemas de qualidade de dados, tudo por meio de uma única conversa no Chat de colegas de trabalho.
 
 Engenheiros de dados, administradores de dados e engenheiros de implementação o usam para verificações rápidas de qualidade, sem consultas SQL ou hierarquias de esquema complexas.
 
@@ -157,4 +157,4 @@ Se suas necessidades de validação forem mais exaustivas ou exigirem uma lógic
 * [Validar dados do Adobe Analytics para o Customer Journey Analytics ao atualizar](./data-validation-aa-cja.md)
 * [Validar dados do Customer Journey Analytics com a habilidade Validação de dados no Co-worker](./validate-dataset-quality-for-cja.md)
 * [Validar seus dados (Assistente de IA)](/help/agents/data-validation.md)
-* [Confie nos seus relatórios do Customer Journey Analytics: habilidade de validação de dados no Adobe CX Coworker](https://www.youtube.com/watch?v=gCSm_QYSYhk) (vídeo)
+* [Confie nos seus relatórios do Customer Journey Analytics: habilidade de validação de dados no Adobe CX Enterprise Coworker](https://www.youtube.com/watch?v=gCSm_QYSYhk) (vídeo)

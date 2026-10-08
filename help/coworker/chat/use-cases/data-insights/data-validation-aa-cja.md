@@ -1,31 +1,31 @@
 ---
 title: Validar dados do Adobe Analytics para Customer Journey Analytics
-description: Saiba como os administradores do Analytics usam a habilidade de validação de dados do CX Enterprise Co-worker para comparar os dados do Adobe Analytics e do Customer Journey Analytics durante a atualização.
+description: Saiba como os administradores do Analytics usam a habilidade de validação de dados do CX Enterprise Coworker para comparar os dados do Adobe Analytics e do Customer Journey Analytics durante a atualização.
 feature: AI Tools
 role: User
 level: Intermediate
 doc-type: Feature Video
-duration: 
+duration:
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22083
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: 1527
+source-wordcount: '1530'
 ht-degree: 0%
-
 ---
-
 # Validar dados com o Colaborador ao atualizar do Adobe Analytics para o Customer Journey Analytics
 
 >[!NOTE]
 > 
 >Siga as etapas desta página somente após concluir todas as etapas de atualização anteriores. Você pode seguir as etapas de atualização recomendadas (recomendadas para a maioria das organizações) ou seguir as etapas geradas dinamicamente para sua organização com o Guia de atualização do Customer Journey Analytics. <ul><li>**Etapas de atualização recomendadas** (recomendado para a maioria das organizações)<p>Um conjunto de etapas que levam a uma implementação ideal do Customer Journey Analytics.</p><p>Para obter informações detalhadas, consulte [Atualizar do Adobe Analytics para o Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Guia de Atualização do Customer Journey Analytics** (Etapas personalizadas adaptadas às necessidades específicas da sua organização)<p>Um novo guia de atualização está disponível e gera dinamicamente etapas de atualização personalizadas para sua organização e suas circunstâncias exclusivas.</p><p>Para acessar o guia pelo Customer Journey Analytics, selecione a guia **[!UICONTROL Workspace]** e clique em **[!UICONTROL Atualizar para o Customer Journey Analytics]** no painel esquerdo. Siga as instruções na tela.</p></li></ul>
 
-O colaborador inclui uma habilidade de validação que permite validar dados ao atualizar do Adobe Analytics para o Customer Journey Analytics. A validação de dados é concluída em uma única conversa.
+O Adobe CX Enterprise Coworker inclui uma habilidade de validação que permite validar dados ao atualizar do Adobe Analytics para o Customer Journey Analytics. A validação de dados é concluída em uma única conversa.
 
 Essa habilidade compara automaticamente:
 

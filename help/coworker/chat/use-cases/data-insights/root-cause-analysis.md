@@ -14,15 +14,15 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 0%
 ---
 
 # Customer Journey Analytics &amp; Co-worker - explore tendências e causas básicas com linguagem natural
 
-Entender por que as métricas mudam geralmente requer navegar em vários relatórios, criar consultas complexas e analisar manualmente tendências em conjuntos de dados. Neste vídeo, você verá como o Coworker simplifica esse processo combinando IA de conversação com o Customer Journey Analytics (CJA).
+Entender por que as métricas mudam geralmente requer navegar em vários relatórios, criar consultas complexas e analisar manualmente tendências em conjuntos de dados. Neste vídeo, você verá como o Adobe CX Enterprise Coworker simplifica esse processo combinando IA conversacional com o Customer Journey Analytics (CJA).
  
 Usando a linguagem natural, analistas e profissionais de marketing podem fazer perguntas sobre seus dados, receber resultados visualizados, identificar tendências significativas e descobrir os fatores que impulsionam o desempenho, tudo em uma única conversa.
 
