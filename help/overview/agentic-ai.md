@@ -1,5 +1,5 @@
 ---
-title: IA de agente em aplicativos corporativos CX
+title: IA de agente em aplicativos do CX Enterprise
 description: Saiba onde a IA agêntica está disponível nos aplicativos do CX Enterprise.
 solution: Experience Cloud
 landing-page-name: ai
@@ -13,12 +13,12 @@ exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
-source-git-commit: 76356e79bb8608a65c3140c9990a5a4fcbc76a0e
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1132'
 ht-degree: 9%
 ---
-# Sobre a IA corporativa do Adobe CX
+# Sobre a IA do Agentic no Adobe CX Enterprise
 
 O Adobe [Experience Platform Agent Orchestrator](../agents/agent-orchestrator.md) habilita recursos de IA de agente em aplicativos CX Enterprise.
 
@@ -26,12 +26,12 @@ Os agentes ajudam a automatizar tarefas, fornecer insights mais rapidamente e si
 
 Os agentes do CX Enterprise AI estão disponíveis em:
 
-* [Aplicativos corporativos CX existentes](#existing-apps)
-* [Aplicativos corporativos CX AI-first](#ai-first-apps)
+* [Aplicativos CX Enterprise existentes](#existing-apps)
+* [Aplicativos CX Enterprise AI First](#ai-first-apps)
 
-As seções a seguir descrevem essas duas maneiras de ativar IA agêntica no CX Enterprise.
+As seções a seguir descrevem essas duas maneiras de ativar a IA agêntica no CX Enterprise.
 
-## Aplicativos corporativos CX existentes {#existing-apps}
+## Aplicativos CX Enterprise existentes {#existing-apps}
 
 Em aplicativos existentes, você pode usar a linguagem natural para instruir os Adobe Experience Platform Agents por meio da interface conversacional no [Assistente de IA](../ai-assistant/ai-assistant-ui.md). O Assistente de IA está disponível nas exibições em tela cheia e no painel direito.
 
@@ -43,7 +43,7 @@ Os agentes podem ser ativados nos aplicativos CX Enterprise existentes para clie
 
 O uso de agentes de IA para executar _trabalhos de agente_ consome créditos de IA. Saiba mais sobre trabalhos de agentes e créditos de IA em _[Trabalhos de agentes e consumo de crédito de IA](ai-credit-consumption.md)_.
 
-Os agentes de IA seguem a _sua_ entrada e supervisão e respeitam os controles de acesso no nível do produto. Você só pode executar tarefas ou acessar dados que estão autorizados a usar no aplicativo CX Enterprise subjacente.
+Os agentes de IA seguem a _sua_ entrada e supervisão e respeitam os controles de acesso no nível do produto. Você só pode executar tarefas ou acessar dados autorizados a usar no aplicativo subjacente do CX Enterprise.
 
 ### Agentes de IA em aplicativos CX Enterprise existentes {#existing-apps-table}
 
@@ -60,7 +60,7 @@ A tabela a seguir lista os Experience Platform Agents disponíveis nos aplicativ
 | [Agente de Suporte ao Produto](../agents/product-support.md) | Solucione problemas de suporte sem sair dos workflows, crie tíquetes de suporte ao cliente e rastreie o progresso do caso usando o Assistente de IA. | <ul><li>Real-Time CDP (edições B2B, B2C e B2P)</li><li>Adobe Journey Optimizer (edições B2B e B2C)</li><li>Customer Journey Analytics (edições B2B e B2C)</li><li>Adobe Experience Manager</li></ul> | |
 | [Adobe Marketing Agent para Microsoft 365 Copilot](../agents/ama-ms.md) | Conecta o Experience Platform diretamente ao Microsoft 365 Copilot. Você pode fazer perguntas em linguagem natural nos aplicativos do Microsoft 365, como Teams, Word, Powerpoint e Excel, para recuperar instantaneamente insights de marketing do Experience Platform sem interromper o fluxo de trabalho. | <ul><li> Adobe Agent Orchestrator com suporte para Audience Agent, Journey Agent, Customer Journey Analytics Data Insights, Experience Platform Operational Insights</li></ul> | |
 
-## Aplicativos corporativos CX AI-first {#ai-first-apps}
+## Aplicativos CX Enterprise AI First {#ai-first-apps}
 
 Aplicativos de IA são criados com IA gerativa ou agêntica como o componente principal. Eles usam IA gerativa ou agêntica para tarefas importantes e os recursos de agente já estão incluídos na licença do aplicativo AI-first. Dessa forma, eles não exigem a licença da Experience Platform Agent Orchestrator.
 
@@ -68,7 +68,7 @@ A tabela a seguir lista os Agentes do Experience Platform disponíveis como apli
 
 | Nome do agente | Recursos | Aplicativos compatíveis |
 |---|----------|----------|
-| [CX Enterprise Coworker](../coworker/overview.md) | Atua como um colega de equipe agente: planeja o trabalho em várias etapas de uma meta em linguagem natural, executa-o em sistemas Adobe e conectados, valida os resultados e retorna o trabalho concluído para sua aprovação — reduzindo a necessidade de coordenar as tarefas manualmente. | <ul><li>CX Enterprise Coworker (Bate-papo)</li><li>CX Enterprise Coworker (Campanhas)</li></ul> |
+| [CX Enterprise Coworker](https://experienceleague.adobe.com/pt-br/docs/coworker/content/home) | Atua como um colega de equipe agente: planeja o trabalho em várias etapas de uma meta em linguagem natural, executa-o em sistemas Adobe e conectados, valida os resultados e retorna o trabalho concluído para sua aprovação — reduzindo a necessidade de coordenar as tarefas manualmente. | <ul><li>CX Enterprise Coworker (Bate-papo)</li><li>CX Enterprise Coworker (Campanhas)</li></ul> |
 | [Experimentation Agent](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | Automatize, analise e sintetize insights para que você possa identificar rapidamente experiências de alto impacto e oportunidades de crescimento em um espaço de trabalho centralizado — tudo isso enquanto reduz os processos manuais. | <ul><li>AJO Experimentation Accelerator</li></ul> |
 | [Agente de Otimização LLM](https://experienceleague.adobe.com/pt-br/docs/llm-optimizer/using/home) | Melhore a visibilidade, a precisão e a influência em ambientes de pesquisa orientados por IA, forneça insights sobre a presença da marca em respostas geradas por IA, ofereça recomendações de conteúdo prescritivas e automatize correções de otimização. | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/pt-br/docs/experience-manager-sites-optimizer/content/home) | Maximize o impacto nos negócios, detectando e implantando automaticamente as melhorias no site. Com o uso de IA gerativa e várias tecnologias de monitoramento, você pode aumentar a aquisição de tráfego do site, o engajamento e muito mais | <ul><li>AEM Sites Optimizer</li></ul> |

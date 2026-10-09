@@ -1,9 +1,9 @@
 ---
 title: Preparação de dados SQL no Co-worker
 description: Saiba como usar a Preparação de dados SQL no Colaborador para gerar, otimizar, solucionar problemas e agendar consultas SQL.
-source-git-commit: dff76b520c013554276e72a3e19b5d56c16af5fa
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1126'
 ht-degree: 1%
 ---
 # Preparação de dados SQL no Co-worker
@@ -29,7 +29,7 @@ Você pode identificar os conjuntos de dados que deseja usar em sua solicitaçã
 
 Depois que o Colaborador gerar ou atualizar o SQL, você poderá continuar a conversa para visualizar os resultados, refinar a consulta, salvá-la ou agendá-la para execução recorrente.
 
-Para obter orientação sobre como usar a interface do Colaborador, consulte o [Guia da Interface do Colaborador](../coworker/chat/ui-guide.md).
+Para obter orientação sobre como usar a interface do Colaborador, consulte o [Guia da Interface do Colaborador](https://experienceleague.adobe.com/pt-br/docs/coworker/content/chat/ui-guide).
 
 ## Recursos compatíveis {#supported-capabilities}
 

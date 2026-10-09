@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '3820'
+source-wordcount: '3848'
 ht-degree: 9%
 ---
 
@@ -78,7 +78,7 @@ Além disso, a **Simulação de Jornada** é um recurso do Journey Optimizer que
 
 A Criação de jornadas permite que os usuários do Journey Optimizer criem e configurem jornadas de marketing usando uma interface de linguagem natural. Com a Criação de Jornadas, os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em prompts de conversação. O agente simplifica a criação de jornadas, permitindo que os profissionais de marketing se concentrem na estratégia em vez da configuração técnica.
 
-Para obter mais informações, consulte [Criar Jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"} na documentação do Adobe Journey Optimizer.
+Para obter mais informações, consulte [Criar Jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"} na documentação do Adobe Journey Optimizer.
 
 >[!AVAILABILITY]
 >
@@ -230,7 +230,7 @@ Quando um usuário entrar no meu local de armazenamento, envie uma mensagem de b
 
 A Criação de conteúdo de canal permite que os usuários do Journey Optimizer gerem, editem e gerenciem conteúdo específico de canal para jornada usando a geração de conteúdo habilitada por IA.
 
-Para obter mais informações, consulte [Criação de conteúdo do canal](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"} na documentação do Adobe Journey Optimizer.
+Para obter mais informações, consulte [Criação de conteúdo do canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"} na documentação do Adobe Journey Optimizer.
 
 ## Casos de uso
 
@@ -312,7 +312,7 @@ A Análise de Jornada permite que os usuários do Journey Optimizer analisem e o
 
 Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/pt-br/slides/journey-agent-overview).
 
-Para obter mais informações, consulte [Análise de Jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} na documentação do Adobe Journey Optimizer.
+Para obter mais informações, consulte [Análise de Jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} na documentação do Adobe Journey Optimizer.
 
 >[!AVAILABILITY]
 >
@@ -568,5 +568,5 @@ A simulação pode não suportar todas as atividades, canais ou integrações co
 
 - [Agent Orchestrator](./agent-orchestrator.md), a camada de agente que habilita o Journey Agent e outros Agentes da Experience Platform.
 - [Ferramentas do Journey Optimizer no CX Coworker Gateway](../mcp/ajo-mcp.md), uma superfície MCP somente leitura para revisão de configuração de campanha e canal.
-- [Crie jornadas a partir da linguagem natural](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md) e [Crie, edite e gerencie desafios de fidelidade](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md), casos de uso do Chat de Colaborador que se baseiam na Criação de Jornadas.
+- [Crie jornadas a partir da linguagem natural](https://experienceleague.adobe.com/pt-br/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language) e [Crie, edite e gerencie desafios de fidelidade](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge), casos de uso do Chat de Colaborador que se baseiam na Criação de Jornadas.
 - [Agente de Suporte ao Produto](./product-support.md), para solucionar problemas do Journey Optimizer que surgiram por meio do Assistente de IA.

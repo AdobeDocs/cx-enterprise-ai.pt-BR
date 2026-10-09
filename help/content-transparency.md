@@ -1,16 +1,16 @@
 ---
 title: Transparência do conteúdo de IA gerativa
-description: Saiba como o Adobe anexa automaticamente metadados C2PA a conteúdo gerado e editado por GenAI nos aplicativos corporativos do Adobe CX.
+description: Saiba como o Adobe anexa automaticamente metadados C2PA a conteúdo gerado e editado por GenAI em aplicativos do Adobe CX Enterprise.
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+    internal-label: AI Tools
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 32faffcdcaedc9ae601e601ad92d58b48743af66
+    internal-label: Generative AI
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: 1743
+source-wordcount: '1738'
 ht-degree: 2%
-
 ---
-
 
 # Transparência do conteúdo de IA gerativa
 
@@ -20,7 +20,7 @@ Ao longo de agosto de 2026, a Adobe está lançando gradualmente o suporte a met
 >
 >Após a implantação, os workflows futuros que envolverem conteúdo criado ou editado usando IA terão suporte automático aos metadados C2PA.
 
-Esta página aborda detalhes sobre como o Adobe lida com a anexação automática de metadados C2PA nos aplicativos Adobe CX Enterprise.
+Esta página aborda detalhes sobre como o Adobe lida com a anexação automática de metadados C2PA em aplicativos Adobe CX Enterprise.
 
 As novas regulamentações exigem que os provedores de tecnologias de IA gerativa ofereçam suporte a divulgações duráveis e legíveis por máquina associadas a fluxos de trabalho de conteúdo gerados e editados pela GenAI para aumentar a transparência.
 
@@ -28,7 +28,7 @@ Como provedor de ferramentas, a Adobe anexa automaticamente metadados C2PA legí
 
 ## O que está mudando
 
-Lançamento em agosto de 2026, a Adobe introduzirá o suporte a metadados C2PA em aplicativos Adobe Creative Cloud, Adobe Document Cloud, Adobe Firefly e Adobe CX Enterprise.
+Lançamento em agosto de 2026, o Adobe introduzirá o suporte a metadados C2PA em aplicativos Adobe Creative Cloud, Adobe Document Cloud, Adobe Firefly e Adobe CX Enterprise.
 
 Esta versão inclui:
 
@@ -72,7 +72,7 @@ A Adobe fornece [orientação](https://helpx.adobe.com/br/creative-cloud/apps/ge
 
 ## Disponibilidade e versões
 
-Esses recursos estão sendo lançados durante o **agosto de 2026** em todos os fluxos de trabalho corporativos do Adobe CX com suporte.
+Estes recursos estão sendo lançados em **agosto de 2026** em todos os fluxos de trabalho do Adobe CX Enterprise com suporte.
 
 >[!NOTE]
 >
@@ -88,11 +88,11 @@ Os metadados C2PA são anexados automaticamente ao conteúdo compatível gerado 
 
 A Adobe fornece a [documentação](https://helpx.adobe.com/br/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) descrevendo como usar os recursos de marca d&#39;água existentes disponíveis em aplicativos compatíveis da Adobe para organizações que escolhem ou precisam aplicar rótulos visíveis.
 
-## Aplicativos compatíveis com toda a Adobe CX Enterprise {#supported-applications}
+## Aplicativos compatíveis com o Adobe CX Enterprise {#supported-applications}
 
-Os seguintes aplicativos e serviços da Adobe fornecem informações adicionais sobre como e quando os metadados C2PA são anexados ao conteúdo qualificado em determinados aplicativos CX Enterprise.
+Os seguintes aplicativos e serviços da Adobe fornecem informações adicionais sobre como e quando os metadados C2PA são anexados ao conteúdo qualificado em determinados aplicativos da CX Enterprise.
 
-No entanto, quando aplicável, todos os aplicativos corporativos Adobe CX continuam a preservar os metadados C2PA existentes, à medida que os ativos compatíveis passam pelos fluxos de trabalho do Adobe. Isso ajuda a manter a integridade das informações de origem em todo o conteúdo do supply chain.
+No entanto, quando aplicável, todos os aplicativos Adobe CX Enterprise continuam a preservar os metadados C2PA existentes, à medida que os ativos compatíveis passam pelos workflows do Adobe. Isso ajuda a manter a integridade das informações de origem em todo o conteúdo do supply chain.
 
 >[!NOTE]
 >
@@ -104,14 +104,14 @@ No entanto, quando aplicável, todos os aplicativos corporativos Adobe CX contin
 | Adobe Experience Manager (AEM) | [Documentação](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
 | Gerar conteúdo (recurso no Adobe Journey Optimizer/Adobe Campaign) | [Documentação](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
 | Ultimate B2B Adobe Journey Optimizer | [Documentação](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2B Prime (também conhecido como Adobe Marketo Otimizer) | [Documentação](https://experienceleague.adobe.com/pt-br/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2B Prime (também conhecido como Adobe Marketo Optimizer) | [Documentação](https://experienceleague.adobe.com/pt-br/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2C | [Documentação](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
 | Adobe Campaign | [Documentação](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
 | Adobe Commerce | [Documentação](https://experienceleague.adobe.com/pt-br/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
 | GenStudio para marketing de desempenho | [Documentação](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [Documentação](https://experienceleague.adobe.com/pt-br/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
 | Adobe Workfront | [Documentação](https://experienceleague.adobe.com/pt-br/docs/workfront/using/documents/c2pa-metadata-overview) |
-| Campanhas do CX Enterprise Co-worker (antigo HALO) | [Documentação](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
+| Campanhas do CX Enterprise Coworker (antigo HALO) | [Documentação](https://experienceleague.adobe.com/pt-br/docs/coworker/content/campaigns/c2pa-metadata) |
 
 ## Links relacionados
 
@@ -123,7 +123,7 @@ No entanto, quando aplicável, todos os aplicativos corporativos Adobe CX contin
 
 **Quais aplicativos do Adobe aplicam metadados C2PA ao conteúdo editado ou criado de IA geradora?**
 
-Os aplicativos corporativos Adobe CX compatíveis anexam automaticamente metadados C2PA ao conteúdo qualificado gerado e editado por GenAI. Consulte a seção [Aplicativos compatíveis](#supported-applications) para obter mais detalhes sobre os aplicativos corporativos do Adobe CX.
+Os aplicativos Adobe CX Enterprise compatíveis anexam automaticamente metadados C2PA ao conteúdo qualificado gerado e editado por GenAI. Consulte a seção [Aplicativos com suporte](#supported-applications) para obter mais detalhes sobre aplicativos Adobe CX Enterprise.
 
 **A quais tipos de conteúdo o Adobe adiciona metadados C2PA?**
 
@@ -131,7 +131,7 @@ Em geral, imagens, áudio, vídeo, documentos e texto estão no escopo. No entan
 
 **Quais aplicativos do Adobe CX preservam os metadados C2PA durante a edição e a publicação?**
 
-Todos os aplicativos corporativos Adobe CX foram projetados para preservar os metadados C2PA à medida que o conteúdo passa pelos fluxos de trabalho compatíveis do Adobe. A preservação fora dos aplicativos do Adobe depende de as plataformas externas oferecerem suporte aos metadados C2PA.
+Todos os aplicativos do Adobe CX Enterprise são projetados para preservar os metadados C2PA à medida que o conteúdo se move pelos fluxos de trabalho compatíveis do Adobe. A preservação fora dos aplicativos do Adobe depende de as plataformas externas oferecerem suporte aos metadados C2PA.
 
 **O que acontece quando várias imagens geradas pela GenAI são combinadas em uma única imagem?**
 
