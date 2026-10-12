@@ -7,24 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 29be6d986ce52cd14e4b1829d6558a4c981c8f9a
+source-git-commit: af2a9b4bc7082fb4813739dc0a2e9ca10f1b8db5
 workflow-type: tm+mt
-source-wordcount: '7168'
+source-wordcount: '7107'
 ht-degree: 6%
 ---
 # Casos de uso do chat do colaborador {#use-cases}
 
 O Chat do Colaborador permite consultar, analisar e agir nos dados do [!DNL Experience Platform] usando linguagem natural em vez de navegar em várias interfaces do usuário ou gravar consultas manualmente. Esta página cataloga os casos de uso dos quais os profissionais mais dependem, organizados por área de trabalho: insights de dados, públicos, jornadas, fidelidade, elementos essenciais e ferramentas de sandbox. Cada entrada inclui a habilidade que ele chama, os aplicativos com os quais ele funciona e avisos de amostra que você pode copiar, adaptar aos seus próprios dados e refinar através da conversa.
-
->[!NOTE]
->
->Em breve:
->
->Novos recursos do AEM Agentic por meio do CX Enterprise Coworker, criados para ajudá-lo a fazer mais, de modo mais rápido.
->
->Todos os clientes qualificados terão acesso aos recursos de agentes da Adobe Experience Manager no Colaborador continuamente.
->
->Consulte também [IA no AEM - Visão geral dos recursos de agente no AEM](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Experiência da marca
 
