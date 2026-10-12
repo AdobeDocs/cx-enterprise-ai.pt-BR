@@ -1,20 +1,17 @@
 ---
-description: Procure padrões reais de prompt para campanhas de colegas de trabalho do Adobe CX Enterprise, organizadas por caso de uso em campanhas de aquisição, envolvimento, eventos, conversão e retenção.
+description: Procure padrões reais de prompt para Campanhas do Adobe CX Enterprise Coworker, organizados por caso de uso em campanhas de aquisição, envolvimento, eventos, conversão e retenção.
 title: Casos de uso de campanhas de colegas de trabalho
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '508'
 ht-degree: 0%
-
 ---
-
 # Casos de uso {#use-cases}
 
-Abaixo estão os padrões de solicitação reais que os profissionais de marketing de ciclo de vida e crescimento estão usando nas Campanhas de Colaborador Corporativo do Adobe CX. Cada uma é criada para ser copiada, trocada com seu próprio público-alvo e detalhes da marca e refinada na conversa.
+Abaixo estão os padrões de solicitação reais que os profissionais de marketing de ciclo de vida e crescimento estão usando nas Campanhas do Adobe CX Enterprise Coworker. Cada uma é criada para ser copiada, trocada com seu próprio público-alvo e detalhes da marca e refinada na conversa.
 
 ## Como usar
 
@@ -162,4 +159,4 @@ Melhor para: qualquer público-alvo que ficou quieto.
 
 ## Pronto para criar?
 
-Escolha um caso de uso acima, visite [Criar uma campanha por email] (./) para o passo a passo completo e experimente-o.
+Escolha um caso de uso acima, visite [Criar uma campanha por email](./) para o passo a passo completo e experimente-o.

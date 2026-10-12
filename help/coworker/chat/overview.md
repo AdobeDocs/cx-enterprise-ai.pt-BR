@@ -1,18 +1,15 @@
 ---
-description: Saiba como o Coworker Chat usa uma interface de conversação para planejar, executar e concluir o trabalho da experiência do cliente na Adobe e nos sistemas conectados em minutos.
-title: Visão geral do Bate-papo com o Colaborador do Adobe CX Enterprise
+description: Saiba como o chat do Coworker usa uma interface de conversa para planejar, executar e concluir o trabalho de experiência do cliente em minutos na Adobe e nos sistemas conectados.
+title: Visão geral do Adobe CX Enterprise Coworker Chat
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 741
-ht-degree: 0%
-
+source-wordcount: '741'
+ht-degree: 3%
 ---
-
-# Visão geral do Adobe CX Enterprise Co-worker Chat {#overview}
+# Visão geral do Adobe CX Enterprise Coworker Chat {#overview}
 
 O Bate-papo com colegas de trabalho é uma interface conversacional para realizar o trabalho de experiência do cliente. Você descreve uma meta em linguagem simples (por exemplo, &quot;crie um público-alvo para a promoção de yoga na primavera&quot; ou &quot;diga-me por que esse público-alvo encolheu na semana passada&quot;) e o Bate-papo do Colaborador planeja o trabalho, o executa em seu Adobe e em sistemas conectados, valida os resultados e traz o trabalho concluído de volta para você para aprovação.
 
@@ -24,7 +21,7 @@ O valor: trabalho que costumava abranger várias telas, equipes e dias agora aco
 
 >[!NOTE]
 >
->O Co-worker Chat é um módulo do Adobe CX Enterprise Co-worker. Dois outros módulos estendem a mesma base: Campanhas do colaborador (levante e inicie uma campanha completa a partir de uma conversa) e Projetos do colaborador (um espaço de trabalho sempre ativo para fluxos de trabalho completos de várias equipes). Esta página aborda o Bate-papo do Colaborador.
+>O Bate-papo com colegas de trabalho é um módulo do Adobe CX Enterprise Coworker. Dois outros módulos estendem a mesma base: Campanhas do colaborador (levante e inicie uma campanha completa a partir de uma conversa) e Projetos do colaborador (um espaço de trabalho sempre ativo para fluxos de trabalho completos de várias equipes). Esta página aborda o Bate-papo do Colaborador.
 
 ## Uma evolução do Assistente de IA
 
@@ -45,7 +42,7 @@ Se você usou o Assistente de IA e o Adobe Experience Platform Agent Orchestrato
 
 ## Aplicativos CX Enterprise compatíveis
 
-Os seguintes aplicativos CX Enterprise são compatíveis com o Co-worker Chat:
+Os seguintes aplicativos da CX Enterprise são compatíveis com o Chat do colaborador:
 
 * Real-Time CDP B2C Edition
 * Adobe Journey Optimizer B2C Edition
@@ -55,7 +52,7 @@ Os seguintes aplicativos CX Enterprise são compatíveis com o Co-worker Chat:
 * Workfront
 * Marketo Engage
 * _Real-Time CDP B2B edition (em breve)_
-* _Adobe Journey Optimizer B2B edition (em breve)_
+* _Adobe Journey Optimizer B2B Edition (em breve)_
 * _Customer Journey Analytics B2B edition (em breve)_
 
 ## Blocos de construção
@@ -63,11 +60,11 @@ Os seguintes aplicativos CX Enterprise são compatíveis com o Co-worker Chat:
 O Chat do Colaborador é alimentado pelos blocos de construção do Colaborador. Os seguintes blocos de construção estão disponíveis hoje.
 
 * **Recurso empresarial:** o mecanismo que transforma sua meta em trabalho concluído. Ele executa um loop contínuo de autocorreção (motivo, selecionar uma habilidade, executar, validar, repetir), recuperando-se de erros e trabalhando em paralelo até que o trabalho seja concluído, não apenas uma tentativa.
-* **Habilidades:** manuais reutilizáveis, no Markdown simples, para executar bem cada tarefa. O Bate-papo com colegas de trabalho inclui habilidades para as tarefas mais comuns de experiência do cliente atualmente, e o objetivo é cobrir o trabalho em todos os aplicativos corporativos Adobe CX ao longo do tempo.
+* **Habilidades:** manuais reutilizáveis, no Markdown simples, para executar bem cada tarefa. O bate-papo com colegas de trabalho é fornecido com habilidades para as tarefas mais comuns de experiência do cliente atualmente, e o objetivo é cobrir o trabalho em todos os aplicativos da Adobe CX Enterprise ao longo do tempo.
 * **Conectores MCP:** controlou o acesso para atuar em sistemas Adobe e de terceiros, com conectores prontos para uso e a opção de trazer os seus próprios.
 * **Governança:** portas de aprovação, permissões herdadas da sua organização da Adobe, verificações executadas antes da execução de uma ação e uma trilha de auditoria completa.
 * **Memória:** O Chat de Colaborador aprende suas preferências, decisões e correções entre sessões, com escopo das regras em toda a organização até suas preferências pessoais, para que fique mais nítido quanto mais você trabalhar com ele.
 
 ## Visão geral do vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3495971?captions=por_br&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}

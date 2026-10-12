@@ -4,7 +4,7 @@ description: Guia abrangente para o Journey Agent, permitindo que os usuários c
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
+TQID: 'https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig'
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
     internal-label: Journey Optimizer
@@ -21,6 +21,8 @@ feature_v2:
     internal-label: Use cases
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
     internal-label: Email
+  - id: d2971708-e780-44bb-9e2a-72f139796afd
+    internal-label: Customer
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
@@ -48,7 +50,7 @@ topic_v2:
     internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '3848'
 ht-degree: 9%
@@ -66,7 +68,7 @@ O Journey Agent consiste em quatro tarefas principais a serem realizadas:
 - **Criação de Conteúdo de Canal**: gere, edite e gerencie conteúdo específico de canal (email, push, SMS) para jornada usando a geração de conteúdo habilitado por IA
 - **Analisar Jornada**: analise jornadas, detecte problemas, descubra insights e otimize o engajamento do cliente
 
-Além disso, a **Simulação de Jornada** é um recurso do Journey Optimizer que inclui o [Simulação de Jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}, um recurso de IA não conversacional no produto com três sub-recursos:
+Além disso, a **Simulação de Jornada** é um recurso do Journey Optimizer que inclui o [Simulação de Jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}, um recurso de IA não conversacional no produto com três sub-recursos:
 
 - Gerar usuários simulados
 - Gerar valores de evento
@@ -310,7 +312,7 @@ As seguintes funcionalidades não são compatíveis no momento:
 
 A Análise de Jornada permite que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com a Análise de Jornada, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e público-alvo, detectar pontos de abandono do usuário em uma jornada e exibir insights ou recomendações para melhorar o desempenho.
 
-Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/pt-br/slides/journey-agent-overview).
+Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 Para obter mais informações, consulte [Análise de Jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} na documentação do Adobe Journey Optimizer.
 
@@ -500,7 +502,7 @@ A Simulação de Jornada está disponível para todos os clientes do Journey Opt
 
 Para usar a IA em **[!UICONTROL Simulação]** (**[!UICONTROL Simulação rápida]**, gerando usuários simulados com IA, **[!UICONTROL Gerar valores de evento]**), os usuários exigem a permissão **[!UICONTROL Gerar conteúdo]** do recurso **[!UICONTROL Assistente de IA]**.
 
-[Saiba mais sobre permissões](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/access-control/permissions).
+[Saiba mais sobre permissões](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions).
 
 >[!ENDSHADEBOX]
 
@@ -562,11 +564,11 @@ Além disso, os seguintes recursos são compatíveis com o recurso Simular IA do
 
 A simulação pode não suportar todas as atividades, canais ou integrações compatíveis com o modo de Teste ou com uma jornada em tempo real, e o comportamento pode mudar conforme o recurso amadurece.
 
-➡️ Saiba mais sobre [Limitações de simulação](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"} na documentação do Journey Optimizer.
+➡️ Saiba mais sobre [Limitações de simulação](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"} na documentação do Journey Optimizer.
 
 ## Consulte também
 
 - [Agent Orchestrator](./agent-orchestrator.md), a camada de agente que habilita o Journey Agent e outros Agentes da Experience Platform.
 - [Ferramentas do Journey Optimizer no CX Coworker Gateway](../mcp/ajo-mcp.md), uma superfície MCP somente leitura para revisão de configuração de campanha e canal.
-- [Crie jornadas a partir da linguagem natural](https://experienceleague.adobe.com/pt-br/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language) e [Crie, edite e gerencie desafios de fidelidade](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge), casos de uso do Chat de Colaborador que se baseiam na Criação de Jornadas.
+- [Crie jornadas a partir da linguagem natural](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language) e [Crie, edite e gerencie desafios de fidelidade](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge), casos de uso do Chat de Colaborador que se baseiam na Criação de Jornadas.
 - [Agente de Suporte ao Produto](./product-support.md), para solucionar problemas do Journey Optimizer que surgiram por meio do Assistente de IA.
