@@ -3,15 +3,12 @@ description: descrição.
 title: Entender o editor de email
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # Entender o editor de email {#email-editor}
 
 O editor de email permite refinar um email gerado por IA diretamente no quadro da campanha. Edite a linha de assunto e o pré-cabeçalho, formate o texto e as imagens em linha ou troque em um modelo diferente.
