@@ -76,7 +76,7 @@ A IA gerativa (genAI) no CX Enterprise ajuda a automatizar tarefas criativas e c
 
 >[!IMPORTANT]
 >
->Antes de usar os recursos de IA gerativa da CX Enterprise, você deve entender e seguir as [Diretrizes de usuário da IA gerativa da Adobe CX Enterprise](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR).
+>Antes de usar os recursos de IA gerativa da CX Enterprise, você deve entender e seguir as [Diretrizes de usuário da IA gerativa da Adobe CX Enterprise](https://www.adobe.com/br/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html?lang=pt-BR).
 
 **O que é genAI?**
 
@@ -427,7 +427,7 @@ O [!UICONTROL Assistente de IA] do [!DNL Workfront] ajuda você a realizar seu t
 
 +++Detalhes
 
-* [Recursos de IA Responsáveis na Central de Confiabilidade](https://www.adobe.com/trust/responsible-ai.html?lang=pt-BR)<!-- * [Customer AI Propensity Scoring Model Card](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai) -->
+* [Recursos de IA Responsáveis na Central de Confiabilidade](https://www.adobe.com/br/trust/responsible-ai.html?lang=pt-BR)<!-- * [Customer AI Propensity Scoring Model Card](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai) -->
 
 +++
 
