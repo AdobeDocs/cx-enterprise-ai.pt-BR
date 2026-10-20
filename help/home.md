@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6908bfda861a96b10950728a9f83263335f707ea
+source-git-commit: 5810a7f782eaca7c34dda14a1eea12b435329c38
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 2%
+source-wordcount: '809'
+ht-degree: 4%
 ---
 # IA em aplicativos do CX Enterprise
 
-Este guia aborda os recursos de IA do Adobe CX Enterprise: IA gerativa, CX Enterprise Coworker, AI Assistant, Agent Orchestrator e MCP.
+Este guia aborda os recursos de IA do Adobe CX Enterprise: IA gerativa, CX Enterprise Coworker, AI Assistant e Agent Orchestrator.
 
 ## Visão geral dos recursos de IA
 
@@ -88,21 +88,23 @@ Os seguintes agentes da Experience Platform estão documentados neste guia:
 
 Para obter a lista completa de agentes, os aplicativos compatíveis com cada um e os requisitos de qualificação, consulte [IA de agente no CX Enterprise](./overview/agentic-ai.md).
 
+<!--
 ## MCP
 
-O [Adobe CX Coworker Gateway](./mcp/overview.md) é o ponto de extremidade do Protocolo de Contexto de Modelo Unificado (MCP) para o CX Enterprise. Ele fornece aos clientes compatíveis com MCP, como [!DNL Claude], [!DNL ChatGPT] e [!DNL Cursor], uma única conexão controlada com as ferramentas de produto que sua organização está autorizada a usar:
+[Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use:
 
-- [Ferramentas do Real-Time CDP](./mcp/rtcdp-mcp.md)
-- [Ferramentas do Experience Platform](./mcp/aep-mcp.md)
-- [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
-- [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
-- [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-- [!DNL Workfront] ferramentas, documentadas no [guia do servidor Workfront MCP](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- [!DNL Target] ferramentas, documentadas no [Guia do servidor MCP do Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
+- [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
+- [Experience Platform tools](./mcp/aep-mcp.md)
+- [Journey Optimizer tools](./mcp/ajo-mcp.md)
+- [Customer Journey Analytics tools](./mcp/cja-mcp.md)
+- [Adobe Analytics tools](./mcp/analytics-mcp.md)
+- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] tools, documented in the [Target MCP server guide](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
 
-Novo no CX Coworker Gateway? Consulte [Acessar as ferramentas do CX Coworker Gateway](./mcp/access.md) e [Instalar o CX Coworker Gateway](./mcp/install.md) para se conectar. Depois de conectado, use as [ferramentas de contexto de sessão](./mcp/context-tools.md) para definir a organização ativa, a sandbox e a exibição de dados antes de chamar as ferramentas do produto.
+New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
 
-Antes de usar qualquer uma dessas ferramentas, consulte [Antes de começar](./overview/overview-ai-cxe.md#before-you-begin) para obter os requisitos de acesso e considerações sobre privacidade e segurança.
+Before you use any of these tools, see [Before you begin](./overview/overview-ai-cxe.md#before-you-begin) for access requirements and privacy and security considerations.
+-->
 
 ## Práticas recomendadas
 
