@@ -4,7 +4,7 @@ description: Saiba como os aplicativos do CX Enterprise usam ferramentas de IA g
 TQID: 'https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds'
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5810a7f782eaca7c34dda14a1eea12b435329c38
+source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 4%
@@ -48,12 +48,12 @@ Comece aqui para obter uma introdução sobre onde e como a IA é usada no CX En
 
 ## Coworker
 
-O Colaborador é uma evolução do Assistente de IA realizada por um agente que automatiza a experiência do cliente e os fluxos de trabalho de marketing, para que sua equipe possa se concentrar nas metas de negócios em vez da execução de rotina. Em vez de fazer uma pergunta por vez, você descreve uma meta. O colega de trabalho planeja, executa, valida e retorna o trabalho concluído para sua aprovação. Saiba mais sobre o [Adobe for Business](https://business.adobe.com/br/products/cx-enterprise-coworker.html).
+O Colaborador é uma evolução do Assistente de IA realizada por um agente que automatiza a experiência do cliente e os fluxos de trabalho de marketing, para que sua equipe possa se concentrar nas metas de negócios em vez da execução de rotina. Em vez de fazer uma pergunta por vez, você descreve uma meta. O colega de trabalho planeja, executa, valida e retorna o trabalho concluído para sua aprovação. Saiba mais sobre o [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
 O colega de trabalho inclui:
 
-- **[Chat do Colaborador](https://experienceleague.adobe.com/pt-br/docs/coworker/content/chat/overview)**: uma interface conversacional para explorar seus dados, validar públicos-alvo e jornadas e concluir tarefas de várias etapas em aplicativos da CX Enterprise.
-- **[Campanhas de colega](https://experienceleague.adobe.com/pt-br/docs/coworker/content/campaigns/overview)**: um aplicativo nativo de IA que consolida informações de campanha, criação de público, geração de conteúdo, design de jornada e provas em uma única experiência de conversação. Ele usa modelos integrados, práticas recomendadas e orientação de solicitação para ajudar equipes pequenas e ágeis a iniciar campanhas rapidamente. Saiba mais sobre o [Adobe for Business](https://business.adobe.com/br/products/cx-enterprise-coworker/teams.html).
+- **[Chat do Colaborador](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)**: uma interface conversacional para explorar seus dados, validar públicos-alvo e jornadas e concluir tarefas de várias etapas em aplicativos da CX Enterprise.
+- **[Campanhas de colega](https://experienceleague.adobe.com/en/docs/coworker/content/campaigns/overview)**: um aplicativo nativo de IA que consolida informações de campanha, criação de público, geração de conteúdo, design de jornada e provas em uma única experiência de conversação. Ele usa modelos integrados, práticas recomendadas e orientação de solicitação para ajudar equipes pequenas e ágeis a iniciar campanhas rapidamente. Saiba mais sobre o [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html).
 - **Projetos de Colaborador** (em breve): um espaço de trabalho unificado para automatizar fluxos de trabalho completos de orquestração da experiência do cliente, ajudando as equipes a coordenar tarefas, aprovações e execução para impulsionar resultados da estratégia até a entrega. A documentação dos Projetos será disponibilizada em breve.
 
 Os clientes qualificados estão sendo gradualmente migrados do Assistente de IA e Agentes do Experience Platform para o Chat de colaborador.
@@ -62,7 +62,7 @@ Os clientes qualificados estão sendo gradualmente migrados do Assistente de IA 
 
 - Leia [Avaliação de colaborador](./agents/trial.md) para saber mais sobre qualificação de avaliação, uso do Crédito de IA e como obter acesso.
 - Consulte a [Página inicial de ajuda do Colaborador](https://experienceleague.adobe.com/pt-br/docs/coworker/content/home) para todo o conteúdo do Colaborador.
-- Para replicação de objetos de sandbox para sandbox, consulte [Habilidades do agente de ferramentas de sandbox](https://experienceleague.adobe.com/pt-br/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
+- Para replicação de objetos de sandbox para sandbox, consulte [Habilidades do agente de ferramentas de sandbox](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
 
 ## Assistente de IA
 
@@ -98,8 +98,8 @@ Para obter a lista completa de agentes, os aplicativos compatíveis com cada um 
 - [Journey Optimizer tools](./mcp/ajo-mcp.md)
 - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
 - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- [!DNL Target] tools, documented in the [Target MCP server guide](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
+- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] tools, documented in the [Target MCP server guide](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
 New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
 

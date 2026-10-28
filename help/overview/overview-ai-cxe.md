@@ -1,11 +1,11 @@
 ---
-title: Sobre IA no CX Enterprise
+title: Sobre a IA no CX Enterprise
 description: Saiba onde a IA gerativa e preventiva está disponível nos aplicativos da CX Enterprise e analise os requisitos de acesso, privacidade e segurança antes de começar.
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
@@ -16,23 +16,23 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fccf9111460413fe5b89229564a682827152b1ab
+source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 3%
+ht-degree: 5%
 ---
-# Sobre IA no CX Enterprise
+# Sobre a IA no CX Enterprise
 
-Os aplicativos do Adobe CX Enterprise usam a IA de duas maneiras complementares: **IA gerativa**, que você solicita diretamente para criar conteúdo ou obter uma resposta, e **IA agêntica**, que planeja e executa o trabalho em várias etapas em seu nome, com a sua supervisão. Os tópicos a seguir descrevem amplamente onde cada tipo de IA está disponível no CX Enterprise.
+Os aplicativos do Adobe CX Enterprise usam a IA de duas maneiras complementares: a **IA gerativa**, que você solicita diretamente para criar conteúdo ou obter uma resposta, e a **IA agêntica**, que planeja e executa o trabalho em várias etapas em seu nome, com a sua supervisão. Os tópicos a seguir descrevem amplamente onde cada tipo de IA está disponível no CX Enterprise.
 
 ## O que é abordado nesta seção
 
-- **[Sobre IA gerativa](./generative-ai.md)** catálogos que os aplicativos do CX Enterprise oferecem recursos de IA gerativa e do Assistente de IA hoje, para que você possa ver o alcance da genAI no seu portfólio de produtos rapidamente.
-- **[Sobre a IA de agente](./agentic-ai.md)** explica como os Agentes da Experience Platform e o Agent Orchestrator funcionam, a diferença entre os agentes nos aplicativos CX Enterprise existentes e os aplicativos AI-first e quais agentes estão disponíveis em cada um.
+- **[Sobre a IA gerativa](./generative-ai.md)** cataloga quais aplicativos da CX Enterprise oferecem recursos de IA gerativa e do Assistente de IA hoje, para que você possa ver o alcance da genAI no seu portfólio de produtos rapidamente.
+- **[Sobre a IA de agente](./agentic-ai.md)** explica como os Agentes do Experience Platform e o Agent Orchestrator funcionam, a diferença entre os agentes nos aplicativos existentes do CX Enterprise e nos aplicativos de IA First e quais agentes estão disponíveis em cada um.
 - O **[Monitoramento de IA de agente](./monitoring.md)** abrange os painéis que as equipes do Centro de Excelência e outras partes interessadas de governança usam para rastrear a adoção, o uso e o feedback do agente em toda a organização.
 - **[Consumo de créditos de IA](./ai-credit-consumption.md)** explica como os trabalhos do agente e as entradas do colaborador consomem os créditos de IA, com taxas estimadas por agente e tipo de trabalho, para que você possa planejar e orçar o uso.
 - **[Transparência do conteúdo de IA gerativa](../content-transparency.md)** descreve como o Adobe anexa automaticamente metadados C2PA a conteúdo gerado e editado por GenAI para ajudar você a entender as obrigações de divulgação da sua organização.
-- **[As ferramentas do CX Enterprise Agentic](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-agentic-tools/using/overview)** são tutoriais em vídeo que abordam habilidades e ferramentas adicionais de agente que estendem os agentes do CX Enterprise.
+- **[as ferramentas do CX Enterprise Agentic](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-agentic-tools/using/overview)** são tutoriais em vídeo que abordam habilidades e ferramentas adicionais de agente que estendem os agentes do CX Enterprise.
 
 ## Antes de começar {#before-you-begin}
 
