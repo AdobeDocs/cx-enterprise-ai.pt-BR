@@ -22,21 +22,24 @@ subfeature_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: aba8260fc0aa8e2df892a985704ae56d4fc62b9a
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '1024'
 ht-degree: 1%
-
 ---
-
 # Painel de monitoramento do Agentic AI
 
-O painel de [!UICONTROL Monitoramento] da IA de agência oferece aos membros do Centro de Excelência (COE) e a outras partes interessadas da governança visibilidade sobre o uso e a adoção da IA de agência. Visualize tendências de 7 ou 30 dias para ver quem usa [!DNL AI Assistant] ou outras superfícies (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) para interagir com [!DNL Experience Platform Agents] e o valor que elas recebem. Juntas, essas visualizações ajudam a orientar a adoção de agentes com dados em vez de suposições.
+O painel de [!UICONTROL Monitoramento] da IA de agência oferece aos membros do Centro de Excelência (COE) e a outras partes interessadas da governança visibilidade sobre o uso e a adoção da IA de agência. Visualize tendências de 7 ou 30 dias para ver quem usa [!DNL AI Assistant] ou outras superfícies (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) para interagir com [!DNL Experience Platform Agents] e o valor que elas recebem. Juntas, essas visualizações ajudam a orientar a adoção de agentes com dados em vez de suposições.
+
+>[!IMPORTANT]
+>
+>As métricas neste painel não refletem o uso de [!DNL Coworker]. Um painel de monitoramento [!DNL Coworker] está em desenvolvimento e será documentado quando estiver disponível.
 
 **Disponibilidade**
 
 * Atualmente, qualquer conta com uma licença para pelo menos um aplicativo nativo do Experience Platform (Customer Journey Analytics, Journey Optimizer ou Real-Time CDP) pode acessar esse painel
 * As métricas de uso e adoção para [aplicativos AI-first](agentic-ai.md#ai-first-cx-enterprise-applications) como Experimentation Accelerator, LLM Optimizer e Sites Optimizer não estão no escopo deste painel.
+* Um painel [!DNL Coworker] será adicionado em breve.
 
 O painel de [!UICONTROL Monitoramento] inclui as seguintes exibições:
 
@@ -47,13 +50,13 @@ O painel de [!UICONTROL Monitoramento] inclui as seguintes exibições:
 | **Feedback** | Sinais sobre a qualidade da resposta e a satisfação do usuário |
 | **Créditos de IA** | Tendências de consumo de crédito e saldo restante |
 
-A documentação da [IA de agente na Adobe CX Enterprise](agentic-ai.md) lista os agentes no escopo para monitoramento de uso na tabela [agentes de IA em aplicativos CX Enterprise existentes](agentic-ai.md#existing-apps-table).
+A documentação da [IA de agente no Adobe CX Enterprise](agentic-ai.md) lista os agentes no escopo para monitoramento de uso na tabela [Agentes de IA em aplicativos CX Enterprise existentes](agentic-ai.md#existing-apps-table).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491872?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## Habilitar permissões de painel {#permissions}
 
-Conceda acesso ao painel em [!DNL Adobe Experience Platform] atualizando o perfil do produto ou a função para cada usuário autorizado. O recurso [!UICONTROL Monitoramento] é exibido para os usuários na home page do CX Enterprise após a habilitação das permissões.
+Conceda acesso ao painel em [!DNL Adobe Experience Platform] atualizando o perfil do produto ou a função para cada usuário autorizado. O recurso [!UICONTROL Monitoramento] é exibido para usuários na home page do CX Enterprise depois que as permissões são habilitadas.
 
 >[!IMPORTANT]
 >
@@ -89,7 +92,7 @@ Conceda acesso ao painel em [!DNL Adobe Experience Platform] atualizando o perfi
    * **[!UICONTROL Exibir Painéis Personalizados]**
    * **[!UICONTROL Gerenciar Painéis Padrão]**
 
-1. Para exibir painéis, retorne à página inicial do CX Enterprise e clique em **[!UICONTROL Monitoramento]**.
+1. Para exibir painéis, retorne à página inicial da CX Enterprise e clique em **[!UICONTROL Monitoramento]**.
 
    ![Painel de monitoramento do Agentic AI](assets/monitoring.png)
 
@@ -104,7 +107,7 @@ O painel Visão geral é o local central para métricas de adoção e envolvimen
 * **Média de prompts por conversa:** Profundidade da participação por conversa.
 * **Feedback:** Distribuição de miniaturas para cima e miniaturas para baixo do feedback dos usuários (somente para [!DNL AI Assistant] interações).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491882?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### Repetição da conversa
 
@@ -113,7 +116,7 @@ A repetição da conversa mostra interações individuais, não apenas agregaç�
 * **Histórico de prompts e respostas:** o prompt do usuário e as respostas entregues.
 * **Sinais de feedback:** Interações de usuários marcadas com polegares para cima ou para baixo, para identificar necessidades de atrito, bloqueadores ou de habilitação. Essas informações ajudam a sua organização a melhorar a relevância imediata e ajudam a Adobe a melhorar a qualidade da resposta ao longo do tempo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491891?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## Painel de usuários
 
@@ -130,7 +133,7 @@ O painel Usuários mostra como a adoção e o engajamento do agente variam entre
 * **Atividade de conversa:** Número de conversas e prompts por usuário.
 * **Principais usuários ativos:** usuários e equipes altamente engajados que impulsionam a adoção de agentes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491924?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## Painel de comentários
 
@@ -144,7 +147,7 @@ O painel Feedback mostra o feedback do usuário enviado para interações do age
 * **Histórico de prompts e respostas:** prompts do usuário e as respostas associadas ao feedback enviado.
 * **Detalhes e observações do feedback:** Contexto e comentários adicionais dos usuários durante o envio do feedback.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491915?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## Painel Créditos de IA
 
@@ -156,11 +159,11 @@ O painel Créditos de IA mostra como o uso de [!DNL Experience Platform Agents] 
 * **Tendências diárias e mensais:** picos, declínios e alterações nos padrões de consumo.
 * **Créditos de IA restantes:** saldo restante para que você possa planejar de forma proativa e evitar excedentes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491906?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## Mais ajuda sobre este tópico
 
-* [Painel de uso de licença](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dashboards/guides/license-usage) em [!DNL Experience Platform]
-* [IA de agente na Adobe CX Enterprise](agentic-ai.md)
+* [Painel de uso de licença](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) em [!DNL Experience Platform]
+* [IA de agente no Adobe CX Enterprise](agentic-ai.md)
 * [Trabalhos de agentes e consumo de crédito de IA](ai-credit-consumption.md)
-* [Painel de uso de licenças](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Painel de uso de licenças](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
