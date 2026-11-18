@@ -25,23 +25,18 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
+source-git-commit: 9dab42a742d258dd7d3dea3ae555a6f8b3ecac9b
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 4%
+source-wordcount: '800'
+ht-degree: 3%
 ---
 # IA em aplicativos do CX Enterprise
 
-Este guia aborda os recursos de IA do Adobe CX Enterprise: IA gerativa, CX Enterprise Coworker, AI Assistant e Agent Orchestrator.
+Este guia apresenta os recursos de IA disponíveis no Adobe CX Enterprise: Colaborador, Assistente de IA e Agent Orchestrator com os agentes do Experience Platform por ele ativados. Comece com a visão geral abaixo para entender como esses recursos estão relacionados, siga os links para configurar o acesso, monitorar o uso e aproveitar ao máximo cada um deles.
 
-## Visão geral dos recursos de IA
-
-Comece aqui para obter uma introdução sobre onde e como a IA é usada no CX Enterprise:
-
-- [Colaborador](https://experienceleague.adobe.com/pt-br/docs/coworker/content/home) é um colega de equipe que planeja, executa, valida e retorna a experiência do cliente concluída e o trabalho de marketing para sua aprovação.
 - [Sobre a IA gerativa](./overview/generative-ai.md) descreve quais aplicativos do CX Enterprise oferecem suporte à IA gerativa e ao Assistente de IA e como eles se comparam.
 - [Sobre a IA de agente](./overview/agentic-ai.md) explica como a IA de agente funciona em aplicativos CX Enterprise existentes e em aplicativos AI-first, além de listar os agentes disponíveis em cada um.
-- O [monitoramento de IA](./overview/monitoring.md) abrange os painéis que rastreiam a adoção, o uso, o feedback e o consumo de crédito de IA do agente.
+- O [Monitoramento de IA](./overview/monitoring.md) abrange os painéis do Assistente de IA que rastreiam a adoção, o uso, o feedback e o consumo de crédito de IA do agente.
 - [Consumo de créditos de IA](./overview/ai-credit-consumption.md) explica como os trabalhos de agente consomem créditos de IA, com taxas de consumo estimadas por agente e tipo de trabalho.
 - [Transparência do conteúdo de IA gerativa](./content-transparency.md) explica como o Adobe anexa automaticamente metadados C2PA a conteúdo gerado e editado por GenAI em aplicativos CX Enterprise.
 - [as ferramentas do CX Enterprise Agentic](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-agentic-tools/using/overview) abordam habilidades e ferramentas adicionais do Agentic que estendem os agentes do CX Enterprise (tutoriais em vídeo).
@@ -53,7 +48,7 @@ O Colaborador é uma evolução do Assistente de IA realizada por um agente que 
 O colega de trabalho inclui:
 
 - **[Chat do Colaborador](https://experienceleague.adobe.com/pt-br/docs/coworker/content/chat/overview)**: uma interface conversacional para explorar seus dados, validar públicos-alvo e jornadas e concluir tarefas de várias etapas em aplicativos da CX Enterprise.
-- **[Campanhas de colega](https://experienceleague.adobe.com/pt-br/docs/coworker/content/campaigns/overview)**: um aplicativo nativo de IA que consolida informações de campanha, criação de público, geração de conteúdo, design de jornada e provas em uma única experiência de conversação. Ele usa modelos integrados, práticas recomendadas e orientação de solicitação para ajudar equipes pequenas e ágeis a iniciar campanhas rapidamente. Saiba mais sobre o [Adobe for Business](https://business.adobe.com/br/products/cx-enterprise-coworker/teams.html).
+- **[Colaborador para equipes](https://experienceleague.adobe.com/pt-br/docs/coworker/content/campaigns/overview)**: um aplicativo nativo de IA que consolida resumo da campanha, criação de público-alvo, geração de conteúdo, design de jornada e provas em uma única experiência de conversação. Ele usa modelos integrados, práticas recomendadas e orientação de solicitação para ajudar equipes pequenas e ágeis a iniciar campanhas rapidamente. Saiba mais sobre o [Adobe for Business](https://business.adobe.com/br/products/cx-enterprise-coworker/teams.html).
 - **Projetos de Colaborador** (em breve): um espaço de trabalho unificado para automatizar fluxos de trabalho completos de orquestração da experiência do cliente, ajudando as equipes a coordenar tarefas, aprovações e execução para impulsionar resultados da estratégia até a entrega. A documentação dos Projetos será disponibilizada em breve.
 
 Os clientes qualificados estão sendo gradualmente migrados do Assistente de IA e Agentes do Experience Platform para o Chat de colaborador.
