@@ -38,7 +38,7 @@ Por um período introdutório limitado, as entradas de Colaborador consomem cré
 
 | Recurso | Descrição | Aplicativos compatíveis | Crédito de IA |
 | --- | --- | --- | --- |
-| [Metadados cientes da marca](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | Geração de metadados personalizados na marca | Adobe Experience Manager [!DNL Assets] | 1 crédito de IA (por 10 gerações de metadados) |
+| [Metadados cientes da marca](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | Geração de metadados personalizados na marca | Adobe Experience Manager [!DNL Assets] | 1 crédito de IA (por 10 gerações de metadados) |
 | Digital Rights Management | Extração e gerenciamento de direitos de uso | Adobe Experience Manager [!DNL Assets] | 6 créditos de IA (por documento processado) |
 
 ### Taxa de crédito de Agentes AEP
@@ -83,4 +83,4 @@ Para ver quais Agentes do AEP e trabalhos de agentes estão disponíveis em seus
 
 * [GenAI no CX Enterprise](generative-ai.md)
 * [IA agêntica na CX Enterprise](agentic-ai.md)
-* [Avaliação vinculada ao uso dos Adobe Experience Platform Agents](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
+* [Avaliação vinculada ao uso dos Adobe Experience Platform Agents](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
