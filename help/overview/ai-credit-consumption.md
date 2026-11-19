@@ -7,16 +7,15 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
+last-substantial-update: 2026-19-2026
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
-source-git-commit: 28e8b218e0923c9e463cce763a182b56a660d275
+source-git-commit: 47f06af825995d14691816ff1fc3e5592ffd6250
 workflow-type: tm+mt
-source-wordcount: 967
+source-wordcount: '1033'
 ht-degree: 4%
-
 ---
-
 # Consumo de créditos de IA
 
 Saiba mais sobre o consumo de créditos de IA em aplicativos do CX Enterprise.
@@ -28,17 +27,25 @@ Um _crédito de IA_ é uma métrica baseada no uso que quantifica a execução d
 ## Serviços elegíveis que consomem créditos de IA
 
 * [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [Recursos de IA do CX Enterprise](#cx-enterprise-ai-capabilities)
 * [Agentes da AEP](#aep-agents-credit-rate)
 
-### Taxa de crédito do CX Enterprise Co-worker
+### Taxa de crédito do CX Enterprise Coworker
 
 Por um período introdutório limitado, as entradas de Colaborador consomem créditos de IA a uma taxa de 25 créditos de IA por Entrada. Essa taxa está disponível por um período limitado e está sujeita a alterações.
+
+### Recursos de IA do CX Enterprise
+
+| Recurso | Descrição | Aplicativos compatíveis | Crédito de IA |
+| --- | --- | --- | --- |
+| [Metadados cientes da marca](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | Geração de metadados personalizados na marca | Adobe Experience Manager [!DNL Assets] | 1 crédito de IA (por 10 gerações de metadados) |
+| Digital Rights Management | Extração e gerenciamento de direitos de uso | Adobe Experience Manager [!DNL Assets] | 6 créditos de IA (por documento processado) |
 
 ### Taxa de crédito de Agentes AEP
 
 Um _trabalho de agente_ é uma série de tarefas e ações que um agente do AEP executa para atingir um resultado específico, conforme determinado pelas entradas do cliente.
 
-Usando prompts de linguagem natural por meio do Assistente de IA, você pode solicitar que os agentes realizem tarefas específicas. Com base nessas entradas, a Agent Orchestrator coordena os agentes apropriados para executar cada etapa nos aplicativos CX Enterprise relevantes.
+Usando prompts de linguagem natural por meio do Assistente de IA, você pode solicitar que os agentes realizem tarefas específicas. Com base nessas entradas, a Agent Orchestrator coordena os agentes apropriados para executar cada etapa nos aplicativos relevantes do CX Enterprise.
 
 O uso do crédito de IA pode variar dependendo da complexidade e do valor do trabalho executado:
 
@@ -46,7 +53,7 @@ O uso do crédito de IA pode variar dependendo da complexidade e do valor do tra
 * Tarefas complexas (geralmente de várias etapas) consomem mais créditos
 * Tarefas que envolvem raciocínio avançado, validação, coordenação de vários agentes ou integração consomem mais créditos
 
-Para ver quais agentes da AEP e trabalhos de agentes estão disponíveis nos aplicativos licenciados do CX Enterprise, consulte o [Catálogo de recursos do CX Enterprise Agentic AI](https://agentic-capability-explorer.entapp.adproto.com/).
+Para ver quais Agentes do AEP e trabalhos de agentes estão disponíveis em seus aplicativos licenciados do CX Enterprise, consulte o [Catálogo de recursos do CX Enterprise Agentic AI](https://agentic-capability-explorer.entapp.adproto.com/).
 
 #### Taxas de crédito de trabalho de agente estimadas
 
