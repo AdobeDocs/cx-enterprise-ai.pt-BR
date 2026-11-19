@@ -3,10 +3,9 @@ audience: user
 user-guide-title: IA no CX Enterprise
 user-guide-description: Saiba como criar, configurar, integrar e estender o Assistente de IA, o Colaborador, os agentes e os MCPs por meio de documentação prática, orientação de implementação e materiais de referência.
 description: Saiba mais sobre as ferramentas de IA no CX Enterprise. Melhore o conhecimento do seu produto e obtenha insights operacionais usando IA no CX Enterprise.
-solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
+source-git-commit: e37384909f970135bf01575808b27d0283b6e951
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 18%
@@ -57,5 +56,5 @@ ht-degree: 18%
     - {hide-from-toc}[Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/pt-br/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
